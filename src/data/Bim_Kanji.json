@@ -1,0 +1,8135 @@
+[
+  {
+    "id": 1,
+    "kanji": "備",
+    "meaning_kr": "관련 의미",
+    "onyomi": "ビ",
+    "kunyomi": "そなえる",
+    "bim_term": {
+      "word": "設備",
+      "reading": "せつび",
+      "meaning": "설비"
+    },
+    "onExamples": [
+      {
+        "word": "設備",
+        "reading": "せつび",
+        "meaning": "설비"
+      },
+      {
+        "word": "準備",
+        "reading": "じゅんび",
+        "meaning": "준비"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "備",
+        "reading": "そなえる",
+        "meaning": "관련 의미"
+      }
+    ],
+    "importance": "S",
+    "reason": "設備에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 풀(艹) 우거진 벼랑(厂)에서도 쓸(用) 수 있게 미리 갖추니 갖출 비"
+  },
+  {
+    "id": 2,
+    "kanji": "全",
+    "meaning_kr": "전부/완전",
+    "onyomi": "ゼン",
+    "kunyomi": "すべて",
+    "bim_term": {
+      "word": "安全",
+      "reading": "あんぜん",
+      "meaning": "안전"
+    },
+    "onExamples": [
+      {
+        "word": "安全",
+        "reading": "あんぜん",
+        "meaning": "안전"
+      },
+      {
+        "word": "全部",
+        "reading": "ぜんぶ",
+        "meaning": "전부"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "全",
+        "reading": "すべて",
+        "meaning": "전부"
+      }
+    ],
+    "importance": "S",
+    "reason": "安全에서 반복 출현하는 핵심 글자",
+    "memory_hint": "들어(入)가서 임금(王)이 다스리는 온전한 나라이니 온전할 전"
+  },
+  {
+    "id": 3,
+    "kanji": "力",
+    "meaning_kr": "힘",
+    "onyomi": "リョク",
+    "kunyomi": "ちから",
+    "bim_term": {
+      "word": "応力",
+      "reading": "おうりょく",
+      "meaning": "응력"
+    },
+    "onExamples": [
+      {
+        "word": "応力",
+        "reading": "おうりょく",
+        "meaning": "응력"
+      },
+      {
+        "word": "電力",
+        "reading": "でんりょく",
+        "meaning": "전력"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "力",
+        "reading": "ちから",
+        "meaning": "힘"
+      }
+    ],
+    "importance": "S",
+    "reason": "応力에서 반복 출현하는 핵심 글자",
+    "memory_hint": "쟁기의 모양을 본떠서 땅을 일구는 힘이니 힘 력"
+  },
+  {
+    "id": 4,
+    "kanji": "勾",
+    "meaning_kr": "구배/굽다",
+    "onyomi": "コウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "勾配",
+      "reading": "こうばい",
+      "meaning": "구배"
+    },
+    "onExamples": [
+      {
+        "word": "勾配",
+        "reading": "こうばい",
+        "meaning": "구배"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "勾配에서 반복 출현하는 핵심 글자",
+    "memory_hint": "쌀(勹) 수 있게 입(口)을 굽히니 굽을 구, 구배 구"
+  },
+  {
+    "id": 5,
+    "kanji": "図",
+    "meaning_kr": "도면",
+    "onyomi": "ズ",
+    "kunyomi": "はかる",
+    "bim_term": {
+      "word": "図面",
+      "reading": "ずめん",
+      "meaning": "도면"
+    },
+    "onExamples": [
+      {
+        "word": "図面",
+        "reading": "ずめん",
+        "meaning": "도면"
+      },
+      {
+        "word": "断面図",
+        "reading": "だんめんず",
+        "meaning": "단면도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "図",
+        "reading": "はかる",
+        "meaning": "도면"
+      }
+    ],
+    "importance": "S",
+    "reason": "図面에서 반복 출현하는 핵심 글자",
+    "memory_hint": "에워싼(囗) 지도(㐅)를 보고 계획을 꾀하니 그림 도, 도면 도"
+  },
+  {
+    "id": 6,
+    "kanji": "基",
+    "meaning_kr": "기초",
+    "onyomi": "キ",
+    "kunyomi": "もと",
+    "bim_term": {
+      "word": "基準",
+      "reading": "きじゅん",
+      "meaning": "기준"
+    },
+    "onExamples": [
+      {
+        "word": "基準",
+        "reading": "きじゅん",
+        "meaning": "기준"
+      },
+      {
+        "word": "基礎",
+        "reading": "きそ",
+        "meaning": "기초"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "基",
+        "reading": "もと",
+        "meaning": "기초"
+      }
+    ],
+    "importance": "S",
+    "reason": "基準에서 반복 출현하는 핵심 글자",
+    "memory_hint": "그(其) 바탕에 흙(土)을 다진 터나 기초니 터 기, 기초 기"
+  },
+  {
+    "id": 7,
+    "kanji": "壁",
+    "meaning_kr": "벽",
+    "onyomi": "ヘキ",
+    "kunyomi": "かべ",
+    "bim_term": {
+      "word": "外壁",
+      "reading": "がいへき",
+      "meaning": "외벽"
+    },
+    "onExamples": [
+      {
+        "word": "外壁",
+        "reading": "がいへき",
+        "meaning": "외벽"
+      },
+      {
+        "word": "内壁",
+        "reading": "ないへき",
+        "meaning": "내벽"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "壁",
+        "reading": "かべ",
+        "meaning": "벽"
+      }
+    ],
+    "importance": "S",
+    "reason": "外壁에서 반복 출현하는 핵심 글자",
+    "memory_hint": "임금(辟)이 흙(土)으로 쌓아 막은 담이니 담 벽, 벽 벽"
+  },
+  {
+    "id": 8,
+    "kanji": "安",
+    "meaning_kr": "안전/편안",
+    "onyomi": "アン",
+    "kunyomi": "やすい",
+    "bim_term": {
+      "word": "安全",
+      "reading": "あんぜん",
+      "meaning": "안전"
+    },
+    "onExamples": [
+      {
+        "word": "安全",
+        "reading": "あんぜん",
+        "meaning": "안전"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "安",
+        "reading": "やすい",
+        "meaning": "안전"
+      }
+    ],
+    "importance": "S",
+    "reason": "安全에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(宀)에서 여자(女)가 살림하면 어찌 편안하지 않을까에서 편안할 안"
+  },
+  {
+    "id": 9,
+    "kanji": "属",
+    "meaning_kr": "속하다",
+    "onyomi": "ゾク",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "属性",
+      "reading": "ぞくせい",
+      "meaning": "속성"
+    },
+    "onExamples": [
+      {
+        "word": "属性",
+        "reading": "ぞくせい",
+        "meaning": "속성"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "属性에서 반복 출현하는 핵심 글자",
+    "memory_hint": "꼬리(尸)에 진액을 빨아먹으려고 벌레(蜀)들이 붙어사니 붙을 속, 속할 속"
+  },
+  {
+    "id": 10,
+    "kanji": "工",
+    "meaning_kr": "공사/장인",
+    "onyomi": "コウ",
+    "kunyomi": "たくみ",
+    "bim_term": {
+      "word": "施工",
+      "reading": "せこう",
+      "meaning": "시공"
+    },
+    "onExamples": [
+      {
+        "word": "施工",
+        "reading": "せこう",
+        "meaning": "시공"
+      },
+      {
+        "word": "竣工",
+        "reading": "しゅんこう",
+        "meaning": "준공"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "工",
+        "reading": "たくみ",
+        "meaning": "공사"
+      }
+    ],
+    "importance": "S",
+    "reason": "施工에서 반복 출현하는 핵심 글자",
+    "memory_hint": "장인이 쓰는 자(工)의 모양을 본떠서 장인 공, 만들 공"
+  },
+  {
+    "id": 11,
+    "kanji": "床",
+    "meaning_kr": "바닥",
+    "onyomi": "ショウ",
+    "kunyomi": "ゆか",
+    "bim_term": {
+      "word": "床仕上",
+      "reading": "ゆかしあげ",
+      "meaning": "바닥 마감"
+    },
+    "onExamples": [
+      {
+        "word": "床仕上",
+        "reading": "ゆかしあげ",
+        "meaning": "바닥 마감"
+      },
+      {
+        "word": "床面",
+        "reading": "ゆかめん",
+        "meaning": "바닥면"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "床",
+        "reading": "ゆか",
+        "meaning": "바닥"
+      }
+    ],
+    "importance": "S",
+    "reason": "床仕上에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(广) 안의 나무(木)로 만든 평상이니 평상 상, 바닥 상"
+  },
+  {
+    "id": 12,
+    "kanji": "度",
+    "meaning_kr": "정도",
+    "onyomi": "ド",
+    "kunyomi": "たび",
+    "bim_term": {
+      "word": "強度",
+      "reading": "きょうど",
+      "meaning": "강도"
+    },
+    "onExamples": [
+      {
+        "word": "強度",
+        "reading": "きょうど",
+        "meaning": "강도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "度",
+        "reading": "たび",
+        "meaning": "정도"
+      }
+    ],
+    "importance": "S",
+    "reason": "強度에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(广)에서 스무(廿) 명의 사람(又)이 지키는 법도니 법도 도, 정도 도"
+  },
+  {
+    "id": 13,
+    "kanji": "座",
+    "meaning_kr": "자리",
+    "onyomi": "ザ",
+    "kunyomi": "すわる",
+    "bim_term": {
+      "word": "座標",
+      "reading": "ざひょう",
+      "meaning": "좌표"
+    },
+    "onExamples": [
+      {
+        "word": "座標",
+        "reading": "ざひょう",
+        "meaning": "좌표"
+      },
+      {
+        "word": "座屈",
+        "reading": "ざくつ",
+        "meaning": "좌굴"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "座",
+        "reading": "すわる",
+        "meaning": "자리"
+      }
+    ],
+    "importance": "S",
+    "reason": "座標에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(广) 안의 흙(土) 위에 사람(人人)들이 앉은 자리니 자리 좌"
+  },
+  {
+    "id": 14,
+    "kanji": "建",
+    "meaning_kr": "짓다",
+    "onyomi": "ケン",
+    "kunyomi": "たてる",
+    "bim_term": {
+      "word": "建築",
+      "reading": "けんちく",
+      "meaning": "건축"
+    },
+    "onExamples": [
+      {
+        "word": "建築",
+        "reading": "けんちく",
+        "meaning": "건축"
+      },
+      {
+        "word": "建具",
+        "reading": "たてぐ",
+        "meaning": "창호"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "建",
+        "reading": "たてる",
+        "meaning": "짓다"
+      }
+    ],
+    "importance": "S",
+    "reason": "建築에서 반복 출현하는 핵심 글자",
+    "memory_hint": "붓(聿)을 들고 길게(廴) 걸으며 설계하여 세우니 세울 건, 지을 건"
+  },
+  {
+    "id": 15,
+    "kanji": "強",
+    "meaning_kr": "강하다",
+    "onyomi": "キョウ",
+    "kunyomi": "つよい",
+    "bim_term": {
+      "word": "強度",
+      "reading": "きょうど",
+      "meaning": "강도"
+    },
+    "onExamples": [
+      {
+        "word": "強度",
+        "reading": "きょうど",
+        "meaning": "강도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "強",
+        "reading": "つよい",
+        "meaning": "강하다"
+      }
+    ],
+    "importance": "S",
+    "reason": "強度에서 반복 출현하는 핵심 글자",
+    "memory_hint": "활(弓)처럼 입(口)으로 벌레(虫)가 당겨 무는 힘이 강하니 강할 강"
+  },
+  {
+    "id": 16,
+    "kanji": "応",
+    "meaning_kr": "응하다",
+    "onyomi": "オウ",
+    "kunyomi": "こたえる",
+    "bim_term": {
+      "word": "応力",
+      "reading": "おうりょく",
+      "meaning": "응력"
+    },
+    "onExamples": [
+      {
+        "word": "応力",
+        "reading": "おうりょく",
+        "meaning": "응력"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "応",
+        "reading": "こたえる",
+        "meaning": "응하다"
+      }
+    ],
+    "importance": "S",
+    "reason": "応力에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(广)에 있는 마음(心)처럼 편안하게 대답하니 응할 응"
+  },
+  {
+    "id": 17,
+    "kanji": "性",
+    "meaning_kr": "성질",
+    "onyomi": "セイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "剛性",
+      "reading": "ごうせい",
+      "meaning": "강성"
+    },
+    "onExamples": [
+      {
+        "word": "剛性",
+        "reading": "ごうせい",
+        "meaning": "강성"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "剛性에서 반복 출현하는 핵심 글자",
+    "memory_hint": "마음(忄)에서 생(生)겨나는 성품이니 성품 성, 성질 성"
+  },
+  {
+    "id": 18,
+    "kanji": "排",
+    "meaning_kr": "배출",
+    "onyomi": "ハイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "排水",
+      "reading": "はいすい",
+      "meaning": "배수"
+    },
+    "onExamples": [
+      {
+        "word": "排水",
+        "reading": "はいすい",
+        "meaning": "배수"
+      },
+      {
+        "word": "排煙",
+        "reading": "はいえん",
+        "meaning": "배연"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "排水에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 아니라고(非) 밀쳐서 내보내니 밀칠 배, 배출할 배"
+  },
+  {
+    "id": 19,
+    "kanji": "断",
+    "meaning_kr": "관련 의미",
+    "onyomi": "ダン",
+    "kunyomi": "たつ",
+    "bim_term": {
+      "word": "断面図",
+      "reading": "だんめんず",
+      "meaning": "단면도"
+    },
+    "onExamples": [
+      {
+        "word": "断面図",
+        "reading": "だんめんず",
+        "meaning": "단면도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "断",
+        "reading": "たつ",
+        "meaning": "관련 의미"
+      }
+    ],
+    "importance": "S",
+    "reason": "断面図에서 반복 출현하는 핵심 글자",
+    "memory_hint": "도끼(斤)로 실타래(继)를 찍어 끊으니 끊을 단, 결단할 단"
+  },
+  {
+    "id": 20,
+    "kanji": "施",
+    "meaning_kr": "베풀다/시행",
+    "onyomi": "シ",
+    "kunyomi": "ほどこす",
+    "bim_term": {
+      "word": "施工",
+      "reading": "せこう",
+      "meaning": "시공"
+    },
+    "onExamples": [
+      {
+        "word": "施工",
+        "reading": "せこう",
+        "meaning": "시공"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "施",
+        "reading": "ほどこす",
+        "meaning": "베풀다"
+      }
+    ],
+    "importance": "S",
+    "reason": "施工에서 반복 출현하는 핵심 글자",
+    "memory_hint": "깃발(方人)을 날리며(也) 은혜를 베푸니 베풀 시, 시행할 시"
+  },
+  {
+    "id": 21,
+    "kanji": "柱",
+    "meaning_kr": "기둥",
+    "onyomi": "チュウ",
+    "kunyomi": "はしら",
+    "bim_term": {
+      "word": "柱芯",
+      "reading": "はしらしん",
+      "meaning": "기둥 중심선"
+    },
+    "onExamples": [
+      {
+        "word": "柱芯",
+        "reading": "はしらしん",
+        "meaning": "기둥 중심선"
+      },
+      {
+        "word": "柱脚",
+        "reading": "ちゅうきゃく",
+        "meaning": "기둥 밑부분"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "柱",
+        "reading": "はしら",
+        "meaning": "기둥"
+      }
+    ],
+    "importance": "S",
+    "reason": "柱芯에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木) 중 집의 주인(主) 같은 기둥이니 기둥 주"
+  },
+  {
+    "id": 22,
+    "kanji": "梁",
+    "meaning_kr": "보",
+    "onyomi": "リョウ",
+    "kunyomi": "はり",
+    "bim_term": {
+      "word": "梁成",
+      "reading": "はりせい",
+      "meaning": "보 춤"
+    },
+    "onExamples": [
+      {
+        "word": "梁成",
+        "reading": "はりせい",
+        "meaning": "보 춤"
+      },
+      {
+        "word": "橋梁",
+        "reading": "きょうりょう",
+        "meaning": "교량"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "梁",
+        "reading": "はり",
+        "meaning": "보"
+      }
+    ],
+    "importance": "S",
+    "reason": "梁成에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵) 위에 나무(木)를 칼(刅)로 깎아 가로지른 보이니 들보 량"
+  },
+  {
+    "id": 23,
+    "kanji": "標",
+    "meaning_kr": "표준/표고",
+    "onyomi": "ヒョウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "標高",
+      "reading": "ひょうこう",
+      "meaning": "표고"
+    },
+    "onExamples": [
+      {
+        "word": "標高",
+        "reading": "ひょうこう",
+        "meaning": "표고"
+      },
+      {
+        "word": "目標",
+        "reading": "もくひょう",
+        "meaning": "목표"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "標高에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木) 위에 불꽃(票)처럼 잘 보이게 세운 표니 표할 표, 표준 표"
+  },
+  {
+    "id": 24,
+    "kanji": "気",
+    "meaning_kr": "기운/기",
+    "onyomi": "キ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "電気室",
+      "reading": "でんきしつ",
+      "meaning": "전기실"
+    },
+    "onExamples": [
+      {
+        "word": "電気室",
+        "reading": "でんきしつ",
+        "meaning": "전기실"
+      },
+      {
+        "word": "換気",
+        "reading": "かんき",
+        "meaning": "환기"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "電気室에서 반복 출현하는 핵심 글자",
+    "memory_hint": "쌀(米)을 끓일 때 나오는 기운(气)이니 기운 기"
+  },
+  {
+    "id": 25,
+    "kanji": "水",
+    "meaning_kr": "물",
+    "onyomi": "スイ",
+    "kunyomi": "みず",
+    "bim_term": {
+      "word": "給水",
+      "reading": "きゅうすい",
+      "meaning": "급수"
+    },
+    "onExamples": [
+      {
+        "word": "給水",
+        "reading": "きゅうすい",
+        "meaning": "급수"
+      },
+      {
+        "word": "排水",
+        "reading": "はいすい",
+        "meaning": "배수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "水",
+        "reading": "みず",
+        "meaning": "물"
+      }
+    ],
+    "importance": "S",
+    "reason": "給水에서 반복 출현하는 핵심 글자",
+    "memory_hint": "흐르는 물의 모양을 본떠서 물 수"
+  },
+  {
+    "id": 26,
+    "kanji": "法",
+    "meaning_kr": "법/공법",
+    "onyomi": "ホウ",
+    "kunyomi": "のり",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "法",
+        "reading": "のり",
+        "meaning": "법"
+      }
+    ],
+    "importance": "S",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)이 흘러가듯(去) 순리대로 지키는 법이니 법 법"
+  },
+  {
+    "id": 27,
+    "kanji": "礎",
+    "meaning_kr": "기초석",
+    "onyomi": "ソ",
+    "kunyomi": "いしずえ",
+    "bim_term": {
+      "word": "基礎",
+      "reading": "きそ",
+      "meaning": "기초"
+    },
+    "onExamples": [
+      {
+        "word": "基礎",
+        "reading": "きそ",
+        "meaning": "기초"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "礎",
+        "reading": "いしずえ",
+        "meaning": "기초석"
+      }
+    ],
+    "importance": "S",
+    "reason": "基礎에서 반복 출현하는 핵심 글자",
+    "memory_hint": "돌(石) 위에 숲(林)의 나무를 다듬는(疋) 주춧돌이니 주춧돌 초"
+  },
+  {
+    "id": 28,
+    "kanji": "程",
+    "meaning_kr": "정도/공정",
+    "onyomi": "テイ",
+    "kunyomi": "ほど",
+    "bim_term": {
+      "word": "工程",
+      "reading": "こうてい",
+      "meaning": "공정"
+    },
+    "onExamples": [
+      {
+        "word": "工程",
+        "reading": "こうてい",
+        "meaning": "공정"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "程",
+        "reading": "ほど",
+        "meaning": "정도"
+      }
+    ],
+    "importance": "S",
+    "reason": "工程에서 반복 출현하는 핵심 글자",
+    "memory_hint": "벼(禾)를 얼마나 드릴(呈) 것인지 법으로 정한 정도니 정도 정"
+  },
+  {
+    "id": 29,
+    "kanji": "空",
+    "meaning_kr": "공기/비다",
+    "onyomi": "クウ",
+    "kunyomi": "そら",
+    "bim_term": {
+      "word": "空調",
+      "reading": "くうちょう",
+      "meaning": "공조"
+    },
+    "onExamples": [
+      {
+        "word": "空調",
+        "reading": "くうちょう",
+        "meaning": "공조"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "空",
+        "reading": "そら",
+        "meaning": "공기"
+      }
+    ],
+    "importance": "S",
+    "reason": "空調에서 반복 출현하는 핵심 글자",
+    "memory_hint": "구멍(穴)을 장인(工)이 뚫어 비었으니 빌 공, 하늘 공"
+  },
+  {
+    "id": 30,
+    "kanji": "筋",
+    "meaning_kr": "근/철근",
+    "onyomi": "キン",
+    "kunyomi": "すじ",
+    "bim_term": {
+      "word": "鉄筋",
+      "reading": "てっきん",
+      "meaning": "철근"
+    },
+    "onExamples": [
+      {
+        "word": "鉄筋",
+        "reading": "てっきん",
+        "meaning": "철근"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "筋",
+        "reading": "すじ",
+        "meaning": "근"
+      }
+    ],
+    "importance": "S",
+    "reason": "鉄筋에서 반복 출현하는 핵심 글자",
+    "memory_hint": "대(竹)처럼 질겨 몸(月)에서 힘(力)을 내게 하는 힘줄이니 힘줄 근"
+  },
+  {
+    "id": 31,
+    "kanji": "管",
+    "meaning_kr": "관/관리",
+    "onyomi": "カン",
+    "kunyomi": "くだ",
+    "bim_term": {
+      "word": "配管",
+      "reading": "はいかん",
+      "meaning": "배관"
+    },
+    "onExamples": [
+      {
+        "word": "配管",
+        "reading": "はいかん",
+        "meaning": "배관"
+      },
+      {
+        "word": "管理",
+        "reading": "かんり",
+        "meaning": "관리"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "管",
+        "reading": "くだ",
+        "meaning": "관"
+      }
+    ],
+    "importance": "S",
+    "reason": "配管에서 반복 출현하는 핵심 글자",
+    "memory_hint": "대(竹)로 만든 관청(官)의 피리나 대롱이니 대롱 관, 관리할 관"
+  },
+  {
+    "id": 32,
+    "kanji": "築",
+    "meaning_kr": "쌓다/짓다",
+    "onyomi": "チク",
+    "kunyomi": "きずく",
+    "bim_term": {
+      "word": "建築",
+      "reading": "けんちく",
+      "meaning": "건축"
+    },
+    "onExamples": [
+      {
+        "word": "建築",
+        "reading": "けんちく",
+        "meaning": "건축"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "築",
+        "reading": "きずく",
+        "meaning": "쌓다"
+      }
+    ],
+    "importance": "S",
+    "reason": "建築에서 반복 출현하는 핵심 글자",
+    "memory_hint": "대(竹)로도 장인(工)은 무릇(凡) 나무(木)처럼 쌓으니 쌓을 축"
+  },
+  {
+    "id": 33,
+    "kanji": "給",
+    "meaning_kr": "공급",
+    "onyomi": "キュウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "給水",
+      "reading": "きゅうすい",
+      "meaning": "급수"
+    },
+    "onExamples": [
+      {
+        "word": "給水",
+        "reading": "きゅうすい",
+        "meaning": "급수"
+      },
+      {
+        "word": "給湯",
+        "reading": "きゅうとう",
+        "meaning": "급탕"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "給水에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 합쳐(合) 잇듯 이어주니 줄 급, 공급할 급"
+  },
+  {
+    "id": 34,
+    "kanji": "統",
+    "meaning_kr": "거느리다",
+    "onyomi": "トウ",
+    "kunyomi": "すべる",
+    "bim_term": {
+      "word": "統合",
+      "reading": "とうごう",
+      "meaning": "통합"
+    },
+    "onExamples": [
+      {
+        "word": "統合",
+        "reading": "とうごう",
+        "meaning": "통합"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "統",
+        "reading": "すべる",
+        "meaning": "거느리다"
+      }
+    ],
+    "importance": "S",
+    "reason": "統合에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 채우듯(充) 하나로 모아 거느리니 거느릴 통, 통합할 통"
+  },
+  {
+    "id": 35,
+    "kanji": "荷",
+    "meaning_kr": "짐/하중",
+    "onyomi": "カ",
+    "kunyomi": "に",
+    "bim_term": {
+      "word": "荷重",
+      "reading": "かじゅう",
+      "meaning": "하중"
+    },
+    "onExamples": [
+      {
+        "word": "荷重",
+        "reading": "かじゅう",
+        "meaning": "하중"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "荷",
+        "reading": "に",
+        "meaning": "짐"
+      }
+    ],
+    "importance": "S",
+    "reason": "荷重에서 반복 출현하는 핵심 글자",
+    "memory_hint": "풀(艹)처럼 가벼운 것부터 어찌(何) 무거운 것까지 메는 짐이니 짐 하"
+  },
+  {
+    "id": 36,
+    "kanji": "計",
+    "meaning_kr": "계산/계획",
+    "onyomi": "ケイ",
+    "kunyomi": "はかる",
+    "bim_term": {
+      "word": "設計",
+      "reading": "せっけい",
+      "meaning": "설계"
+    },
+    "onExamples": [
+      {
+        "word": "設計",
+        "reading": "せっけい",
+        "meaning": "설계"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "計",
+        "reading": "はかる",
+        "meaning": "계산"
+      }
+    ],
+    "importance": "S",
+    "reason": "設計에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)로 수치(十)를 꼼꼼히 따지며 셈하니 계산할 계, 계획할 계"
+  },
+  {
+    "id": 37,
+    "kanji": "設",
+    "meaning_kr": "설치하다",
+    "onyomi": "セツ",
+    "kunyomi": "もうける",
+    "bim_term": {
+      "word": "設計",
+      "reading": "せっけい",
+      "meaning": "설계"
+    },
+    "onExamples": [
+      {
+        "word": "設計",
+        "reading": "せっけい",
+        "meaning": "설계"
+      },
+      {
+        "word": "仮設",
+        "reading": "かせつ",
+        "meaning": "가설"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "設",
+        "reading": "もうける",
+        "meaning": "설치하다"
+      }
+    ],
+    "importance": "S",
+    "reason": "設計에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)로 몽둥이(殳)를 든 듯 엄격하게 설치하니 베풀 설, 설치할 설"
+  },
+  {
+    "id": 38,
+    "kanji": "調",
+    "meaning_kr": "조절",
+    "onyomi": "チョウ",
+    "kunyomi": "ととのえる",
+    "bim_term": {
+      "word": "空調",
+      "reading": "くうちょう",
+      "meaning": "공조"
+    },
+    "onExamples": [
+      {
+        "word": "空調",
+        "reading": "くうちょう",
+        "meaning": "공조"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "調",
+        "reading": "ととのえる",
+        "meaning": "조절"
+      }
+    ],
+    "importance": "S",
+    "reason": "空調에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)을 두루(周) 통하도록 고르게 하니 고를 조, 조절할 조"
+  },
+  {
+    "id": 39,
+    "kanji": "連",
+    "meaning_kr": "이어지다",
+    "onyomi": "レン",
+    "kunyomi": "つらなる",
+    "bim_term": {
+      "word": "連携",
+      "reading": "れんけい",
+      "meaning": "연계"
+    },
+    "onExamples": [
+      {
+        "word": "連携",
+        "reading": "れんけい",
+        "meaning": "연계"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "連",
+        "reading": "つらなる",
+        "meaning": "이어지다"
+      }
+    ],
+    "importance": "S",
+    "reason": "連携에서 반복 출현하는 핵심 글자",
+    "memory_hint": "차(車)가 지나간 바퀴 자국처럼 이으니 이을 련, 이어질 련"
+  },
+  {
+    "id": 40,
+    "kanji": "配",
+    "meaning_kr": "배치/배분",
+    "onyomi": "ハイ",
+    "kunyomi": "くばる",
+    "bim_term": {
+      "word": "配筋",
+      "reading": "はいきん",
+      "meaning": "배근"
+    },
+    "onExamples": [
+      {
+        "word": "配筋",
+        "reading": "はいきん",
+        "meaning": "배근"
+      },
+      {
+        "word": "配管",
+        "reading": "はいかん",
+        "meaning": "배관"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "配",
+        "reading": "くばる",
+        "meaning": "배치"
+      }
+    ],
+    "importance": "S",
+    "reason": "配筋에서 반복 출현하는 핵심 글자",
+    "memory_hint": "술(酉)을 몸(己)소 나누어주니 나눌 배, 배치할 배"
+  },
+  {
+    "id": 41,
+    "kanji": "重",
+    "meaning_kr": "무겁다/중",
+    "onyomi": "ジュウ",
+    "kunyomi": "おもい",
+    "bim_term": {
+      "word": "荷重",
+      "reading": "かじゅう",
+      "meaning": "하중"
+    },
+    "onExamples": [
+      {
+        "word": "荷重",
+        "reading": "かじゅう",
+        "meaning": "하중"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "重",
+        "reading": "おもい",
+        "meaning": "무겁다"
+      }
+    ],
+    "importance": "S",
+    "reason": "荷重에서 반복 출현하는 핵심 글자",
+    "memory_hint": "많은(千) 마을(里)에서 모은 것이라 무거우니 무거울 중"
+  },
+  {
+    "id": 42,
+    "kanji": "鉄",
+    "meaning_kr": "철",
+    "onyomi": "テツ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "鉄筋",
+      "reading": "てっきん",
+      "meaning": "철근"
+    },
+    "onExamples": [
+      {
+        "word": "鉄筋",
+        "reading": "てっきん",
+        "meaning": "철근"
+      },
+      {
+        "word": "鉄骨",
+        "reading": "てっこつ",
+        "meaning": "철골"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "鉄筋에서 반복 출현하는 핵심 글자",
+    "memory_hint": "쇠(金)가 임금(王)의 뜻(呈)처럼 단단하니 쇠 철"
+  },
+  {
+    "id": 43,
+    "kanji": "電",
+    "meaning_kr": "전기",
+    "onyomi": "デン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "電気室",
+      "reading": "でんきしつ",
+      "meaning": "전기실"
+    },
+    "onExamples": [
+      {
+        "word": "電気室",
+        "reading": "でんきしつ",
+        "meaning": "전기실"
+      },
+      {
+        "word": "受電",
+        "reading": "じゅでん",
+        "meaning": "수전"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "電気室에서 반복 출현하는 핵심 글자",
+    "memory_hint": "비(雨)가 올 때 땅(田)으로 꼬리(乚) 치며 내리는 번개니 번개 전, 전기 전"
+  },
+  {
+    "id": 44,
+    "kanji": "面",
+    "meaning_kr": "면",
+    "onyomi": "メン",
+    "kunyomi": "おもて",
+    "bim_term": {
+      "word": "図面",
+      "reading": "ずめん",
+      "meaning": "도면"
+    },
+    "onExamples": [
+      {
+        "word": "図面",
+        "reading": "ずめん",
+        "meaning": "도면"
+      },
+      {
+        "word": "平面図",
+        "reading": "へいめんず",
+        "meaning": "평면도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "面",
+        "reading": "おもて",
+        "meaning": "면"
+      }
+    ],
+    "importance": "S",
+    "reason": "図面에서 반복 출현하는 핵심 글자",
+    "memory_hint": "이마와 눈(目)을 본떠서 낯 면, 얼굴 면, 표면 면"
+  },
+  {
+    "id": 45,
+    "kanji": "上",
+    "meaning_kr": "관련 의미",
+    "onyomi": "ジョウ",
+    "kunyomi": "うえ",
+    "bim_term": {
+      "word": "床仕上",
+      "reading": "ゆかしあげ",
+      "meaning": "바닥 마감"
+    },
+    "onExamples": [
+      {
+        "word": "床仕上",
+        "reading": "ゆかしあげ",
+        "meaning": "바닥 마감"
+      },
+      {
+        "word": "仕上",
+        "reading": "しあげ",
+        "meaning": "마감"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "上",
+        "reading": "うえ",
+        "meaning": "관련 의미"
+      }
+    ],
+    "importance": "A",
+    "reason": "床仕上에서 반복 출현하는 핵심 글자",
+    "memory_hint": "기준선 위로 솟아오른 모양이니 위 상"
+  },
+  {
+    "id": 46,
+    "kanji": "下",
+    "meaning_kr": "아래",
+    "onyomi": "カ",
+    "kunyomi": "した",
+    "bim_term": {
+      "word": "廊下",
+      "reading": "ろうか",
+      "meaning": "복도"
+    },
+    "onExamples": [
+      {
+        "word": "廊下",
+        "reading": "ろうか",
+        "meaning": "복도"
+      },
+      {
+        "word": "地下",
+        "reading": "ちか",
+        "meaning": "지하"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "下",
+        "reading": "した",
+        "meaning": "아래"
+      }
+    ],
+    "importance": "A",
+    "reason": "廊下에서 반복 출현하는 핵심 글자",
+    "memory_hint": "기준선 아래로 내려간 모양에서 아래 하"
+  },
+  {
+    "id": 47,
+    "kanji": "中",
+    "meaning_kr": "가운데",
+    "onyomi": "チュウ",
+    "kunyomi": "なか",
+    "bim_term": {
+      "word": "中心線",
+      "reading": "ちゅうしんせん",
+      "meaning": "중심선"
+    },
+    "onExamples": [
+      {
+        "word": "中心線",
+        "reading": "ちゅうしんせん",
+        "meaning": "중심선"
+      },
+      {
+        "word": "集中",
+        "reading": "しゅうちゅう",
+        "meaning": "집중"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "中",
+        "reading": "なか",
+        "meaning": "가운데"
+      }
+    ],
+    "importance": "A",
+    "reason": "中心線에서 반복 출현하는 핵심 글자",
+    "memory_hint": "깃발 한가운데를 꿰뚫은 모양이니 가운데 중"
+  },
+  {
+    "id": 48,
+    "kanji": "井",
+    "meaning_kr": "우물/정",
+    "onyomi": "セイ",
+    "kunyomi": "い",
+    "bim_term": {
+      "word": "天井",
+      "reading": "てんじょう",
+      "meaning": "천장"
+    },
+    "onExamples": [
+      {
+        "word": "天井",
+        "reading": "てんじょう",
+        "meaning": "천장"
+      },
+      {
+        "word": "井戸",
+        "reading": "いど",
+        "meaning": "우물"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "井",
+        "reading": "い",
+        "meaning": "우물"
+      }
+    ],
+    "importance": "A",
+    "reason": "天井에서 반복 출현하는 핵심 글자",
+    "memory_hint": "우물 틀의 모양이니 우물 정"
+  },
+  {
+    "id": 49,
+    "kanji": "仕",
+    "meaning_kr": "하다/섬기다",
+    "onyomi": "シ",
+    "kunyomi": "つかえる",
+    "bim_term": {
+      "word": "仕様書",
+      "reading": "しようしょ",
+      "meaning": "사양서"
+    },
+    "onExamples": [
+      {
+        "word": "仕様書",
+        "reading": "しようしょ",
+        "meaning": "사양서"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "仕",
+        "reading": "つかえる",
+        "meaning": "하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "仕様書에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 선비(士)처럼 벼슬하여 일을 하니 섬길 사, 할 사"
+  },
+  {
+    "id": 50,
+    "kanji": "付",
+    "meaning_kr": "붙이다",
+    "onyomi": "フ",
+    "kunyomi": "つける",
+    "bim_term": {
+      "word": "取付",
+      "reading": "とりつけ",
+      "meaning": "취부/설치"
+    },
+    "onExamples": [
+      {
+        "word": "取付",
+        "reading": "とりつけ",
+        "meaning": "취부/설치"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "付",
+        "reading": "つける",
+        "meaning": "붙이다"
+      }
+    ],
+    "importance": "A",
+    "reason": "取付에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 마디(寸)를 손으로 붙여 설치하니 붙을 부 "
+  },
+  {
+    "id": 51,
+    "kanji": "令",
+    "meaning_kr": "명령",
+    "onyomi": "レイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "무릎 꿇은 사람에게 명하는 모양이니 명령 령"
+  },
+  {
+    "id": 52,
+    "kanji": "仮",
+    "meaning_kr": "임시",
+    "onyomi": "カ",
+    "kunyomi": "かり",
+    "bim_term": {
+      "word": "仮設",
+      "reading": "かせつ",
+      "meaning": "가설"
+    },
+    "onExamples": [
+      {
+        "word": "仮設",
+        "reading": "かせつ",
+        "meaning": "가설"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "仮",
+        "reading": "かり",
+        "meaning": "임시"
+      }
+    ],
+    "importance": "A",
+    "reason": "仮設에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 돌이킬(反) 수 있게 임시로 세우니 임시 가"
+  },
+  {
+    "id": 53,
+    "kanji": "件",
+    "meaning_kr": "건",
+    "onyomi": "ケン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "条件",
+      "reading": "じょうけん",
+      "meaning": "조건"
+    },
+    "onExamples": [
+      {
+        "word": "条件",
+        "reading": "じょうけん",
+        "meaning": "조건"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "条件에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 소(牛) 한 마리를 세듯 한 건을 세니 건 건"
+  },
+  {
+    "id": 54,
+    "kanji": "伏",
+    "meaning_kr": "엎드리다/후세",
+    "onyomi": "フク",
+    "kunyomi": "ふす",
+    "bim_term": {
+      "word": "伏図",
+      "reading": "ふくず",
+      "meaning": "평면 배치도/복도"
+    },
+    "onExamples": [
+      {
+        "word": "伏図",
+        "reading": "ふくず",
+        "meaning": "평면 배치도/복도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "伏",
+        "reading": "ふす",
+        "meaning": "엎드리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "伏図에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 개(犬)처럼 엎드리니 엎드릴 복"
+  },
+  {
+    "id": 55,
+    "kanji": "位",
+    "meaning_kr": "위치",
+    "onyomi": "イ",
+    "kunyomi": "くらい",
+    "bim_term": {
+      "word": "方位",
+      "reading": "ほうい",
+      "meaning": "방위"
+    },
+    "onExamples": [
+      {
+        "word": "方位",
+        "reading": "ほうい",
+        "meaning": "방위"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "位",
+        "reading": "くらい",
+        "meaning": "위치"
+      }
+    ],
+    "importance": "A",
+    "reason": "方位에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 설(立) 자리를 정하니 자리 위, 위치 위"
+  },
+  {
+    "id": 56,
+    "kanji": "低",
+    "meaning_kr": "낮다",
+    "onyomi": "テイ",
+    "kunyomi": "ひくい",
+    "bim_term": {
+      "word": "低層",
+      "reading": "ていそう",
+      "meaning": "저층"
+    },
+    "onExamples": [
+      {
+        "word": "低層",
+        "reading": "ていそう",
+        "meaning": "저층"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "低",
+        "reading": "ひくい",
+        "meaning": "낮다"
+      }
+    ],
+    "importance": "A",
+    "reason": "低層에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 밑(氐)으로 내려가니 낮을 저"
+  },
+  {
+    "id": 57,
+    "kanji": "例",
+    "meaning_kr": "예",
+    "onyomi": "レイ",
+    "kunyomi": "たとえる",
+    "bim_term": {
+      "word": "凡例",
+      "reading": "はんれい",
+      "meaning": "범례"
+    },
+    "onExamples": [
+      {
+        "word": "凡例",
+        "reading": "はんれい",
+        "meaning": "범례"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "例",
+        "reading": "たとえる",
+        "meaning": "예"
+      }
+    ],
+    "importance": "A",
+    "reason": "凡例에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)마다 칼(刂)로 갈라 예를 드니 예 례"
+  },
+  {
+    "id": 58,
+    "kanji": "価",
+    "meaning_kr": "값",
+    "onyomi": "カ",
+    "kunyomi": "あたい",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "価",
+        "reading": "あたい",
+        "meaning": "값"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻) 값(賈)을 매기니 값 가"
+  },
+  {
+    "id": 59,
+    "kanji": "便",
+    "meaning_kr": "편의/편변",
+    "onyomi": "ベン",
+    "kunyomi": "たより",
+    "bim_term": {
+      "word": "便所",
+      "reading": "べんじょ",
+      "meaning": "화장실"
+    },
+    "onExamples": [
+      {
+        "word": "便所",
+        "reading": "べんじょ",
+        "meaning": "화장실"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "便",
+        "reading": "たより",
+        "meaning": "편의"
+      }
+    ],
+    "importance": "A",
+    "reason": "便所에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 더(更) 편해지니 편할 편, 편의 변"
+  },
+  {
+    "id": 60,
+    "kanji": "信",
+    "meaning_kr": "믿다/통신",
+    "onyomi": "シン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "通信",
+      "reading": "つうしん",
+      "meaning": "통신"
+    },
+    "onExamples": [
+      {
+        "word": "通信",
+        "reading": "つうしん",
+        "meaning": "통신"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "通信에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 말(言)을 지키니 믿을 신, 통신 신"
+  },
+  {
+    "id": 61,
+    "kanji": "修",
+    "meaning_kr": "수리/수정",
+    "onyomi": "シュウ",
+    "kunyomi": "おさめる",
+    "bim_term": {
+      "word": "改修",
+      "reading": "かいしゅう",
+      "meaning": "개수/보수"
+    },
+    "onExamples": [
+      {
+        "word": "改修",
+        "reading": "かいしゅう",
+        "meaning": "개수/보수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "修",
+        "reading": "おさめる",
+        "meaning": "수리"
+      }
+    ],
+    "importance": "A",
+    "reason": "改修에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 빗자루(攸)로 닦아 고치니 닦을 수, 고칠 수"
+  },
+  {
+    "id": 62,
+    "kanji": "倉",
+    "meaning_kr": "창고",
+    "onyomi": "ソウ",
+    "kunyomi": "くら",
+    "bim_term": {
+      "word": "倉庫",
+      "reading": "そうこ",
+      "meaning": "창고"
+    },
+    "onExamples": [
+      {
+        "word": "倉庫",
+        "reading": "そうこ",
+        "meaning": "창고"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "倉",
+        "reading": "くら",
+        "meaning": "창고"
+      }
+    ],
+    "importance": "A",
+    "reason": "倉庫에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(人)이 곡식(口)을 쌓아둔 곳이니 창고 창"
+  },
+  {
+    "id": 63,
+    "kanji": "側",
+    "meaning_kr": "측/옆",
+    "onyomi": "ソク",
+    "kunyomi": "がわ",
+    "bim_term": {
+      "word": "側溝",
+      "reading": "そっこう",
+      "meaning": "측구"
+    },
+    "onExamples": [
+      {
+        "word": "側溝",
+        "reading": "そっこう",
+        "meaning": "측구"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "側",
+        "reading": "がわ",
+        "meaning": "측"
+      }
+    ],
+    "importance": "A",
+    "reason": "側溝에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 곧(則) 옆에 서니 곁 측"
+  },
+  {
+    "id": 64,
+    "kanji": "傾",
+    "meaning_kr": "기울다",
+    "onyomi": "ケイ",
+    "kunyomi": "かたむく",
+    "bim_term": {
+      "word": "傾斜",
+      "reading": "けいしゃ",
+      "meaning": "경사"
+    },
+    "onExamples": [
+      {
+        "word": "傾斜",
+        "reading": "けいしゃ",
+        "meaning": "경사"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "傾",
+        "reading": "かたむく",
+        "meaning": "기울다"
+      }
+    ],
+    "importance": "A",
+    "reason": "傾斜에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(亻)이 머리(頃)를 기우니 기울 경"
+  },
+  {
+    "id": 65,
+    "kanji": "先",
+    "meaning_kr": "관련 의미",
+    "onyomi": "セン",
+    "kunyomi": "さき",
+    "bim_term": {
+      "word": "軒先",
+      "reading": "のきさき",
+      "meaning": "처마 끝"
+    },
+    "onExamples": [
+      {
+        "word": "軒先",
+        "reading": "のきさき",
+        "meaning": "처마 끝"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "先",
+        "reading": "さき",
+        "meaning": "관련 의미"
+      }
+    ],
+    "importance": "A",
+    "reason": "軒先에서 반복 출현하는 핵심 글자",
+    "memory_hint": "어진 사람(儿)이 흙(土) 위를 먼저 걸어가니 먼저 선"
+  },
+  {
+    "id": 66,
+    "kanji": "免",
+    "meaning_kr": "면하다",
+    "onyomi": "メン",
+    "kunyomi": "まぬかれる",
+    "bim_term": {
+      "word": "免震",
+      "reading": "めんしん",
+      "meaning": "면진"
+    },
+    "onExamples": [
+      {
+        "word": "免震",
+        "reading": "めんしん",
+        "meaning": "면진"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "免",
+        "reading": "まぬかれる",
+        "meaning": "면하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "免震에서 반복 출현하는 핵심 글자",
+    "memory_hint": "토끼가 덫을 면하듯 벗어나니 면할 면"
+  },
+  {
+    "id": 67,
+    "kanji": "入",
+    "meaning_kr": "들다",
+    "onyomi": "ニュウ",
+    "kunyomi": "いる",
+    "bim_term": {
+      "word": "搬入",
+      "reading": "はんにゅう",
+      "meaning": "반입"
+    },
+    "onExamples": [
+      {
+        "word": "搬入",
+        "reading": "はんにゅう",
+        "meaning": "반입"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "入",
+        "reading": "いる",
+        "meaning": "들다"
+      }
+    ],
+    "importance": "A",
+    "reason": "搬入에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집 안으로 들어가는 모양을 본떠서 들 입"
+  },
+  {
+    "id": 68,
+    "kanji": "具",
+    "meaning_kr": "관련 의미",
+    "onyomi": "グ",
+    "kunyomi": "そなえる",
+    "bim_term": {
+      "word": "建具",
+      "reading": "たてぐ",
+      "meaning": "건구/문창호"
+    },
+    "onExamples": [
+      {
+        "word": "建具",
+        "reading": "たてぐ",
+        "meaning": "건구/문창호"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "具",
+        "reading": "そなえる",
+        "meaning": "관련 의미"
+      }
+    ],
+    "importance": "A",
+    "reason": "建具에서 반복 출현하는 핵심 글자",
+    "memory_hint": "재물(貝)을 두 손(廾)으로 하나(一)씩 갖추니 갖출 구"
+  },
+  {
+    "id": 69,
+    "kanji": "内",
+    "meaning_kr": "안",
+    "onyomi": "ナイ",
+    "kunyomi": "うち",
+    "bim_term": {
+      "word": "内壁",
+      "reading": "ないへき",
+      "meaning": "내벽"
+    },
+    "onExamples": [
+      {
+        "word": "内壁",
+        "reading": "ないへき",
+        "meaning": "내벽"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "内",
+        "reading": "うち",
+        "meaning": "안"
+      }
+    ],
+    "importance": "A",
+    "reason": "内壁에서 반복 출현하는 핵심 글자",
+    "memory_hint": "경계 안으로 들인 모양이니 안 내"
+  },
+  {
+    "id": 70,
+    "kanji": "冷",
+    "meaning_kr": "차갑다",
+    "onyomi": "レイ",
+    "kunyomi": "つめたい",
+    "bim_term": {
+      "word": "冷水",
+      "reading": "れいすい",
+      "meaning": "냉수"
+    },
+    "onExamples": [
+      {
+        "word": "冷水",
+        "reading": "れいすい",
+        "meaning": "냉수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "冷",
+        "reading": "つめたい",
+        "meaning": "차갑다"
+      }
+    ],
+    "importance": "A",
+    "reason": "冷水에서 반복 출현하는 핵심 글자",
+    "memory_hint": "얼음(冫)같이 차가운 명령(令)이니 찰 냉"
+  },
+  {
+    "id": 71,
+    "kanji": "凡",
+    "meaning_kr": "무릇/범례",
+    "onyomi": "ボン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "凡例",
+      "reading": "はんれい",
+      "meaning": "범례"
+    },
+    "onExamples": [
+      {
+        "word": "凡例",
+        "reading": "はんれい",
+        "meaning": "범례"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "凡例에서 반복 출현하는 핵심 글자",
+    "memory_hint": "두루 미치는 모양이니 무릇 범"
+  },
+  {
+    "id": 72,
+    "kanji": "出",
+    "meaning_kr": "나가다",
+    "onyomi": "シュツ",
+    "kunyomi": "でる",
+    "bim_term": {
+      "word": "墨出し",
+      "reading": "すみだし",
+      "meaning": "먹매김"
+    },
+    "onExamples": [
+      {
+        "word": "墨出し",
+        "reading": "すみだし",
+        "meaning": "먹매김"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "出",
+        "reading": "でる",
+        "meaning": "나가다"
+      }
+    ],
+    "importance": "A",
+    "reason": "墨出し에서 반복 출현하는 핵심 글자",
+    "memory_hint": "산(山) 위에 산(山)이 겹쳐 솟아나니 날 출"
+  },
+  {
+    "id": 73,
+    "kanji": "分",
+    "meaning_kr": "나누다",
+    "onyomi": "ブン",
+    "kunyomi": "わける",
+    "bim_term": {
+      "word": "分電盤",
+      "reading": "ぶんでんばん",
+      "meaning": "분전반"
+    },
+    "onExamples": [
+      {
+        "word": "分電盤",
+        "reading": "ぶんでんばん",
+        "meaning": "분전반"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "分",
+        "reading": "わける",
+        "meaning": "나누다"
+      }
+    ],
+    "importance": "A",
+    "reason": "分電盤에서 반복 출현하는 핵심 글자",
+    "memory_hint": "칼(刀)로 나누니 나눌 분"
+  },
+  {
+    "id": 74,
+    "kanji": "切",
+    "meaning_kr": "절단/절토",
+    "onyomi": "セツ",
+    "kunyomi": "きる",
+    "bim_term": {
+      "word": "切土",
+      "reading": "きりど",
+      "meaning": "절토"
+    },
+    "onExamples": [
+      {
+        "word": "切土",
+        "reading": "きりど",
+        "meaning": "절토"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "切",
+        "reading": "きる",
+        "meaning": "절단"
+      }
+    ],
+    "importance": "A",
+    "reason": "切土에서 반복 출현하는 핵심 글자",
+    "memory_hint": "칼(刀)로 세게 쳐 끊으니 끊을 절"
+  },
+  {
+    "id": 75,
+    "kanji": "制",
+    "meaning_kr": "제어/제도",
+    "onyomi": "セイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "制御",
+      "reading": "せいぎょ",
+      "meaning": "제어"
+    },
+    "onExamples": [
+      {
+        "word": "制御",
+        "reading": "せいぎょ",
+        "meaning": "제어"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "制御에서 반복 출현하는 핵심 글자",
+    "memory_hint": "소(牛)를 칼(刂)로 잡듯 법도에 맞게 제어하니 제어할 제"
+  },
+  {
+    "id": 76,
+    "kanji": "削",
+    "meaning_kr": "깎다",
+    "onyomi": "サク",
+    "kunyomi": "けずる",
+    "bim_term": {
+      "word": "削除",
+      "reading": "さくじょ",
+      "meaning": "삭제"
+    },
+    "onExamples": [
+      {
+        "word": "削除",
+        "reading": "さくじょ",
+        "meaning": "삭제"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "削",
+        "reading": "けずる",
+        "meaning": "깎다"
+      }
+    ],
+    "importance": "A",
+    "reason": "削除에서 반복 출현하는 핵심 글자",
+    "memory_hint": "닮은(肖) 것을 칼(刂)로 다듬어 깎으니 깎을 삭"
+  },
+  {
+    "id": 77,
+    "kanji": "剛",
+    "meaning_kr": "굳세다",
+    "onyomi": "ゴウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "剛性",
+      "reading": "ごうせい",
+      "meaning": "강성"
+    },
+    "onExamples": [
+      {
+        "word": "剛性",
+        "reading": "ごうせい",
+        "meaning": "강성"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "剛性에서 반복 출현하는 핵심 글자",
+    "memory_hint": "산등성이(岡)처럼 칼(刂)날같이 굳세니 굳셀 강 "
+  },
+  {
+    "id": 78,
+    "kanji": "加",
+    "meaning_kr": "더하다",
+    "onyomi": "カ",
+    "kunyomi": "くわえる",
+    "bim_term": {
+      "word": "追加",
+      "reading": "ついか",
+      "meaning": "추가"
+    },
+    "onExamples": [
+      {
+        "word": "追加",
+        "reading": "ついか",
+        "meaning": "추가"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "加",
+        "reading": "くわえる",
+        "meaning": "더하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "追加에서 반복 출현하는 핵심 글자",
+    "memory_hint": "힘(力)써 말(口)하며 용기를 더하니 더할 가"
+  },
+  {
+    "id": 79,
+    "kanji": "協",
+    "meaning_kr": "협력",
+    "onyomi": "キョウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "協議",
+      "reading": "きょうぎ",
+      "meaning": "협의"
+    },
+    "onExamples": [
+      {
+        "word": "協議",
+        "reading": "きょうぎ",
+        "meaning": "협의"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "協議에서 반복 출현하는 핵심 글자",
+    "memory_hint": "많은(十) 사람의 힘(劦)을 하나로 합하니 협력할 협 "
+  },
+  {
+    "id": 80,
+    "kanji": "厚",
+    "meaning_kr": "두껍다",
+    "onyomi": "コウ",
+    "kunyomi": "あつい",
+    "bim_term": {
+      "word": "厚み",
+      "reading": "あつみ",
+      "meaning": "두께"
+    },
+    "onExamples": [
+      {
+        "word": "厚み",
+        "reading": "あつみ",
+        "meaning": "두께"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "厚",
+        "reading": "あつい",
+        "meaning": "두껍다"
+      }
+    ],
+    "importance": "A",
+    "reason": "厚み에서 반복 출현하는 핵심 글자",
+    "memory_hint": "언덕(厂) 아래 해(日)가 아이(子)처럼 머물러 쌓이니 두꺼울 후"
+  },
+  {
+    "id": 81,
+    "kanji": "原",
+    "meaning_kr": "원/원가",
+    "onyomi": "ゲン",
+    "kunyomi": "はら",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "原",
+        "reading": "はら",
+        "meaning": "원"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "벼랑(厂) 밑 샘(泉)에서 비롯하니 근원 원, 원가 원"
+  },
+  {
+    "id": 82,
+    "kanji": "厨",
+    "meaning_kr": "부엌",
+    "onyomi": "チュウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "厨房",
+      "reading": "ちゅうぼう",
+      "meaning": "주방"
+    },
+    "onExamples": [
+      {
+        "word": "厨房",
+        "reading": "ちゅうぼう",
+        "meaning": "주방"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "厨房에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(厂) 안의 부엌 칸이니 부엌 주"
+  },
+  {
+    "id": 83,
+    "kanji": "参",
+    "meaning_kr": "참가/참조",
+    "onyomi": "サン",
+    "kunyomi": "まいる",
+    "bim_term": {
+      "word": "参照",
+      "reading": "さんしょう",
+      "meaning": "참조"
+    },
+    "onExamples": [
+      {
+        "word": "参照",
+        "reading": "さんしょう",
+        "meaning": "참조"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "参",
+        "reading": "まいる",
+        "meaning": "참가"
+      }
+    ],
+    "importance": "A",
+    "reason": "参照에서 반복 출현하는 핵심 글자",
+    "memory_hint": "셋(彡)처럼 겹쳐 참여하니 참여할 참, 참조 참"
+  },
+  {
+    "id": 84,
+    "kanji": "取",
+    "meaning_kr": "취하다",
+    "onyomi": "シュ",
+    "kunyomi": "とる",
+    "bim_term": {
+      "word": "取付",
+      "reading": "とりつけ",
+      "meaning": "취부/설치"
+    },
+    "onExamples": [
+      {
+        "word": "取付",
+        "reading": "とりつけ",
+        "meaning": "취부/설치"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "取",
+        "reading": "とる",
+        "meaning": "취하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "取付에서 반복 출현하는 핵심 글자",
+    "memory_hint": "전쟁에서 귀(耳)를 손(又)으로 베어 전공을 취하니 취할 취"
+  },
+  {
+    "id": 85,
+    "kanji": "受",
+    "meaning_kr": "받다",
+    "onyomi": "ジュ",
+    "kunyomi": "うける",
+    "bim_term": {
+      "word": "受変電",
+      "reading": "じゅへんでん",
+      "meaning": "수변전"
+    },
+    "onExamples": [
+      {
+        "word": "受変電",
+        "reading": "じゅへんでん",
+        "meaning": "수변전"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "受",
+        "reading": "うける",
+        "meaning": "받다"
+      }
+    ],
+    "importance": "A",
+    "reason": "受変電에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손으로 받아 움켜쥐니 받을 수"
+  },
+  {
+    "id": 86,
+    "kanji": "口",
+    "meaning_kr": "입/구멍",
+    "onyomi": "コウ",
+    "kunyomi": "くち",
+    "bim_term": {
+      "word": "開口",
+      "reading": "かいこう",
+      "meaning": "개구부"
+    },
+    "onExamples": [
+      {
+        "word": "開口",
+        "reading": "かいこう",
+        "meaning": "개구부"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "口",
+        "reading": "くち",
+        "meaning": "입"
+      }
+    ],
+    "importance": "A",
+    "reason": "開口에서 반복 출현하는 핵심 글자",
+    "memory_hint": "벌린 입의 모양이니 입 구"
+  },
+  {
+    "id": 87,
+    "kanji": "可",
+    "meaning_kr": "허락/가능",
+    "onyomi": "カ",
+    "kunyomi": "べき",
+    "bim_term": {
+      "word": "可能",
+      "reading": "かのう",
+      "meaning": "가능"
+    },
+    "onExamples": [
+      {
+        "word": "可能",
+        "reading": "かのう",
+        "meaning": "가능"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "可",
+        "reading": "べき",
+        "meaning": "허락"
+      }
+    ],
+    "importance": "A",
+    "reason": "可能에서 반복 출현하는 핵심 글자",
+    "memory_hint": "입(口)으로 허락해도 옳으니 옳을 가, 가능할 가"
+  },
+  {
+    "id": 88,
+    "kanji": "合",
+    "meaning_kr": "합치다",
+    "onyomi": "ゴウ",
+    "kunyomi": "あう",
+    "bim_term": {
+      "word": "取り合い",
+      "reading": "とりあい",
+      "meaning": "맞닿는 접합부/인터페이스"
+    },
+    "onExamples": [
+      {
+        "word": "取り合い",
+        "reading": "とりあい",
+        "meaning": "맞닿는 접합부/인터페이스"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "合",
+        "reading": "あう",
+        "meaning": "합치다"
+      }
+    ],
+    "importance": "A",
+    "reason": "取り合い에서 반복 출현하는 핵심 글자",
+    "memory_hint": "입(口)들이 모여 하나(一)로 뚜껑(亼) 닫듯 합하니 합할 합"
+  },
+  {
+    "id": 89,
+    "kanji": "吊",
+    "meaning_kr": "매달다",
+    "onyomi": "チョウ",
+    "kunyomi": "つる",
+    "bim_term": {
+      "word": "吊り金具",
+      "reading": "つりかなぐ",
+      "meaning": "달이쇠/행거 금구"
+    },
+    "onExamples": [
+      {
+        "word": "吊り金具",
+        "reading": "つりかなぐ",
+        "meaning": "달이쇠/행거 금구"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "吊",
+        "reading": "つる",
+        "meaning": "매달다"
+      }
+    ],
+    "importance": "A",
+    "reason": "吊り金具에서 반복 출현하는 핵심 글자",
+    "memory_hint": "입(口)을 길게(巾) 매달아 거니 걸 조, 달 조"
+  },
+  {
+    "id": 90,
+    "kanji": "名",
+    "meaning_kr": "이름",
+    "onyomi": "メイ",
+    "kunyomi": "な",
+    "bim_term": {
+      "word": "名称",
+      "reading": "めいしょう",
+      "meaning": "명칭"
+    },
+    "onExamples": [
+      {
+        "word": "名称",
+        "reading": "めいしょう",
+        "meaning": "명칭"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "名",
+        "reading": "な",
+        "meaning": "이름"
+      }
+    ],
+    "importance": "A",
+    "reason": "名称에서 반복 출현하는 핵심 글자",
+    "memory_hint": "저녁(夕)에 입(口)으로 이름을 부르니 이름 명"
+  },
+  {
+    "id": 91,
+    "kanji": "向",
+    "meaning_kr": "향하다",
+    "onyomi": "コウ",
+    "kunyomi": "むく",
+    "bim_term": {
+      "word": "方向",
+      "reading": "ほうこう",
+      "meaning": "방향"
+    },
+    "onExamples": [
+      {
+        "word": "方向",
+        "reading": "ほうこう",
+        "meaning": "방향"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "向",
+        "reading": "むく",
+        "meaning": "향하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "方向에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집 창문으로 향하니 향할 향"
+  },
+  {
+    "id": 92,
+    "kanji": "品",
+    "meaning_kr": "물건/품질",
+    "onyomi": "ヒン",
+    "kunyomi": "しな",
+    "bim_term": {
+      "word": "品質",
+      "reading": "ひんしつ",
+      "meaning": "품질"
+    },
+    "onExamples": [
+      {
+        "word": "品質",
+        "reading": "ひんしつ",
+        "meaning": "품질"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "品",
+        "reading": "しな",
+        "meaning": "물건"
+      }
+    ],
+    "importance": "A",
+    "reason": "品質에서 반복 출현하는 핵심 글자",
+    "memory_hint": "입(口) 셋이 모여 물건을 품평하니 물건 품, 품질 품"
+  },
+  {
+    "id": 93,
+    "kanji": "回",
+    "meaning_kr": "돌다/회",
+    "onyomi": "カイ",
+    "kunyomi": "まわる",
+    "bim_term": {
+      "word": "回避",
+      "reading": "かいひ",
+      "meaning": "회피"
+    },
+    "onExamples": [
+      {
+        "word": "回避",
+        "reading": "かいひ",
+        "meaning": "회피"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "回",
+        "reading": "まわる",
+        "meaning": "돌다"
+      }
+    ],
+    "importance": "A",
+    "reason": "回避에서 반복 출현하는 핵심 글자",
+    "memory_hint": "입구(囗)를 한 바퀴 둘러 도니 돌 회"
+  },
+  {
+    "id": 94,
+    "kanji": "囲",
+    "meaning_kr": "둘러싸다",
+    "onyomi": "イ",
+    "kunyomi": "かこむ",
+    "bim_term": {
+      "word": "範囲",
+      "reading": "はんい",
+      "meaning": "범위"
+    },
+    "onExamples": [
+      {
+        "word": "範囲",
+        "reading": "はんい",
+        "meaning": "범위"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "囲",
+        "reading": "かこむ",
+        "meaning": "둘러싸다"
+      }
+    ],
+    "importance": "A",
+    "reason": "範囲에서 반복 출현하는 핵심 글자",
+    "memory_hint": "에워싼(囗) 틀 안에 넣으니 둘러쌀 위, 범위 위"
+  },
+  {
+    "id": 95,
+    "kanji": "土",
+    "meaning_kr": "흙",
+    "onyomi": "ド",
+    "kunyomi": "つち",
+    "bim_term": {
+      "word": "土圧",
+      "reading": "どあつ",
+      "meaning": "토압"
+    },
+    "onExamples": [
+      {
+        "word": "土圧",
+        "reading": "どあつ",
+        "meaning": "토압"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "土",
+        "reading": "つち",
+        "meaning": "흙"
+      }
+    ],
+    "importance": "A",
+    "reason": "土圧에서 반복 출현하는 핵심 글자",
+    "memory_hint": "흙덩이의 모양이니 흙 토"
+  },
+  {
+    "id": 96,
+    "kanji": "圧",
+    "meaning_kr": "압력",
+    "onyomi": "アツ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "土圧",
+      "reading": "どあつ",
+      "meaning": "토압"
+    },
+    "onExamples": [
+      {
+        "word": "土圧",
+        "reading": "どあつ",
+        "meaning": "토압"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "土圧에서 반복 출현하는 핵심 글자",
+    "memory_hint": "벼랑(厂) 아래 흙(土)을 눌러 누르니 압력 압"
+  },
+  {
+    "id": 97,
+    "kanji": "地",
+    "meaning_kr": "땅",
+    "onyomi": "チ",
+    "kunyomi": "ち",
+    "bim_term": {
+      "word": "地盤",
+      "reading": "じばん",
+      "meaning": "지반"
+    },
+    "onExamples": [
+      {
+        "word": "地盤",
+        "reading": "じばん",
+        "meaning": "지반"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "地",
+        "reading": "ち",
+        "meaning": "땅"
+      }
+    ],
+    "importance": "A",
+    "reason": "地盤에서 반복 출현하는 핵심 글자",
+    "memory_hint": "흙(土)도 땅의 자리(也)를 이루니 땅 지"
+  },
+  {
+    "id": 98,
+    "kanji": "型",
+    "meaning_kr": "형태",
+    "onyomi": "ケイ",
+    "kunyomi": "かた",
+    "bim_term": {
+      "word": "型枠",
+      "reading": "かたわく",
+      "meaning": "거푸집"
+    },
+    "onExamples": [
+      {
+        "word": "型枠",
+        "reading": "かたわく",
+        "meaning": "거푸집"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "型",
+        "reading": "かた",
+        "meaning": "형태"
+      }
+    ],
+    "importance": "A",
+    "reason": "型枠에서 반복 출현하는 핵심 글자",
+    "memory_hint": "형벌(刑) 도구처럼 흙(土)으로 빚은 틀이니 모양 형 "
+  },
+  {
+    "id": 99,
+    "kanji": "埋",
+    "meaning_kr": "묻다",
+    "onyomi": "マイ",
+    "kunyomi": "うめる",
+    "bim_term": {
+      "word": "埋戻し",
+      "reading": "うめもどし",
+      "meaning": "되메우기"
+    },
+    "onExamples": [
+      {
+        "word": "埋戻し",
+        "reading": "うめもどし",
+        "meaning": "되메우기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "埋",
+        "reading": "うめる",
+        "meaning": "묻다"
+      }
+    ],
+    "importance": "A",
+    "reason": "埋戻し에서 반복 출현하는 핵심 글자",
+    "memory_hint": "흙(土) 속 마을(里)처럼 묻히니 묻을 매"
+  },
+  {
+    "id": 100,
+    "kanji": "場",
+    "meaning_kr": "장소",
+    "onyomi": "ジョウ",
+    "kunyomi": "ば",
+    "bim_term": {
+      "word": "現場",
+      "reading": "げんば",
+      "meaning": "현장"
+    },
+    "onExamples": [
+      {
+        "word": "現場",
+        "reading": "げんば",
+        "meaning": "현장"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "場",
+        "reading": "ば",
+        "meaning": "장소"
+      }
+    ],
+    "importance": "A",
+    "reason": "現場에서 반복 출현하는 핵심 글자",
+    "memory_hint": "흙(土) 위에 해(日)가 비치는 넓은 장소니 장소 장 "
+  },
+  {
+    "id": 101,
+    "kanji": "墨",
+    "meaning_kr": "먹",
+    "onyomi": "ボク",
+    "kunyomi": "すみ",
+    "bim_term": {
+      "word": "墨出し",
+      "reading": "すみだし",
+      "meaning": "먹매김"
+    },
+    "onExamples": [
+      {
+        "word": "墨出し",
+        "reading": "すみだし",
+        "meaning": "먹매김"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "墨",
+        "reading": "すみ",
+        "meaning": "먹"
+      }
+    ],
+    "importance": "A",
+    "reason": "墨出し에서 반복 출현하는 핵심 글자",
+    "memory_hint": "검은(黑) 흙(土)을 갈아 만든 먹이니 먹 묵"
+  },
+  {
+    "id": 102,
+    "kanji": "変",
+    "meaning_kr": "변하다",
+    "onyomi": "ヘン",
+    "kunyomi": "かわる",
+    "bim_term": {
+      "word": "変更",
+      "reading": "へんこう",
+      "meaning": "변경"
+    },
+    "onExamples": [
+      {
+        "word": "変更",
+        "reading": "へんこう",
+        "meaning": "변경"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "変",
+        "reading": "かわる",
+        "meaning": "변하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "変更에서 반복 출현하는 핵심 글자",
+    "memory_hint": "또(亦) 손(夂)으로 바꿔 뒤집으니 변할 변"
+  },
+  {
+    "id": 103,
+    "kanji": "外",
+    "meaning_kr": "바깥",
+    "onyomi": "ガイ",
+    "kunyomi": "そと",
+    "bim_term": {
+      "word": "外壁",
+      "reading": "がいへき",
+      "meaning": "외벽"
+    },
+    "onExamples": [
+      {
+        "word": "外壁",
+        "reading": "がいへき",
+        "meaning": "외벽"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "外",
+        "reading": "そと",
+        "meaning": "바깥"
+      }
+    ],
+    "importance": "A",
+    "reason": "外壁에서 반복 출현하는 핵심 글자",
+    "memory_hint": "저녁(夕) 밖으로 점(卜)을 치니 바깥 외"
+  },
+  {
+    "id": 104,
+    "kanji": "天",
+    "meaning_kr": "하늘/천장",
+    "onyomi": "テン",
+    "kunyomi": "あま",
+    "bim_term": {
+      "word": "天井",
+      "reading": "てんじょう",
+      "meaning": "천장"
+    },
+    "onExamples": [
+      {
+        "word": "天井",
+        "reading": "てんじょう",
+        "meaning": "천장"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "天",
+        "reading": "あま",
+        "meaning": "하늘"
+      }
+    ],
+    "importance": "A",
+    "reason": "天井에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람(大) 머리 위 한 획이 하늘이니 하늘 천"
+  },
+  {
+    "id": 105,
+    "kanji": "定",
+    "meaning_kr": "정하다",
+    "onyomi": "テイ",
+    "kunyomi": "さだめる",
+    "bim_term": {
+      "word": "算定",
+      "reading": "さんてい",
+      "meaning": "산정"
+    },
+    "onExamples": [
+      {
+        "word": "算定",
+        "reading": "さんてい",
+        "meaning": "산정"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "定",
+        "reading": "さだめる",
+        "meaning": "정하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "算定에서 반복 출현하는 핵심 글자",
+    "memory_hint": "지붕(宀) 아래 발(止)이 멈추니 정할 정"
+  },
+  {
+    "id": 106,
+    "kanji": "室",
+    "meaning_kr": "방",
+    "onyomi": "シツ",
+    "kunyomi": "むろ",
+    "bim_term": {
+      "word": "機械室",
+      "reading": "きかいしつ",
+      "meaning": "기계실"
+    },
+    "onExamples": [
+      {
+        "word": "機械室",
+        "reading": "きかいしつ",
+        "meaning": "기계실"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "室",
+        "reading": "むろ",
+        "meaning": "방"
+      }
+    ],
+    "importance": "A",
+    "reason": "機械室에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(宀)에 이르러(至) 머무는 방이니 방 실"
+  },
+  {
+    "id": 107,
+    "kanji": "容",
+    "meaning_kr": "용적/수용",
+    "onyomi": "ヨウ",
+    "kunyomi": "いれる",
+    "bim_term": {
+      "word": "容積率",
+      "reading": "ようせきりつ",
+      "meaning": "용적률"
+    },
+    "onExamples": [
+      {
+        "word": "容積率",
+        "reading": "ようせきりつ",
+        "meaning": "용적률"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "容",
+        "reading": "いれる",
+        "meaning": "용적"
+      }
+    ],
+    "importance": "A",
+    "reason": "容積率에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(宀) 안 골짜기(谷)처럼 받아들이니 용납할 용, 용적 용"
+  },
+  {
+    "id": 108,
+    "kanji": "導",
+    "meaning_kr": "이끌다",
+    "onyomi": "ドウ",
+    "kunyomi": "みちびく",
+    "bim_term": {
+      "word": "誘導灯",
+      "reading": "ゆうどうとう",
+      "meaning": "유도등"
+    },
+    "onExamples": [
+      {
+        "word": "誘導灯",
+        "reading": "ゆうどうとう",
+        "meaning": "유도등"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "導",
+        "reading": "みちびく",
+        "meaning": "이끌다"
+      }
+    ],
+    "importance": "A",
+    "reason": "誘導灯에서 반복 출현하는 핵심 글자",
+    "memory_hint": "길(寸)로 길잡이(道)를 맡기니 이끌 도"
+  },
+  {
+    "id": 109,
+    "kanji": "尺",
+    "meaning_kr": "자/척도",
+    "onyomi": "シャク",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "縮尺",
+      "reading": "しゅくしゃく",
+      "meaning": "축척"
+    },
+    "onExamples": [
+      {
+        "word": "縮尺",
+        "reading": "しゅくしゃく",
+        "meaning": "축척"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "縮尺에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손으로 길이를 재는 자의 모양이니 자 척"
+  },
+  {
+    "id": 110,
+    "kanji": "屋",
+    "meaning_kr": "집/지붕",
+    "onyomi": "オク",
+    "kunyomi": "や",
+    "bim_term": {
+      "word": "屋根",
+      "reading": "やね",
+      "meaning": "지붕"
+    },
+    "onExamples": [
+      {
+        "word": "屋根",
+        "reading": "やね",
+        "meaning": "지붕"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "屋",
+        "reading": "や",
+        "meaning": "집"
+      }
+    ],
+    "importance": "A",
+    "reason": "屋根에서 반복 출현하는 핵심 글자",
+    "memory_hint": "지붕 아래 사람이 쉬는 곳이니 집 옥"
+  },
+  {
+    "id": 111,
+    "kanji": "展",
+    "meaning_kr": "펼치다",
+    "onyomi": "テン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "展開図",
+      "reading": "てんかいず",
+      "meaning": "전개도"
+    },
+    "onExamples": [
+      {
+        "word": "展開図",
+        "reading": "てんかいず",
+        "meaning": "전개도"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "展開図에서 반복 출현하는 핵심 글자",
+    "memory_hint": "시체(尸)처럼 펼쳐 놓으니 펼 전"
+  },
+  {
+    "id": 112,
+    "kanji": "層",
+    "meaning_kr": "층",
+    "onyomi": "ソウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "低層",
+      "reading": "ていそう",
+      "meaning": "저층"
+    },
+    "onExamples": [
+      {
+        "word": "低層",
+        "reading": "ていそう",
+        "meaning": "저층"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "低層에서 반복 출현하는 핵심 글자",
+    "memory_hint": "시체(尸) 아래 여러 번(曾) 겹치니 층 층"
+  },
+  {
+    "id": 113,
+    "kanji": "履",
+    "meaning_kr": "밟다/이력",
+    "onyomi": "リ",
+    "kunyomi": "はく",
+    "bim_term": {
+      "word": "履歴",
+      "reading": "りれき",
+      "meaning": "이력"
+    },
+    "onExamples": [
+      {
+        "word": "履歴",
+        "reading": "りれき",
+        "meaning": "이력"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "履",
+        "reading": "はく",
+        "meaning": "밟다"
+      }
+    ],
+    "importance": "A",
+    "reason": "履歴에서 반복 출현하는 핵심 글자",
+    "memory_hint": "발(尸)로 다시 밟은 자취이니 밟을 리, 이력 리"
+  },
+  {
+    "id": 114,
+    "kanji": "川",
+    "meaning_kr": "내",
+    "onyomi": "セン",
+    "kunyomi": "かわ",
+    "bim_term": {
+      "word": "河川",
+      "reading": "かせん",
+      "meaning": "하천"
+    },
+    "onExamples": [
+      {
+        "word": "河川",
+        "reading": "かせん",
+        "meaning": "하천"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "川",
+        "reading": "かわ",
+        "meaning": "내"
+      }
+    ],
+    "importance": "A",
+    "reason": "河川에서 반복 출현하는 핵심 글자",
+    "memory_hint": "흐르는 내의 모양이니 내 천"
+  },
+  {
+    "id": 115,
+    "kanji": "差",
+    "meaning_kr": "차이",
+    "onyomi": "サ",
+    "kunyomi": "さ",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "差",
+        "reading": "さ",
+        "meaning": "차이"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "양(羊)의 털(工?)을 가르듯 차이를 내니 차이 차"
+  },
+  {
+    "id": 116,
+    "kanji": "幅",
+    "meaning_kr": "폭",
+    "onyomi": "フク",
+    "kunyomi": "はば",
+    "bim_term": {
+      "word": "幅",
+      "reading": "はば",
+      "meaning": "폭"
+    },
+    "onExamples": [
+      {
+        "word": "幅",
+        "reading": "はば",
+        "meaning": "폭"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "幅",
+        "reading": "はば",
+        "meaning": "폭"
+      }
+    ],
+    "importance": "A",
+    "reason": "幅에서 반복 출현하는 핵심 글자",
+    "memory_hint": "수건(巾)처럼 넓게 펼친 가득한(畐) 너비니 폭 폭 "
+  },
+  {
+    "id": 117,
+    "kanji": "干",
+    "meaning_kr": "간섭/말리다",
+    "onyomi": "カン",
+    "kunyomi": "ほす",
+    "bim_term": {
+      "word": "干渉",
+      "reading": "かんしょう",
+      "meaning": "간섭"
+    },
+    "onExamples": [
+      {
+        "word": "干渉",
+        "reading": "かんしょう",
+        "meaning": "간섭"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "干",
+        "reading": "ほす",
+        "meaning": "간섭"
+      }
+    ],
+    "importance": "A",
+    "reason": "干渉에서 반복 출현하는 핵심 글자",
+    "memory_hint": "방패/막다"
+  },
+  {
+    "id": 118,
+    "kanji": "平",
+    "meaning_kr": "평평하다",
+    "onyomi": "ヘイ",
+    "kunyomi": "たいら",
+    "bim_term": {
+      "word": "平面図",
+      "reading": "へいめんず",
+      "meaning": "평면도"
+    },
+    "onExamples": [
+      {
+        "word": "平面図",
+        "reading": "へいめんず",
+        "meaning": "평면도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "平",
+        "reading": "たいら",
+        "meaning": "평평하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "平面図에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물건을 나누어(丷) 수평(一)을 맞춘 듯 평평하니 평평할 평"
+  },
+  {
+    "id": 119,
+    "kanji": "年",
+    "meaning_kr": "해",
+    "onyomi": "ネン",
+    "kunyomi": "とし",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "年",
+        "reading": "とし",
+        "meaning": "해"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "벼(禾)를 수확하여 사람(千)들이 먹는 한 해니 해 년"
+  },
+  {
+    "id": 120,
+    "kanji": "幹",
+    "meaning_kr": "줄기/간선",
+    "onyomi": "カン",
+    "kunyomi": "みき",
+    "bim_term": {
+      "word": "幹線",
+      "reading": "かんせん",
+      "meaning": "간선"
+    },
+    "onExamples": [
+      {
+        "word": "幹線",
+        "reading": "かんせん",
+        "meaning": "간선"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "幹",
+        "reading": "みき",
+        "meaning": "줄기"
+      }
+    ],
+    "importance": "A",
+    "reason": "幹線에서 반복 출현하는 핵심 글자",
+    "memory_hint": "방패(干) 같은 줄기가 해(日)처럼 곧게 서니 줄기 간, 간선 간"
+  },
+  {
+    "id": 121,
+    "kanji": "底",
+    "meaning_kr": "바닥",
+    "onyomi": "テイ",
+    "kunyomi": "そこ",
+    "bim_term": {
+      "word": "底面",
+      "reading": "ていめん",
+      "meaning": "저면"
+    },
+    "onExamples": [
+      {
+        "word": "底面",
+        "reading": "ていめん",
+        "meaning": "저면"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "底",
+        "reading": "そこ",
+        "meaning": "바닥"
+      }
+    ],
+    "importance": "A",
+    "reason": "底面에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(广)의 뿌리(氏) 아래(一) 부분이므로 바닥 저"
+  },
+  {
+    "id": 122,
+    "kanji": "庫",
+    "meaning_kr": "곳집",
+    "onyomi": "コ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "倉庫",
+      "reading": "そうこ",
+      "meaning": "창고"
+    },
+    "onExamples": [
+      {
+        "word": "倉庫",
+        "reading": "そうこ",
+        "meaning": "창고"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "倉庫에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(广)에 수레(車)까지 넣어 두는 곳이니 곳집 고"
+  },
+  {
+    "id": 123,
+    "kanji": "廊",
+    "meaning_kr": "복도",
+    "onyomi": "ロウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "廊下",
+      "reading": "ろうか",
+      "meaning": "복도"
+    },
+    "onExamples": [
+      {
+        "word": "廊下",
+        "reading": "ろうか",
+        "meaning": "복도"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "廊下에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(广) 안에 길(郎)처럼 이어지니 복도 랑"
+  },
+  {
+    "id": 124,
+    "kanji": "弁",
+    "meaning_kr": "변/밸브",
+    "onyomi": "ベン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "弁",
+      "reading": "べん",
+      "meaning": "밸브"
+    },
+    "onExamples": [
+      {
+        "word": "弁",
+        "reading": "べん",
+        "meaning": "밸브"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "弁에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손에 들고 여닫는 장치이니 변 변"
+  },
+  {
+    "id": 125,
+    "kanji": "式",
+    "meaning_kr": "형식/수식",
+    "onyomi": "シキ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "数式",
+      "reading": "すうしき",
+      "meaning": "수식"
+    },
+    "onExamples": [
+      {
+        "word": "数式",
+        "reading": "すうしき",
+        "meaning": "수식"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "数式에서 반복 출현하는 핵심 글자",
+    "memory_hint": "활시위(弋)로 일을 재어 형식을 세우니 형식 식, 수식 식"
+  },
+  {
+    "id": 126,
+    "kanji": "影",
+    "meaning_kr": "그림자/투영",
+    "onyomi": "エイ",
+    "kunyomi": "かげ",
+    "bim_term": {
+      "word": "投影",
+      "reading": "とうえい",
+      "meaning": "투영"
+    },
+    "onExamples": [
+      {
+        "word": "投影",
+        "reading": "とうえい",
+        "meaning": "투영"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "影",
+        "reading": "かげ",
+        "meaning": "그림자"
+      }
+    ],
+    "importance": "A",
+    "reason": "投影에서 반복 출현하는 핵심 글자",
+    "memory_hint": "빛(景)이 드리운 그림자이니 그림자 영"
+  },
+  {
+    "id": 127,
+    "kanji": "御",
+    "meaning_kr": "제어/막다",
+    "onyomi": "ギョ",
+    "kunyomi": "おん",
+    "bim_term": {
+      "word": "制御",
+      "reading": "せいぎょ",
+      "meaning": "제어"
+    },
+    "onExamples": [
+      {
+        "word": "制御",
+        "reading": "せいぎょ",
+        "meaning": "제어"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "御",
+        "reading": "おん",
+        "meaning": "제어"
+      }
+    ],
+    "importance": "A",
+    "reason": "制御에서 반복 출현하는 핵심 글자",
+    "memory_hint": "사람이 길을 막고 거느리니 거느릴 어, 제어 어"
+  },
+  {
+    "id": 128,
+    "kanji": "心",
+    "meaning_kr": "마음/중심",
+    "onyomi": "シン",
+    "kunyomi": "こころ",
+    "bim_term": {
+      "word": "中心線",
+      "reading": "ちゅうしんせん",
+      "meaning": "중심선"
+    },
+    "onExamples": [
+      {
+        "word": "中心線",
+        "reading": "ちゅうしんせん",
+        "meaning": "중심선"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "心",
+        "reading": "こころ",
+        "meaning": "마음"
+      }
+    ],
+    "importance": "A",
+    "reason": "中心線에서 반복 출현하는 핵심 글자",
+    "memory_hint": "가슴속에서 뛰는 모양이니 마음 심"
+  },
+  {
+    "id": 129,
+    "kanji": "成",
+    "meaning_kr": "이루다/춤",
+    "onyomi": "セイ",
+    "kunyomi": "なる",
+    "bim_term": {
+      "word": "梁成",
+      "reading": "はりせい",
+      "meaning": "보 춤"
+    },
+    "onExamples": [
+      {
+        "word": "梁成",
+        "reading": "はりせい",
+        "meaning": "보 춤"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "成",
+        "reading": "なる",
+        "meaning": "이루다"
+      }
+    ],
+    "importance": "A",
+    "reason": "梁成에서 반복 출현하는 핵심 글자",
+    "memory_hint": "도끼(戊)로 마무리해 이루니 이룰 성"
+  },
+  {
+    "id": 130,
+    "kanji": "戻",
+    "meaning_kr": "되돌리다",
+    "onyomi": "レイ",
+    "kunyomi": "もどす",
+    "bim_term": {
+      "word": "埋戻し",
+      "reading": "うめもどし",
+      "meaning": "되메우기"
+    },
+    "onExamples": [
+      {
+        "word": "埋戻し",
+        "reading": "うめもどし",
+        "meaning": "되메우기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "戻",
+        "reading": "もどす",
+        "meaning": "되돌리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "埋戻し에서 반복 출현하는 핵심 글자",
+    "memory_hint": "문(户)으로 되돌아오니 돌아올 려/되돌릴 려"
+  },
+  {
+    "id": 131,
+    "kanji": "房",
+    "meaning_kr": "방/실",
+    "onyomi": "ボウ",
+    "kunyomi": "ふさ",
+    "bim_term": {
+      "word": "厨房",
+      "reading": "ちゅうぼう",
+      "meaning": "주방"
+    },
+    "onExamples": [
+      {
+        "word": "厨房",
+        "reading": "ちゅうぼう",
+        "meaning": "주방"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "房",
+        "reading": "ふさ",
+        "meaning": "방"
+      }
+    ],
+    "importance": "A",
+    "reason": "厨房에서 반복 출현하는 핵심 글자",
+    "memory_hint": "문(戶) 있는 방의 모양이니 방 방"
+  },
+  {
+    "id": 132,
+    "kanji": "所",
+    "meaning_kr": "장소",
+    "onyomi": "ショ",
+    "kunyomi": "ところ",
+    "bim_term": {
+      "word": "便所",
+      "reading": "べんじょ",
+      "meaning": "화장실"
+    },
+    "onExamples": [
+      {
+        "word": "便所",
+        "reading": "べんじょ",
+        "meaning": "화장실"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "所",
+        "reading": "ところ",
+        "meaning": "장소"
+      }
+    ],
+    "importance": "A",
+    "reason": "便所에서 반복 출현하는 핵심 글자",
+    "memory_hint": "집(戶) 옆에서 도끼(斤)로 일하는 장소니 장소 소"
+  },
+  {
+    "id": 133,
+    "kanji": "扉",
+    "meaning_kr": "문짝",
+    "onyomi": "ヒ",
+    "kunyomi": "とびら",
+    "bim_term": {
+      "word": "扉",
+      "reading": "とびら",
+      "meaning": "문짝"
+    },
+    "onExamples": [
+      {
+        "word": "扉",
+        "reading": "とびら",
+        "meaning": "문짝"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "扉",
+        "reading": "とびら",
+        "meaning": "문짝"
+      }
+    ],
+    "importance": "A",
+    "reason": "扉에서 반복 출현하는 핵심 글자",
+    "memory_hint": "문(戶)에 날개(非)처럼 달린 판이니 문짝 비"
+  },
+  {
+    "id": 134,
+    "kanji": "手",
+    "meaning_kr": "손/수",
+    "onyomi": "シュ",
+    "kunyomi": "て",
+    "bim_term": {
+      "word": "継手",
+      "reading": "つぎて",
+      "meaning": "이음쇠/조인트"
+    },
+    "onExamples": [
+      {
+        "word": "継手",
+        "reading": "つぎて",
+        "meaning": "이음쇠/조인트"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "手",
+        "reading": "て",
+        "meaning": "손"
+      }
+    ],
+    "importance": "A",
+    "reason": "継手에서 반복 출현하는 핵심 글자",
+    "memory_hint": "다섯 손가락을 펼친 손의 모양을 본떠서 손 수 "
+  },
+  {
+    "id": 135,
+    "kanji": "打",
+    "meaning_kr": "치다",
+    "onyomi": "ダ",
+    "kunyomi": "うつ",
+    "bim_term": {
+      "word": "打設",
+      "reading": "だせつ",
+      "meaning": "타설"
+    },
+    "onExamples": [
+      {
+        "word": "打設",
+        "reading": "だせつ",
+        "meaning": "타설"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "打",
+        "reading": "うつ",
+        "meaning": "치다"
+      }
+    ],
+    "importance": "A",
+    "reason": "打設에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 못(丁)을 내리치니 칠 타 "
+  },
+  {
+    "id": 136,
+    "kanji": "承",
+    "meaning_kr": "받들다/승인",
+    "onyomi": "ショウ",
+    "kunyomi": "うけたまわる",
+    "bim_term": {
+      "word": "承認",
+      "reading": "しょうにん",
+      "meaning": "승인"
+    },
+    "onExamples": [
+      {
+        "word": "承認",
+        "reading": "しょうにん",
+        "meaning": "승인"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "承",
+        "reading": "うけたまわる",
+        "meaning": "받들다"
+      }
+    ],
+    "importance": "A",
+    "reason": "承認에서 반복 출현하는 핵심 글자",
+    "memory_hint": "아들(子) 둘(二)이 양쪽에서 부모를 받드니 받들 승 "
+  },
+  {
+    "id": 137,
+    "kanji": "投",
+    "meaning_kr": "던지다/투영",
+    "onyomi": "トウ",
+    "kunyomi": "なげる",
+    "bim_term": {
+      "word": "投影",
+      "reading": "とうえい",
+      "meaning": "투영"
+    },
+    "onExamples": [
+      {
+        "word": "投影",
+        "reading": "とうえい",
+        "meaning": "투영"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "投",
+        "reading": "なげる",
+        "meaning": "던지다"
+      }
+    ],
+    "importance": "A",
+    "reason": "投影에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 던져 넣으니 던질 투"
+  },
+  {
+    "id": 138,
+    "kanji": "持",
+    "meaning_kr": "들다",
+    "onyomi": "ジ",
+    "kunyomi": "もつ",
+    "bim_term": {
+      "word": "維持管理",
+      "reading": "いじかんり",
+      "meaning": "유지관리"
+    },
+    "onExamples": [
+      {
+        "word": "維持管理",
+        "reading": "いじかんり",
+        "meaning": "유지관리"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "持",
+        "reading": "もつ",
+        "meaning": "들다"
+      }
+    ],
+    "importance": "A",
+    "reason": "維持管理에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 절(寺)의 물건을 소중히 드니 가질 지 "
+  },
+  {
+    "id": 139,
+    "kanji": "捗",
+    "meaning_kr": "진척",
+    "onyomi": "チョク",
+    "kunyomi": "はかどる",
+    "bim_term": {
+      "word": "進捗",
+      "reading": "しんちょく",
+      "meaning": "진척"
+    },
+    "onExamples": [
+      {
+        "word": "進捗",
+        "reading": "しんちょく",
+        "meaning": "진척"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "捗",
+        "reading": "はかどる",
+        "meaning": "진척"
+      }
+    ],
+    "importance": "A",
+    "reason": "進捗에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 걸음(步)을 재촉하여 나아가니 진척될 척 "
+  },
+  {
+    "id": 140,
+    "kanji": "掘",
+    "meaning_kr": "파다",
+    "onyomi": "クツ",
+    "kunyomi": "ほる",
+    "bim_term": {
+      "word": "掘削",
+      "reading": "くっさく",
+      "meaning": "굴삭"
+    },
+    "onExamples": [
+      {
+        "word": "掘削",
+        "reading": "くっさく",
+        "meaning": "굴삭"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "掘",
+        "reading": "ほる",
+        "meaning": "파다"
+      }
+    ],
+    "importance": "A",
+    "reason": "掘削에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 굴(屈)을 파니 팔 굴"
+  },
+  {
+    "id": 141,
+    "kanji": "接",
+    "meaning_kr": "접합",
+    "onyomi": "セツ",
+    "kunyomi": "つぐ",
+    "bim_term": {
+      "word": "接続",
+      "reading": "せつぞく",
+      "meaning": "접속"
+    },
+    "onExamples": [
+      {
+        "word": "接続",
+        "reading": "せつぞく",
+        "meaning": "접속"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "接",
+        "reading": "つぐ",
+        "meaning": "접합"
+      }
+    ],
+    "importance": "A",
+    "reason": "接続에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 첩(妾)처럼 가까이 붙이니 접할 접"
+  },
+  {
+    "id": 142,
+    "kanji": "揚",
+    "meaning_kr": "올리다",
+    "onyomi": "ヨウ",
+    "kunyomi": "あげる",
+    "bim_term": {
+      "word": "揚重",
+      "reading": "ようじゅう",
+      "meaning": "양중"
+    },
+    "onExamples": [
+      {
+        "word": "揚重",
+        "reading": "ようじゅう",
+        "meaning": "양중"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "揚",
+        "reading": "あげる",
+        "meaning": "올리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "揚重에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 해(昜)가 뜨듯 위로 올리니 올릴 양 "
+  },
+  {
+    "id": 143,
+    "kanji": "換",
+    "meaning_kr": "바꾸다",
+    "onyomi": "カン",
+    "kunyomi": "かえる",
+    "bim_term": {
+      "word": "換気",
+      "reading": "かんき",
+      "meaning": "환기"
+    },
+    "onExamples": [
+      {
+        "word": "換気",
+        "reading": "かんき",
+        "meaning": "환기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "換",
+        "reading": "かえる",
+        "meaning": "바꾸다"
+      }
+    ],
+    "importance": "A",
+    "reason": "換気에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 빛(奐)을 보듯 낡은 것을 바꾸니 바꿀 환 "
+  },
+  {
+    "id": 144,
+    "kanji": "搬",
+    "meaning_kr": "나르다",
+    "onyomi": "ハン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "搬入",
+      "reading": "はんにゅう",
+      "meaning": "반입"
+    },
+    "onExamples": [
+      {
+        "word": "搬入",
+        "reading": "はんにゅう",
+        "meaning": "반입"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "搬入에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 배(般)처럼 실어 나르니 옮길 반"
+  },
+  {
+    "id": 145,
+    "kanji": "携",
+    "meaning_kr": "휴대/연계",
+    "onyomi": "ケイ",
+    "kunyomi": "たずさえる",
+    "bim_term": {
+      "word": "連携",
+      "reading": "れんけい",
+      "meaning": "연계"
+    },
+    "onExamples": [
+      {
+        "word": "連携",
+        "reading": "れんけい",
+        "meaning": "연계"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "携",
+        "reading": "たずさえる",
+        "meaning": "휴대"
+      }
+    ],
+    "importance": "A",
+    "reason": "連携에서 반복 출현하는 핵심 글자",
+    "memory_hint": "손(扌)으로 새(隹)를 잡듯 곁에 지니니 휴대할 휴 "
+  },
+  {
+    "id": 146,
+    "kanji": "支",
+    "meaning_kr": "지탱하다",
+    "onyomi": "シ",
+    "kunyomi": "ささえる",
+    "bim_term": {
+      "word": "支持",
+      "reading": "しじ",
+      "meaning": "지지"
+    },
+    "onExamples": [
+      {
+        "word": "支持",
+        "reading": "しじ",
+        "meaning": "지지"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "支",
+        "reading": "ささえる",
+        "meaning": "지탱하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "支持에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나뭇가지를 손으로 받드니 지탱할 지"
+  },
+  {
+    "id": 147,
+    "kanji": "改",
+    "meaning_kr": "고치다",
+    "onyomi": "カイ",
+    "kunyomi": "あらためる",
+    "bim_term": {
+      "word": "改修",
+      "reading": "かいしゅう",
+      "meaning": "개수/보수"
+    },
+    "onExamples": [
+      {
+        "word": "改修",
+        "reading": "かいしゅう",
+        "meaning": "개수/보수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "改",
+        "reading": "あらためる",
+        "meaning": "고치다"
+      }
+    ],
+    "importance": "A",
+    "reason": "改修에서 반복 출현하는 핵심 글자",
+    "memory_hint": "스스로(己) 쳐서(攵) 고치니 고칠 개"
+  },
+  {
+    "id": 148,
+    "kanji": "数",
+    "meaning_kr": "수",
+    "onyomi": "スウ",
+    "kunyomi": "かず",
+    "bim_term": {
+      "word": "数式",
+      "reading": "すうしき",
+      "meaning": "수식"
+    },
+    "onExamples": [
+      {
+        "word": "数式",
+        "reading": "すうしき",
+        "meaning": "수식"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "数",
+        "reading": "かず",
+        "meaning": "수"
+      }
+    ],
+    "importance": "A",
+    "reason": "数式에서 반복 출현하는 핵심 글자",
+    "memory_hint": "쌀(米)과 여자(女)가 친 것(攵)을 하나씩 세니 셀 수 "
+  },
+  {
+    "id": 149,
+    "kanji": "整",
+    "meaning_kr": "정리",
+    "onyomi": "セイ",
+    "kunyomi": "ととのえる",
+    "bim_term": {
+      "word": "整合",
+      "reading": "せいごう",
+      "meaning": "정합"
+    },
+    "onExamples": [
+      {
+        "word": "整合",
+        "reading": "せいごう",
+        "meaning": "정합"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "整",
+        "reading": "ととのえる",
+        "meaning": "정리"
+      }
+    ],
+    "importance": "A",
+    "reason": "整合에서 반복 출현하는 핵심 글자",
+    "memory_hint": "묶은(束) 것을 바르게(正) 고치니 정리할 정"
+  },
+  {
+    "id": 150,
+    "kanji": "斜",
+    "meaning_kr": "비스듬하다",
+    "onyomi": "シャ",
+    "kunyomi": "ななめ",
+    "bim_term": {
+      "word": "傾斜",
+      "reading": "けいしゃ",
+      "meaning": "경사"
+    },
+    "onExamples": [
+      {
+        "word": "傾斜",
+        "reading": "けいしゃ",
+        "meaning": "경사"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "斜",
+        "reading": "ななめ",
+        "meaning": "비스듬하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "傾斜에서 반복 출현하는 핵심 글자",
+    "memory_hint": "비스듬히 두어 겨(余) 자를 대니 비낄 사"
+  },
+  {
+    "id": 151,
+    "kanji": "新",
+    "meaning_kr": "새롭다",
+    "onyomi": "シン",
+    "kunyomi": "あたらしい",
+    "bim_term": {
+      "word": "更新",
+      "reading": "こうしん",
+      "meaning": "갱신"
+    },
+    "onExamples": [
+      {
+        "word": "更新",
+        "reading": "こうしん",
+        "meaning": "갱신"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "新",
+        "reading": "あたらしい",
+        "meaning": "새롭다"
+      }
+    ],
+    "importance": "A",
+    "reason": "更新에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)를 도끼(斤)로 깎아 새롭게 만드니 새 신 "
+  },
+  {
+    "id": 152,
+    "kanji": "方",
+    "meaning_kr": "방향",
+    "onyomi": "ホウ",
+    "kunyomi": "かた",
+    "bim_term": {
+      "word": "方位",
+      "reading": "ほうい",
+      "meaning": "방위"
+    },
+    "onExamples": [
+      {
+        "word": "方位",
+        "reading": "ほうい",
+        "meaning": "방위"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "方",
+        "reading": "かた",
+        "meaning": "방향"
+      }
+    ],
+    "importance": "A",
+    "reason": "方位에서 반복 출현하는 핵심 글자",
+    "memory_hint": "네모난 모서리가 방향을 잡으니 모 방"
+  },
+  {
+    "id": 153,
+    "kanji": "日",
+    "meaning_kr": "날",
+    "onyomi": "ニチ",
+    "kunyomi": "ひ",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "日",
+        "reading": "ひ",
+        "meaning": "날"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "해의 둥근 모양과 가운데 흑점을 본떠서 해 일, 날 일 "
+  },
+  {
+    "id": 154,
+    "kanji": "明",
+    "meaning_kr": "밝다",
+    "onyomi": "メイ",
+    "kunyomi": "あかるい",
+    "bim_term": {
+      "word": "照明",
+      "reading": "しょうめい",
+      "meaning": "조명"
+    },
+    "onExamples": [
+      {
+        "word": "照明",
+        "reading": "しょうめい",
+        "meaning": "조명"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "明",
+        "reading": "あかるい",
+        "meaning": "밝다"
+      }
+    ],
+    "importance": "A",
+    "reason": "照明에서 반복 출현하는 핵심 글자",
+    "memory_hint": "해(日)와 달(月)이 함께 비치니 밝을 명"
+  },
+  {
+    "id": 155,
+    "kanji": "更",
+    "meaning_kr": "다시/경",
+    "onyomi": "コウ",
+    "kunyomi": "さら",
+    "bim_term": {
+      "word": "変更",
+      "reading": "へんこう",
+      "meaning": "변경"
+    },
+    "onExamples": [
+      {
+        "word": "変更",
+        "reading": "へんこう",
+        "meaning": "변경"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "更",
+        "reading": "さら",
+        "meaning": "다시"
+      }
+    ],
+    "importance": "A",
+    "reason": "変更에서 반복 출현하는 핵심 글자",
+    "memory_hint": "해(日)가 가며 다시 바뀌니 다시 갱, 고칠 경"
+  },
+  {
+    "id": 156,
+    "kanji": "書",
+    "meaning_kr": "쓰다/문서",
+    "onyomi": "ショ",
+    "kunyomi": "かく",
+    "bim_term": {
+      "word": "仕様書",
+      "reading": "しようしょ",
+      "meaning": "사양서"
+    },
+    "onExamples": [
+      {
+        "word": "仕様書",
+        "reading": "しようしょ",
+        "meaning": "사양서"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "書",
+        "reading": "かく",
+        "meaning": "쓰다"
+      }
+    ],
+    "importance": "A",
+    "reason": "仕様書에서 반복 출현하는 핵심 글자",
+    "memory_hint": "붓(聿)으로 날(日)마다 적어 남기니 글 서"
+  },
+  {
+    "id": 157,
+    "kanji": "月",
+    "meaning_kr": "달",
+    "onyomi": "ゲツ",
+    "kunyomi": "つき",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "月",
+        "reading": "つき",
+        "meaning": "달"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "초승달의 모양을 본떠서 달 월 "
+  },
+  {
+    "id": 158,
+    "kanji": "木",
+    "meaning_kr": "나무",
+    "onyomi": "モク",
+    "kunyomi": "き",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "木",
+        "reading": "き",
+        "meaning": "나무"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무의 모양을 본떠서 나무 목"
+  },
+  {
+    "id": 159,
+    "kanji": "条",
+    "meaning_kr": "조목",
+    "onyomi": "ジョウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "条件",
+      "reading": "じょうけん",
+      "meaning": "조건"
+    },
+    "onExamples": [
+      {
+        "word": "条件",
+        "reading": "じょうけん",
+        "meaning": "조건"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "条件에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나뭇가지(木)를 손(夂)으로 세어 조목을 나누니 조목 조"
+  },
+  {
+    "id": 160,
+    "kanji": "杭",
+    "meaning_kr": "말뚝",
+    "onyomi": "コウ",
+    "kunyomi": "くい",
+    "bim_term": {
+      "word": "杭基礎",
+      "reading": "くいきそ",
+      "meaning": "말뚝기초"
+    },
+    "onExamples": [
+      {
+        "word": "杭基礎",
+        "reading": "くいきそ",
+        "meaning": "말뚝기초"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "杭",
+        "reading": "くい",
+        "meaning": "말뚝"
+      }
+    ],
+    "importance": "A",
+    "reason": "杭基礎에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)로 만든 높은(亢) 말뚝이니 말뚝 항 "
+  },
+  {
+    "id": 161,
+    "kanji": "枠",
+    "meaning_kr": "틀",
+    "onyomi": "ワク",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "型枠",
+      "reading": "かたわく",
+      "meaning": "거푸집"
+    },
+    "onExamples": [
+      {
+        "word": "型枠",
+        "reading": "かたわく",
+        "meaning": "거푸집"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "型枠에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)로 아홉(九) 번 공들여 만든 틀이니 틀 화 "
+  },
+  {
+    "id": 162,
+    "kanji": "査",
+    "meaning_kr": "조사",
+    "onyomi": "サ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "検査",
+      "reading": "けんさ",
+      "meaning": "검사"
+    },
+    "onExamples": [
+      {
+        "word": "検査",
+        "reading": "けんさ",
+        "meaning": "검사"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "検査에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)를 다시(旦) 살펴 조사하니 조사할 사"
+  },
+  {
+    "id": 163,
+    "kanji": "根",
+    "meaning_kr": "뿌리/근",
+    "onyomi": "コン",
+    "kunyomi": "ね",
+    "bim_term": {
+      "word": "屋根",
+      "reading": "やね",
+      "meaning": "지붕"
+    },
+    "onExamples": [
+      {
+        "word": "屋根",
+        "reading": "やね",
+        "meaning": "지붕"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "根",
+        "reading": "ね",
+        "meaning": "뿌리"
+      }
+    ],
+    "importance": "A",
+    "reason": "屋根에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)의 멈춘(艮) 밑동이니 뿌리 근"
+  },
+  {
+    "id": 164,
+    "kanji": "格",
+    "meaning_kr": "격/규격",
+    "onyomi": "カク",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "規格",
+      "reading": "きかく",
+      "meaning": "규격"
+    },
+    "onExamples": [
+      {
+        "word": "規格",
+        "reading": "きかく",
+        "meaning": "규격"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "規格에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)에 각(各)기 다른 기준을 맞추니 격식 격, 규격 격"
+  },
+  {
+    "id": 165,
+    "kanji": "桝",
+    "meaning_kr": "받이통/집수정",
+    "onyomi": "マス",
+    "kunyomi": "ます",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "桝",
+        "reading": "ます",
+        "meaning": "받이통"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)로 짠 네모 받이이니 집수정 말"
+  },
+  {
+    "id": 166,
+    "kanji": "械",
+    "meaning_kr": "기계",
+    "onyomi": "カイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "機械室",
+      "reading": "きかいしつ",
+      "meaning": "기계실"
+    },
+    "onExamples": [
+      {
+        "word": "機械室",
+        "reading": "きかいしつ",
+        "meaning": "기계실"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "機械室에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)와 창(戒)의 장치를 엮으니 기계 계"
+  },
+  {
+    "id": 167,
+    "kanji": "検",
+    "meaning_kr": "검사",
+    "onyomi": "ケン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "検査",
+      "reading": "けんさ",
+      "meaning": "검사"
+    },
+    "onExamples": [
+      {
+        "word": "検査",
+        "reading": "けんさ",
+        "meaning": "검사"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "検査에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木) 상자 속에 다 모였는지(僉) 검사하니 검사할 검 "
+  },
+  {
+    "id": 168,
+    "kanji": "様",
+    "meaning_kr": "모양/양식",
+    "onyomi": "ヨウ",
+    "kunyomi": "さま",
+    "bim_term": {
+      "word": "仕様書",
+      "reading": "しようしょ",
+      "meaning": "사양서"
+    },
+    "onExamples": [
+      {
+        "word": "仕様書",
+        "reading": "しようしょ",
+        "meaning": "사양서"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "様",
+        "reading": "さま",
+        "meaning": "모양"
+      }
+    ],
+    "importance": "A",
+    "reason": "仕様書에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木) 그늘 아래 양(羊)들이 쉬는 모양이니 모양 양 "
+  },
+  {
+    "id": 169,
+    "kanji": "橋",
+    "meaning_kr": "다리",
+    "onyomi": "キョウ",
+    "kunyomi": "はし",
+    "bim_term": {
+      "word": "橋梁",
+      "reading": "きょうりょう",
+      "meaning": "교량"
+    },
+    "onExamples": [
+      {
+        "word": "橋梁",
+        "reading": "きょうりょう",
+        "meaning": "교량"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "橋",
+        "reading": "はし",
+        "meaning": "다리"
+      }
+    ],
+    "importance": "A",
+    "reason": "橋梁에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)로 높고(喬) 걸터앉게 만든 다리니 다리 교 "
+  },
+  {
+    "id": 170,
+    "kanji": "機",
+    "meaning_kr": "기계/기회",
+    "onyomi": "キ",
+    "kunyomi": "はた",
+    "bim_term": {
+      "word": "機械室",
+      "reading": "きかいしつ",
+      "meaning": "기계실"
+    },
+    "onExamples": [
+      {
+        "word": "機械室",
+        "reading": "きかいしつ",
+        "meaning": "기계실"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "機",
+        "reading": "はた",
+        "meaning": "기계"
+      }
+    ],
+    "importance": "A",
+    "reason": "機械室에서 반복 출현하는 핵심 글자",
+    "memory_hint": "나무(木)에 실(糸) 같은 잔기어(幾)가 맞물리니 기계 기"
+  },
+  {
+    "id": 171,
+    "kanji": "止",
+    "meaning_kr": "멈추다",
+    "onyomi": "シ",
+    "kunyomi": "とまる",
+    "bim_term": {
+      "word": "止水",
+      "reading": "しすい",
+      "meaning": "지수"
+    },
+    "onExamples": [
+      {
+        "word": "止水",
+        "reading": "しすい",
+        "meaning": "지수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "止",
+        "reading": "とまる",
+        "meaning": "멈추다"
+      }
+    ],
+    "importance": "A",
+    "reason": "止水에서 반복 출현하는 핵심 글자",
+    "memory_hint": "발바닥의 모양처럼 가던 길을 멈추니 그칠 지 "
+  },
+  {
+    "id": 172,
+    "kanji": "歴",
+    "meaning_kr": "지나다/이력",
+    "onyomi": "レキ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "履歴",
+      "reading": "りれき",
+      "meaning": "이력"
+    },
+    "onExamples": [
+      {
+        "word": "履歴",
+        "reading": "りれき",
+        "meaning": "이력"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "履歴에서 반복 출현하는 핵심 글자",
+    "memory_hint": "숲(木木)을 지나며 세월이 쌓이니 지낼 력, 이력 력"
+  },
+  {
+    "id": 173,
+    "kanji": "段",
+    "meaning_kr": "단",
+    "onyomi": "ダン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "階段",
+      "reading": "かいだん",
+      "meaning": "계단"
+    },
+    "onExamples": [
+      {
+        "word": "階段",
+        "reading": "かいだん",
+        "meaning": "계단"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "階段에서 반복 출현하는 핵심 글자",
+    "memory_hint": "계단의 손잡이(殳)마다 나뉘니 단 단"
+  },
+  {
+    "id": 174,
+    "kanji": "河",
+    "meaning_kr": "강",
+    "onyomi": "カ",
+    "kunyomi": "かわ",
+    "bim_term": {
+      "word": "河川",
+      "reading": "かせん",
+      "meaning": "하천"
+    },
+    "onExamples": [
+      {
+        "word": "河川",
+        "reading": "かせん",
+        "meaning": "하천"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "河",
+        "reading": "かわ",
+        "meaning": "강"
+      }
+    ],
+    "importance": "A",
+    "reason": "河川에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)이 가(可)하게 흐르는 큰 내이니 강 하"
+  },
+  {
+    "id": 175,
+    "kanji": "注",
+    "meaning_kr": "붓다/주기",
+    "onyomi": "チュウ",
+    "kunyomi": "そそぐ",
+    "bim_term": {
+      "word": "注記",
+      "reading": "ちゅうき",
+      "meaning": "주기"
+    },
+    "onExamples": [
+      {
+        "word": "注記",
+        "reading": "ちゅうき",
+        "meaning": "주기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "注",
+        "reading": "そそぐ",
+        "meaning": "붓다"
+      }
+    ],
+    "importance": "A",
+    "reason": "注記에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)을 한 곳(主)에 부어 표시하니 부을 주, 주기 주"
+  },
+  {
+    "id": 176,
+    "kanji": "浴",
+    "meaning_kr": "목욕",
+    "onyomi": "ヨク",
+    "kunyomi": "あびる",
+    "bim_term": {
+      "word": "浴室",
+      "reading": "よくしつ",
+      "meaning": "욕실"
+    },
+    "onExamples": [
+      {
+        "word": "浴室",
+        "reading": "よくしつ",
+        "meaning": "욕실"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "浴",
+        "reading": "あびる",
+        "meaning": "목욕"
+      }
+    ],
+    "importance": "A",
+    "reason": "浴室에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵) 속 골짜기(谷)에 몸을 담그니 목욕할 욕"
+  },
+  {
+    "id": 177,
+    "kanji": "深",
+    "meaning_kr": "깊다",
+    "onyomi": "シン",
+    "kunyomi": "ふかい",
+    "bim_term": {
+      "word": "深さ",
+      "reading": "ふかさ",
+      "meaning": "깊이"
+    },
+    "onExamples": [
+      {
+        "word": "深さ",
+        "reading": "ふかさ",
+        "meaning": "깊이"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "深",
+        "reading": "ふかい",
+        "meaning": "깊다"
+      }
+    ],
+    "importance": "A",
+    "reason": "深さ에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)이 굴(穴)처럼 깊으니 깊을 심"
+  },
+  {
+    "id": 178,
+    "kanji": "渉",
+    "meaning_kr": "건너다/간섭",
+    "onyomi": "ショウ",
+    "kunyomi": "わたる",
+    "bim_term": {
+      "word": "干渉",
+      "reading": "かんしょう",
+      "meaning": "간섭"
+    },
+    "onExamples": [
+      {
+        "word": "干渉",
+        "reading": "かんしょう",
+        "meaning": "간섭"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "渉",
+        "reading": "わたる",
+        "meaning": "건너다"
+      }
+    ],
+    "importance": "A",
+    "reason": "干渉에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)을 적게(少) 건너니 건널 섭, 간섭 섭"
+  },
+  {
+    "id": 179,
+    "kanji": "渠",
+    "meaning_kr": "도랑",
+    "onyomi": "キョ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "도랑(氵) 길을 파 만든 수로이니 도랑 거"
+  },
+  {
+    "id": 180,
+    "kanji": "温",
+    "meaning_kr": "따뜻하다",
+    "onyomi": "オン",
+    "kunyomi": "あたたかい",
+    "bim_term": {
+      "word": "温水",
+      "reading": "おんすい",
+      "meaning": "온수"
+    },
+    "onExamples": [
+      {
+        "word": "温水",
+        "reading": "おんすい",
+        "meaning": "온수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "温",
+        "reading": "あたたかい",
+        "meaning": "따뜻하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "温水에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)이 그릇(皿) 안에서 따뜻해지니 따뜻할 온"
+  },
+  {
+    "id": 181,
+    "kanji": "測",
+    "meaning_kr": "재다",
+    "onyomi": "ソク",
+    "kunyomi": "はかる",
+    "bim_term": {
+      "word": "測量",
+      "reading": "そくりょう",
+      "meaning": "측량"
+    },
+    "onExamples": [
+      {
+        "word": "測量",
+        "reading": "そくりょう",
+        "meaning": "측량"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "測",
+        "reading": "はかる",
+        "meaning": "재다"
+      }
+    ],
+    "importance": "A",
+    "reason": "測量에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)의 깊이를 조개(貝)와 칼(刂)로 재니 잴 측 "
+  },
+  {
+    "id": 182,
+    "kanji": "港",
+    "meaning_kr": "항구",
+    "onyomi": "コウ",
+    "kunyomi": "みなと",
+    "bim_term": {
+      "word": "港湾",
+      "reading": "こうわん",
+      "meaning": "항만"
+    },
+    "onExamples": [
+      {
+        "word": "港湾",
+        "reading": "こうわん",
+        "meaning": "항만"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "港",
+        "reading": "みなと",
+        "meaning": "항구"
+      }
+    ],
+    "importance": "A",
+    "reason": "港湾에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)과 항(巷)이 만나 배 드는 곳이니 항구 항"
+  },
+  {
+    "id": 183,
+    "kanji": "湯",
+    "meaning_kr": "탕",
+    "onyomi": "トウ",
+    "kunyomi": "ゆ",
+    "bim_term": {
+      "word": "給湯",
+      "reading": "きゅうとう",
+      "meaning": "급탕"
+    },
+    "onExamples": [
+      {
+        "word": "給湯",
+        "reading": "きゅうとう",
+        "meaning": "급탕"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "湯",
+        "reading": "ゆ",
+        "meaning": "탕"
+      }
+    ],
+    "importance": "A",
+    "reason": "給湯에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)이 해(昜)처럼 끓으니 탕 탕"
+  },
+  {
+    "id": 184,
+    "kanji": "湾",
+    "meaning_kr": "만",
+    "onyomi": "ワン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "港湾",
+      "reading": "こうわん",
+      "meaning": "항만"
+    },
+    "onExamples": [
+      {
+        "word": "港湾",
+        "reading": "こうわん",
+        "meaning": "항만"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "港湾에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)이 굽이(弯)친 만이니 만 만"
+  },
+  {
+    "id": 185,
+    "kanji": "準",
+    "meaning_kr": "준하다/기준",
+    "onyomi": "ジュン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "基準",
+      "reading": "きじゅん",
+      "meaning": "기준"
+    },
+    "onExamples": [
+      {
+        "word": "基準",
+        "reading": "きじゅん",
+        "meaning": "기준"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "基準에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵) 수평을 매(隹)가 보듯 고르게(十) 맞추니 기준 준 "
+  },
+  {
+    "id": 186,
+    "kanji": "溝",
+    "meaning_kr": "도랑",
+    "onyomi": "コウ",
+    "kunyomi": "みぞ",
+    "bim_term": {
+      "word": "側溝",
+      "reading": "そっこう",
+      "meaning": "측구"
+    },
+    "onExamples": [
+      {
+        "word": "側溝",
+        "reading": "そっこう",
+        "meaning": "측구"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "溝",
+        "reading": "みぞ",
+        "meaning": "도랑"
+      }
+    ],
+    "importance": "A",
+    "reason": "側溝에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)이 구(冓)처럼 길게 패이니 도랑 구"
+  },
+  {
+    "id": 187,
+    "kanji": "溶",
+    "meaning_kr": "녹다",
+    "onyomi": "ヨウ",
+    "kunyomi": "とける",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "溶",
+        "reading": "とける",
+        "meaning": "녹다"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "물(氵)에 용(容)처럼 녹아드니 녹을 용"
+  },
+  {
+    "id": 188,
+    "kanji": "火",
+    "meaning_kr": "불",
+    "onyomi": "カ",
+    "kunyomi": "ひ",
+    "bim_term": {
+      "word": "防火",
+      "reading": "ぼうか",
+      "meaning": "방화"
+    },
+    "onExamples": [
+      {
+        "word": "防火",
+        "reading": "ぼうか",
+        "meaning": "방화"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "火",
+        "reading": "ひ",
+        "meaning": "불"
+      }
+    ],
+    "importance": "A",
+    "reason": "防火에서 반복 출현하는 핵심 글자",
+    "memory_hint": "타오르는 불꽃의 모양을 본떠서 불 화 "
+  },
+  {
+    "id": 189,
+    "kanji": "灯",
+    "meaning_kr": "등불",
+    "onyomi": "トウ",
+    "kunyomi": "ひ",
+    "bim_term": {
+      "word": "誘導灯",
+      "reading": "ゆうどうとう",
+      "meaning": "유도등"
+    },
+    "onExamples": [
+      {
+        "word": "誘導灯",
+        "reading": "ゆうどうとう",
+        "meaning": "유도등"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "灯",
+        "reading": "ひ",
+        "meaning": "등불"
+      }
+    ],
+    "importance": "A",
+    "reason": "誘導灯에서 반복 출현하는 핵심 글자",
+    "memory_hint": "불(火)을 정정(丁)하게 밝히는 등불이니 등불 정 "
+  },
+  {
+    "id": 190,
+    "kanji": "災",
+    "meaning_kr": "재앙",
+    "onyomi": "サイ",
+    "kunyomi": "わざわい",
+    "bim_term": {
+      "word": "防災",
+      "reading": "ぼうさい",
+      "meaning": "방재"
+    },
+    "onExamples": [
+      {
+        "word": "防災",
+        "reading": "ぼうさい",
+        "meaning": "방재"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "災",
+        "reading": "わざわい",
+        "meaning": "재앙"
+      }
+    ],
+    "importance": "A",
+    "reason": "防災에서 반복 출현하는 핵심 글자",
+    "memory_hint": "불(火)이 집을 덮치니 재앙 재"
+  },
+  {
+    "id": 191,
+    "kanji": "煙",
+    "meaning_kr": "연기",
+    "onyomi": "エン",
+    "kunyomi": "けむり",
+    "bim_term": {
+      "word": "排煙",
+      "reading": "はいえん",
+      "meaning": "배연"
+    },
+    "onExamples": [
+      {
+        "word": "排煙",
+        "reading": "はいえん",
+        "meaning": "배연"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "煙",
+        "reading": "けむり",
+        "meaning": "연기"
+      }
+    ],
+    "importance": "A",
+    "reason": "排煙에서 반복 출현하는 핵심 글자",
+    "memory_hint": "불(火)에서 연기(因)가 올라가니 연기 연"
+  },
+  {
+    "id": 192,
+    "kanji": "照",
+    "meaning_kr": "비추다",
+    "onyomi": "ショウ",
+    "kunyomi": "てる",
+    "bim_term": {
+      "word": "照明",
+      "reading": "しょうめい",
+      "meaning": "조명"
+    },
+    "onExamples": [
+      {
+        "word": "照明",
+        "reading": "しょうめい",
+        "meaning": "조명"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "照",
+        "reading": "てる",
+        "meaning": "비추다"
+      }
+    ],
+    "importance": "A",
+    "reason": "照明에서 반복 출현하는 핵심 글자",
+    "memory_hint": "해(日)와 칼(刀) 같은 빛으로 비추니 비출 조"
+  },
+  {
+    "id": 193,
+    "kanji": "玄",
+    "meaning_kr": "검다/현",
+    "onyomi": "ゲン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "玄関",
+      "reading": "げんかん",
+      "meaning": "현관"
+    },
+    "onExamples": [
+      {
+        "word": "玄関",
+        "reading": "げんかん",
+        "meaning": "현관"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "玄関에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실타래(幺)가 하늘(亠)처럼 깊고 어두우니 검을 현"
+  },
+  {
+    "id": 194,
+    "kanji": "率",
+    "meaning_kr": "비율",
+    "onyomi": "リツ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "容積率",
+      "reading": "ようせきりつ",
+      "meaning": "용적률"
+    },
+    "onExamples": [
+      {
+        "word": "容積率",
+        "reading": "ようせきりつ",
+        "meaning": "용적률"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "容積率에서 반복 출현하는 핵심 글자",
+    "memory_hint": "줄(玄)과 실(幺)을 거느려 비율을 맞추니 비율 률"
+  },
+  {
+    "id": 195,
+    "kanji": "現",
+    "meaning_kr": "현장/나타나다",
+    "onyomi": "ゲン",
+    "kunyomi": "あらわれる",
+    "bim_term": {
+      "word": "現場",
+      "reading": "げんば",
+      "meaning": "현장"
+    },
+    "onExamples": [
+      {
+        "word": "現場",
+        "reading": "げんば",
+        "meaning": "현장"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "現",
+        "reading": "あらわれる",
+        "meaning": "현장"
+      }
+    ],
+    "importance": "A",
+    "reason": "現場에서 반복 출현하는 핵심 글자",
+    "memory_hint": "옥(王)을 보고(見) 그 가치가 나타나니 나타날 현 "
+  },
+  {
+    "id": 196,
+    "kanji": "理",
+    "meaning_kr": "다스리다/관리",
+    "onyomi": "リ",
+    "kunyomi": "ことわり",
+    "bim_term": {
+      "word": "維持管理",
+      "reading": "いじかんり",
+      "meaning": "유지관리"
+    },
+    "onExamples": [
+      {
+        "word": "維持管理",
+        "reading": "いじかんり",
+        "meaning": "유지관리"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "理",
+        "reading": "ことわり",
+        "meaning": "다스리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "維持管理에서 반복 출현하는 핵심 글자",
+    "memory_hint": "옥(玉)을 결(里)대로 다듬으니 다스릴 리, 관리 리"
+  },
+  {
+    "id": 197,
+    "kanji": "生",
+    "meaning_kr": "나다/생",
+    "onyomi": "セイ",
+    "kunyomi": "いきる",
+    "bim_term": {
+      "word": "養生",
+      "reading": "ようじょう",
+      "meaning": "양생/보양"
+    },
+    "onExamples": [
+      {
+        "word": "養生",
+        "reading": "ようじょう",
+        "meaning": "양생/보양"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "生",
+        "reading": "いきる",
+        "meaning": "나다"
+      }
+    ],
+    "importance": "A",
+    "reason": "養生에서 반복 출현하는 핵심 글자",
+    "memory_hint": "땅 위에 싹이 돋아나는 모양이니 날 생 "
+  },
+  {
+    "id": 198,
+    "kanji": "申",
+    "meaning_kr": "신청",
+    "onyomi": "シン",
+    "kunyomi": "もうす",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "申",
+        "reading": "もうす",
+        "meaning": "신청"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "입으로 길게 아뢰니 아뢸 신, 신청 신"
+  },
+  {
+    "id": 199,
+    "kanji": "留",
+    "meaning_kr": "머무르다/고정",
+    "onyomi": "リュウ",
+    "kunyomi": "とめる",
+    "bim_term": {
+      "word": "留め",
+      "reading": "とめ",
+      "meaning": "고정/멈춤"
+    },
+    "onExamples": [
+      {
+        "word": "留め",
+        "reading": "とめ",
+        "meaning": "고정/멈춤"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "留",
+        "reading": "とめる",
+        "meaning": "머무르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "留め에서 반복 출현하는 핵심 글자",
+    "memory_hint": "밭(田) 같은 자리로 멈춰 두니 머무를 류, 고정할 류"
+  },
+  {
+    "id": 200,
+    "kanji": "盛",
+    "meaning_kr": "성토/성하다",
+    "onyomi": "セイ",
+    "kunyomi": "もる",
+    "bim_term": {
+      "word": "盛土",
+      "reading": "もりど",
+      "meaning": "성토"
+    },
+    "onExamples": [
+      {
+        "word": "盛土",
+        "reading": "もりど",
+        "meaning": "성토"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "盛",
+        "reading": "もる",
+        "meaning": "성토"
+      }
+    ],
+    "importance": "A",
+    "reason": "盛土에서 반복 출현하는 핵심 글자",
+    "memory_hint": "그릇(皿)에 성하게 담으니 담을 성, 성토 성"
+  },
+  {
+    "id": 201,
+    "kanji": "盤",
+    "meaning_kr": "반/판",
+    "onyomi": "バン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "地盤",
+      "reading": "じばん",
+      "meaning": "지반"
+    },
+    "onExamples": [
+      {
+        "word": "地盤",
+        "reading": "じばん",
+        "meaning": "지반"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "地盤에서 반복 출현하는 핵심 글자",
+    "memory_hint": "그릇(皿)처럼 넓게 놓인 판이니 판 반, 지반 반"
+  },
+  {
+    "id": 202,
+    "kanji": "矩",
+    "meaning_kr": "곱자/직각",
+    "onyomi": "ク",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "矩計",
+      "reading": "かなばかり",
+      "meaning": "구조 상세 단면도"
+    },
+    "onExamples": [
+      {
+        "word": "矩計",
+        "reading": "かなばかり",
+        "meaning": "구조 상세 단면도"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "矩計에서 반복 출현하는 핵심 글자",
+    "memory_hint": "화살(矢)로 큰(巨) 직각을 재니 곱자 구"
+  },
+  {
+    "id": 203,
+    "kanji": "確",
+    "meaning_kr": "확실",
+    "onyomi": "カク",
+    "kunyomi": "たしか",
+    "bim_term": {
+      "word": "確認",
+      "reading": "かくにん",
+      "meaning": "확인"
+    },
+    "onExamples": [
+      {
+        "word": "確認",
+        "reading": "かくにん",
+        "meaning": "확인"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "確",
+        "reading": "たしか",
+        "meaning": "확실"
+      }
+    ],
+    "importance": "A",
+    "reason": "確認에서 반복 출현하는 핵심 글자",
+    "memory_hint": "돌(石)처럼 새(隺)도 흔들지 못하니 확실할 확"
+  },
+  {
+    "id": 204,
+    "kanji": "票",
+    "meaning_kr": "표",
+    "onyomi": "ヒョウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "불씨(示)를 표지 위에 세우니 표 표"
+  },
+  {
+    "id": 205,
+    "kanji": "称",
+    "meaning_kr": "일컫다",
+    "onyomi": "ショウ",
+    "kunyomi": "となえる",
+    "bim_term": {
+      "word": "名称",
+      "reading": "めいしょう",
+      "meaning": "명칭"
+    },
+    "onExamples": [
+      {
+        "word": "名称",
+        "reading": "めいしょう",
+        "meaning": "명칭"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "称",
+        "reading": "となえる",
+        "meaning": "일컫다"
+      }
+    ],
+    "importance": "A",
+    "reason": "名称에서 반복 출현하는 핵심 글자",
+    "memory_hint": "벼(禾)를 저울질(爯)해 이름 붙이니 일컬을 칭"
+  },
+  {
+    "id": 206,
+    "kanji": "積",
+    "meaning_kr": "쌓다",
+    "onyomi": "セキ",
+    "kunyomi": "つむ",
+    "bim_term": {
+      "word": "積算",
+      "reading": "せきさん",
+      "meaning": "적산"
+    },
+    "onExamples": [
+      {
+        "word": "積算",
+        "reading": "せきさん",
+        "meaning": "적산"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "積",
+        "reading": "つむ",
+        "meaning": "쌓다"
+      }
+    ],
+    "importance": "A",
+    "reason": "積算에서 반복 출현하는 핵심 글자",
+    "memory_hint": "벼(禾)를 책임지고(責) 창고에 쌓으니 쌓을 적 "
+  },
+  {
+    "id": 207,
+    "kanji": "突",
+    "meaning_kr": "찌르다/충돌",
+    "onyomi": "トツ",
+    "kunyomi": "つく",
+    "bim_term": {
+      "word": "衝突",
+      "reading": "しょうとつ",
+      "meaning": "충돌"
+    },
+    "onExamples": [
+      {
+        "word": "衝突",
+        "reading": "しょうとつ",
+        "meaning": "충돌"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "突",
+        "reading": "つく",
+        "meaning": "찌르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "衝突에서 반복 출현하는 핵심 글자",
+    "memory_hint": "굴(穴)에서 개(犬)처럼 튀어나오니 찌를 돌, 돌출 돌"
+  },
+  {
+    "id": 208,
+    "kanji": "窓",
+    "meaning_kr": "창",
+    "onyomi": "ソウ",
+    "kunyomi": "まど",
+    "bim_term": {
+      "word": "窓",
+      "reading": "まど",
+      "meaning": "창"
+    },
+    "onExamples": [
+      {
+        "word": "窓",
+        "reading": "まど",
+        "meaning": "창"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "窓",
+        "reading": "まど",
+        "meaning": "창"
+      }
+    ],
+    "importance": "A",
+    "reason": "窓에서 반복 출현하는 핵심 글자",
+    "memory_hint": "굴(穴) 안에서 마음(囱)으로 바깥을 보는 틈이니 창 창"
+  },
+  {
+    "id": 209,
+    "kanji": "立",
+    "meaning_kr": "서다",
+    "onyomi": "リツ",
+    "kunyomi": "たつ",
+    "bim_term": {
+      "word": "立面図",
+      "reading": "りつめんず",
+      "meaning": "입면도"
+    },
+    "onExamples": [
+      {
+        "word": "立面図",
+        "reading": "りつめんず",
+        "meaning": "입면도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "立",
+        "reading": "たつ",
+        "meaning": "서다"
+      }
+    ],
+    "importance": "A",
+    "reason": "立面図에서 반복 출현하는 핵심 글자",
+    "memory_hint": "땅 위에 사람이 바로 서 있으니 설 립"
+  },
+  {
+    "id": 210,
+    "kanji": "竣",
+    "meaning_kr": "완공",
+    "onyomi": "シュン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "竣工",
+      "reading": "しゅんこう",
+      "meaning": "준공"
+    },
+    "onExamples": [
+      {
+        "word": "竣工",
+        "reading": "しゅんこう",
+        "meaning": "준공"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "竣工에서 반복 출현하는 핵심 글자",
+    "memory_hint": "설(立) 일을 준(夋)처럼 끝내니 마칠 준, 준공 준"
+  },
+  {
+    "id": 211,
+    "kanji": "箇",
+    "meaning_kr": "개소",
+    "onyomi": "カ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "대(竹)로 하나하나 세니 개 개"
+  },
+  {
+    "id": 212,
+    "kanji": "算",
+    "meaning_kr": "계산",
+    "onyomi": "サン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "算定",
+      "reading": "さんてい",
+      "meaning": "산정"
+    },
+    "onExamples": [
+      {
+        "word": "算定",
+        "reading": "さんてい",
+        "meaning": "산정"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "算定에서 반복 출현하는 핵심 글자",
+    "memory_hint": "대(竹) 자와 눈(目)으로 두 손(廾) 써서 계산하니 셈할 산 "
+  },
+  {
+    "id": 213,
+    "kanji": "範",
+    "meaning_kr": "범위/규범",
+    "onyomi": "ハン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "範囲",
+      "reading": "はんい",
+      "meaning": "범위"
+    },
+    "onExamples": [
+      {
+        "word": "範囲",
+        "reading": "はんい",
+        "meaning": "범위"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "範囲에서 반복 출현하는 핵심 글자",
+    "memory_hint": "대(竹)로 차(車)를 감싸 틀을 만들니 법 범, 범위 범"
+  },
+  {
+    "id": 214,
+    "kanji": "精",
+    "meaning_kr": "정밀",
+    "onyomi": "セイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "精度",
+      "reading": "せいど",
+      "meaning": "정밀도"
+    },
+    "onExamples": [
+      {
+        "word": "精度",
+        "reading": "せいど",
+        "meaning": "정밀도"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "精度에서 반복 출현하는 핵심 글자",
+    "memory_hint": "쌀(米)을 푸르게(青) 가려 정밀하니 정할 정, 정밀할 정"
+  },
+  {
+    "id": 215,
+    "kanji": "約",
+    "meaning_kr": "묶다/약",
+    "onyomi": "ヤク",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "集約",
+      "reading": "しゅうやく",
+      "meaning": "집약"
+    },
+    "onExamples": [
+      {
+        "word": "集約",
+        "reading": "しゅうやく",
+        "meaning": "집약"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "集約에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 숟가락(勺)만큼 묶으니 맺을 약"
+  },
+  {
+    "id": 216,
+    "kanji": "納",
+    "meaning_kr": "납입/맞춤",
+    "onyomi": "ノウ",
+    "kunyomi": "おさめる",
+    "bim_term": {
+      "word": "納まり",
+      "reading": "おさまり",
+      "meaning": "마감 맞춤/디테일 정리"
+    },
+    "onExamples": [
+      {
+        "word": "納まり",
+        "reading": "おさまり",
+        "meaning": "마감 맞춤/디테일 정리"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "納",
+        "reading": "おさめる",
+        "meaning": "납입"
+      }
+    ],
+    "importance": "A",
+    "reason": "納まり에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 안(内)으로 들여와 맞추니 들일 납 "
+  },
+  {
+    "id": 217,
+    "kanji": "細",
+    "meaning_kr": "가늘다/세부",
+    "onyomi": "サイ",
+    "kunyomi": "ほそい",
+    "bim_term": {
+      "word": "詳細図",
+      "reading": "しょうさいず",
+      "meaning": "상세도"
+    },
+    "onExamples": [
+      {
+        "word": "詳細図",
+        "reading": "しょうさいず",
+        "meaning": "상세도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "細",
+        "reading": "ほそい",
+        "meaning": "가늘다"
+      }
+    ],
+    "importance": "A",
+    "reason": "詳細図에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)처럼 가늘게 나누어 밭(田)까지 구분하니 가늘 세, 상세할 세"
+  },
+  {
+    "id": 218,
+    "kanji": "組",
+    "meaning_kr": "조립/조",
+    "onyomi": "ソ",
+    "kunyomi": "くむ",
+    "bim_term": {
+      "word": "組立",
+      "reading": "くみたて",
+      "meaning": "조립"
+    },
+    "onExamples": [
+      {
+        "word": "組立",
+        "reading": "くみたて",
+        "meaning": "조립"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "組",
+        "reading": "くむ",
+        "meaning": "조립"
+      }
+    ],
+    "importance": "A",
+    "reason": "組立에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 차례(且)대로 엮어 조립하니 조립할 조 "
+  },
+  {
+    "id": 219,
+    "kanji": "継",
+    "meaning_kr": "잇다",
+    "onyomi": "ケイ",
+    "kunyomi": "つぐ",
+    "bim_term": {
+      "word": "継手",
+      "reading": "つぎて",
+      "meaning": "이음쇠/조인트"
+    },
+    "onExamples": [
+      {
+        "word": "継手",
+        "reading": "つぎて",
+        "meaning": "이음쇠/조인트"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "継",
+        "reading": "つぐ",
+        "meaning": "잇다"
+      }
+    ],
+    "importance": "A",
+    "reason": "継手에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 조각(㡭)내지 않고 하나로 으니 이을 계 "
+  },
+  {
+    "id": 220,
+    "kanji": "続",
+    "meaning_kr": "계속",
+    "onyomi": "ゾク",
+    "kunyomi": "つづく",
+    "bim_term": {
+      "word": "接続",
+      "reading": "せつぞく",
+      "meaning": "접속"
+    },
+    "onExamples": [
+      {
+        "word": "接続",
+        "reading": "せつぞく",
+        "meaning": "접속"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "続",
+        "reading": "つづく",
+        "meaning": "계속"
+      }
+    ],
+    "importance": "A",
+    "reason": "接続에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 팔(売)듯 이어가니 이을 속, 계속할 속"
+  },
+  {
+    "id": 221,
+    "kanji": "維",
+    "meaning_kr": "유지",
+    "onyomi": "イ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "維持管理",
+      "reading": "いじかんり",
+      "meaning": "유지관리"
+    },
+    "onExamples": [
+      {
+        "word": "維持管理",
+        "reading": "いじかんり",
+        "meaning": "유지관리"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "維持管理에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 새(隹) 묶듯 단단히 유지하니 유지할 유 "
+  },
+  {
+    "id": 222,
+    "kanji": "線",
+    "meaning_kr": "선",
+    "onyomi": "セン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "中心線",
+      "reading": "ちゅうしんせん",
+      "meaning": "중심선"
+    },
+    "onExamples": [
+      {
+        "word": "中心線",
+        "reading": "ちゅうしんせん",
+        "meaning": "중심선"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "中心線에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 샘(泉)물처럼 길게 뽑아낸 선이니 선 선 "
+  },
+  {
+    "id": 223,
+    "kanji": "締",
+    "meaning_kr": "조이다",
+    "onyomi": "テイ",
+    "kunyomi": "しめる",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "締",
+        "reading": "しめる",
+        "meaning": "조이다"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 황제(帝)처럼 단단히 맺으니 맺을 체, 조일 체"
+  },
+  {
+    "id": 224,
+    "kanji": "緩",
+    "meaning_kr": "느슨하다",
+    "onyomi": "カン",
+    "kunyomi": "ゆるい",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "緩",
+        "reading": "ゆるい",
+        "meaning": "느슨하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 사랑(爰)처럼 느슨히 풀어주니 느릴 완, 느슨할 완"
+  },
+  {
+    "id": 225,
+    "kanji": "縮",
+    "meaning_kr": "줄이다",
+    "onyomi": "シュク",
+    "kunyomi": "ちぢむ",
+    "bim_term": {
+      "word": "縮尺",
+      "reading": "しゅくしゃく",
+      "meaning": "축척"
+    },
+    "onExamples": [
+      {
+        "word": "縮尺",
+        "reading": "しゅくしゃく",
+        "meaning": "축척"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "縮",
+        "reading": "ちぢむ",
+        "meaning": "줄이다"
+      }
+    ],
+    "importance": "A",
+    "reason": "縮尺에서 반복 출현하는 핵심 글자",
+    "memory_hint": "실(糸)을 숙(宿)처럼 안으로 모아 줄이니 줄일 축"
+  },
+  {
+    "id": 226,
+    "kanji": "置",
+    "meaning_kr": "놓다",
+    "onyomi": "チ",
+    "kunyomi": "おく",
+    "bim_term": {
+      "word": "位置",
+      "reading": "いち",
+      "meaning": "위치"
+    },
+    "onExamples": [
+      {
+        "word": "位置",
+        "reading": "いち",
+        "meaning": "위치"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "置",
+        "reading": "おく",
+        "meaning": "놓다"
+      }
+    ],
+    "importance": "A",
+    "reason": "位置에서 반복 출현하는 핵심 글자",
+    "memory_hint": "그물(网)을 곧게(直) 쳐서 그 자리에 두니 둘 치 "
+  },
+  {
+    "id": 227,
+    "kanji": "耐",
+    "meaning_kr": "견디다",
+    "onyomi": "タイ",
+    "kunyomi": "たえる",
+    "bim_term": {
+      "word": "耐火",
+      "reading": "たいか",
+      "meaning": "내화"
+    },
+    "onExamples": [
+      {
+        "word": "耐火",
+        "reading": "たいか",
+        "meaning": "내화"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "耐",
+        "reading": "たえる",
+        "meaning": "견디다"
+      }
+    ],
+    "importance": "A",
+    "reason": "耐火에서 반복 출현하는 핵심 글자",
+    "memory_hint": "마디(而)를 참고 견디니 견딜 내"
+  },
+  {
+    "id": 228,
+    "kanji": "能",
+    "meaning_kr": "능력",
+    "onyomi": "ノウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "性能",
+      "reading": "せいのう",
+      "meaning": "성능"
+    },
+    "onExamples": [
+      {
+        "word": "性能",
+        "reading": "せいのう",
+        "meaning": "성능"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "性能에서 반복 출현하는 핵심 글자",
+    "memory_hint": "곰(熊)의 기운처럼 해낼 수 있으니 능할 능"
+  },
+  {
+    "id": 229,
+    "kanji": "舗",
+    "meaning_kr": "포장",
+    "onyomi": "ホ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "舗装",
+      "reading": "ほそう",
+      "meaning": "포장"
+    },
+    "onExamples": [
+      {
+        "word": "舗装",
+        "reading": "ほそう",
+        "meaning": "포장"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "舗装에서 반복 출현하는 핵심 글자",
+    "memory_hint": "수레(車)와 보(甫)를 깔아 길을 입히니 포장할 포"
+  },
+  {
+    "id": 230,
+    "kanji": "芯",
+    "meaning_kr": "심/중심",
+    "onyomi": "シン",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "通芯",
+      "reading": "とおりしん",
+      "meaning": "통심"
+    },
+    "onExamples": [
+      {
+        "word": "通芯",
+        "reading": "とおりしん",
+        "meaning": "통심"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "通芯에서 반복 출현하는 핵심 글자",
+    "memory_hint": "풀(艹)의 마음(心) 같은 가운데 심이니 심 심 "
+  },
+  {
+    "id": 231,
+    "kanji": "蔽",
+    "meaning_kr": "가리다",
+    "onyomi": "ヘイ",
+    "kunyomi": "おおう",
+    "bim_term": {
+      "word": "建蔽率",
+      "reading": "けんぺいりつ",
+      "meaning": "건폐율"
+    },
+    "onExamples": [
+      {
+        "word": "建蔽率",
+        "reading": "けんぺいりつ",
+        "meaning": "건폐율"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "蔽",
+        "reading": "おおう",
+        "meaning": "가리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "建蔽率에서 반복 출현하는 핵심 글자",
+    "memory_hint": "풀(艹)이 폐(敝)처럼 덮어 가리니 가릴 폐"
+  },
+  {
+    "id": 232,
+    "kanji": "衛",
+    "meaning_kr": "지키다/위생",
+    "onyomi": "エイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "衛生",
+      "reading": "えいせい",
+      "meaning": "위생"
+    },
+    "onExamples": [
+      {
+        "word": "衛生",
+        "reading": "えいせい",
+        "meaning": "위생"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "衛生에서 반복 출현하는 핵심 글자",
+    "memory_hint": "길을(行) 막아 지키니 지킬 위, 위생 위"
+  },
+  {
+    "id": 233,
+    "kanji": "衝",
+    "meaning_kr": "충돌",
+    "onyomi": "ショウ",
+    "kunyomi": "つく",
+    "bim_term": {
+      "word": "衝突",
+      "reading": "しょうとつ",
+      "meaning": "충돌"
+    },
+    "onExamples": [
+      {
+        "word": "衝突",
+        "reading": "しょうとつ",
+        "meaning": "충돌"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "衝",
+        "reading": "つく",
+        "meaning": "충돌"
+      }
+    ],
+    "importance": "A",
+    "reason": "衝突에서 반복 출현하는 핵심 글자",
+    "memory_hint": "길거리(行) 한복판을 부딪치니 충돌 충"
+  },
+  {
+    "id": 234,
+    "kanji": "表",
+    "meaning_kr": "표/겉",
+    "onyomi": "ヒョウ",
+    "kunyomi": "おもて",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "表",
+        "reading": "おもて",
+        "meaning": "표"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "옷(衣) 밖으로 드러내니 겉 표, 표 표"
+  },
+  {
+    "id": 235,
+    "kanji": "装",
+    "meaning_kr": "꾸미다/장착",
+    "onyomi": "ソウ",
+    "kunyomi": "よそおう",
+    "bim_term": {
+      "word": "舗装",
+      "reading": "ほそう",
+      "meaning": "포장"
+    },
+    "onExamples": [
+      {
+        "word": "舗装",
+        "reading": "ほそう",
+        "meaning": "포장"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "装",
+        "reading": "よそおう",
+        "meaning": "꾸미다"
+      }
+    ],
+    "importance": "A",
+    "reason": "舗装에서 반복 출현하는 핵심 글자",
+    "memory_hint": "옷(衣)을 장(壮)하게 갖추니 꾸밀 장, 장착할 장"
+  },
+  {
+    "id": 236,
+    "kanji": "補",
+    "meaning_kr": "보수/보충",
+    "onyomi": "ホ",
+    "kunyomi": "おぎなう",
+    "bim_term": {
+      "word": "補修",
+      "reading": "ほしゅう",
+      "meaning": "보수"
+    },
+    "onExamples": [
+      {
+        "word": "補修",
+        "reading": "ほしゅう",
+        "meaning": "보수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "補",
+        "reading": "おぎなう",
+        "meaning": "보수"
+      }
+    ],
+    "importance": "A",
+    "reason": "補修에서 반복 출현하는 핵심 글자",
+    "memory_hint": "옷(衤)을 점(甫)으로 기워 보태니 기울 보, 보수 보"
+  },
+  {
+    "id": 237,
+    "kanji": "規",
+    "meaning_kr": "규정",
+    "onyomi": "キ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "規格",
+      "reading": "きかく",
+      "meaning": "규격"
+    },
+    "onExamples": [
+      {
+        "word": "規格",
+        "reading": "きかく",
+        "meaning": "규격"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "規格에서 반복 출현하는 핵심 글자",
+    "memory_hint": "남편(夫)이 보는(見) 기준 자를 세우니 법 규, 규정 규"
+  },
+  {
+    "id": 238,
+    "kanji": "記",
+    "meaning_kr": "기록",
+    "onyomi": "キ",
+    "kunyomi": "しるす",
+    "bim_term": {
+      "word": "注記",
+      "reading": "ちゅうき",
+      "meaning": "주기"
+    },
+    "onExamples": [
+      {
+        "word": "注記",
+        "reading": "ちゅうき",
+        "meaning": "주기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "記",
+        "reading": "しるす",
+        "meaning": "기록"
+      }
+    ],
+    "importance": "A",
+    "reason": "注記에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)을 제 몸(己)에 새겨 적으니 기록할 기"
+  },
+  {
+    "id": 239,
+    "kanji": "許",
+    "meaning_kr": "허가",
+    "onyomi": "キョ",
+    "kunyomi": "ゆるす",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "許",
+        "reading": "ゆるす",
+        "meaning": "허가"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)로 낮춰(午) 허락하니 허락할 허"
+  },
+  {
+    "id": 240,
+    "kanji": "詳",
+    "meaning_kr": "상세하다",
+    "onyomi": "ショウ",
+    "kunyomi": "くわしい",
+    "bim_term": {
+      "word": "詳細図",
+      "reading": "しょうさいず",
+      "meaning": "상세도"
+    },
+    "onExamples": [
+      {
+        "word": "詳細図",
+        "reading": "しょうさいず",
+        "meaning": "상세도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "詳",
+        "reading": "くわしい",
+        "meaning": "상세하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "詳細図에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)로 양(羊)처럼 고르게 풀어 설명하니 자세할 상"
+  },
+  {
+    "id": 241,
+    "kanji": "認",
+    "meaning_kr": "인정",
+    "onyomi": "ニン",
+    "kunyomi": "みとめる",
+    "bim_term": {
+      "word": "確認",
+      "reading": "かくにん",
+      "meaning": "확인"
+    },
+    "onExamples": [
+      {
+        "word": "確認",
+        "reading": "かくにん",
+        "meaning": "확인"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "認",
+        "reading": "みとめる",
+        "meaning": "인정"
+      }
+    ],
+    "importance": "A",
+    "reason": "確認에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)을 칼날(忍)처럼 깊이 새겨 인정하니 알 인"
+  },
+  {
+    "id": 242,
+    "kanji": "誘",
+    "meaning_kr": "유도하다",
+    "onyomi": "ユウ",
+    "kunyomi": "さそう",
+    "bim_term": {
+      "word": "誘導灯",
+      "reading": "ゆうどうとう",
+      "meaning": "유도등"
+    },
+    "onExamples": [
+      {
+        "word": "誘導灯",
+        "reading": "ゆうどうとう",
+        "meaning": "유도등"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "誘",
+        "reading": "さそう",
+        "meaning": "유도하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "誘導灯에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)로 빼어나게(秀) 이끄니 유도할 유"
+  },
+  {
+    "id": 243,
+    "kanji": "請",
+    "meaning_kr": "청구/신청",
+    "onyomi": "セイ",
+    "kunyomi": "こう",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "請",
+        "reading": "こう",
+        "meaning": "청구"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)로 푸르른(青) 허락을 구하니 청할 청"
+  },
+  {
+    "id": 244,
+    "kanji": "議",
+    "meaning_kr": "의논",
+    "onyomi": "ギ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "協議",
+      "reading": "きょうぎ",
+      "meaning": "협의"
+    },
+    "onExamples": [
+      {
+        "word": "協議",
+        "reading": "きょうぎ",
+        "meaning": "협의"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "協議에서 반복 출현하는 핵심 글자",
+    "memory_hint": "말(言)로 의(義)를 따져 의논하니 의논할 의"
+  },
+  {
+    "id": 245,
+    "kanji": "費",
+    "meaning_kr": "비용",
+    "onyomi": "ヒ",
+    "kunyomi": "ついやす",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "費",
+        "reading": "ついやす",
+        "meaning": "비용"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "조개(貝)를 불(弗)처럼 써버리니 쓸 비, 비용 비"
+  },
+  {
+    "id": 246,
+    "kanji": "質",
+    "meaning_kr": "바탕/품질",
+    "onyomi": "シツ",
+    "kunyomi": "たち",
+    "bim_term": {
+      "word": "品質",
+      "reading": "ひんしつ",
+      "meaning": "품질"
+    },
+    "onExamples": [
+      {
+        "word": "品質",
+        "reading": "ひんしつ",
+        "meaning": "품질"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "質",
+        "reading": "たち",
+        "meaning": "바탕"
+      }
+    ],
+    "importance": "A",
+    "reason": "品質에서 반복 출현하는 핵심 글자",
+    "memory_hint": "조개(貝)를 도끼(斦)로 가려 그 바탕을 따지니 바탕 질, 품질 질"
+  },
+  {
+    "id": 247,
+    "kanji": "足",
+    "meaning_kr": "발/족",
+    "onyomi": "ソク",
+    "kunyomi": "あし",
+    "bim_term": {
+      "word": "足場",
+      "reading": "あしば",
+      "meaning": "비계/발판"
+    },
+    "onExamples": [
+      {
+        "word": "足場",
+        "reading": "あしば",
+        "meaning": "비계/발판"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "足",
+        "reading": "あし",
+        "meaning": "발"
+      }
+    ],
+    "importance": "A",
+    "reason": "足場에서 반복 출현하는 핵심 글자",
+    "memory_hint": "무릎 아래 발의 모양을 본떠서 발 족 "
+  },
+  {
+    "id": 248,
+    "kanji": "路",
+    "meaning_kr": "길",
+    "onyomi": "ロ",
+    "kunyomi": "じ",
+    "bim_term": {
+      "word": "道路",
+      "reading": "どうろ",
+      "meaning": "도로"
+    },
+    "onExamples": [
+      {
+        "word": "道路",
+        "reading": "どうろ",
+        "meaning": "도로"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "路",
+        "reading": "じ",
+        "meaning": "길"
+      }
+    ],
+    "importance": "A",
+    "reason": "道路에서 반복 출현하는 핵심 글자",
+    "memory_hint": "발(足)이 각(各)기 다른 곳으로 나아가니 길 로"
+  },
+  {
+    "id": 249,
+    "kanji": "軒",
+    "meaning_kr": "처마",
+    "onyomi": "ケン",
+    "kunyomi": "のき",
+    "bim_term": {
+      "word": "軒先",
+      "reading": "のきさき",
+      "meaning": "처마 끝"
+    },
+    "onExamples": [
+      {
+        "word": "軒先",
+        "reading": "のきさき",
+        "meaning": "처마 끝"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "軒",
+        "reading": "のき",
+        "meaning": "처마"
+      }
+    ],
+    "importance": "A",
+    "reason": "軒先에서 반복 출현하는 핵심 글자",
+    "memory_hint": "수레(車)가 달린 처마 칸이니 처마 헌"
+  },
+  {
+    "id": 250,
+    "kanji": "追",
+    "meaning_kr": "추가/쫓다",
+    "onyomi": "ツイ",
+    "kunyomi": "おう",
+    "bim_term": {
+      "word": "追加",
+      "reading": "ついか",
+      "meaning": "추가"
+    },
+    "onExamples": [
+      {
+        "word": "追加",
+        "reading": "ついか",
+        "meaning": "추가"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "追",
+        "reading": "おう",
+        "meaning": "추가"
+      }
+    ],
+    "importance": "A",
+    "reason": "追加에서 반복 출현하는 핵심 글자",
+    "memory_hint": "길(辶)을 따라 새(𠂉)를 쫓으니 쫓을 추, 추가 추"
+  },
+  {
+    "id": 251,
+    "kanji": "通",
+    "meaning_kr": "통하다",
+    "onyomi": "ツウ",
+    "kunyomi": "とおる",
+    "bim_term": {
+      "word": "通芯",
+      "reading": "とおりしん",
+      "meaning": "통심"
+    },
+    "onExamples": [
+      {
+        "word": "通芯",
+        "reading": "とおりしん",
+        "meaning": "통심"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "通",
+        "reading": "とおる",
+        "meaning": "통하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "通芯에서 반복 출현하는 핵심 글자",
+    "memory_hint": "길(辶)을 써서 마을(甬)로 오가니 통할 통"
+  },
+  {
+    "id": 252,
+    "kanji": "週",
+    "meaning_kr": "주",
+    "onyomi": "シュウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "길(辶)을 두루(周) 돌아온 한 주일이니 주 주 "
+  },
+  {
+    "id": 253,
+    "kanji": "進",
+    "meaning_kr": "나아가다",
+    "onyomi": "シン",
+    "kunyomi": "すすむ",
+    "bim_term": {
+      "word": "進捗",
+      "reading": "しんちょく",
+      "meaning": "진척"
+    },
+    "onExamples": [
+      {
+        "word": "進捗",
+        "reading": "しんちょく",
+        "meaning": "진척"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "進",
+        "reading": "すすむ",
+        "meaning": "나아가다"
+      }
+    ],
+    "importance": "A",
+    "reason": "進捗에서 반복 출현하는 핵심 글자",
+    "memory_hint": "새(隹)가 길(辶)을 따라 앞으로 나아가니 나아갈 진 "
+  },
+  {
+    "id": 254,
+    "kanji": "道",
+    "meaning_kr": "길",
+    "onyomi": "ドウ",
+    "kunyomi": "みち",
+    "bim_term": {
+      "word": "道路",
+      "reading": "どうろ",
+      "meaning": "도로"
+    },
+    "onExamples": [
+      {
+        "word": "道路",
+        "reading": "どうろ",
+        "meaning": "도로"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "道",
+        "reading": "みち",
+        "meaning": "길"
+      }
+    ],
+    "importance": "A",
+    "reason": "道路에서 반복 출현하는 핵심 글자",
+    "memory_hint": "머리(首) 가는 길(辶)이니 길 도"
+  },
+  {
+    "id": 255,
+    "kanji": "避",
+    "meaning_kr": "피하다",
+    "onyomi": "ヒ",
+    "kunyomi": "さける",
+    "bim_term": {
+      "word": "避難",
+      "reading": "ひなん",
+      "meaning": "피난"
+    },
+    "onExamples": [
+      {
+        "word": "避難",
+        "reading": "ひなん",
+        "meaning": "피난"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "避",
+        "reading": "さける",
+        "meaning": "피하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "避難에서 반복 출현하는 핵심 글자",
+    "memory_hint": "임금(辟)이 길(辶)을 비켜 피하니 피할 피 "
+  },
+  {
+    "id": 256,
+    "kanji": "量",
+    "meaning_kr": "양",
+    "onyomi": "リョウ",
+    "kunyomi": "はかる",
+    "bim_term": {
+      "word": "測量",
+      "reading": "そくりょう",
+      "meaning": "측량"
+    },
+    "onExamples": [
+      {
+        "word": "測量",
+        "reading": "そくりょう",
+        "meaning": "측량"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "量",
+        "reading": "はかる",
+        "meaning": "양"
+      }
+    ],
+    "importance": "A",
+    "reason": "測量에서 반복 출현하는 핵심 글자",
+    "memory_hint": "해(日)와 마을(里)의 거리를 헤아리니 양 량 "
+  },
+  {
+    "id": 257,
+    "kanji": "金",
+    "meaning_kr": "관련 의미",
+    "onyomi": "キン",
+    "kunyomi": "かね",
+    "bim_term": {
+      "word": "吊り金具",
+      "reading": "つりかなぐ",
+      "meaning": "달이쇠/행거 금구"
+    },
+    "onExamples": [
+      {
+        "word": "吊り金具",
+        "reading": "つりかなぐ",
+        "meaning": "달이쇠/행거 금구"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "金",
+        "reading": "かね",
+        "meaning": "관련 의미"
+      }
+    ],
+    "importance": "A",
+    "reason": "吊り金具에서 반복 출현하는 핵심 글자",
+    "memory_hint": "흙 속에 묻힌 두 알갱이(金)의 모양이니 쇠 금 "
+  },
+  {
+    "id": 258,
+    "kanji": "鋼",
+    "meaning_kr": "강철",
+    "onyomi": "コウ",
+    "kunyomi": "はがね",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "鋼",
+        "reading": "はがね",
+        "meaning": "강철"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "쇠(金)가 강하게(岡) 단련되니 강철 강"
+  },
+  {
+    "id": 259,
+    "kanji": "錆",
+    "meaning_kr": "관련 의미",
+    "onyomi": "ショウ",
+    "kunyomi": "さび",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "錆",
+        "reading": "さび",
+        "meaning": "관련 의미"
+      }
+    ],
+    "importance": "A",
+    "reason": "대표 용어에서 반복 출현하는 핵심 글자",
+    "memory_hint": "금(金)에 푸를(青) 녹이 스니 녹 삭"
+  },
+  {
+    "id": 260,
+    "kanji": "長",
+    "meaning_kr": "길다",
+    "onyomi": "チョウ",
+    "kunyomi": "ながい",
+    "bim_term": {
+      "word": "長さ",
+      "reading": "ながさ",
+      "meaning": "길이"
+    },
+    "onExamples": [
+      {
+        "word": "長さ",
+        "reading": "ながさ",
+        "meaning": "길이"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "長",
+        "reading": "ながい",
+        "meaning": "길다"
+      }
+    ],
+    "importance": "A",
+    "reason": "長さ에서 반복 출현하는 핵심 글자",
+    "memory_hint": "노인의 긴 머리카락 모양에서 길 장 "
+  },
+  {
+    "id": 261,
+    "kanji": "開",
+    "meaning_kr": "열다",
+    "onyomi": "カイ",
+    "kunyomi": "ひらく",
+    "bim_term": {
+      "word": "開口",
+      "reading": "かいこう",
+      "meaning": "개구부"
+    },
+    "onExamples": [
+      {
+        "word": "開口",
+        "reading": "かいこう",
+        "meaning": "개구부"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "開",
+        "reading": "ひらく",
+        "meaning": "열다"
+      }
+    ],
+    "importance": "A",
+    "reason": "開口에서 반복 출현하는 핵심 글자",
+    "memory_hint": "문(門)을 두 손으로 열어 젖히니 열 개"
+  },
+  {
+    "id": 262,
+    "kanji": "関",
+    "meaning_kr": "관계/출입문",
+    "onyomi": "カン",
+    "kunyomi": "せき",
+    "bim_term": {
+      "word": "玄関",
+      "reading": "げんかん",
+      "meaning": "현관"
+    },
+    "onExamples": [
+      {
+        "word": "玄関",
+        "reading": "げんかん",
+        "meaning": "현관"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "関",
+        "reading": "せき",
+        "meaning": "관계"
+      }
+    ],
+    "importance": "A",
+    "reason": "玄関에서 반복 출현하는 핵심 글자",
+    "memory_hint": "문(門)의 빗장(关)이니 관계 관, 문 관"
+  },
+  {
+    "id": 263,
+    "kanji": "防",
+    "meaning_kr": "막다",
+    "onyomi": "ボウ",
+    "kunyomi": "ふせぐ",
+    "bim_term": {
+      "word": "防火",
+      "reading": "ぼうか",
+      "meaning": "방화"
+    },
+    "onExamples": [
+      {
+        "word": "防火",
+        "reading": "ぼうか",
+        "meaning": "방화"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "防",
+        "reading": "ふせぐ",
+        "meaning": "막다"
+      }
+    ],
+    "importance": "A",
+    "reason": "防火에서 반복 출현하는 핵심 글자",
+    "memory_hint": "언덕(阝)에서 모(方)나게 막으니 막을 방 "
+  },
+  {
+    "id": 264,
+    "kanji": "除",
+    "meaning_kr": "없애다",
+    "onyomi": "ジョ",
+    "kunyomi": "のぞく",
+    "bim_term": {
+      "word": "削除",
+      "reading": "さくじょ",
+      "meaning": "삭제"
+    },
+    "onExamples": [
+      {
+        "word": "削除",
+        "reading": "さくじょ",
+        "meaning": "삭제"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "除",
+        "reading": "のぞく",
+        "meaning": "없애다"
+      }
+    ],
+    "importance": "A",
+    "reason": "削除에서 반복 출현하는 핵심 글자",
+    "memory_hint": "언덕(阝)을 여(余)유 있게 치우니 덜 제, 제거 제"
+  },
+  {
+    "id": 265,
+    "kanji": "階",
+    "meaning_kr": "층계",
+    "onyomi": "カイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "階段",
+      "reading": "かいだん",
+      "meaning": "계단"
+    },
+    "onExamples": [
+      {
+        "word": "階段",
+        "reading": "かいだん",
+        "meaning": "계단"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "階段에서 반복 출현하는 핵심 글자",
+    "memory_hint": "언덕(阝)을 따라 차례(皆)로 오르니 층계 계"
+  },
+  {
+    "id": 266,
+    "kanji": "集",
+    "meaning_kr": "모이다",
+    "onyomi": "シュウ",
+    "kunyomi": "あつまる",
+    "bim_term": {
+      "word": "集約",
+      "reading": "しゅうやく",
+      "meaning": "집약"
+    },
+    "onExamples": [
+      {
+        "word": "集約",
+        "reading": "しゅうやく",
+        "meaning": "집약"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "集",
+        "reading": "あつまる",
+        "meaning": "모이다"
+      }
+    ],
+    "importance": "A",
+    "reason": "集約에서 반복 출현하는 핵심 글자",
+    "memory_hint": "새(隹)가 나무(木)에 모이니 모을 집"
+  },
+  {
+    "id": 267,
+    "kanji": "難",
+    "meaning_kr": "어려움/피난",
+    "onyomi": "ナン",
+    "kunyomi": "むずかしい",
+    "bim_term": {
+      "word": "避難",
+      "reading": "ひなん",
+      "meaning": "피난"
+    },
+    "onExamples": [
+      {
+        "word": "避難",
+        "reading": "ひなん",
+        "meaning": "피난"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "難",
+        "reading": "むずかしい",
+        "meaning": "어려움"
+      }
+    ],
+    "importance": "A",
+    "reason": "避難에서 반복 출현하는 핵심 글자",
+    "memory_hint": "진흙(堇)에 빠진 새(隹)가 날기 어려우니 어려울 난 "
+  },
+  {
+    "id": 268,
+    "kanji": "震",
+    "meaning_kr": "지진",
+    "onyomi": "シン",
+    "kunyomi": "ふるえる",
+    "bim_term": {
+      "word": "耐震",
+      "reading": "たいしん",
+      "meaning": "내진"
+    },
+    "onExamples": [
+      {
+        "word": "耐震",
+        "reading": "たいしん",
+        "meaning": "내진"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "震",
+        "reading": "ふるえる",
+        "meaning": "지진"
+      }
+    ],
+    "importance": "A",
+    "reason": "耐震에서 반복 출현하는 핵심 글자",
+    "memory_hint": "비(雨) 아래 진동(辰)하니 진동할 진, 지진 진"
+  },
+  {
+    "id": 269,
+    "kanji": "類",
+    "meaning_kr": "종류",
+    "onyomi": "ルイ",
+    "kunyomi": "たぐい",
+    "bim_term": {
+      "word": "分類",
+      "reading": "ぶんるい",
+      "meaning": "분류"
+    },
+    "onExamples": [
+      {
+        "word": "分類",
+        "reading": "ぶんるい",
+        "meaning": "분류"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "類",
+        "reading": "たぐい",
+        "meaning": "종류"
+      }
+    ],
+    "importance": "A",
+    "reason": "分類에서 반복 출현하는 핵심 글자",
+    "memory_hint": "쌀(米)과 큰 머리(頁)를 모아 같은 무리로 보니 무리 류"
+  },
+  {
+    "id": 270,
+    "kanji": "養",
+    "meaning_kr": "기르다",
+    "onyomi": "ヨウ",
+    "kunyomi": "やしなう",
+    "bim_term": {
+      "word": "養生",
+      "reading": "ようじょう",
+      "meaning": "양생/보양"
+    },
+    "onExamples": [
+      {
+        "word": "養生",
+        "reading": "ようじょう",
+        "meaning": "양생/보양"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "養",
+        "reading": "やしなう",
+        "meaning": "기르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "養生에서 반복 출현하는 핵심 글자",
+    "memory_hint": "양(羊)에게 먹이(食)를 주어 기르니 기를 양 "
+  },
+  {
+    "id": 271,
+    "kanji": "骨",
+    "meaning_kr": "뼈",
+    "onyomi": "コツ",
+    "kunyomi": "ほね",
+    "bim_term": {
+      "word": "鉄骨",
+      "reading": "てっこつ",
+      "meaning": "철골"
+    },
+    "onExamples": [
+      {
+        "word": "鉄骨",
+        "reading": "てっこつ",
+        "meaning": "철골"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "骨",
+        "reading": "ほね",
+        "meaning": "뼈"
+      }
+    ],
+    "importance": "A",
+    "reason": "鉄骨에서 반복 출현하는 핵심 글자",
+    "memory_hint": "뼈대가 몸을 잇는 모양이니 뼈 골"
+  },
+  {
+    "id": 272,
+    "kanji": "高",
+    "meaning_kr": "높다",
+    "onyomi": "コウ",
+    "kunyomi": "たかい",
+    "bim_term": {
+      "word": "標高",
+      "reading": "ひょうこう",
+      "meaning": "표고"
+    },
+    "onExamples": [
+      {
+        "word": "標高",
+        "reading": "ひょうこう",
+        "meaning": "표고"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "高",
+        "reading": "たかい",
+        "meaning": "높다"
+      }
+    ],
+    "importance": "A",
+    "reason": "標高에서 반복 출현하는 핵심 글자",
+    "memory_hint": "성루 위에 높게 지어진 다락집과 입(口) 모양을 본떠서 높을 고"
+  },
+  {
+    "id": 273,
+    "kanji": "塗",
+    "meaning_kr": "칠하다",
+    "onyomi": "ト",
+    "kunyomi": "ぬる",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "塗",
+        "reading": "ぬる",
+        "meaning": "칠하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "마감/방청 도장 용어",
+    "memory_hint": "진흙(塗)을 흙(土) 위에 물(氵)과 섞어 칠하니 칠할 도 "
+  },
+  {
+    "id": 274,
+    "kanji": "既",
+    "meaning_kr": "이미/기존",
+    "onyomi": "キ",
+    "kunyomi": "すでに",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "既",
+        "reading": "すでに",
+        "meaning": "이미"
+      }
+    ],
+    "importance": "A",
+    "reason": "개수/리모델링 도면에서 빈출",
+    "memory_hint": "음식을 다 먹고(旡) 고개 돌린 고소한(皀) 뒤니 이미 기 "
+  },
+  {
+    "id": 275,
+    "kanji": "撤",
+    "meaning_kr": "철거하다",
+    "onyomi": "テツ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "철거 공정 핵심",
+    "memory_hint": "손(扌)으로 자식(育)을 데리고 길(攵)을 철수하니 거둘 철 "
+  },
+  {
+    "id": 276,
+    "kanji": "去",
+    "meaning_kr": "가다/제거",
+    "onyomi": "キョ",
+    "kunyomi": "さる",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "去",
+        "reading": "さる",
+        "meaning": "가다"
+      }
+    ],
+    "importance": "A",
+    "reason": "기존 설비 제거 표현",
+    "memory_hint": "흙(土) 위로 사람이 입(口) 다물고 떠나가니 갈 거 "
+  },
+  {
+    "id": 277,
+    "kanji": "解",
+    "meaning_kr": "풀다/해체",
+    "onyomi": "カイ",
+    "kunyomi": "とく",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "解",
+        "reading": "とく",
+        "meaning": "풀다"
+      }
+    ],
+    "importance": "A",
+    "reason": "해체/분해 도면",
+    "memory_hint": "뿔(角) 달린 소(牛)를 칼(刀)로 해체하여 푸니 풀 해 "
+  },
+  {
+    "id": 278,
+    "kanji": "体",
+    "meaning_kr": "몸/체",
+    "onyomi": "タイ",
+    "kunyomi": "からだ",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "体",
+        "reading": "からだ",
+        "meaning": "몸"
+      }
+    ],
+    "importance": "A",
+    "reason": "골조 모델 대표 글자",
+    "memory_hint": "사람(亻)의 근본(本)인 몸이니 몸 체 "
+  },
+  {
+    "id": 279,
+    "kanji": "躯",
+    "meaning_kr": "몸통/골조",
+    "onyomi": "ク",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "S",
+    "reason": "시공 BIM 골조 핵심",
+    "memory_hint": "몸(身)의 각 구역(区)을 이루는 뼈대니 골조 구 "
+  },
+  {
+    "id": 280,
+    "kanji": "意",
+    "meaning_kr": "뜻/의도",
+    "onyomi": "イ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "건축 의장 도면",
+    "memory_hint": "소리(音)를 내어 마음(心)에 품은 뜻을 알리니 뜻 의 "
+  },
+  {
+    "id": 281,
+    "kanji": "匠",
+    "meaning_kr": "장인/디자인",
+    "onyomi": "ショウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "건축 디자인 문맥",
+    "memory_hint": "상자(匚)에 도끼(斤)를 든 장인이니 장인 장 "
+  },
+  {
+    "id": 282,
+    "kanji": "増",
+    "meaning_kr": "늘리다",
+    "onyomi": "ゾウ",
+    "kunyomi": "ふえる",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "増",
+        "reading": "ふえる",
+        "meaning": "늘리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "증축 공사",
+    "memory_hint": "흙(土)을 거듭(曽) 쌓아 높이를 늘리니 늘릴 증 "
+  },
+  {
+    "id": 283,
+    "kanji": "汚",
+    "meaning_kr": "더럽다",
+    "onyomi": "オ",
+    "kunyomi": "けがす",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "汚",
+        "reading": "けがす",
+        "meaning": "더럽다"
+      }
+    ],
+    "importance": "A",
+    "reason": "배수/위생 설비",
+    "memory_hint": "물(氵)이 고여서 어긋나게(亏) 썩으니 더러울 오 "
+  },
+  {
+    "id": 284,
+    "kanji": "雑",
+    "meaning_kr": "잡다",
+    "onyomi": "ザツ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설비 배수 계통",
+    "memory_hint": "옷(衣)에 새(隹) 깃털과 나무(木) 조각이 섞이니 섞일 잡 "
+  },
+  {
+    "id": 285,
+    "kanji": "竪",
+    "meaning_kr": "세로",
+    "onyomi": "ジュ",
+    "kunyomi": "たて",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "竪",
+        "reading": "たて",
+        "meaning": "세로"
+      }
+    ],
+    "importance": "A",
+    "reason": "수직 배관",
+    "memory_hint": "신하(臣)가 손(又)으로 땅(土) 위에 물건을 세우니 세울 수 "
+  },
+  {
+    "id": 286,
+    "kanji": "横",
+    "meaning_kr": "가로",
+    "onyomi": "オウ",
+    "kunyomi": "よこ",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "横",
+        "reading": "よこ",
+        "meaning": "가로"
+      }
+    ],
+    "importance": "A",
+    "reason": "수평 배관",
+    "memory_hint": "나무(木)가 누렇게(黄) 죽어 가로로 쓰러지니 가로 횡 "
+  },
+  {
+    "id": 287,
+    "kanji": "枝",
+    "meaning_kr": "가지",
+    "onyomi": "シ",
+    "kunyomi": "えだ",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "枝",
+        "reading": "えだ",
+        "meaning": "가지"
+      }
+    ],
+    "importance": "A",
+    "reason": "배관 가지관",
+    "memory_hint": "나무(木)에서 뻗어 나와 지탱하는(支) 가지니 가지 지 "
+  },
+  {
+    "id": 288,
+    "kanji": "本",
+    "meaning_kr": "근본/본관",
+    "onyomi": "ホン",
+    "kunyomi": "もと",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "本",
+        "reading": "もと",
+        "meaning": "근본"
+      }
+    ],
+    "importance": "A",
+    "reason": "주배관",
+    "memory_hint": "나무(木) 뿌리(一)가 있는 근본이니 근본 본 "
+  },
+  {
+    "id": 289,
+    "kanji": "漏",
+    "meaning_kr": "새다",
+    "onyomi": "ロウ",
+    "kunyomi": "もる",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "漏",
+        "reading": "もる",
+        "meaning": "새다"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 안전",
+    "memory_hint": "지붕(尸) 안의 비(雨)가 그릇(彔) 밖으로 새니 샐 루 "
+  },
+  {
+    "id": 290,
+    "kanji": "弱",
+    "meaning_kr": "약하다",
+    "onyomi": "ジャク",
+    "kunyomi": "よわい",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "弱",
+        "reading": "よわい",
+        "meaning": "약하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "통신/약전",
+    "memory_hint": "활(弓) 두 개에 깃털(冫)이 빠져 힘이 약하니 약할 약 "
+  },
+  {
+    "id": 291,
+    "kanji": "端",
+    "meaning_kr": "끝",
+    "onyomi": "タン",
+    "kunyomi": "はし",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "端",
+        "reading": "はし",
+        "meaning": "끝"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 결선",
+    "memory_hint": "서(立) 있는 시초(端)이자 물건의 끝이니 끝 단 "
+  },
+  {
+    "id": 292,
+    "kanji": "子",
+    "meaning_kr": "자식/자",
+    "onyomi": "シ",
+    "kunyomi": "こ",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "子",
+        "reading": "こ",
+        "meaning": "자식"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 부품",
+    "memory_hint": "갓 태어난 아기의 모양을 본떠서 아들 자 "
+  },
+  {
+    "id": 293,
+    "kanji": "台",
+    "meaning_kr": "대/판",
+    "onyomi": "ダイ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "전기 판넬 부품",
+    "memory_hint": "입(口)으로 기쁘게(厶) 말하는 높은 대니 대 대 "
+  },
+  {
+    "id": 294,
+    "kanji": "遮",
+    "meaning_kr": "가리다/차단",
+    "onyomi": "シャ",
+    "kunyomi": "さえぎる",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "遮",
+        "reading": "さえぎる",
+        "meaning": "가리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 보호기기 문맥",
+    "memory_hint": "길(辶)을 써서 막아 가리니 막을 차"
+  },
+  {
+    "id": 295,
+    "kanji": "器",
+    "meaning_kr": "기구/기기",
+    "onyomi": "キ",
+    "kunyomi": "うつわ",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "器",
+        "reading": "うつわ",
+        "meaning": "기구"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 기기 관련",
+    "memory_hint": "입(口) 넷과 개(犬)가 모여 여러 기구가 되니 그릇 기, 기기 기"
+  },
+  {
+    "id": 296,
+    "kanji": "故",
+    "meaning_kr": "고장/옛",
+    "onyomi": "コ",
+    "kunyomi": "ゆえ",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "故",
+        "reading": "ゆえ",
+        "meaning": "고장"
+      }
+    ],
+    "importance": "B",
+    "reason": "유지관리 문맥",
+    "memory_hint": "옛(古) 일을 두드려(攵) 까닭을 찾으니 연고 고, 고장 고"
+  },
+  {
+    "id": 297,
+    "kanji": "障",
+    "meaning_kr": "막히다/장애",
+    "onyomi": "ショウ",
+    "kunyomi": "さわる",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "障",
+        "reading": "さわる",
+        "meaning": "막히다"
+      }
+    ],
+    "importance": "B",
+    "reason": "설비 장애 대응",
+    "memory_hint": "언덕(阝)을 장(章)처럼 막아 서니 장애 장"
+  },
+  {
+    "id": 298,
+    "kanji": "桁",
+    "meaning_kr": "들보/거더",
+    "onyomi": "ケタ",
+    "kunyomi": "けた",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "桁",
+        "reading": "けた",
+        "meaning": "들보"
+      }
+    ],
+    "importance": "A",
+    "reason": "구조 보조부재나 목구조 문맥",
+    "memory_hint": "나무(木) 들보가 행(行)처럼 가로지르니 도리 형, 거더 형"
+  },
+  {
+    "id": 299,
+    "kanji": "槽",
+    "meaning_kr": "통/탱크",
+    "onyomi": "ソウ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설비 탱크 문맥",
+    "memory_hint": "나무(木)로 만든 조(曹) 모양 통이니 통 조, 수조 조"
+  },
+  {
+    "id": 300,
+    "kanji": "被",
+    "meaning_kr": "덮다/피복",
+    "onyomi": "ヒ",
+    "kunyomi": "こうむる",
+    "bim_term": {
+      "word": "",
+      "reading": "",
+      "meaning": ""
+    },
+    "onExamples": [],
+    "kunExamples": [
+      {
+        "word": "被",
+        "reading": "こうむる",
+        "meaning": "덮다"
+      }
+    ],
+    "importance": "A",
+    "reason": "내화피복/보온 피복 문맥",
+    "memory_hint": "옷(衤)을 걸쳐 입으니 입을 피, 피복 피"
+  }
+]

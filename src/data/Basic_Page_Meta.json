@@ -1,0 +1,7198 @@
+[
+  {
+    "groupId": 1,
+    "title": "001: 山, 出",
+    "groupKey": "山, 出",
+    "sourceVolume": 1,
+    "sourcePage": 1,
+    "count": 2,
+    "kanjiIds": [
+      1,
+      2
+    ],
+    "kanjiList": [
+      "山",
+      "出"
+    ]
+  },
+  {
+    "groupId": 2,
+    "title": "002: 水, 氷, 永, 泳",
+    "groupKey": "水, 氷, 永, 泳",
+    "sourceVolume": 1,
+    "sourcePage": 2,
+    "count": 4,
+    "kanjiIds": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "kanjiList": [
+      "水",
+      "氷",
+      "永",
+      "泳"
+    ]
+  },
+  {
+    "groupId": 3,
+    "title": "003: 人, 入, 久",
+    "groupKey": "人, 入, 久",
+    "sourceVolume": 1,
+    "sourcePage": 3,
+    "count": 3,
+    "kanjiIds": [
+      7,
+      8,
+      9
+    ],
+    "kanjiList": [
+      "人",
+      "入",
+      "久"
+    ]
+  },
+  {
+    "groupId": 4,
+    "title": "004: 大, 天, 夫",
+    "groupKey": "大, 天, 夫",
+    "sourceVolume": 1,
+    "sourcePage": 4,
+    "count": 3,
+    "kanjiIds": [
+      10,
+      11,
+      12
+    ],
+    "kanjiList": [
+      "大",
+      "天",
+      "夫"
+    ]
+  },
+  {
+    "groupId": 5,
+    "title": "005: 仁, 個, 件, 保",
+    "groupKey": "仁, 個, 件, 保",
+    "sourceVolume": 1,
+    "sourcePage": 5,
+    "count": 4,
+    "kanjiIds": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "kanjiList": [
+      "仁",
+      "個",
+      "件",
+      "保"
+    ]
+  },
+  {
+    "groupId": 6,
+    "title": "006: 在, 存",
+    "groupKey": "在, 存",
+    "sourceVolume": 1,
+    "sourcePage": 6,
+    "count": 2,
+    "kanjiIds": [
+      17,
+      18
+    ],
+    "kanjiList": [
+      "在",
+      "存"
+    ]
+  },
+  {
+    "groupId": 7,
+    "title": "007: 乍, 作, 昨",
+    "groupKey": "乍, 作, 昨",
+    "sourceVolume": 1,
+    "sourcePage": 7,
+    "count": 3,
+    "kanjiIds": [
+      19,
+      20,
+      21
+    ],
+    "kanjiList": [
+      "乍",
+      "作",
+      "昨"
+    ]
+  },
+  {
+    "groupId": 8,
+    "title": "008: 儿, 児, 光",
+    "groupKey": "儿, 児, 光",
+    "sourceVolume": 1,
+    "sourcePage": 8,
+    "count": 3,
+    "kanjiIds": [
+      22,
+      23,
+      24
+    ],
+    "kanjiList": [
+      "儿",
+      "児",
+      "光"
+    ]
+  },
+  {
+    "groupId": 9,
+    "title": "009: 元, 完, 院",
+    "groupKey": "元, 完, 院",
+    "sourceVolume": 1,
+    "sourcePage": 9,
+    "count": 3,
+    "kanjiIds": [
+      25,
+      26,
+      27
+    ],
+    "kanjiList": [
+      "元",
+      "完",
+      "院"
+    ]
+  },
+  {
+    "groupId": 10,
+    "title": "010: 兑, 税, 説",
+    "groupKey": "兑, 税, 説",
+    "sourceVolume": 1,
+    "sourcePage": 10,
+    "count": 3,
+    "kanjiIds": [
+      28,
+      29,
+      30
+    ],
+    "kanjiList": [
+      "兑",
+      "税",
+      "説"
+    ]
+  },
+  {
+    "groupId": 11,
+    "title": "011: 兄, 祝, 競",
+    "groupKey": "兄, 祝, 競",
+    "sourceVolume": 1,
+    "sourcePage": 11,
+    "count": 3,
+    "kanjiIds": [
+      31,
+      32,
+      33
+    ],
+    "kanjiList": [
+      "兄",
+      "祝",
+      "競"
+    ]
+  },
+  {
+    "groupId": 12,
+    "title": "012: 今, 念, 貪, 貧",
+    "groupKey": "今, 念, 貪, 貧",
+    "sourceVolume": 1,
+    "sourcePage": 12,
+    "count": 4,
+    "kanjiIds": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "kanjiList": [
+      "今",
+      "念",
+      "貪",
+      "貧"
+    ]
+  },
+  {
+    "groupId": 13,
+    "title": "013: 合, 拾, 給, 答",
+    "groupKey": "合, 拾, 給, 答",
+    "sourceVolume": 1,
+    "sourcePage": 13,
+    "count": 4,
+    "kanjiIds": [
+      38,
+      39,
+      40,
+      41
+    ],
+    "kanjiList": [
+      "合",
+      "拾",
+      "給",
+      "答"
+    ]
+  },
+  {
+    "groupId": 14,
+    "title": "014: 僉, 檢, 險, 驗",
+    "groupKey": "僉, 檢, 險, 驗",
+    "sourceVolume": 1,
+    "sourcePage": 14,
+    "count": 4,
+    "kanjiIds": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "kanjiList": [
+      "僉",
+      "檢",
+      "險",
+      "驗"
+    ]
+  },
+  {
+    "groupId": 15,
+    "title": "015: 口",
+    "groupKey": "口, 名, 回",
+    "sourceVolume": 1,
+    "sourcePage": 15,
+    "count": 1,
+    "kanjiIds": [
+      46
+    ],
+    "kanjiList": [
+      "口"
+    ]
+  },
+  {
+    "groupId": 16,
+    "title": "016: 名, 回",
+    "groupKey": "口, 名, 회",
+    "sourceVolume": 1,
+    "sourcePage": 16,
+    "count": 2,
+    "kanjiIds": [
+      47,
+      48
+    ],
+    "kanjiList": [
+      "名",
+      "回"
+    ]
+  },
+  {
+    "groupId": 17,
+    "title": "017: 品, 操, 区",
+    "groupKey": "品, 操, 区",
+    "sourceVolume": 1,
+    "sourcePage": 17,
+    "count": 3,
+    "kanjiIds": [
+      49,
+      50,
+      51
+    ],
+    "kanjiList": [
+      "品",
+      "操",
+      "区"
+    ]
+  },
+  {
+    "groupId": 18,
+    "title": "018: 太, 犬, 獄, 器",
+    "groupKey": "太, 犬, 獄, 器",
+    "sourceVolume": 1,
+    "sourcePage": 18,
+    "count": 4,
+    "kanjiIds": [
+      52,
+      53,
+      54,
+      55
+    ],
+    "kanjiList": [
+      "太",
+      "犬",
+      "獄",
+      "器"
+    ]
+  },
+  {
+    "groupId": 19,
+    "title": "019: 囗, 困, 因, 恩",
+    "groupKey": "囗, 困, 因, 恩",
+    "sourceVolume": 1,
+    "sourcePage": 19,
+    "count": 4,
+    "kanjiIds": [
+      56,
+      57,
+      58,
+      59
+    ],
+    "kanjiList": [
+      "囗",
+      "困",
+      "因",
+      "恩"
+    ]
+  },
+  {
+    "groupId": 20,
+    "title": "020: 古, 故, 固",
+    "groupKey": "古, 故, 固",
+    "sourceVolume": 1,
+    "sourcePage": 20,
+    "count": 3,
+    "kanjiIds": [
+      60,
+      61,
+      62
+    ],
+    "kanjiList": [
+      "古",
+      "故",
+      "固"
+    ]
+  },
+  {
+    "groupId": 21,
+    "title": "021: 胡, 湖, 苦",
+    "groupKey": "胡, 湖, 苦",
+    "sourceVolume": 1,
+    "sourcePage": 21,
+    "count": 3,
+    "kanjiIds": [
+      63,
+      64,
+      65
+    ],
+    "kanjiList": [
+      "胡",
+      "湖",
+      "苦"
+    ]
+  },
+  {
+    "groupId": 22,
+    "title": "022: 若, 各, 格",
+    "groupKey": "若, 各, 格",
+    "sourceVolume": 1,
+    "sourcePage": 22,
+    "count": 3,
+    "kanjiIds": [
+      66,
+      67,
+      68
+    ],
+    "kanjiList": [
+      "若",
+      "各",
+      "格"
+    ]
+  },
+  {
+    "groupId": 23,
+    "title": "023: 路, 略, 閣",
+    "groupKey": "路, 略, 閣",
+    "sourceVolume": 1,
+    "sourcePage": 23,
+    "count": 3,
+    "kanjiIds": [
+      69,
+      70,
+      71
+    ],
+    "kanjiList": [
+      "路",
+      "略",
+      "閣"
+    ]
+  },
+  {
+    "groupId": 24,
+    "title": "024: 客, 落, 中",
+    "groupKey": "客, 落, 中",
+    "sourceVolume": 1,
+    "sourcePage": 24,
+    "count": 3,
+    "kanjiIds": [
+      72,
+      73,
+      74
+    ],
+    "kanjiList": [
+      "客",
+      "落",
+      "中"
+    ]
+  },
+  {
+    "groupId": 25,
+    "title": "025: 史, 吏, 使",
+    "groupKey": "史, 吏, 使",
+    "sourceVolume": 1,
+    "sourcePage": 25,
+    "count": 3,
+    "kanjiIds": [
+      75,
+      76,
+      77
+    ],
+    "kanjiList": [
+      "史",
+      "吏",
+      "使"
+    ]
+  },
+  {
+    "groupId": 26,
+    "title": "026: 日, 曰, 昌, 唱",
+    "groupKey": "日, 曰, 昌, 唱",
+    "sourceVolume": 1,
+    "sourcePage": 26,
+    "count": 4,
+    "kanjiIds": [
+      78,
+      79,
+      80,
+      81
+    ],
+    "kanjiList": [
+      "日",
+      "曰",
+      "昌",
+      "唱"
+    ]
+  },
+  {
+    "groupId": 27,
+    "title": "027: 更, 便",
+    "groupKey": "更, 便",
+    "sourceVolume": 1,
+    "sourcePage": 27,
+    "count": 2,
+    "kanjiIds": [
+      82,
+      83
+    ],
+    "kanjiList": [
+      "更",
+      "便"
+    ]
+  },
+  {
+    "groupId": 28,
+    "title": "028: 月, 夕, 多, 移",
+    "groupKey": "月, 夕, 多, 移",
+    "sourceVolume": 1,
+    "sourcePage": 28,
+    "count": 4,
+    "kanjiIds": [
+      84,
+      85,
+      86,
+      87
+    ],
+    "kanjiList": [
+      "月",
+      "夕",
+      "多",
+      "移"
+    ]
+  },
+  {
+    "groupId": 29,
+    "title": "029: 明, 盟",
+    "groupKey": "明, 盟",
+    "sourceVolume": 1,
+    "sourcePage": 29,
+    "count": 2,
+    "kanjiIds": [
+      88,
+      89
+    ],
+    "kanjiList": [
+      "明",
+      "盟"
+    ]
+  },
+  {
+    "groupId": 30,
+    "title": "030: 木, 休, 札",
+    "groupKey": "木, 休, 札",
+    "sourceVolume": 1,
+    "sourcePage": 30,
+    "count": 3,
+    "kanjiIds": [
+      90,
+      91,
+      92
+    ],
+    "kanjiList": [
+      "木",
+      "休",
+      "札"
+    ]
+  },
+  {
+    "groupId": 31,
+    "title": "031: 末",
+    "groupKey": "末, 本",
+    "sourceVolume": 1,
+    "sourcePage": 31,
+    "count": 1,
+    "kanjiIds": [
+      93
+    ],
+    "kanjiList": [
+      "末"
+    ]
+  },
+  {
+    "groupId": 32,
+    "title": "032: 本",
+    "groupKey": "末, 본",
+    "sourceVolume": 1,
+    "sourcePage": 32,
+    "count": 1,
+    "kanjiIds": [
+      94
+    ],
+    "kanjiList": [
+      "本"
+    ]
+  },
+  {
+    "groupId": 33,
+    "title": "033: 未, 味, 妹",
+    "groupKey": "未, 味, 妹",
+    "sourceVolume": 1,
+    "sourcePage": 33,
+    "count": 3,
+    "kanjiIds": [
+      95,
+      96,
+      97
+    ],
+    "kanjiList": [
+      "未",
+      "味",
+      "妹"
+    ]
+  },
+  {
+    "groupId": 34,
+    "title": "034: 果, 課, 巣",
+    "groupKey": "果, 課, 巣",
+    "sourceVolume": 1,
+    "sourcePage": 34,
+    "count": 3,
+    "kanjiIds": [
+      98,
+      99,
+      100
+    ],
+    "kanjiList": [
+      "果",
+      "課",
+      "巣"
+    ]
+  },
+  {
+    "groupId": 35,
+    "title": "035: 森, 禁, 襟",
+    "groupKey": "森, 禁",
+    "sourceVolume": 1,
+    "sourcePage": 35,
+    "count": 3,
+    "kanjiIds": [
+      101,
+      102,
+      103
+    ],
+    "kanjiList": [
+      "森",
+      "禁",
+      "襟"
+    ]
+  },
+  {
+    "groupId": 36,
+    "title": "036: 禾, 香, 和, 私, 秋",
+    "groupKey": "禾, 香, 和, 私, 秋",
+    "sourceVolume": 1,
+    "sourcePage": 36,
+    "count": 5,
+    "kanjiIds": [
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "kanjiList": [
+      "禾",
+      "香",
+      "和",
+      "私",
+      "秋"
+    ]
+  },
+  {
+    "groupId": 37,
+    "title": "037: 利, 梨",
+    "groupKey": "利, 梨",
+    "sourceVolume": 1,
+    "sourcePage": 37,
+    "count": 2,
+    "kanjiIds": [
+      109,
+      110
+    ],
+    "kanjiList": [
+      "利",
+      "梨"
+    ]
+  },
+  {
+    "groupId": 38,
+    "title": "038: 委, 季",
+    "groupKey": "委, 季, 香",
+    "sourceVolume": 1,
+    "sourcePage": 38,
+    "count": 2,
+    "kanjiIds": [
+      111,
+      112
+    ],
+    "kanjiList": [
+      "委",
+      "季"
+    ]
+  },
+  {
+    "groupId": 39,
+    "title": "039: 秀, 透",
+    "groupKey": "秀, 透",
+    "sourceVolume": 1,
+    "sourcePage": 39,
+    "count": 2,
+    "kanjiIds": [
+      113,
+      114
+    ],
+    "kanjiList": [
+      "秀",
+      "透"
+    ]
+  },
+  {
+    "groupId": 40,
+    "title": "040: 誘",
+    "groupKey": "誘",
+    "sourceVolume": 1,
+    "sourcePage": 40,
+    "count": 1,
+    "kanjiIds": [
+      115
+    ],
+    "kanjiList": [
+      "誘"
+    ]
+  },
+  {
+    "groupId": 41,
+    "title": "041: 米, 迷, 謎",
+    "groupKey": "米, 迷, 謎",
+    "sourceVolume": 1,
+    "sourcePage": 41,
+    "count": 3,
+    "kanjiIds": [
+      116,
+      117,
+      118
+    ],
+    "kanjiList": [
+      "米",
+      "迷",
+      "謎"
+    ]
+  },
+  {
+    "groupId": 42,
+    "title": "042: 菊, 類",
+    "groupKey": "菊, 類",
+    "sourceVolume": 1,
+    "sourcePage": 42,
+    "count": 2,
+    "kanjiIds": [
+      119,
+      120
+    ],
+    "kanjiList": [
+      "菊",
+      "類"
+    ]
+  },
+  {
+    "groupId": 43,
+    "title": "043: 氣",
+    "groupKey": "氣",
+    "sourceVolume": 1,
+    "sourcePage": 43,
+    "count": 1,
+    "kanjiIds": [
+      121
+    ],
+    "kanjiList": [
+      "氣"
+    ]
+  },
+  {
+    "groupId": 44,
+    "title": "044: 飛, 翻",
+    "groupKey": "飛, 翻",
+    "sourceVolume": 1,
+    "sourcePage": 44,
+    "count": 2,
+    "kanjiIds": [
+      122,
+      123
+    ],
+    "kanjiList": [
+      "飛",
+      "翻"
+    ]
+  },
+  {
+    "groupId": 45,
+    "title": "045: 飜",
+    "groupKey": "飜",
+    "sourceVolume": 1,
+    "sourcePage": 45,
+    "count": 1,
+    "kanjiIds": [
+      124
+    ],
+    "kanjiList": [
+      "飜"
+    ]
+  },
+  {
+    "groupId": 46,
+    "title": "046: 午, 許",
+    "groupKey": "午, 許",
+    "sourceVolume": 1,
+    "sourcePage": 46,
+    "count": 2,
+    "kanjiIds": [
+      125,
+      126
+    ],
+    "kanjiList": [
+      "午",
+      "許"
+    ]
+  },
+  {
+    "groupId": 47,
+    "title": "047: 牛, 牢, 牽",
+    "groupKey": "牛, 牢, 牽",
+    "sourceVolume": 1,
+    "sourcePage": 47,
+    "count": 3,
+    "kanjiIds": [
+      127,
+      128,
+      129
+    ],
+    "kanjiList": [
+      "牛",
+      "牢",
+      "牽"
+    ]
+  },
+  {
+    "groupId": 48,
+    "title": "048: 由, 宙, 笛",
+    "groupKey": "由, 宙, 笛",
+    "sourceVolume": 1,
+    "sourcePage": 48,
+    "count": 3,
+    "kanjiIds": [
+      130,
+      131,
+      132
+    ],
+    "kanjiList": [
+      "由",
+      "宙",
+      "笛"
+    ]
+  },
+  {
+    "groupId": 49,
+    "title": "049: 寅, 演",
+    "groupKey": "寅, 演",
+    "sourceVolume": 1,
+    "sourcePage": 49,
+    "count": 2,
+    "kanjiIds": [
+      133,
+      134
+    ],
+    "kanjiList": [
+      "寅",
+      "演"
+    ]
+  },
+  {
+    "groupId": 50,
+    "title": "050: 井, 耕, 寒, 圍, 井, 耕, 寒, 圍",
+    "groupKey": "井, 耕, 寒, 圍",
+    "sourceVolume": 1,
+    "sourcePage": 50,
+    "count": 8,
+    "kanjiIds": [
+      135,
+      136,
+      137,
+      138,
+      229,
+      230,
+      231,
+      232
+    ],
+    "kanjiList": [
+      "井",
+      "耕",
+      "寒",
+      "圍",
+      "井",
+      "耕",
+      "寒",
+      "圍"
+    ]
+  },
+  {
+    "groupId": 51,
+    "title": "051: 冊, 侖, 輪, 論",
+    "groupKey": "冊, 侖, 輪, 論",
+    "sourceVolume": 1,
+    "sourcePage": 51,
+    "count": 4,
+    "kanjiIds": [
+      139,
+      140,
+      141,
+      142
+    ],
+    "kanjiList": [
+      "冊",
+      "侖",
+      "輪",
+      "論"
+    ]
+  },
+  {
+    "groupId": 52,
+    "title": "052: 圧, 厚, 厂",
+    "groupKey": "圧, 厚",
+    "sourceVolume": 1,
+    "sourcePage": 52,
+    "count": 3,
+    "kanjiIds": [
+      143,
+      144,
+      145
+    ],
+    "kanjiList": [
+      "圧",
+      "厚",
+      "厂"
+    ]
+  },
+  {
+    "groupId": 53,
+    "title": "053: 庫, 車",
+    "groupKey": "庫, 車",
+    "sourceVolume": 1,
+    "sourcePage": 53,
+    "count": 2,
+    "kanjiIds": [
+      146,
+      147
+    ],
+    "kanjiList": [
+      "庫",
+      "車"
+    ]
+  },
+  {
+    "groupId": 54,
+    "title": "054: 倉, 創, 槍",
+    "groupKey": "倉, 創, 槍",
+    "sourceVolume": 1,
+    "sourcePage": 54,
+    "count": 3,
+    "kanjiIds": [
+      148,
+      149,
+      150
+    ],
+    "kanjiList": [
+      "倉",
+      "創",
+      "槍"
+    ]
+  },
+  {
+    "groupId": 55,
+    "title": "055: 廣, 擴, 鑛, 广",
+    "groupKey": "廣, 擴, 鑛",
+    "sourceVolume": 1,
+    "sourcePage": 55,
+    "count": 4,
+    "kanjiIds": [
+      151,
+      152,
+      153,
+      154
+    ],
+    "kanjiList": [
+      "廣",
+      "擴",
+      "鑛",
+      "广"
+    ]
+  },
+  {
+    "groupId": 56,
+    "title": "056: 序, 庶, 遮",
+    "groupKey": "序, 庶, 遮",
+    "sourceVolume": 1,
+    "sourcePage": 56,
+    "count": 3,
+    "kanjiIds": [
+      155,
+      156,
+      157
+    ],
+    "kanjiList": [
+      "序",
+      "庶",
+      "遮"
+    ]
+  },
+  {
+    "groupId": 57,
+    "title": "057: 席, 度, 渡",
+    "groupKey": "席, 度, 渡",
+    "sourceVolume": 1,
+    "sourcePage": 57,
+    "count": 3,
+    "kanjiIds": [
+      158,
+      159,
+      160
+    ],
+    "kanjiList": [
+      "席",
+      "度",
+      "渡"
+    ]
+  },
+  {
+    "groupId": 58,
+    "title": "058: 府, 符, 附, 腐",
+    "groupKey": "府, 符, 附, 腐",
+    "sourceVolume": 1,
+    "sourcePage": 58,
+    "count": 4,
+    "kanjiIds": [
+      161,
+      162,
+      163,
+      164
+    ],
+    "kanjiList": [
+      "府",
+      "符",
+      "附",
+      "腐"
+    ]
+  },
+  {
+    "groupId": 59,
+    "title": "059: 康",
+    "groupKey": "康",
+    "sourceVolume": 1,
+    "sourcePage": 59,
+    "count": 1,
+    "kanjiIds": [
+      165
+    ],
+    "kanjiList": [
+      "康"
+    ]
+  },
+  {
+    "groupId": 60,
+    "title": "060: 健",
+    "groupKey": "康, 健",
+    "sourceVolume": 1,
+    "sourcePage": 60,
+    "count": 1,
+    "kanjiIds": [
+      166
+    ],
+    "kanjiList": [
+      "健"
+    ]
+  },
+  {
+    "groupId": 61,
+    "title": "061: 廉, 謙, 嫌, 兼",
+    "groupKey": "廉, 謙, 嫌, 兼",
+    "sourceVolume": 1,
+    "sourcePage": 61,
+    "count": 4,
+    "kanjiIds": [
+      167,
+      168,
+      169,
+      170
+    ],
+    "kanjiList": [
+      "廉",
+      "謙",
+      "嫌",
+      "兼"
+    ]
+  },
+  {
+    "groupId": 62,
+    "title": "062: 鹿, 慶, 薦, 麗, 鷹, 麟",
+    "groupKey": "鹿, 慶, 薦, 麗",
+    "sourceVolume": 1,
+    "sourcePage": 62,
+    "count": 6,
+    "kanjiIds": [
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "kanjiList": [
+      "鹿",
+      "慶",
+      "薦",
+      "麗",
+      "鷹",
+      "麟"
+    ]
+  },
+  {
+    "groupId": 63,
+    "title": "063: 廣",
+    "groupKey": "廣, 鑛, 擴",
+    "sourceVolume": 1,
+    "sourcePage": 63,
+    "count": 1,
+    "kanjiIds": [
+      177
+    ],
+    "kanjiList": [
+      "廣"
+    ]
+  },
+  {
+    "groupId": 64,
+    "title": "064: 庚, 康, 唐, 糖",
+    "groupKey": "庚, 康, 唐, 糖",
+    "sourceVolume": 1,
+    "sourcePage": 64,
+    "count": 4,
+    "kanjiIds": [
+      178,
+      179,
+      180,
+      181
+    ],
+    "kanjiList": [
+      "庚",
+      "康",
+      "唐",
+      "糖"
+    ]
+  },
+  {
+    "groupId": 65,
+    "title": "065: 庸",
+    "groupKey": "庸",
+    "sourceVolume": 1,
+    "sourcePage": 65,
+    "count": 1,
+    "kanjiIds": [
+      182
+    ],
+    "kanjiList": [
+      "庸"
+    ]
+  },
+  {
+    "groupId": 66,
+    "title": "066: 展, 廳, 延, 誕",
+    "groupKey": "展, 廳, 延, 誕",
+    "sourceVolume": 1,
+    "sourcePage": 66,
+    "count": 4,
+    "kanjiIds": [
+      183,
+      184,
+      185,
+      186
+    ],
+    "kanjiList": [
+      "展",
+      "廳",
+      "延",
+      "誕"
+    ]
+  },
+  {
+    "groupId": 67,
+    "title": "067: 辰, 振, 賑, 震, 唇",
+    "groupKey": "辰, 振, 賑, 震, 唇",
+    "sourceVolume": 1,
+    "sourcePage": 67,
+    "count": 5,
+    "kanjiIds": [
+      187,
+      188,
+      189,
+      190,
+      191
+    ],
+    "kanjiList": [
+      "辰",
+      "振",
+      "賑",
+      "震",
+      "唇"
+    ]
+  },
+  {
+    "groupId": 68,
+    "title": "068: 農, 濃",
+    "groupKey": "農, 濃",
+    "sourceVolume": 1,
+    "sourcePage": 68,
+    "count": 2,
+    "kanjiIds": [
+      192,
+      193
+    ],
+    "kanjiList": [
+      "農",
+      "濃"
+    ]
+  },
+  {
+    "groupId": 69,
+    "title": "069: 豊, 禮, 體",
+    "groupKey": "豊, 禮, 體, 骨",
+    "sourceVolume": 1,
+    "sourcePage": 69,
+    "count": 3,
+    "kanjiIds": [
+      194,
+      195,
+      196
+    ],
+    "kanjiList": [
+      "豊",
+      "禮",
+      "體"
+    ]
+  },
+  {
+    "groupId": 70,
+    "title": "070: 骨",
+    "groupKey": "豊, 禮, 體, 198",
+    "sourceVolume": 1,
+    "sourcePage": 70,
+    "count": 1,
+    "kanjiIds": [
+      197
+    ],
+    "kanjiList": [
+      "骨"
+    ]
+  },
+  {
+    "groupId": 71,
+    "title": "071: 曲, 農, 豊",
+    "groupKey": "曲, 農, 豊",
+    "sourceVolume": 1,
+    "sourcePage": 71,
+    "count": 3,
+    "kanjiIds": [
+      198,
+      199,
+      200
+    ],
+    "kanjiList": [
+      "曲",
+      "農",
+      "豊"
+    ]
+  },
+  {
+    "groupId": 72,
+    "title": "072: 結, 吉",
+    "groupKey": "結, 吉",
+    "sourceVolume": 1,
+    "sourcePage": 72,
+    "count": 2,
+    "kanjiIds": [
+      201,
+      202
+    ],
+    "kanjiList": [
+      "結",
+      "吉"
+    ]
+  },
+  {
+    "groupId": 73,
+    "title": "073: 樹, 樹",
+    "groupKey": "樹",
+    "sourceVolume": 1,
+    "sourcePage": 73,
+    "count": 2,
+    "kanjiIds": [
+      203,
+      744
+    ],
+    "kanjiList": [
+      "樹",
+      "樹"
+    ]
+  },
+  {
+    "groupId": 74,
+    "title": "074: 喜, 嘉, 喜, 嘉",
+    "groupKey": "喜, 嘉",
+    "sourceVolume": 1,
+    "sourcePage": 74,
+    "count": 4,
+    "kanjiIds": [
+      204,
+      205,
+      741,
+      742
+    ],
+    "kanjiList": [
+      "喜",
+      "嘉",
+      "喜",
+      "嘉"
+    ]
+  },
+  {
+    "groupId": 75,
+    "title": "075: 舍, 捨",
+    "groupKey": "舍, 捨",
+    "sourceVolume": 1,
+    "sourcePage": 75,
+    "count": 2,
+    "kanjiIds": [
+      206,
+      207
+    ],
+    "kanjiList": [
+      "舍",
+      "捨"
+    ]
+  },
+  {
+    "groupId": 76,
+    "title": "076: 莫, 模, 摸, 漠",
+    "groupKey": "莫, 模, 摸, 漠",
+    "sourceVolume": 1,
+    "sourcePage": 76,
+    "count": 4,
+    "kanjiIds": [
+      208,
+      209,
+      210,
+      211
+    ],
+    "kanjiList": [
+      "莫",
+      "模",
+      "摸",
+      "漠"
+    ]
+  },
+  {
+    "groupId": 77,
+    "title": "077: 慕, 募, 慕, 募",
+    "groupKey": "慕, 募",
+    "sourceVolume": 1,
+    "sourcePage": 77,
+    "count": 4,
+    "kanjiIds": [
+      212,
+      213,
+      721,
+      722
+    ],
+    "kanjiList": [
+      "慕",
+      "募",
+      "慕",
+      "募"
+    ]
+  },
+  {
+    "groupId": 78,
+    "title": "078: 暮, 墓, 幕, 暮, 墓, 幕",
+    "groupKey": "暮, 墓, 幕",
+    "sourceVolume": 1,
+    "sourcePage": 78,
+    "count": 6,
+    "kanjiIds": [
+      214,
+      215,
+      216,
+      723,
+      724,
+      725
+    ],
+    "kanjiList": [
+      "暮",
+      "墓",
+      "幕",
+      "暮",
+      "墓",
+      "幕"
+    ]
+  },
+  {
+    "groupId": 79,
+    "title": "079: 白, 皇, 帛, 綿",
+    "groupKey": "白, 皇, 帛, 綿",
+    "sourceVolume": 1,
+    "sourcePage": 79,
+    "count": 4,
+    "kanjiIds": [
+      217,
+      218,
+      219,
+      220
+    ],
+    "kanjiList": [
+      "白",
+      "皇",
+      "帛",
+      "綿"
+    ]
+  },
+  {
+    "groupId": 80,
+    "title": "080: 百, 宿, 縮",
+    "groupKey": "百, 宿, 縮",
+    "sourceVolume": 1,
+    "sourcePage": 80,
+    "count": 3,
+    "kanjiIds": [
+      221,
+      222,
+      223
+    ],
+    "kanjiList": [
+      "百",
+      "宿",
+      "縮"
+    ]
+  },
+  {
+    "groupId": 81,
+    "title": "081: 泉, 線",
+    "groupKey": "泉, 線",
+    "sourceVolume": 1,
+    "sourcePage": 81,
+    "count": 2,
+    "kanjiIds": [
+      224,
+      225
+    ],
+    "kanjiList": [
+      "泉",
+      "線"
+    ]
+  },
+  {
+    "groupId": 82,
+    "title": "082: 原, 源, 願",
+    "groupKey": "原, 源, 願",
+    "sourceVolume": 1,
+    "sourcePage": 82,
+    "count": 3,
+    "kanjiIds": [
+      226,
+      227,
+      228
+    ],
+    "kanjiList": [
+      "原",
+      "源",
+      "願"
+    ]
+  },
+  {
+    "groupId": 83,
+    "title": "083: 形, 刑, 型",
+    "groupKey": "形, 刑, 型",
+    "sourceVolume": 1,
+    "sourcePage": 83,
+    "count": 3,
+    "kanjiIds": [
+      233,
+      234,
+      235
+    ],
+    "kanjiList": [
+      "形",
+      "刑",
+      "型"
+    ]
+  },
+  {
+    "groupId": 84,
+    "title": "084: 冓, 構, 講, 溝",
+    "groupKey": "冓, 構, 講, 溝",
+    "sourceVolume": 1,
+    "sourcePage": 84,
+    "count": 4,
+    "kanjiIds": [
+      236,
+      237,
+      238,
+      239
+    ],
+    "kanjiList": [
+      "冓",
+      "構",
+      "講",
+      "溝"
+    ]
+  },
+  {
+    "groupId": 85,
+    "title": "085: 冉, 再",
+    "groupKey": "冉, 再",
+    "sourceVolume": 1,
+    "sourcePage": 85,
+    "count": 2,
+    "kanjiIds": [
+      240,
+      241
+    ],
+    "kanjiList": [
+      "冉",
+      "再"
+    ]
+  },
+  {
+    "groupId": 86,
+    "title": "086: 構",
+    "groupKey": "構",
+    "sourceVolume": 1,
+    "sourcePage": 86,
+    "count": 1,
+    "kanjiIds": [
+      242
+    ],
+    "kanjiList": [
+      "構"
+    ]
+  },
+  {
+    "groupId": 87,
+    "title": "087: 講",
+    "groupKey": "講",
+    "sourceVolume": 1,
+    "sourcePage": 87,
+    "count": 1,
+    "kanjiIds": [
+      243
+    ],
+    "kanjiList": [
+      "講"
+    ]
+  },
+  {
+    "groupId": 88,
+    "title": "088: 禾, 利, 梨, 委, 季",
+    "groupKey": "禾, 利, 梨, 委, 季",
+    "sourceVolume": 1,
+    "sourcePage": 88,
+    "count": 5,
+    "kanjiIds": [
+      244,
+      245,
+      246,
+      247,
+      248
+    ],
+    "kanjiList": [
+      "禾",
+      "利",
+      "梨",
+      "委",
+      "季"
+    ]
+  },
+  {
+    "groupId": 89,
+    "title": "089: 秀, 透, 誘",
+    "groupKey": "秀, 透, 誘",
+    "sourceVolume": 1,
+    "sourcePage": 89,
+    "count": 3,
+    "kanjiIds": [
+      249,
+      250,
+      251
+    ],
+    "kanjiList": [
+      "秀",
+      "透",
+      "誘"
+    ]
+  },
+  {
+    "groupId": 90,
+    "title": "090: 私, 和, 香, 秋, 愁",
+    "groupKey": "私, 和, 香, 秋, 愁",
+    "sourceVolume": 1,
+    "sourcePage": 90,
+    "count": 5,
+    "kanjiIds": [
+      252,
+      253,
+      254,
+      255,
+      256
+    ],
+    "kanjiList": [
+      "私",
+      "和",
+      "香",
+      "秋",
+      "愁"
+    ]
+  },
+  {
+    "groupId": 91,
+    "title": "091: 秤",
+    "groupKey": "秤",
+    "sourceVolume": 1,
+    "sourcePage": 91,
+    "count": 1,
+    "kanjiIds": [
+      257
+    ],
+    "kanjiList": [
+      "秤"
+    ]
+  },
+  {
+    "groupId": 92,
+    "title": "092: 呼, 喚, 吸, 扱",
+    "groupKey": "呼, 喚, 吸, 扱",
+    "sourceVolume": 1,
+    "sourcePage": 92,
+    "count": 4,
+    "kanjiIds": [
+      258,
+      259,
+      260,
+      261
+    ],
+    "kanjiList": [
+      "呼",
+      "喚",
+      "吸",
+      "扱"
+    ]
+  },
+  {
+    "groupId": 93,
+    "title": "093: 吐, 訃",
+    "groupKey": "吐, 訃",
+    "sourceVolume": 1,
+    "sourcePage": 93,
+    "count": 2,
+    "kanjiIds": [
+      262,
+      263
+    ],
+    "kanjiList": [
+      "吐",
+      "訃"
+    ]
+  },
+  {
+    "groupId": 94,
+    "title": "094: 葉, 喋, 諜, 牒",
+    "groupKey": "葉, 喋, 諜, 牒",
+    "sourceVolume": 1,
+    "sourcePage": 94,
+    "count": 4,
+    "kanjiIds": [
+      264,
+      265,
+      266,
+      267
+    ],
+    "kanjiList": [
+      "葉",
+      "喋",
+      "諜",
+      "牒"
+    ]
+  },
+  {
+    "groupId": 95,
+    "title": "095: 世, 貰, 笹, 泄",
+    "groupKey": "世, 貰, 笹, 泄",
+    "sourceVolume": 1,
+    "sourcePage": 95,
+    "count": 4,
+    "kanjiIds": [
+      268,
+      269,
+      270,
+      271
+    ],
+    "kanjiList": [
+      "世",
+      "貰",
+      "笹",
+      "泄"
+    ]
+  },
+  {
+    "groupId": 96,
+    "title": "096: 旨, 指, 脂, 詣, 稽",
+    "groupKey": "旨, 指, 脂, 詣, 稽",
+    "sourceVolume": 1,
+    "sourcePage": 96,
+    "count": 5,
+    "kanjiIds": [
+      272,
+      273,
+      274,
+      275,
+      276
+    ],
+    "kanjiList": [
+      "旨",
+      "指",
+      "脂",
+      "詣",
+      "稽"
+    ]
+  },
+  {
+    "groupId": 97,
+    "title": "097: 耆, 嗜, 鰭, 老, 孝, 教",
+    "groupKey": "耆, 嗜, 鰭, 老, 孝, 教",
+    "sourceVolume": 1,
+    "sourcePage": 97,
+    "count": 6,
+    "kanjiIds": [
+      277,
+      278,
+      279,
+      280,
+      281,
+      282
+    ],
+    "kanjiList": [
+      "耆",
+      "嗜",
+      "鰭",
+      "老",
+      "孝",
+      "教"
+    ]
+  },
+  {
+    "groupId": 98,
+    "title": "098: 考, 拷",
+    "groupKey": "考, 拷",
+    "sourceVolume": 1,
+    "sourcePage": 98,
+    "count": 2,
+    "kanjiIds": [
+      283,
+      284
+    ],
+    "kanjiList": [
+      "考",
+      "拷"
+    ]
+  },
+  {
+    "groupId": 99,
+    "title": "099: 者, 渚, 署, 諸, 都",
+    "groupKey": "者, 渚, 署, 諸, 都",
+    "sourceVolume": 1,
+    "sourcePage": 99,
+    "count": 5,
+    "kanjiIds": [
+      285,
+      286,
+      287,
+      288,
+      289
+    ],
+    "kanjiList": [
+      "者",
+      "渚",
+      "署",
+      "諸",
+      "都"
+    ]
+  },
+  {
+    "groupId": 100,
+    "title": "100: 渚",
+    "groupKey": "渚",
+    "sourceVolume": 1,
+    "sourcePage": 100,
+    "count": 1,
+    "kanjiIds": [
+      290
+    ],
+    "kanjiList": [
+      "渚"
+    ]
+  },
+  {
+    "groupId": 101,
+    "title": "101: 奢",
+    "groupKey": "奢",
+    "sourceVolume": 1,
+    "sourcePage": 101,
+    "count": 1,
+    "kanjiIds": [
+      291
+    ],
+    "kanjiList": [
+      "奢"
+    ]
+  },
+  {
+    "groupId": 102,
+    "title": "102: 煮, 著, 箸, 賭, 儲, 猪",
+    "groupKey": "煮, 著, 箸, 賭, 儲, 猪",
+    "sourceVolume": 1,
+    "sourcePage": 102,
+    "count": 6,
+    "kanjiIds": [
+      292,
+      293,
+      294,
+      295,
+      296,
+      297
+    ],
+    "kanjiList": [
+      "煮",
+      "著",
+      "箸",
+      "賭",
+      "儲",
+      "猪"
+    ]
+  },
+  {
+    "groupId": 103,
+    "title": "103: 緖, 緖",
+    "groupKey": "緖",
+    "sourceVolume": 1,
+    "sourcePage": 103,
+    "count": 2,
+    "kanjiIds": [
+      298,
+      866
+    ],
+    "kanjiList": [
+      "緖",
+      "緖"
+    ]
+  },
+  {
+    "groupId": 104,
+    "title": "104: 署, 서, 署, 署",
+    "groupKey": "署",
+    "sourceVolume": 1,
+    "sourcePage": 104,
+    "count": 4,
+    "kanjiIds": [
+      299,
+      860,
+      869,
+      895
+    ],
+    "kanjiList": [
+      "署",
+      "서",
+      "署",
+      "署"
+    ]
+  },
+  {
+    "groupId": 105,
+    "title": "105: 暑, 暑, 暑",
+    "groupKey": "暑",
+    "sourceVolume": 1,
+    "sourcePage": 105,
+    "count": 3,
+    "kanjiIds": [
+      300,
+      870,
+      896
+    ],
+    "kanjiList": [
+      "暑",
+      "暑",
+      "暑"
+    ]
+  },
+  {
+    "groupId": 106,
+    "title": "106: 勤, 漢, 難",
+    "groupKey": "勤, 漢, 難",
+    "sourceVolume": 1,
+    "sourcePage": 106,
+    "count": 3,
+    "kanjiIds": [
+      301,
+      302,
+      303
+    ],
+    "kanjiList": [
+      "勤",
+      "漢",
+      "難"
+    ]
+  },
+  {
+    "groupId": 107,
+    "title": "107: 堇",
+    "groupKey": "堇",
+    "sourceVolume": 1,
+    "sourcePage": 107,
+    "count": 1,
+    "kanjiIds": [
+      304
+    ],
+    "kanjiList": [
+      "堇"
+    ]
+  },
+  {
+    "groupId": 108,
+    "title": "108: 立, 位, 泣, 並",
+    "groupKey": "立, 位, 泣, 並",
+    "sourceVolume": 1,
+    "sourcePage": 108,
+    "count": 4,
+    "kanjiIds": [
+      305,
+      306,
+      307,
+      308
+    ],
+    "kanjiList": [
+      "立",
+      "位",
+      "泣",
+      "並"
+    ]
+  },
+  {
+    "groupId": 109,
+    "title": "109: 音, 暗, 意, 億",
+    "groupKey": "音, 暗, 意, 억",
+    "sourceVolume": 1,
+    "sourcePage": 109,
+    "count": 4,
+    "kanjiIds": [
+      309,
+      310,
+      311,
+      312
+    ],
+    "kanjiList": [
+      "音",
+      "暗",
+      "意",
+      "億"
+    ]
+  },
+  {
+    "groupId": 110,
+    "title": "110: 章, 障",
+    "groupKey": "章, 障",
+    "sourceVolume": 1,
+    "sourcePage": 110,
+    "count": 2,
+    "kanjiIds": [
+      313,
+      314
+    ],
+    "kanjiList": [
+      "章",
+      "障"
+    ]
+  },
+  {
+    "groupId": 111,
+    "title": "111: 竟, 境, 鏡",
+    "groupKey": "竟, 境, 鏡",
+    "sourceVolume": 1,
+    "sourcePage": 111,
+    "count": 3,
+    "kanjiIds": [
+      315,
+      316,
+      317
+    ],
+    "kanjiList": [
+      "竟",
+      "境",
+      "鏡"
+    ]
+  },
+  {
+    "groupId": 112,
+    "title": "112: 倍, 部",
+    "groupKey": "倍, 部",
+    "sourceVolume": 1,
+    "sourcePage": 112,
+    "count": 2,
+    "kanjiIds": [
+      318,
+      319
+    ],
+    "kanjiList": [
+      "倍",
+      "部"
+    ]
+  },
+  {
+    "groupId": 113,
+    "title": "113: 親, 新",
+    "groupKey": "親, 新",
+    "sourceVolume": 1,
+    "sourcePage": 113,
+    "count": 2,
+    "kanjiIds": [
+      320,
+      321
+    ],
+    "kanjiList": [
+      "親",
+      "新"
+    ]
+  },
+  {
+    "groupId": 114,
+    "title": "114: 辛, 幸, 報",
+    "groupKey": "辛, 幸, 報",
+    "sourceVolume": 1,
+    "sourcePage": 114,
+    "count": 3,
+    "kanjiIds": [
+      322,
+      323,
+      324
+    ],
+    "kanjiList": [
+      "辛",
+      "幸",
+      "報"
+    ]
+  },
+  {
+    "groupId": 115,
+    "title": "115: 服",
+    "groupKey": "服",
+    "sourceVolume": 1,
+    "sourcePage": 115,
+    "count": 1,
+    "kanjiIds": [
+      325
+    ],
+    "kanjiList": [
+      "服"
+    ]
+  },
+  {
+    "groupId": 116,
+    "title": "116: 業, 対",
+    "groupKey": "業, 対",
+    "sourceVolume": 1,
+    "sourcePage": 116,
+    "count": 2,
+    "kanjiIds": [
+      326,
+      327
+    ],
+    "kanjiList": [
+      "業",
+      "対"
+    ]
+  },
+  {
+    "groupId": 117,
+    "title": "117: 上, 下",
+    "groupKey": "上, 下",
+    "sourceVolume": 1,
+    "sourcePage": 117,
+    "count": 2,
+    "kanjiIds": [
+      328,
+      329
+    ],
+    "kanjiList": [
+      "上",
+      "下"
+    ]
+  },
+  {
+    "groupId": 118,
+    "title": "118: 足, 捉",
+    "groupKey": "足, 捉",
+    "sourceVolume": 1,
+    "sourcePage": 118,
+    "count": 2,
+    "kanjiIds": [
+      330,
+      331
+    ],
+    "kanjiList": [
+      "足",
+      "捉"
+    ]
+  },
+  {
+    "groupId": 119,
+    "title": "119: 止, 武, 歩, 歯",
+    "groupKey": "止, 武, 歩, 歯",
+    "sourceVolume": 1,
+    "sourcePage": 119,
+    "count": 4,
+    "kanjiIds": [
+      332,
+      333,
+      334,
+      335
+    ],
+    "kanjiList": [
+      "止",
+      "武",
+      "歩",
+      "歯"
+    ]
+  },
+  {
+    "groupId": 120,
+    "title": "120: 廷, 庭",
+    "groupKey": "廷, 庭",
+    "sourceVolume": 1,
+    "sourcePage": 120,
+    "count": 2,
+    "kanjiIds": [
+      336,
+      337
+    ],
+    "kanjiList": [
+      "廷",
+      "庭"
+    ]
+  },
+  {
+    "groupId": 121,
+    "title": "121: 延, 誕",
+    "groupKey": "延, 誕",
+    "sourceVolume": 1,
+    "sourcePage": 121,
+    "count": 2,
+    "kanjiIds": [
+      338,
+      339
+    ],
+    "kanjiList": [
+      "延",
+      "誕"
+    ]
+  },
+  {
+    "groupId": 122,
+    "title": "122: 正, 政",
+    "groupKey": "正, 政",
+    "sourceVolume": 1,
+    "sourcePage": 122,
+    "count": 2,
+    "kanjiIds": [
+      340,
+      341
+    ],
+    "kanjiList": [
+      "正",
+      "政"
+    ]
+  },
+  {
+    "groupId": 123,
+    "title": "123: 定, 整",
+    "groupKey": "定, 整",
+    "sourceVolume": 1,
+    "sourcePage": 123,
+    "count": 2,
+    "kanjiIds": [
+      342,
+      343
+    ],
+    "kanjiList": [
+      "定",
+      "整"
+    ]
+  },
+  {
+    "groupId": 124,
+    "title": "124: 是, 提, 題",
+    "groupKey": "是, 提, 題",
+    "sourceVolume": 1,
+    "sourcePage": 124,
+    "count": 3,
+    "kanjiIds": [
+      344,
+      345,
+      346
+    ],
+    "kanjiList": [
+      "是",
+      "提",
+      "題"
+    ]
+  },
+  {
+    "groupId": 125,
+    "title": "125: 手, 拝",
+    "groupKey": "手, 拝",
+    "sourceVolume": 1,
+    "sourcePage": 125,
+    "count": 2,
+    "kanjiIds": [
+      347,
+      348
+    ],
+    "kanjiList": [
+      "手",
+      "拝"
+    ]
+  },
+  {
+    "groupId": 126,
+    "title": "126: 毛",
+    "groupKey": "毛",
+    "sourceVolume": 1,
+    "sourcePage": 126,
+    "count": 1,
+    "kanjiIds": [
+      349
+    ],
+    "kanjiList": [
+      "毛"
+    ]
+  },
+  {
+    "groupId": 127,
+    "title": "127: 女, 好, 妻",
+    "groupKey": "女, 好, 妻",
+    "sourceVolume": 1,
+    "sourcePage": 127,
+    "count": 3,
+    "kanjiIds": [
+      350,
+      351,
+      352
+    ],
+    "kanjiList": [
+      "女",
+      "好",
+      "妻"
+    ]
+  },
+  {
+    "groupId": 128,
+    "title": "128: 委, 季",
+    "groupKey": "委, 季",
+    "sourceVolume": 1,
+    "sourcePage": 128,
+    "count": 2,
+    "kanjiIds": [
+      353,
+      354
+    ],
+    "kanjiList": [
+      "委",
+      "季"
+    ]
+  },
+  {
+    "groupId": 129,
+    "title": "129: 承, 丞, 蒸",
+    "groupKey": "承, 丞, 蒸",
+    "sourceVolume": 1,
+    "sourcePage": 129,
+    "count": 3,
+    "kanjiIds": [
+      355,
+      356,
+      357
+    ],
+    "kanjiList": [
+      "承",
+      "丞",
+      "蒸"
+    ]
+  },
+  {
+    "groupId": 130,
+    "title": "130: 加, 賀",
+    "groupKey": "加, 賀",
+    "sourceVolume": 1,
+    "sourcePage": 130,
+    "count": 2,
+    "kanjiIds": [
+      358,
+      359
+    ],
+    "kanjiList": [
+      "加",
+      "賀"
+    ]
+  },
+  {
+    "groupId": 131,
+    "title": "131: 協",
+    "groupKey": "協",
+    "sourceVolume": 1,
+    "sourcePage": 131,
+    "count": 1,
+    "kanjiIds": [
+      360
+    ],
+    "kanjiList": [
+      "協"
+    ]
+  },
+  {
+    "groupId": 132,
+    "title": "132: 喬, 橋",
+    "groupKey": "喬, 橋",
+    "sourceVolume": 1,
+    "sourcePage": 132,
+    "count": 2,
+    "kanjiIds": [
+      361,
+      362
+    ],
+    "kanjiList": [
+      "喬",
+      "橋"
+    ]
+  },
+  {
+    "groupId": 133,
+    "title": "133: 門, 問, 聞, 関",
+    "groupKey": "門, 問, 聞, 關",
+    "sourceVolume": 1,
+    "sourcePage": 133,
+    "count": 4,
+    "kanjiIds": [
+      363,
+      364,
+      365,
+      366
+    ],
+    "kanjiList": [
+      "門",
+      "問",
+      "聞",
+      "関"
+    ]
+  },
+  {
+    "groupId": 134,
+    "title": "134: 簡, 間",
+    "groupKey": "間, 簡",
+    "sourceVolume": 1,
+    "sourcePage": 134,
+    "count": 2,
+    "kanjiIds": [
+      367,
+      368
+    ],
+    "kanjiList": [
+      "簡",
+      "間"
+    ]
+  },
+  {
+    "groupId": 135,
+    "title": "135: 敵, 商",
+    "groupKey": "敵, 商",
+    "sourceVolume": 1,
+    "sourcePage": 135,
+    "count": 2,
+    "kanjiIds": [
+      369,
+      370
+    ],
+    "kanjiList": [
+      "敵",
+      "商"
+    ]
+  },
+  {
+    "groupId": 136,
+    "title": "136: 開, 閉",
+    "groupKey": "開, 閉",
+    "sourceVolume": 1,
+    "sourcePage": 136,
+    "count": 2,
+    "kanjiIds": [
+      371,
+      372
+    ],
+    "kanjiList": [
+      "開",
+      "閉"
+    ]
+  },
+  {
+    "groupId": 137,
+    "title": "137: 豆, 頭, 短, 豆, 頭, 短",
+    "groupKey": "豆, 頭, 短",
+    "sourceVolume": 1,
+    "sourcePage": 137,
+    "count": 6,
+    "kanjiIds": [
+      373,
+      374,
+      375,
+      737,
+      738,
+      739
+    ],
+    "kanjiList": [
+      "豆",
+      "頭",
+      "短",
+      "豆",
+      "頭",
+      "短"
+    ]
+  },
+  {
+    "groupId": 138,
+    "title": "138: 豊, 礼, 骨, 体",
+    "groupKey": "豊, 礼, 骨, 体",
+    "sourceVolume": 1,
+    "sourcePage": 138,
+    "count": 4,
+    "kanjiIds": [
+      376,
+      377,
+      378,
+      379
+    ],
+    "kanjiList": [
+      "豊",
+      "礼",
+      "骨",
+      "体"
+    ]
+  },
+  {
+    "groupId": 139,
+    "title": "139: 癸, 登, 灯",
+    "groupKey": "癸, 登, 灯",
+    "sourceVolume": 1,
+    "sourcePage": 139,
+    "count": 3,
+    "kanjiIds": [
+      380,
+      381,
+      382
+    ],
+    "kanjiList": [
+      "癸",
+      "登",
+      "灯"
+    ]
+  },
+  {
+    "groupId": 140,
+    "title": "140: 氏, 低, 底, 邸",
+    "groupKey": "氏, 低, 底, 邸",
+    "sourceVolume": 1,
+    "sourcePage": 140,
+    "count": 4,
+    "kanjiIds": [
+      383,
+      384,
+      385,
+      386
+    ],
+    "kanjiList": [
+      "氏",
+      "低",
+      "底",
+      "邸"
+    ]
+  },
+  {
+    "groupId": 141,
+    "title": "141: 昏, 婚",
+    "groupKey": "昏, 婚",
+    "sourceVolume": 1,
+    "sourcePage": 141,
+    "count": 2,
+    "kanjiIds": [
+      387,
+      388
+    ],
+    "kanjiList": [
+      "昏",
+      "婚"
+    ]
+  },
+  {
+    "groupId": 142,
+    "title": "142: 根, 限",
+    "groupKey": "根, 限",
+    "sourceVolume": 1,
+    "sourcePage": 142,
+    "count": 2,
+    "kanjiIds": [
+      389,
+      390
+    ],
+    "kanjiList": [
+      "根",
+      "限"
+    ]
+  },
+  {
+    "groupId": 143,
+    "title": "143: 良, 娘, 朗, 浪",
+    "groupKey": "良, 娘, 朗, 浪",
+    "sourceVolume": 1,
+    "sourcePage": 143,
+    "count": 4,
+    "kanjiIds": [
+      391,
+      392,
+      393,
+      394
+    ],
+    "kanjiList": [
+      "良",
+      "娘",
+      "朗",
+      "浪"
+    ]
+  },
+  {
+    "groupId": 144,
+    "title": "144: 食, 飯, 飲, 飼, 飽, 飾",
+    "groupKey": "食, 飯, 飲, 飼, 飽, 飾",
+    "sourceVolume": 1,
+    "sourcePage": 144,
+    "count": 6,
+    "kanjiIds": [
+      395,
+      396,
+      397,
+      398,
+      399,
+      400
+    ],
+    "kanjiList": [
+      "食",
+      "飯",
+      "飲",
+      "飼",
+      "飽",
+      "飾"
+    ]
+  },
+  {
+    "groupId": 145,
+    "title": "145: 養",
+    "groupKey": "養",
+    "sourceVolume": 1,
+    "sourcePage": 145,
+    "count": 1,
+    "kanjiIds": [
+      401
+    ],
+    "kanjiList": [
+      "養"
+    ]
+  },
+  {
+    "groupId": 146,
+    "title": "146: 館",
+    "groupKey": "館",
+    "sourceVolume": 1,
+    "sourcePage": 146,
+    "count": 1,
+    "kanjiIds": [
+      402
+    ],
+    "kanjiList": [
+      "館"
+    ]
+  },
+  {
+    "groupId": 147,
+    "title": "147: 宿",
+    "groupKey": "宿",
+    "sourceVolume": 1,
+    "sourcePage": 147,
+    "count": 1,
+    "kanjiIds": [
+      403
+    ],
+    "kanjiList": [
+      "宿"
+    ]
+  },
+  {
+    "groupId": 148,
+    "title": "148: 帚, 婦, 帰",
+    "groupKey": "帚, 婦, 帰",
+    "sourceVolume": 1,
+    "sourcePage": 148,
+    "count": 3,
+    "kanjiIds": [
+      404,
+      405,
+      406
+    ],
+    "kanjiList": [
+      "帚",
+      "婦",
+      "帰"
+    ]
+  },
+  {
+    "groupId": 149,
+    "title": "149: 律, 筆",
+    "groupKey": "律, 筆",
+    "sourceVolume": 1,
+    "sourcePage": 149,
+    "count": 2,
+    "kanjiIds": [
+      407,
+      408
+    ],
+    "kanjiList": [
+      "律",
+      "筆"
+    ]
+  },
+  {
+    "groupId": 150,
+    "title": "150: 争, 静",
+    "groupKey": "争, 静",
+    "sourceVolume": 1,
+    "sourcePage": 150,
+    "count": 2,
+    "kanjiIds": [
+      409,
+      410
+    ],
+    "kanjiList": [
+      "争",
+      "静"
+    ]
+  },
+  {
+    "groupId": 151,
+    "title": "151: 寺, 詩, 持, 待, 特, 等",
+    "groupKey": "寺, 詩, 持...",
+    "sourceVolume": 1,
+    "sourcePage": 151,
+    "count": 6,
+    "kanjiIds": [
+      411,
+      412,
+      413,
+      414,
+      415,
+      416
+    ],
+    "kanjiList": [
+      "寺",
+      "詩",
+      "持",
+      "待",
+      "特",
+      "等"
+    ]
+  },
+  {
+    "groupId": 152,
+    "title": "152: 専, 博, 恵",
+    "groupKey": "専, 博, 恵",
+    "sourceVolume": 1,
+    "sourcePage": 152,
+    "count": 3,
+    "kanjiIds": [
+      417,
+      418,
+      419
+    ],
+    "kanjiList": [
+      "専",
+      "博",
+      "恵"
+    ]
+  },
+  {
+    "groupId": 153,
+    "title": "153: 緒, 諸, 儲",
+    "groupKey": "緒, 諸, 儲",
+    "sourceVolume": 1,
+    "sourcePage": 153,
+    "count": 3,
+    "kanjiIds": [
+      420,
+      421,
+      422
+    ],
+    "kanjiList": [
+      "緒",
+      "諸",
+      "儲"
+    ]
+  },
+  {
+    "groupId": 154,
+    "title": "154: 都, 暑, 者, 著, 猪, 煮, 箸, 賭",
+    "groupKey": "都, 暑, 者...",
+    "sourceVolume": 1,
+    "sourcePage": 154,
+    "count": 8,
+    "kanjiIds": [
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430
+    ],
+    "kanjiList": [
+      "都",
+      "暑",
+      "者",
+      "著",
+      "猪",
+      "煮",
+      "箸",
+      "賭"
+    ]
+  },
+  {
+    "groupId": 155,
+    "title": "155: 乗",
+    "groupKey": "乗",
+    "sourceVolume": 1,
+    "sourcePage": 155,
+    "count": 1,
+    "kanjiIds": [
+      431
+    ],
+    "kanjiList": [
+      "乗"
+    ]
+  },
+  {
+    "groupId": 156,
+    "title": "156: 非, 俳, 悲, 扉",
+    "groupKey": "非, 俳, 悲, 扉",
+    "sourceVolume": 1,
+    "sourcePage": 156,
+    "count": 4,
+    "kanjiIds": [
+      432,
+      433,
+      434,
+      435
+    ],
+    "kanjiList": [
+      "非",
+      "俳",
+      "悲",
+      "扉"
+    ]
+  },
+  {
+    "groupId": 157,
+    "title": "157: 罪, 署, 置, 買",
+    "groupKey": "罪, 署, 置, 買",
+    "sourceVolume": 1,
+    "sourcePage": 157,
+    "count": 4,
+    "kanjiIds": [
+      436,
+      437,
+      438,
+      439
+    ],
+    "kanjiList": [
+      "罪",
+      "署",
+      "置",
+      "買"
+    ]
+  },
+  {
+    "groupId": 158,
+    "title": "158: 化, 花, 貨",
+    "groupKey": "化, 花, 貨",
+    "sourceVolume": 1,
+    "sourcePage": 158,
+    "count": 3,
+    "kanjiIds": [
+      440,
+      441,
+      442
+    ],
+    "kanjiList": [
+      "化",
+      "花",
+      "貨"
+    ]
+  },
+  {
+    "groupId": 159,
+    "title": "159: 改, 攻",
+    "groupKey": "改, 攻",
+    "sourceVolume": 1,
+    "sourcePage": 159,
+    "count": 2,
+    "kanjiIds": [
+      443,
+      444
+    ],
+    "kanjiList": [
+      "改",
+      "攻"
+    ]
+  },
+  {
+    "groupId": 160,
+    "title": "160: 敗, 散, 敷",
+    "groupKey": "敗, 散, 敷",
+    "sourceVolume": 1,
+    "sourcePage": 160,
+    "count": 3,
+    "kanjiIds": [
+      445,
+      446,
+      447
+    ],
+    "kanjiList": [
+      "敗",
+      "散",
+      "敷"
+    ]
+  },
+  {
+    "groupId": 161,
+    "title": "161: 支, 枝, 技",
+    "groupKey": "支, 枝, 技",
+    "sourceVolume": 1,
+    "sourcePage": 161,
+    "count": 3,
+    "kanjiIds": [
+      448,
+      449,
+      450
+    ],
+    "kanjiList": [
+      "支",
+      "枝",
+      "技"
+    ]
+  },
+  {
+    "groupId": 162,
+    "title": "162: 枚, 牧, 収",
+    "groupKey": "枚, 牧, 収",
+    "sourceVolume": 1,
+    "sourcePage": 162,
+    "count": 3,
+    "kanjiIds": [
+      451,
+      452,
+      453
+    ],
+    "kanjiList": [
+      "枚",
+      "牧",
+      "収"
+    ]
+  },
+  {
+    "groupId": 163,
+    "title": "163: 攸, 修, 数, 条",
+    "groupKey": "攸, 修, 数, 条",
+    "sourceVolume": 1,
+    "sourcePage": 163,
+    "count": 4,
+    "kanjiIds": [
+      454,
+      455,
+      456,
+      457
+    ],
+    "kanjiList": [
+      "攸",
+      "修",
+      "数",
+      "条"
+    ]
+  },
+  {
+    "groupId": 164,
+    "title": "164: 苟, 敬, 警",
+    "groupKey": "苟, 敬, 警",
+    "sourceVolume": 1,
+    "sourcePage": 164,
+    "count": 3,
+    "kanjiIds": [
+      458,
+      459,
+      460
+    ],
+    "kanjiList": [
+      "苟",
+      "敬",
+      "警"
+    ]
+  },
+  {
+    "groupId": 165,
+    "title": "165: 臼, 潟, 写, 旧",
+    "groupKey": "臼, 潟, 写, 旧",
+    "sourceVolume": 1,
+    "sourcePage": 165,
+    "count": 4,
+    "kanjiIds": [
+      461,
+      462,
+      463,
+      464
+    ],
+    "kanjiList": [
+      "臼",
+      "潟",
+      "写",
+      "旧"
+    ]
+  },
+  {
+    "groupId": 166,
+    "title": "166: 用, 備, 角, 解",
+    "groupKey": "用, 備, 角, 解",
+    "sourceVolume": 1,
+    "sourcePage": 166,
+    "count": 4,
+    "kanjiIds": [
+      465,
+      466,
+      467,
+      468
+    ],
+    "kanjiList": [
+      "用",
+      "備",
+      "角",
+      "解"
+    ]
+  },
+  {
+    "groupId": 167,
+    "title": "167: 周, 調, 週",
+    "groupKey": "周, 調, 週",
+    "sourceVolume": 1,
+    "sourcePage": 167,
+    "count": 3,
+    "kanjiIds": [
+      469,
+      470,
+      471
+    ],
+    "kanjiList": [
+      "周",
+      "調",
+      "週"
+    ]
+  },
+  {
+    "groupId": 168,
+    "title": "168: 甫, 補, 專, 傳, 博",
+    "groupKey": "甫, 補, 專...",
+    "sourceVolume": 1,
+    "sourcePage": 168,
+    "count": 5,
+    "kanjiIds": [
+      472,
+      473,
+      474,
+      475,
+      476
+    ],
+    "kanjiList": [
+      "甫",
+      "補",
+      "專",
+      "傳",
+      "博"
+    ]
+  },
+  {
+    "groupId": 169,
+    "title": "169: 甬, 勇, 通",
+    "groupKey": "甬, 勇, 通",
+    "sourceVolume": 1,
+    "sourcePage": 169,
+    "count": 3,
+    "kanjiIds": [
+      477,
+      478,
+      479
+    ],
+    "kanjiList": [
+      "甬",
+      "勇",
+      "通"
+    ]
+  },
+  {
+    "groupId": 170,
+    "title": "170: 比, 批, 皆, 階",
+    "groupKey": "比, 批, 皆, 階",
+    "sourceVolume": 1,
+    "sourcePage": 170,
+    "count": 4,
+    "kanjiIds": [
+      480,
+      481,
+      482,
+      483
+    ],
+    "kanjiList": [
+      "比",
+      "批",
+      "皆",
+      "階"
+    ]
+  },
+  {
+    "groupId": 171,
+    "title": "171: 鹿, 混, 陛",
+    "groupKey": "鹿, 混, 陛",
+    "sourceVolume": 1,
+    "sourcePage": 171,
+    "count": 3,
+    "kanjiIds": [
+      484,
+      485,
+      486
+    ],
+    "kanjiList": [
+      "鹿",
+      "混",
+      "陛"
+    ]
+  },
+  {
+    "groupId": 172,
+    "title": "172: 兆, 挑, 跳, 北, 背",
+    "groupKey": "兆, 挑, 跳...",
+    "sourceVolume": 1,
+    "sourcePage": 172,
+    "count": 5,
+    "kanjiIds": [
+      487,
+      488,
+      489,
+      490,
+      491
+    ],
+    "kanjiList": [
+      "兆",
+      "挑",
+      "跳",
+      "北",
+      "背"
+    ]
+  },
+  {
+    "groupId": 173,
+    "title": "173: 岡, 剛, 綱, 鋼",
+    "groupKey": "岡, 剛, 綱, 鋼",
+    "sourceVolume": 1,
+    "sourcePage": 173,
+    "count": 4,
+    "kanjiIds": [
+      492,
+      493,
+      494,
+      495
+    ],
+    "kanjiList": [
+      "岡",
+      "剛",
+      "綱",
+      "鋼"
+    ]
+  },
+  {
+    "groupId": 174,
+    "title": "174: 貝, 則, 側",
+    "groupKey": "貝, 則, 側, 測",
+    "sourceVolume": 1,
+    "sourcePage": 174,
+    "count": 3,
+    "kanjiIds": [
+      496,
+      497,
+      498
+    ],
+    "kanjiList": [
+      "貝",
+      "則",
+      "側"
+    ]
+  },
+  {
+    "groupId": 175,
+    "title": "175: 測",
+    "groupKey": "貝, 則, 側, 测",
+    "sourceVolume": 1,
+    "sourcePage": 175,
+    "count": 1,
+    "kanjiIds": [
+      499
+    ],
+    "kanjiList": [
+      "測"
+    ]
+  },
+  {
+    "groupId": 176,
+    "title": "176: 員",
+    "groupKey": "員, 損",
+    "sourceVolume": 1,
+    "sourcePage": 176,
+    "count": 1,
+    "kanjiIds": [
+      500
+    ],
+    "kanjiList": [
+      "員"
+    ]
+  },
+  {
+    "groupId": 177,
+    "title": "177: 獲, 穫, 獲, 穫",
+    "groupKey": "獲, 穫",
+    "sourceVolume": 1,
+    "sourcePage": 177,
+    "count": 4,
+    "kanjiIds": [
+      501,
+      502,
+      775,
+      776
+    ],
+    "kanjiList": [
+      "獲",
+      "穫",
+      "獲",
+      "穫"
+    ]
+  },
+  {
+    "groupId": 178,
+    "title": "178: 覚, 学",
+    "groupKey": "覚, 学",
+    "sourceVolume": 1,
+    "sourcePage": 178,
+    "count": 2,
+    "kanjiIds": [
+      503,
+      504
+    ],
+    "kanjiList": [
+      "覚",
+      "学"
+    ]
+  },
+  {
+    "groupId": 179,
+    "title": "179: 蚕, 虫",
+    "groupKey": "蚕, 虫, 融",
+    "sourceVolume": 1,
+    "sourcePage": 179,
+    "count": 2,
+    "kanjiIds": [
+      505,
+      506
+    ],
+    "kanjiList": [
+      "蚕",
+      "虫"
+    ]
+  },
+  {
+    "groupId": 180,
+    "title": "180: 융, 蚕, 虫, 융",
+    "groupKey": "蚕, 虫, 융",
+    "sourceVolume": 1,
+    "sourcePage": 180,
+    "count": 4,
+    "kanjiIds": [
+      507,
+      779,
+      780,
+      781
+    ],
+    "kanjiList": [
+      "융",
+      "蚕",
+      "虫",
+      "융"
+    ]
+  },
+  {
+    "groupId": 181,
+    "title": "181: 隔, 離",
+    "groupKey": "隔, 離",
+    "sourceVolume": 1,
+    "sourcePage": 181,
+    "count": 2,
+    "kanjiIds": [
+      508,
+      509
+    ],
+    "kanjiList": [
+      "隔",
+      "離"
+    ]
+  },
+  {
+    "groupId": 182,
+    "title": "182: 職, 識, 織",
+    "groupKey": "職, 識, 織",
+    "sourceVolume": 1,
+    "sourcePage": 182,
+    "count": 3,
+    "kanjiIds": [
+      510,
+      511,
+      512
+    ],
+    "kanjiList": [
+      "職",
+      "識",
+      "織"
+    ]
+  },
+  {
+    "groupId": 183,
+    "title": "183: 域, 賊",
+    "groupKey": "域, 賊",
+    "sourceVolume": 1,
+    "sourcePage": 183,
+    "count": 2,
+    "kanjiIds": [
+      513,
+      514
+    ],
+    "kanjiList": [
+      "域",
+      "賊"
+    ]
+  },
+  {
+    "groupId": 184,
+    "title": "184: 栽, 裁, 載",
+    "groupKey": "栽, 裁, 載",
+    "sourceVolume": 1,
+    "sourcePage": 184,
+    "count": 3,
+    "kanjiIds": [
+      515,
+      516,
+      517
+    ],
+    "kanjiList": [
+      "栽",
+      "裁",
+      "載"
+    ]
+  },
+  {
+    "groupId": 185,
+    "title": "185: 惑",
+    "groupKey": "惑, 감, 함",
+    "sourceVolume": 1,
+    "sourcePage": 185,
+    "count": 1,
+    "kanjiIds": [
+      518
+    ],
+    "kanjiList": [
+      "惑"
+    ]
+  },
+  {
+    "groupId": 186,
+    "title": "186: 咸",
+    "groupKey": "咸",
+    "sourceVolume": 1,
+    "sourcePage": 186,
+    "count": 1,
+    "kanjiIds": [
+      519
+    ],
+    "kanjiList": [
+      "咸"
+    ]
+  },
+  {
+    "groupId": 187,
+    "title": "187: 感, 憾",
+    "groupKey": "惑, 感, 憾",
+    "sourceVolume": 1,
+    "sourcePage": 187,
+    "count": 2,
+    "kanjiIds": [
+      520,
+      521
+    ],
+    "kanjiList": [
+      "感",
+      "憾"
+    ]
+  },
+  {
+    "groupId": 188,
+    "title": "188: 威, 滅, 減",
+    "groupKey": "威, 滅, 減",
+    "sourceVolume": 1,
+    "sourcePage": 188,
+    "count": 3,
+    "kanjiIds": [
+      522,
+      523,
+      524
+    ],
+    "kanjiList": [
+      "威",
+      "滅",
+      "減"
+    ]
+  },
+  {
+    "groupId": 189,
+    "title": "189: 盛, 誠, 城, 成, 茂",
+    "groupKey": "盛, 誠, 城, 成",
+    "sourceVolume": 1,
+    "sourcePage": 189,
+    "count": 5,
+    "kanjiIds": [
+      525,
+      526,
+      527,
+      528,
+      529
+    ],
+    "kanjiList": [
+      "盛",
+      "誠",
+      "城",
+      "成",
+      "茂"
+    ]
+  },
+  {
+    "groupId": 190,
+    "title": "190: 里, 裏",
+    "groupKey": "里, 裏",
+    "sourceVolume": 1,
+    "sourcePage": 190,
+    "count": 2,
+    "kanjiIds": [
+      530,
+      531
+    ],
+    "kanjiList": [
+      "里",
+      "裏"
+    ]
+  },
+  {
+    "groupId": 191,
+    "title": "191: 童, 瞳, 憧, 撞",
+    "groupKey": "童, 瞳, 憧...",
+    "sourceVolume": 1,
+    "sourcePage": 191,
+    "count": 4,
+    "kanjiIds": [
+      532,
+      533,
+      534,
+      535
+    ],
+    "kanjiList": [
+      "童",
+      "瞳",
+      "憧",
+      "撞"
+    ]
+  },
+  {
+    "groupId": 192,
+    "title": "192: 鐘, 種",
+    "groupKey": "鐘, 種",
+    "sourceVolume": 1,
+    "sourcePage": 192,
+    "count": 2,
+    "kanjiIds": [
+      536,
+      537
+    ],
+    "kanjiList": [
+      "鐘",
+      "種"
+    ]
+  },
+  {
+    "groupId": 193,
+    "title": "193: 重, 動, 働",
+    "groupKey": "重, 動, 働",
+    "sourceVolume": 1,
+    "sourcePage": 193,
+    "count": 3,
+    "kanjiIds": [
+      538,
+      539,
+      540
+    ],
+    "kanjiList": [
+      "重",
+      "動",
+      "働"
+    ]
+  },
+  {
+    "groupId": 194,
+    "title": "194: 衝, 衡, 衛",
+    "groupKey": "衝, 衡, 衛",
+    "sourceVolume": 1,
+    "sourcePage": 194,
+    "count": 3,
+    "kanjiIds": [
+      541,
+      542,
+      543
+    ],
+    "kanjiList": [
+      "衝",
+      "衡",
+      "衛"
+    ]
+  },
+  {
+    "groupId": 195,
+    "title": "195: 寒",
+    "groupKey": "寒",
+    "sourceVolume": 1,
+    "sourcePage": 195,
+    "count": 1,
+    "kanjiIds": [
+      544
+    ],
+    "kanjiList": [
+      "寒"
+    ]
+  },
+  {
+    "groupId": 196,
+    "title": "196: 塞, 賽",
+    "groupKey": "塞, 賽",
+    "sourceVolume": 1,
+    "sourcePage": 196,
+    "count": 2,
+    "kanjiIds": [
+      545,
+      546
+    ],
+    "kanjiList": [
+      "塞",
+      "賽"
+    ]
+  },
+  {
+    "groupId": 197,
+    "title": "197: 憲",
+    "groupKey": "憲",
+    "sourceVolume": 1,
+    "sourcePage": 197,
+    "count": 1,
+    "kanjiIds": [
+      547
+    ],
+    "kanjiList": [
+      "憲"
+    ]
+  },
+  {
+    "groupId": 198,
+    "title": "198: 奉, 俸, 棒, 奉, 俸, 棒",
+    "groupKey": "奉, 俸, 棒",
+    "sourceVolume": 1,
+    "sourcePage": 198,
+    "count": 6,
+    "kanjiIds": [
+      548,
+      549,
+      550,
+      726,
+      727,
+      728
+    ],
+    "kanjiList": [
+      "奉",
+      "俸",
+      "棒",
+      "奉",
+      "俸",
+      "棒"
+    ]
+  },
+  {
+    "groupId": 199,
+    "title": "199: 奏, 泰, 奏, 泰",
+    "groupKey": "奏, 泰",
+    "sourceVolume": 1,
+    "sourcePage": 199,
+    "count": 4,
+    "kanjiIds": [
+      551,
+      552,
+      729,
+      730
+    ],
+    "kanjiList": [
+      "奏",
+      "泰",
+      "奏",
+      "泰"
+    ]
+  },
+  {
+    "groupId": 200,
+    "title": "200: 春, 春",
+    "groupKey": "春",
+    "sourceVolume": 1,
+    "sourcePage": 200,
+    "count": 2,
+    "kanjiIds": [
+      553,
+      731
+    ],
+    "kanjiList": [
+      "春",
+      "春"
+    ]
+  },
+  {
+    "groupId": 201,
+    "title": "201: 秦",
+    "groupKey": "秦",
+    "sourceVolume": 1,
+    "sourcePage": 201,
+    "count": 1,
+    "kanjiIds": [
+      554
+    ],
+    "kanjiList": [
+      "秦"
+    ]
+  },
+  {
+    "groupId": 202,
+    "title": "202: 독",
+    "groupKey": "독",
+    "sourceVolume": 1,
+    "sourcePage": 202,
+    "count": 1,
+    "kanjiIds": [
+      555
+    ],
+    "kanjiList": [
+      "독"
+    ]
+  },
+  {
+    "groupId": 203,
+    "title": "203: 素",
+    "groupKey": "素",
+    "sourceVolume": 1,
+    "sourcePage": 203,
+    "count": 1,
+    "kanjiIds": [
+      556
+    ],
+    "kanjiList": [
+      "素"
+    ]
+  },
+  {
+    "groupId": 204,
+    "title": "204: 表, 俵",
+    "groupKey": "表, 俵",
+    "sourceVolume": 1,
+    "sourcePage": 204,
+    "count": 2,
+    "kanjiIds": [
+      557,
+      558
+    ],
+    "kanjiList": [
+      "表",
+      "俵"
+    ]
+  },
+  {
+    "groupId": 205,
+    "title": "205: 遠, 園, 猿, 袁",
+    "groupKey": "遠, 園, 猿...",
+    "sourceVolume": 1,
+    "sourcePage": 205,
+    "count": 4,
+    "kanjiIds": [
+      559,
+      560,
+      561,
+      562
+    ],
+    "kanjiList": [
+      "遠",
+      "園",
+      "猿",
+      "袁"
+    ]
+  },
+  {
+    "groupId": 206,
+    "title": "206: 衣, 依, 袋, 装",
+    "groupKey": "衣, 依, 袋, 装",
+    "sourceVolume": 1,
+    "sourcePage": 206,
+    "count": 4,
+    "kanjiIds": [
+      563,
+      564,
+      565,
+      566
+    ],
+    "kanjiList": [
+      "衣",
+      "依",
+      "袋",
+      "装"
+    ]
+  },
+  {
+    "groupId": 207,
+    "title": "207: 충, 衰",
+    "groupKey": "衷, 衰",
+    "sourceVolume": 1,
+    "sourcePage": 207,
+    "count": 2,
+    "kanjiIds": [
+      567,
+      568
+    ],
+    "kanjiList": [
+      "충",
+      "衰"
+    ]
+  },
+  {
+    "groupId": 208,
+    "title": "208: 州, 酬",
+    "groupKey": "州, 酬",
+    "sourceVolume": 1,
+    "sourcePage": 208,
+    "count": 2,
+    "kanjiIds": [
+      569,
+      570
+    ],
+    "kanjiList": [
+      "州",
+      "酬"
+    ]
+  },
+  {
+    "groupId": 209,
+    "title": "209: 柔, 揉",
+    "groupKey": "柔, 揉",
+    "sourceVolume": 1,
+    "sourcePage": 209,
+    "count": 2,
+    "kanjiIds": [
+      571,
+      572
+    ],
+    "kanjiList": [
+      "柔",
+      "揉"
+    ]
+  },
+  {
+    "groupId": 210,
+    "title": "210: 矛, 務, 霧",
+    "groupKey": "矛, 務, 霧",
+    "sourceVolume": 1,
+    "sourcePage": 210,
+    "count": 3,
+    "kanjiIds": [
+      573,
+      574,
+      575
+    ],
+    "kanjiList": [
+      "矛",
+      "務",
+      "霧"
+    ]
+  },
+  {
+    "groupId": 211,
+    "title": "211: 予, 預, 野",
+    "groupKey": "予, 預, 野",
+    "sourceVolume": 1,
+    "sourcePage": 211,
+    "count": 3,
+    "kanjiIds": [
+      576,
+      577,
+      578
+    ],
+    "kanjiList": [
+      "予",
+      "預",
+      "野"
+    ]
+  },
+  {
+    "groupId": 212,
+    "title": "212: 序, 叙, 斜",
+    "groupKey": "序, 叙, 斜",
+    "sourceVolume": 1,
+    "sourcePage": 212,
+    "count": 3,
+    "kanjiIds": [
+      579,
+      580,
+      581
+    ],
+    "kanjiList": [
+      "序",
+      "叙",
+      "斜"
+    ]
+  },
+  {
+    "groupId": 213,
+    "title": "213: 도, 余, 제, 서, 塗",
+    "groupKey": "途, 余, 除...",
+    "sourceVolume": 1,
+    "sourcePage": 213,
+    "count": 5,
+    "kanjiIds": [
+      582,
+      583,
+      584,
+      585,
+      586
+    ],
+    "kanjiList": [
+      "도",
+      "余",
+      "제",
+      "서",
+      "塗"
+    ]
+  },
+  {
+    "groupId": 214,
+    "title": "214: 礎",
+    "groupKey": "礎, 楚",
+    "sourceVolume": 1,
+    "sourcePage": 214,
+    "count": 1,
+    "kanjiIds": [
+      587
+    ],
+    "kanjiList": [
+      "礎"
+    ]
+  },
+  {
+    "groupId": 215,
+    "title": "215: 襟, 禁",
+    "groupKey": "襟, 禁",
+    "sourceVolume": 1,
+    "sourcePage": 215,
+    "count": 2,
+    "kanjiIds": [
+      588,
+      589
+    ],
+    "kanjiList": [
+      "襟",
+      "禁"
+    ]
+  },
+  {
+    "groupId": 216,
+    "title": "216: 示, 宗, 崇",
+    "groupKey": "示, 宗, 崇",
+    "sourceVolume": 1,
+    "sourcePage": 216,
+    "count": 3,
+    "kanjiIds": [
+      590,
+      591,
+      592
+    ],
+    "kanjiList": [
+      "示",
+      "宗",
+      "崇"
+    ]
+  },
+  {
+    "groupId": 217,
+    "title": "217: 祭, 際",
+    "groupKey": "祭, 際, 察",
+    "sourceVolume": 1,
+    "sourcePage": 217,
+    "count": 2,
+    "kanjiIds": [
+      593,
+      594
+    ],
+    "kanjiList": [
+      "祭",
+      "際"
+    ]
+  },
+  {
+    "groupId": 218,
+    "title": "218: 察",
+    "groupKey": "祭, 際, 찰",
+    "sourceVolume": 1,
+    "sourcePage": 218,
+    "count": 1,
+    "kanjiIds": [
+      595
+    ],
+    "kanjiList": [
+      "察"
+    ]
+  },
+  {
+    "groupId": 219,
+    "title": "219: 擦",
+    "groupKey": "擦",
+    "sourceVolume": 1,
+    "sourcePage": 219,
+    "count": 1,
+    "kanjiIds": [
+      596
+    ],
+    "kanjiList": [
+      "擦"
+    ]
+  },
+  {
+    "groupId": 220,
+    "title": "220: 標, 票, 漂",
+    "groupKey": "標, 票, 漂",
+    "sourceVolume": 1,
+    "sourcePage": 220,
+    "count": 3,
+    "kanjiIds": [
+      597,
+      598,
+      599
+    ],
+    "kanjiList": [
+      "標",
+      "票",
+      "漂"
+    ]
+  },
+  {
+    "groupId": 221,
+    "title": "221: 束",
+    "groupKey": "束, 速, 整",
+    "sourceVolume": 1,
+    "sourcePage": 221,
+    "count": 1,
+    "kanjiIds": [
+      600
+    ],
+    "kanjiList": [
+      "束"
+    ]
+  },
+  {
+    "groupId": 222,
+    "title": "222: 速, 速",
+    "groupKey": "速",
+    "sourceVolume": 1,
+    "sourcePage": 222,
+    "count": 2,
+    "kanjiIds": [
+      601,
+      888
+    ],
+    "kanjiList": [
+      "速",
+      "速"
+    ]
+  },
+  {
+    "groupId": 223,
+    "title": "223: 頼, 頼",
+    "groupKey": "頼",
+    "sourceVolume": 1,
+    "sourcePage": 223,
+    "count": 2,
+    "kanjiIds": [
+      602,
+      890
+    ],
+    "kanjiList": [
+      "頼",
+      "頼"
+    ]
+  },
+  {
+    "groupId": 224,
+    "title": "224: 懶, 懶",
+    "groupKey": "懶",
+    "sourceVolume": 1,
+    "sourcePage": 224,
+    "count": 2,
+    "kanjiIds": [
+      603,
+      891
+    ],
+    "kanjiList": [
+      "懶",
+      "懶"
+    ]
+  },
+  {
+    "groupId": 225,
+    "title": "225: 格",
+    "groupKey": "格",
+    "sourceVolume": 1,
+    "sourcePage": 225,
+    "count": 1,
+    "kanjiIds": [
+      604
+    ],
+    "kanjiList": [
+      "格"
+    ]
+  },
+  {
+    "groupId": 226,
+    "title": "226: 略",
+    "groupKey": "略",
+    "sourceVolume": 1,
+    "sourcePage": 226,
+    "count": 1,
+    "kanjiIds": [
+      605
+    ],
+    "kanjiList": [
+      "略"
+    ]
+  },
+  {
+    "groupId": 227,
+    "title": "227: 路",
+    "groupKey": "路",
+    "sourceVolume": 1,
+    "sourcePage": 227,
+    "count": 1,
+    "kanjiIds": [
+      606
+    ],
+    "kanjiList": [
+      "路"
+    ]
+  },
+  {
+    "groupId": 228,
+    "title": "228: 露",
+    "groupKey": "露",
+    "sourceVolume": 1,
+    "sourcePage": 228,
+    "count": 1,
+    "kanjiIds": [
+      607
+    ],
+    "kanjiList": [
+      "露"
+    ]
+  },
+  {
+    "groupId": 229,
+    "title": "229: 申",
+    "groupKey": "申",
+    "sourceVolume": 1,
+    "sourcePage": 229,
+    "count": 1,
+    "kanjiIds": [
+      608
+    ],
+    "kanjiList": [
+      "申"
+    ]
+  },
+  {
+    "groupId": 230,
+    "title": "230: 伸",
+    "groupKey": "伸",
+    "sourceVolume": 1,
+    "sourcePage": 230,
+    "count": 1,
+    "kanjiIds": [
+      609
+    ],
+    "kanjiList": [
+      "伸"
+    ]
+  },
+  {
+    "groupId": 231,
+    "title": "231: 神",
+    "groupKey": "神",
+    "sourceVolume": 1,
+    "sourcePage": 231,
+    "count": 1,
+    "kanjiIds": [
+      610
+    ],
+    "kanjiList": [
+      "神"
+    ]
+  },
+  {
+    "groupId": 232,
+    "title": "232: 可",
+    "groupKey": "可",
+    "sourceVolume": 1,
+    "sourcePage": 232,
+    "count": 1,
+    "kanjiIds": [
+      611
+    ],
+    "kanjiList": [
+      "可"
+    ]
+  },
+  {
+    "groupId": 233,
+    "title": "233: 河",
+    "groupKey": "河",
+    "sourceVolume": 1,
+    "sourcePage": 233,
+    "count": 1,
+    "kanjiIds": [
+      612
+    ],
+    "kanjiList": [
+      "河"
+    ]
+  },
+  {
+    "groupId": 234,
+    "title": "234: 何",
+    "groupKey": "何",
+    "sourceVolume": 1,
+    "sourcePage": 234,
+    "count": 1,
+    "kanjiIds": [
+      613
+    ],
+    "kanjiList": [
+      "何"
+    ]
+  },
+  {
+    "groupId": 235,
+    "title": "235: 荷",
+    "groupKey": "荷",
+    "sourceVolume": 1,
+    "sourcePage": 235,
+    "count": 1,
+    "kanjiIds": [
+      614
+    ],
+    "kanjiList": [
+      "荷"
+    ]
+  },
+  {
+    "groupId": 236,
+    "title": "236: 歌",
+    "groupKey": "歌",
+    "sourceVolume": 1,
+    "sourcePage": 236,
+    "count": 1,
+    "kanjiIds": [
+      615
+    ],
+    "kanjiList": [
+      "歌"
+    ]
+  },
+  {
+    "groupId": 237,
+    "title": "237: 及",
+    "groupKey": "及",
+    "sourceVolume": 1,
+    "sourcePage": 237,
+    "count": 1,
+    "kanjiIds": [
+      616
+    ],
+    "kanjiList": [
+      "及"
+    ]
+  },
+  {
+    "groupId": 238,
+    "title": "238: 級",
+    "groupKey": "級",
+    "sourceVolume": 1,
+    "sourcePage": 238,
+    "count": 1,
+    "kanjiIds": [
+      617
+    ],
+    "kanjiList": [
+      "級"
+    ]
+  },
+  {
+    "groupId": 239,
+    "title": "239: 吸",
+    "groupKey": "吸",
+    "sourceVolume": 1,
+    "sourcePage": 239,
+    "count": 1,
+    "kanjiIds": [
+      618
+    ],
+    "kanjiList": [
+      "吸"
+    ]
+  },
+  {
+    "groupId": 240,
+    "title": "240: 扱",
+    "groupKey": "扱",
+    "sourceVolume": 1,
+    "sourcePage": 240,
+    "count": 1,
+    "kanjiIds": [
+      619
+    ],
+    "kanjiList": [
+      "扱"
+    ]
+  },
+  {
+    "groupId": 241,
+    "title": "241: 仮",
+    "groupKey": "仮",
+    "sourceVolume": 1,
+    "sourcePage": 241,
+    "count": 1,
+    "kanjiIds": [
+      620
+    ],
+    "kanjiList": [
+      "仮"
+    ]
+  },
+  {
+    "groupId": 242,
+    "title": "242: 販",
+    "groupKey": "販",
+    "sourceVolume": 1,
+    "sourcePage": 242,
+    "count": 1,
+    "kanjiIds": [
+      621
+    ],
+    "kanjiList": [
+      "販"
+    ]
+  },
+  {
+    "groupId": 243,
+    "title": "243: 合",
+    "groupKey": "합",
+    "sourceVolume": 1,
+    "sourcePage": 243,
+    "count": 1,
+    "kanjiIds": [
+      622
+    ],
+    "kanjiList": [
+      "合"
+    ]
+  },
+  {
+    "groupId": 244,
+    "title": "244: 給",
+    "groupKey": "給",
+    "sourceVolume": 1,
+    "sourcePage": 244,
+    "count": 1,
+    "kanjiIds": [
+      623
+    ],
+    "kanjiList": [
+      "給"
+    ]
+  },
+  {
+    "groupId": 245,
+    "title": "245: 拾",
+    "groupKey": "拾",
+    "sourceVolume": 1,
+    "sourcePage": 245,
+    "count": 1,
+    "kanjiIds": [
+      624
+    ],
+    "kanjiList": [
+      "拾"
+    ]
+  },
+  {
+    "groupId": 246,
+    "title": "246: 答",
+    "groupKey": "答",
+    "sourceVolume": 1,
+    "sourcePage": 246,
+    "count": 1,
+    "kanjiIds": [
+      625
+    ],
+    "kanjiList": [
+      "答"
+    ]
+  },
+  {
+    "groupId": 247,
+    "title": "247: 倉",
+    "groupKey": "倉",
+    "sourceVolume": 1,
+    "sourcePage": 247,
+    "count": 1,
+    "kanjiIds": [
+      626
+    ],
+    "kanjiList": [
+      "倉"
+    ]
+  },
+  {
+    "groupId": 248,
+    "title": "248: 創",
+    "groupKey": "創",
+    "sourceVolume": 1,
+    "sourcePage": 248,
+    "count": 1,
+    "kanjiIds": [
+      627
+    ],
+    "kanjiList": [
+      "創"
+    ]
+  },
+  {
+    "groupId": 249,
+    "title": "249: 槍",
+    "groupKey": "槍",
+    "sourceVolume": 1,
+    "sourcePage": 249,
+    "count": 1,
+    "kanjiIds": [
+      628
+    ],
+    "kanjiList": [
+      "槍"
+    ]
+  },
+  {
+    "groupId": 250,
+    "title": "250: 排",
+    "groupKey": "排",
+    "sourceVolume": 1,
+    "sourcePage": 250,
+    "count": 1,
+    "kanjiIds": [
+      629
+    ],
+    "kanjiList": [
+      "排"
+    ]
+  },
+  {
+    "groupId": 251,
+    "title": "251: 俳",
+    "groupKey": "俳",
+    "sourceVolume": 1,
+    "sourcePage": 251,
+    "count": 1,
+    "kanjiIds": [
+      630
+    ],
+    "kanjiList": [
+      "俳"
+    ]
+  },
+  {
+    "groupId": 252,
+    "title": "252: 悲",
+    "groupKey": "悲",
+    "sourceVolume": 1,
+    "sourcePage": 252,
+    "count": 1,
+    "kanjiIds": [
+      631
+    ],
+    "kanjiList": [
+      "悲"
+    ]
+  },
+  {
+    "groupId": 253,
+    "title": "253: 扉",
+    "groupKey": "扉",
+    "sourceVolume": 1,
+    "sourcePage": 253,
+    "count": 1,
+    "kanjiIds": [
+      632
+    ],
+    "kanjiList": [
+      "扉"
+    ]
+  },
+  {
+    "groupId": 254,
+    "title": "254: 彼",
+    "groupKey": "彼",
+    "sourceVolume": 1,
+    "sourcePage": 254,
+    "count": 1,
+    "kanjiIds": [
+      633
+    ],
+    "kanjiList": [
+      "彼"
+    ]
+  },
+  {
+    "groupId": 255,
+    "title": "255: 疲",
+    "groupKey": "疲",
+    "sourceVolume": 1,
+    "sourcePage": 255,
+    "count": 1,
+    "kanjiIds": [
+      634
+    ],
+    "kanjiList": [
+      "疲"
+    ]
+  },
+  {
+    "groupId": 256,
+    "title": "256: 被",
+    "groupKey": "被",
+    "sourceVolume": 1,
+    "sourcePage": 256,
+    "count": 1,
+    "kanjiIds": [
+      635
+    ],
+    "kanjiList": [
+      "被"
+    ]
+  },
+  {
+    "groupId": 257,
+    "title": "257: 不",
+    "groupKey": "不",
+    "sourceVolume": 1,
+    "sourcePage": 257,
+    "count": 1,
+    "kanjiIds": [
+      636
+    ],
+    "kanjiList": [
+      "不"
+    ]
+  },
+  {
+    "groupId": 258,
+    "title": "258: 付",
+    "groupKey": "付",
+    "sourceVolume": 1,
+    "sourcePage": 258,
+    "count": 1,
+    "kanjiIds": [
+      637
+    ],
+    "kanjiList": [
+      "付"
+    ]
+  },
+  {
+    "groupId": 259,
+    "title": "259: 府",
+    "groupKey": "府",
+    "sourceVolume": 1,
+    "sourcePage": 259,
+    "count": 1,
+    "kanjiIds": [
+      638
+    ],
+    "kanjiList": [
+      "府"
+    ]
+  },
+  {
+    "groupId": 260,
+    "title": "260: 僉",
+    "groupKey": "僉",
+    "sourceVolume": 1,
+    "sourcePage": 260,
+    "count": 1,
+    "kanjiIds": [
+      639
+    ],
+    "kanjiList": [
+      "僉"
+    ]
+  },
+  {
+    "groupId": 261,
+    "title": "261: 檢",
+    "groupKey": "檢",
+    "sourceVolume": 1,
+    "sourcePage": 261,
+    "count": 1,
+    "kanjiIds": [
+      640
+    ],
+    "kanjiList": [
+      "檢"
+    ]
+  },
+  {
+    "groupId": 262,
+    "title": "262: 險",
+    "groupKey": "險",
+    "sourceVolume": 1,
+    "sourcePage": 262,
+    "count": 1,
+    "kanjiIds": [
+      641
+    ],
+    "kanjiList": [
+      "險"
+    ]
+  },
+  {
+    "groupId": 263,
+    "title": "263: 驗",
+    "groupKey": "驗",
+    "sourceVolume": 1,
+    "sourcePage": 263,
+    "count": 1,
+    "kanjiIds": [
+      642
+    ],
+    "kanjiList": [
+      "驗"
+    ]
+  },
+  {
+    "groupId": 264,
+    "title": "264: 曾",
+    "groupKey": "曾",
+    "sourceVolume": 1,
+    "sourcePage": 264,
+    "count": 1,
+    "kanjiIds": [
+      643
+    ],
+    "kanjiList": [
+      "曾"
+    ]
+  },
+  {
+    "groupId": 265,
+    "title": "265: 增",
+    "groupKey": "增",
+    "sourceVolume": 1,
+    "sourcePage": 265,
+    "count": 1,
+    "kanjiIds": [
+      644
+    ],
+    "kanjiList": [
+      "增"
+    ]
+  },
+  {
+    "groupId": 266,
+    "title": "266: 層",
+    "groupKey": "層",
+    "sourceVolume": 1,
+    "sourcePage": 266,
+    "count": 1,
+    "kanjiIds": [
+      645
+    ],
+    "kanjiList": [
+      "層"
+    ]
+  },
+  {
+    "groupId": 267,
+    "title": "267: 贈",
+    "groupKey": "贈",
+    "sourceVolume": 1,
+    "sourcePage": 267,
+    "count": 1,
+    "kanjiIds": [
+      646
+    ],
+    "kanjiList": [
+      "贈"
+    ]
+  },
+  {
+    "groupId": 268,
+    "title": "268: 占",
+    "groupKey": "占",
+    "sourceVolume": 1,
+    "sourcePage": 268,
+    "count": 1,
+    "kanjiIds": [
+      647
+    ],
+    "kanjiList": [
+      "占"
+    ]
+  },
+  {
+    "groupId": 269,
+    "title": "269: 點",
+    "groupKey": "點",
+    "sourceVolume": 1,
+    "sourcePage": 269,
+    "count": 1,
+    "kanjiIds": [
+      648
+    ],
+    "kanjiList": [
+      "點"
+    ]
+  },
+  {
+    "groupId": 270,
+    "title": "270: 店",
+    "groupKey": "店",
+    "sourceVolume": 1,
+    "sourcePage": 270,
+    "count": 1,
+    "kanjiIds": [
+      649
+    ],
+    "kanjiList": [
+      "店"
+    ]
+  },
+  {
+    "groupId": 271,
+    "title": "271: 従",
+    "groupKey": "従",
+    "sourceVolume": 1,
+    "sourcePage": 271,
+    "count": 1,
+    "kanjiIds": [
+      650
+    ],
+    "kanjiList": [
+      "従"
+    ]
+  },
+  {
+    "groupId": 272,
+    "title": "272: 縦",
+    "groupKey": "縦",
+    "sourceVolume": 1,
+    "sourcePage": 272,
+    "count": 1,
+    "kanjiIds": [
+      651
+    ],
+    "kanjiList": [
+      "縦"
+    ]
+  },
+  {
+    "groupId": 273,
+    "title": "273: 散",
+    "groupKey": "散",
+    "sourceVolume": 1,
+    "sourcePage": 273,
+    "count": 1,
+    "kanjiIds": [
+      652
+    ],
+    "kanjiList": [
+      "散"
+    ]
+  },
+  {
+    "groupId": 274,
+    "title": "274: 敗",
+    "groupKey": "敗",
+    "sourceVolume": 1,
+    "sourcePage": 274,
+    "count": 1,
+    "kanjiIds": [
+      653
+    ],
+    "kanjiList": [
+      "敗"
+    ]
+  },
+  {
+    "groupId": 275,
+    "title": "275: 枚",
+    "groupKey": "枚",
+    "sourceVolume": 1,
+    "sourcePage": 275,
+    "count": 1,
+    "kanjiIds": [
+      654
+    ],
+    "kanjiList": [
+      "枚"
+    ]
+  },
+  {
+    "groupId": 276,
+    "title": "276: 牧",
+    "groupKey": "牧",
+    "sourceVolume": 1,
+    "sourcePage": 276,
+    "count": 1,
+    "kanjiIds": [
+      655
+    ],
+    "kanjiList": [
+      "牧"
+    ]
+  },
+  {
+    "groupId": 277,
+    "title": "277: 収",
+    "groupKey": "収",
+    "sourceVolume": 1,
+    "sourcePage": 277,
+    "count": 1,
+    "kanjiIds": [
+      656
+    ],
+    "kanjiList": [
+      "収"
+    ]
+  },
+  {
+    "groupId": 278,
+    "title": "278: 攸",
+    "groupKey": "攸",
+    "sourceVolume": 1,
+    "sourcePage": 278,
+    "count": 1,
+    "kanjiIds": [
+      657
+    ],
+    "kanjiList": [
+      "攸"
+    ]
+  },
+  {
+    "groupId": 279,
+    "title": "279: 修",
+    "groupKey": "修",
+    "sourceVolume": 1,
+    "sourcePage": 279,
+    "count": 1,
+    "kanjiIds": [
+      658
+    ],
+    "kanjiList": [
+      "修"
+    ]
+  },
+  {
+    "groupId": 280,
+    "title": "280: 数",
+    "groupKey": "数",
+    "sourceVolume": 1,
+    "sourcePage": 280,
+    "count": 1,
+    "kanjiIds": [
+      659
+    ],
+    "kanjiList": [
+      "数"
+    ]
+  },
+  {
+    "groupId": 281,
+    "title": "281: 条",
+    "groupKey": "条",
+    "sourceVolume": 1,
+    "sourcePage": 281,
+    "count": 1,
+    "kanjiIds": [
+      660
+    ],
+    "kanjiList": [
+      "条"
+    ]
+  },
+  {
+    "groupId": 282,
+    "title": "282: 苟",
+    "groupKey": "苟",
+    "sourceVolume": 1,
+    "sourcePage": 282,
+    "count": 1,
+    "kanjiIds": [
+      661
+    ],
+    "kanjiList": [
+      "苟"
+    ]
+  },
+  {
+    "groupId": 283,
+    "title": "283: 敬",
+    "groupKey": "敬",
+    "sourceVolume": 1,
+    "sourcePage": 283,
+    "count": 1,
+    "kanjiIds": [
+      662
+    ],
+    "kanjiList": [
+      "敬"
+    ]
+  },
+  {
+    "groupId": 284,
+    "title": "284: 警",
+    "groupKey": "警",
+    "sourceVolume": 1,
+    "sourcePage": 284,
+    "count": 1,
+    "kanjiIds": [
+      663
+    ],
+    "kanjiList": [
+      "警"
+    ]
+  },
+  {
+    "groupId": 285,
+    "title": "285: 臼",
+    "groupKey": "臼",
+    "sourceVolume": 1,
+    "sourcePage": 285,
+    "count": 1,
+    "kanjiIds": [
+      664
+    ],
+    "kanjiList": [
+      "臼"
+    ]
+  },
+  {
+    "groupId": 286,
+    "title": "286: 潟",
+    "groupKey": "潟",
+    "sourceVolume": 1,
+    "sourcePage": 286,
+    "count": 1,
+    "kanjiIds": [
+      665
+    ],
+    "kanjiList": [
+      "潟"
+    ]
+  },
+  {
+    "groupId": 287,
+    "title": "287: 写",
+    "groupKey": "写",
+    "sourceVolume": 1,
+    "sourcePage": 287,
+    "count": 1,
+    "kanjiIds": [
+      666
+    ],
+    "kanjiList": [
+      "写"
+    ]
+  },
+  {
+    "groupId": 288,
+    "title": "288: 旧",
+    "groupKey": "旧",
+    "sourceVolume": 1,
+    "sourcePage": 288,
+    "count": 1,
+    "kanjiIds": [
+      667
+    ],
+    "kanjiList": [
+      "旧"
+    ]
+  },
+  {
+    "groupId": 289,
+    "title": "289: 用, 甬, 勇",
+    "groupKey": "용",
+    "sourceVolume": 1,
+    "sourcePage": 289,
+    "count": 3,
+    "kanjiIds": [
+      668,
+      680,
+      681
+    ],
+    "kanjiList": [
+      "用",
+      "甬",
+      "勇"
+    ]
+  },
+  {
+    "groupId": 290,
+    "title": "290: 備, 比, 批, 非, 悲",
+    "groupKey": "비",
+    "sourceVolume": 1,
+    "sourcePage": 290,
+    "count": 5,
+    "kanjiIds": [
+      669,
+      683,
+      684,
+      696,
+      698
+    ],
+    "kanjiList": [
+      "備",
+      "比",
+      "批",
+      "非",
+      "悲"
+    ]
+  },
+  {
+    "groupId": 291,
+    "title": "291: 角",
+    "groupKey": "각",
+    "sourceVolume": 1,
+    "sourcePage": 291,
+    "count": 1,
+    "kanjiIds": [
+      670
+    ],
+    "kanjiList": [
+      "角"
+    ]
+  },
+  {
+    "groupId": 292,
+    "title": "292: 解",
+    "groupKey": "해",
+    "sourceVolume": 1,
+    "sourcePage": 292,
+    "count": 1,
+    "kanjiIds": [
+      671
+    ],
+    "kanjiList": [
+      "解"
+    ]
+  },
+  {
+    "groupId": 293,
+    "title": "293: 周, 週, 柱",
+    "groupKey": "주",
+    "sourceVolume": 1,
+    "sourcePage": 293,
+    "count": 3,
+    "kanjiIds": [
+      672,
+      674,
+      800
+    ],
+    "kanjiList": [
+      "周",
+      "週",
+      "柱"
+    ]
+  },
+  {
+    "groupId": 294,
+    "title": "294: 調, 兆",
+    "groupKey": "조",
+    "sourceVolume": 1,
+    "sourcePage": 294,
+    "count": 2,
+    "kanjiIds": [
+      673,
+      690
+    ],
+    "kanjiList": [
+      "調",
+      "兆"
+    ]
+  },
+  {
+    "groupId": 295,
+    "title": "295: 甫, 補",
+    "groupKey": "보",
+    "sourceVolume": 1,
+    "sourcePage": 295,
+    "count": 2,
+    "kanjiIds": [
+      675,
+      676
+    ],
+    "kanjiList": [
+      "甫",
+      "補"
+    ]
+  },
+  {
+    "groupId": 296,
+    "title": "296: 專, 傳",
+    "groupKey": "전",
+    "sourceVolume": 1,
+    "sourcePage": 296,
+    "count": 2,
+    "kanjiIds": [
+      677,
+      678
+    ],
+    "kanjiList": [
+      "專",
+      "傳"
+    ]
+  },
+  {
+    "groupId": 297,
+    "title": "297: 博",
+    "groupKey": "박",
+    "sourceVolume": 1,
+    "sourcePage": 297,
+    "count": 1,
+    "kanjiIds": [
+      679
+    ],
+    "kanjiList": [
+      "博"
+    ]
+  },
+  {
+    "groupId": 298,
+    "title": "298: 通",
+    "groupKey": "통",
+    "sourceVolume": 1,
+    "sourcePage": 298,
+    "count": 1,
+    "kanjiIds": [
+      682
+    ],
+    "kanjiList": [
+      "通"
+    ]
+  },
+  {
+    "groupId": 299,
+    "title": "299: 皆",
+    "groupKey": "개",
+    "sourceVolume": 1,
+    "sourcePage": 299,
+    "count": 1,
+    "kanjiIds": [
+      685
+    ],
+    "kanjiList": [
+      "皆"
+    ]
+  },
+  {
+    "groupId": 300,
+    "title": "300: 階",
+    "groupKey": "계",
+    "sourceVolume": 1,
+    "sourcePage": 300,
+    "count": 1,
+    "kanjiIds": [
+      686
+    ],
+    "kanjiList": [
+      "階"
+    ]
+  },
+  {
+    "groupId": 301,
+    "title": "301: 鹿",
+    "groupKey": "록",
+    "sourceVolume": 1,
+    "sourcePage": 301,
+    "count": 1,
+    "kanjiIds": [
+      687
+    ],
+    "kanjiList": [
+      "鹿"
+    ]
+  },
+  {
+    "groupId": 302,
+    "title": "302: 混",
+    "groupKey": "혼",
+    "sourceVolume": 1,
+    "sourcePage": 302,
+    "count": 1,
+    "kanjiIds": [
+      688
+    ],
+    "kanjiList": [
+      "混"
+    ]
+  },
+  {
+    "groupId": 303,
+    "title": "303: 陛",
+    "groupKey": "폐",
+    "sourceVolume": 1,
+    "sourcePage": 303,
+    "count": 1,
+    "kanjiIds": [
+      689
+    ],
+    "kanjiList": [
+      "陛"
+    ]
+  },
+  {
+    "groupId": 304,
+    "title": "304: 跳, 挑",
+    "groupKey": "도",
+    "sourceVolume": 1,
+    "sourcePage": 304,
+    "count": 2,
+    "kanjiIds": [
+      691,
+      692
+    ],
+    "kanjiList": [
+      "跳",
+      "挑"
+    ]
+  },
+  {
+    "groupId": 305,
+    "title": "305: 北",
+    "groupKey": "북",
+    "sourceVolume": 1,
+    "sourcePage": 305,
+    "count": 1,
+    "kanjiIds": [
+      693
+    ],
+    "kanjiList": [
+      "北"
+    ]
+  },
+  {
+    "groupId": 306,
+    "title": "306: 背, 俳",
+    "groupKey": "배",
+    "sourceVolume": 1,
+    "sourcePage": 306,
+    "count": 2,
+    "kanjiIds": [
+      694,
+      697
+    ],
+    "kanjiList": [
+      "背",
+      "俳"
+    ]
+  },
+  {
+    "groupId": 307,
+    "title": "307: 乘",
+    "groupKey": "승",
+    "sourceVolume": 1,
+    "sourcePage": 307,
+    "count": 1,
+    "kanjiIds": [
+      695
+    ],
+    "kanjiList": [
+      "乘"
+    ]
+  },
+  {
+    "groupId": 308,
+    "title": "308: 岡, 鋼, 鋼",
+    "groupKey": "강",
+    "sourceVolume": 1,
+    "sourcePage": 308,
+    "count": 3,
+    "kanjiIds": [
+      699,
+      700,
+      790
+    ],
+    "kanjiList": [
+      "岡",
+      "鋼",
+      "鋼"
+    ]
+  },
+  {
+    "groupId": 309,
+    "title": "309: 罪, 署, 置",
+    "groupKey": "罪, 署, 置",
+    "sourceVolume": 1,
+    "sourcePage": 309,
+    "count": 3,
+    "kanjiIds": [
+      701,
+      703,
+      704
+    ],
+    "kanjiList": [
+      "罪",
+      "署",
+      "置"
+    ]
+  },
+  {
+    "groupId": 310,
+    "title": "310: 罰",
+    "groupKey": "罪, 罰, 買",
+    "sourceVolume": 1,
+    "sourcePage": 310,
+    "count": 1,
+    "kanjiIds": [
+      702
+    ],
+    "kanjiList": [
+      "罰"
+    ]
+  },
+  {
+    "groupId": 311,
+    "title": "311: 買, 讀",
+    "groupKey": "買, 賣, 讀",
+    "sourceVolume": 1,
+    "sourcePage": 311,
+    "count": 2,
+    "kanjiIds": [
+      705,
+      707
+    ],
+    "kanjiList": [
+      "買",
+      "讀"
+    ]
+  },
+  {
+    "groupId": 312,
+    "title": "312: 賣, 續",
+    "groupKey": "買, 賣, 續",
+    "sourceVolume": 1,
+    "sourcePage": 312,
+    "count": 2,
+    "kanjiIds": [
+      706,
+      708
+    ],
+    "kanjiList": [
+      "賣",
+      "續"
+    ]
+  },
+  {
+    "groupId": 313,
+    "title": "313: 贖",
+    "groupKey": "買, 賣, 贖",
+    "sourceVolume": 1,
+    "sourcePage": 313,
+    "count": 1,
+    "kanjiIds": [
+      709
+    ],
+    "kanjiList": [
+      "贖"
+    ]
+  },
+  {
+    "groupId": 314,
+    "title": "314: 共, 洪",
+    "groupKey": "共, 供, 洪",
+    "sourceVolume": 1,
+    "sourcePage": 314,
+    "count": 2,
+    "kanjiIds": [
+      710,
+      712
+    ],
+    "kanjiList": [
+      "共",
+      "洪"
+    ]
+  },
+  {
+    "groupId": 315,
+    "title": "315: 供, 巷",
+    "groupKey": "共, 供, 巷",
+    "sourceVolume": 1,
+    "sourcePage": 315,
+    "count": 2,
+    "kanjiIds": [
+      711,
+      713
+    ],
+    "kanjiList": [
+      "供",
+      "巷"
+    ]
+  },
+  {
+    "groupId": 316,
+    "title": "316: 異, 翼",
+    "groupKey": "異, 翼",
+    "sourceVolume": 1,
+    "sourcePage": 316,
+    "count": 2,
+    "kanjiIds": [
+      714,
+      715
+    ],
+    "kanjiList": [
+      "異",
+      "翼"
+    ]
+  },
+  {
+    "groupId": 317,
+    "title": "317: 暴, 瀑, 爆",
+    "groupKey": "暴, 瀑, 爆",
+    "sourceVolume": 1,
+    "sourcePage": 317,
+    "count": 3,
+    "kanjiIds": [
+      716,
+      717,
+      718
+    ],
+    "kanjiList": [
+      "暴",
+      "瀑",
+      "爆"
+    ]
+  },
+  {
+    "groupId": 318,
+    "title": "318: 恭, 添",
+    "groupKey": "恭, 添",
+    "sourceVolume": 1,
+    "sourcePage": 318,
+    "count": 2,
+    "kanjiIds": [
+      719,
+      720
+    ],
+    "kanjiList": [
+      "恭",
+      "添"
+    ]
+  },
+  {
+    "groupId": 319,
+    "title": "319: 豊, 禮, 體",
+    "groupKey": "豊, 禮, 體",
+    "sourceVolume": 1,
+    "sourcePage": 319,
+    "count": 3,
+    "kanjiIds": [
+      732,
+      733,
+      734
+    ],
+    "kanjiList": [
+      "豊",
+      "禮",
+      "體"
+    ]
+  },
+  {
+    "groupId": 320,
+    "title": "320: 登, 燈",
+    "groupKey": "登, 燈",
+    "sourceVolume": 1,
+    "sourcePage": 320,
+    "count": 2,
+    "kanjiIds": [
+      735,
+      736
+    ],
+    "kanjiList": [
+      "登",
+      "燈"
+    ]
+  },
+  {
+    "groupId": 321,
+    "title": "321: 殼",
+    "groupKey": "殼, 穀",
+    "sourceVolume": 1,
+    "sourcePage": 321,
+    "count": 1,
+    "kanjiIds": [
+      740
+    ],
+    "kanjiList": [
+      "殼"
+    ]
+  },
+  {
+    "groupId": 322,
+    "title": "322: 鼓",
+    "groupKey": "鼓",
+    "sourceVolume": 1,
+    "sourcePage": 322,
+    "count": 1,
+    "kanjiIds": [
+      743
+    ],
+    "kanjiList": [
+      "鼓"
+    ]
+  },
+  {
+    "groupId": 323,
+    "title": "323: 彭, 膨",
+    "groupKey": "彭, 膨",
+    "sourceVolume": 1,
+    "sourcePage": 323,
+    "count": 2,
+    "kanjiIds": [
+      745,
+      746
+    ],
+    "kanjiList": [
+      "彭",
+      "膨"
+    ]
+  },
+  {
+    "groupId": 324,
+    "title": "324: 彰, 影",
+    "groupKey": "彰, 影",
+    "sourceVolume": 1,
+    "sourcePage": 324,
+    "count": 2,
+    "kanjiIds": [
+      747,
+      748
+    ],
+    "kanjiList": [
+      "彰",
+      "影"
+    ]
+  },
+  {
+    "groupId": 325,
+    "title": "325: 景, 鯨",
+    "groupKey": "景, 鯨",
+    "sourceVolume": 1,
+    "sourcePage": 325,
+    "count": 2,
+    "kanjiIds": [
+      749,
+      750
+    ],
+    "kanjiList": [
+      "景",
+      "鯨"
+    ]
+  },
+  {
+    "groupId": 326,
+    "title": "326: 京, 凉, 掠",
+    "groupKey": "京, 凉, 掠",
+    "sourceVolume": 1,
+    "sourcePage": 326,
+    "count": 3,
+    "kanjiIds": [
+      751,
+      752,
+      753
+    ],
+    "kanjiList": [
+      "京",
+      "凉",
+      "掠"
+    ]
+  },
+  {
+    "groupId": 327,
+    "title": "327: 諒",
+    "groupKey": "京, 凉, 諒",
+    "sourceVolume": 1,
+    "sourcePage": 327,
+    "count": 1,
+    "kanjiIds": [
+      754
+    ],
+    "kanjiList": [
+      "諒"
+    ]
+  },
+  {
+    "groupId": 328,
+    "title": "328: 就, 蹴, 尤",
+    "groupKey": "就, 蹴",
+    "sourceVolume": 1,
+    "sourcePage": 328,
+    "count": 3,
+    "kanjiIds": [
+      755,
+      756,
+      757
+    ],
+    "kanjiList": [
+      "就",
+      "蹴",
+      "尤"
+    ]
+  },
+  {
+    "groupId": 329,
+    "title": "329: 西",
+    "groupKey": "西",
+    "sourceVolume": 1,
+    "sourcePage": 329,
+    "count": 1,
+    "kanjiIds": [
+      758
+    ],
+    "kanjiList": [
+      "西"
+    ]
+  },
+  {
+    "groupId": 330,
+    "title": "330: 価",
+    "groupKey": "価",
+    "sourceVolume": 1,
+    "sourcePage": 330,
+    "count": 1,
+    "kanjiIds": [
+      759
+    ],
+    "kanjiList": [
+      "価"
+    ]
+  },
+  {
+    "groupId": 331,
+    "title": "331: 圭, 街",
+    "groupKey": "圭, 街",
+    "sourceVolume": 1,
+    "sourcePage": 331,
+    "count": 2,
+    "kanjiIds": [
+      760,
+      761
+    ],
+    "kanjiList": [
+      "圭",
+      "街"
+    ]
+  },
+  {
+    "groupId": 332,
+    "title": "332: 届, 后, 尺, 局",
+    "groupKey": "届, 后, 尺",
+    "sourceVolume": 1,
+    "sourcePage": 332,
+    "count": 4,
+    "kanjiIds": [
+      762,
+      763,
+      764,
+      765
+    ],
+    "kanjiList": [
+      "届",
+      "后",
+      "尺",
+      "局"
+    ]
+  },
+  {
+    "groupId": 333,
+    "title": "333: 聖, 聴",
+    "groupKey": "聖, 聴",
+    "sourceVolume": 1,
+    "sourcePage": 333,
+    "count": 2,
+    "kanjiIds": [
+      766,
+      767
+    ],
+    "kanjiList": [
+      "聖",
+      "聴"
+    ]
+  },
+  {
+    "groupId": 334,
+    "title": "334: 窓",
+    "groupKey": "窓",
+    "sourceVolume": 1,
+    "sourcePage": 334,
+    "count": 1,
+    "kanjiIds": [
+      768
+    ],
+    "kanjiList": [
+      "窓"
+    ]
+  },
+  {
+    "groupId": 335,
+    "title": "335: 詞, 訳, 釈",
+    "groupKey": "詞, 訳, 釈",
+    "sourceVolume": 1,
+    "sourcePage": 335,
+    "count": 3,
+    "kanjiIds": [
+      769,
+      770,
+      771
+    ],
+    "kanjiList": [
+      "詞",
+      "訳",
+      "釈"
+    ]
+  },
+  {
+    "groupId": 336,
+    "title": "336: 択, 沢, 贅",
+    "groupKey": "択, 沢, 贅",
+    "sourceVolume": 1,
+    "sourcePage": 336,
+    "count": 3,
+    "kanjiIds": [
+      772,
+      773,
+      774
+    ],
+    "kanjiList": [
+      "択",
+      "沢",
+      "贅"
+    ]
+  },
+  {
+    "groupId": 337,
+    "title": "337: 覚, 学",
+    "groupKey": "覚, 학",
+    "sourceVolume": 1,
+    "sourcePage": 337,
+    "count": 2,
+    "kanjiIds": [
+      777,
+      778
+    ],
+    "kanjiList": [
+      "覚",
+      "学"
+    ]
+  },
+  {
+    "groupId": 338,
+    "title": "338: 隔, 離",
+    "groupKey": "隔, 리",
+    "sourceVolume": 1,
+    "sourcePage": 338,
+    "count": 2,
+    "kanjiIds": [
+      782,
+      783
+    ],
+    "kanjiList": [
+      "隔",
+      "離"
+    ]
+  },
+  {
+    "groupId": 339,
+    "title": "339: 躯",
+    "groupKey": "躯",
+    "sourceVolume": 1,
+    "sourcePage": 339,
+    "count": 1,
+    "kanjiIds": [
+      784
+    ],
+    "kanjiList": [
+      "躯"
+    ]
+  },
+  {
+    "groupId": 340,
+    "title": "340: 匠",
+    "groupKey": "匠",
+    "sourceVolume": 1,
+    "sourcePage": 340,
+    "count": 1,
+    "kanjiIds": [
+      785
+    ],
+    "kanjiList": [
+      "匠"
+    ]
+  },
+  {
+    "groupId": 341,
+    "title": "341: 汚",
+    "groupKey": "오",
+    "sourceVolume": 1,
+    "sourcePage": 341,
+    "count": 1,
+    "kanjiIds": [
+      786
+    ],
+    "kanjiList": [
+      "汚"
+    ]
+  },
+  {
+    "groupId": 342,
+    "title": "342: 雑",
+    "groupKey": "잡",
+    "sourceVolume": 1,
+    "sourcePage": 342,
+    "count": 1,
+    "kanjiIds": [
+      787
+    ],
+    "kanjiList": [
+      "雑"
+    ]
+  },
+  {
+    "groupId": 343,
+    "title": "343: 竪",
+    "groupKey": "수",
+    "sourceVolume": 1,
+    "sourcePage": 343,
+    "count": 1,
+    "kanjiIds": [
+      788
+    ],
+    "kanjiList": [
+      "竪"
+    ]
+  },
+  {
+    "groupId": 344,
+    "title": "344: 勾",
+    "groupKey": "구",
+    "sourceVolume": 1,
+    "sourcePage": 344,
+    "count": 1,
+    "kanjiIds": [
+      789
+    ],
+    "kanjiList": [
+      "勾"
+    ]
+  },
+  {
+    "groupId": 345,
+    "title": "345: 掘",
+    "groupKey": "굴",
+    "sourceVolume": 1,
+    "sourcePage": 345,
+    "count": 1,
+    "kanjiIds": [
+      791
+    ],
+    "kanjiList": [
+      "掘"
+    ]
+  },
+  {
+    "groupId": 346,
+    "title": "346: 削",
+    "groupKey": "삭",
+    "sourceVolume": 1,
+    "sourcePage": 346,
+    "count": 1,
+    "kanjiIds": [
+      792
+    ],
+    "kanjiList": [
+      "削"
+    ]
+  },
+  {
+    "groupId": 347,
+    "title": "347: 繕",
+    "groupKey": "선",
+    "sourceVolume": 1,
+    "sourcePage": 347,
+    "count": 1,
+    "kanjiIds": [
+      793
+    ],
+    "kanjiList": [
+      "繕"
+    ]
+  },
+  {
+    "groupId": 348,
+    "title": "348: 撤",
+    "groupKey": "철",
+    "sourceVolume": 1,
+    "sourcePage": 348,
+    "count": 1,
+    "kanjiIds": [
+      794
+    ],
+    "kanjiList": [
+      "撤"
+    ]
+  },
+  {
+    "groupId": 349,
+    "title": "349: 毀",
+    "groupKey": "훼",
+    "sourceVolume": 1,
+    "sourcePage": 349,
+    "count": 1,
+    "kanjiIds": [
+      795
+    ],
+    "kanjiList": [
+      "毀"
+    ]
+  },
+  {
+    "groupId": 350,
+    "title": "350: 埋",
+    "groupKey": "매",
+    "sourceVolume": 1,
+    "sourcePage": 350,
+    "count": 1,
+    "kanjiIds": [
+      796
+    ],
+    "kanjiList": [
+      "埋"
+    ]
+  },
+  {
+    "groupId": 351,
+    "title": "351: 礎",
+    "groupKey": "초",
+    "sourceVolume": 1,
+    "sourcePage": 351,
+    "count": 1,
+    "kanjiIds": [
+      797
+    ],
+    "kanjiList": [
+      "礎"
+    ]
+  },
+  {
+    "groupId": 352,
+    "title": "352: 網",
+    "groupKey": "망",
+    "sourceVolume": 1,
+    "sourcePage": 352,
+    "count": 1,
+    "kanjiIds": [
+      798
+    ],
+    "kanjiList": [
+      "網"
+    ]
+  },
+  {
+    "groupId": 353,
+    "title": "353: 締",
+    "groupKey": "체",
+    "sourceVolume": 1,
+    "sourcePage": 353,
+    "count": 1,
+    "kanjiIds": [
+      799
+    ],
+    "kanjiList": [
+      "締"
+    ]
+  },
+  {
+    "groupId": 354,
+    "title": "354: 梁",
+    "groupKey": "梁",
+    "sourceVolume": 1,
+    "sourcePage": 354,
+    "count": 1,
+    "kanjiIds": [
+      801
+    ],
+    "kanjiList": [
+      "梁"
+    ]
+  },
+  {
+    "groupId": 355,
+    "title": "355: 桁",
+    "groupKey": "桁",
+    "sourceVolume": 1,
+    "sourcePage": 355,
+    "count": 1,
+    "kanjiIds": [
+      802
+    ],
+    "kanjiList": [
+      "桁"
+    ]
+  },
+  {
+    "groupId": 356,
+    "title": "356: 壁",
+    "groupKey": "壁",
+    "sourceVolume": 1,
+    "sourcePage": 356,
+    "count": 1,
+    "kanjiIds": [
+      803
+    ],
+    "kanjiList": [
+      "壁"
+    ]
+  },
+  {
+    "groupId": 357,
+    "title": "357: 壇",
+    "groupKey": "壇",
+    "sourceVolume": 1,
+    "sourcePage": 357,
+    "count": 1,
+    "kanjiIds": [
+      804
+    ],
+    "kanjiList": [
+      "壇"
+    ]
+  },
+  {
+    "groupId": 358,
+    "title": "358: 溝",
+    "groupKey": "溝",
+    "sourceVolume": 1,
+    "sourcePage": 358,
+    "count": 1,
+    "kanjiIds": [
+      805
+    ],
+    "kanjiList": [
+      "溝"
+    ]
+  },
+  {
+    "groupId": 359,
+    "title": "359: 槽",
+    "groupKey": "槽",
+    "sourceVolume": 1,
+    "sourcePage": 359,
+    "count": 1,
+    "kanjiIds": [
+      806
+    ],
+    "kanjiList": [
+      "槽"
+    ]
+  },
+  {
+    "groupId": 360,
+    "title": "360: 蓋",
+    "groupKey": "蓋",
+    "sourceVolume": 1,
+    "sourcePage": 360,
+    "count": 1,
+    "kanjiIds": [
+      807
+    ],
+    "kanjiList": [
+      "蓋"
+    ]
+  },
+  {
+    "groupId": 361,
+    "title": "361: 皿",
+    "groupKey": "皿",
+    "sourceVolume": 1,
+    "sourcePage": 361,
+    "count": 1,
+    "kanjiIds": [
+      808
+    ],
+    "kanjiList": [
+      "皿"
+    ]
+  },
+  {
+    "groupId": 362,
+    "title": "362: 盆",
+    "groupKey": "盆",
+    "sourceVolume": 1,
+    "sourcePage": 362,
+    "count": 1,
+    "kanjiIds": [
+      809
+    ],
+    "kanjiList": [
+      "盆"
+    ]
+  },
+  {
+    "groupId": 363,
+    "title": "363: 盤",
+    "groupKey": "盤",
+    "sourceVolume": 1,
+    "sourcePage": 363,
+    "count": 1,
+    "kanjiIds": [
+      810
+    ],
+    "kanjiList": [
+      "盤"
+    ]
+  },
+  {
+    "groupId": 364,
+    "title": "364: 益",
+    "groupKey": "益",
+    "sourceVolume": 1,
+    "sourcePage": 364,
+    "count": 1,
+    "kanjiIds": [
+      811
+    ],
+    "kanjiList": [
+      "益"
+    ]
+  },
+  {
+    "groupId": 365,
+    "title": "365: 臨",
+    "groupKey": "臨",
+    "sourceVolume": 1,
+    "sourcePage": 365,
+    "count": 1,
+    "kanjiIds": [
+      812
+    ],
+    "kanjiList": [
+      "臨"
+    ]
+  },
+  {
+    "groupId": 366,
+    "title": "366: 臥",
+    "groupKey": "臥",
+    "sourceVolume": 1,
+    "sourcePage": 366,
+    "count": 1,
+    "kanjiIds": [
+      813
+    ],
+    "kanjiList": [
+      "臥"
+    ]
+  },
+  {
+    "groupId": 367,
+    "title": "367: 臣",
+    "groupKey": "臣",
+    "sourceVolume": 1,
+    "sourcePage": 367,
+    "count": 1,
+    "kanjiIds": [
+      814
+    ],
+    "kanjiList": [
+      "臣"
+    ]
+  },
+  {
+    "groupId": 368,
+    "title": "368: 藏",
+    "groupKey": "藏",
+    "sourceVolume": 1,
+    "sourcePage": 368,
+    "count": 1,
+    "kanjiIds": [
+      815
+    ],
+    "kanjiList": [
+      "藏"
+    ]
+  },
+  {
+    "groupId": 369,
+    "title": "369: 臟",
+    "groupKey": "臟",
+    "sourceVolume": 1,
+    "sourcePage": 369,
+    "count": 1,
+    "kanjiIds": [
+      816
+    ],
+    "kanjiList": [
+      "臟"
+    ]
+  },
+  {
+    "groupId": 370,
+    "title": "370: 賢",
+    "groupKey": "賢",
+    "sourceVolume": 1,
+    "sourcePage": 370,
+    "count": 1,
+    "kanjiIds": [
+      817
+    ],
+    "kanjiList": [
+      "賢"
+    ]
+  },
+  {
+    "groupId": 371,
+    "title": "371: 堅",
+    "groupKey": "堅",
+    "sourceVolume": 1,
+    "sourcePage": 371,
+    "count": 1,
+    "kanjiIds": [
+      818
+    ],
+    "kanjiList": [
+      "堅"
+    ]
+  },
+  {
+    "groupId": 372,
+    "title": "372: 緊",
+    "groupKey": "緊",
+    "sourceVolume": 1,
+    "sourcePage": 372,
+    "count": 1,
+    "kanjiIds": [
+      819
+    ],
+    "kanjiList": [
+      "緊"
+    ]
+  },
+  {
+    "groupId": 373,
+    "title": "373: 腎",
+    "groupKey": "腎",
+    "sourceVolume": 1,
+    "sourcePage": 373,
+    "count": 1,
+    "kanjiIds": [
+      820
+    ],
+    "kanjiList": [
+      "腎"
+    ]
+  },
+  {
+    "groupId": 374,
+    "title": "374: 竪",
+    "groupKey": "竪",
+    "sourceVolume": 1,
+    "sourcePage": 374,
+    "count": 1,
+    "kanjiIds": [
+      821
+    ],
+    "kanjiList": [
+      "竪"
+    ]
+  },
+  {
+    "groupId": 375,
+    "title": "375: 監",
+    "groupKey": "監",
+    "sourceVolume": 1,
+    "sourcePage": 375,
+    "count": 1,
+    "kanjiIds": [
+      822
+    ],
+    "kanjiList": [
+      "監"
+    ]
+  },
+  {
+    "groupId": 376,
+    "title": "376: 覽",
+    "groupKey": "覽",
+    "sourceVolume": 1,
+    "sourcePage": 376,
+    "count": 1,
+    "kanjiIds": [
+      823
+    ],
+    "kanjiList": [
+      "覽"
+    ]
+  },
+  {
+    "groupId": 377,
+    "title": "377: 鑑",
+    "groupKey": "鑑",
+    "sourceVolume": 1,
+    "sourcePage": 377,
+    "count": 1,
+    "kanjiIds": [
+      824
+    ],
+    "kanjiList": [
+      "鑑"
+    ]
+  },
+  {
+    "groupId": 378,
+    "title": "378: 濫",
+    "groupKey": "濫",
+    "sourceVolume": 1,
+    "sourcePage": 378,
+    "count": 1,
+    "kanjiIds": [
+      825
+    ],
+    "kanjiList": [
+      "濫"
+    ]
+  },
+  {
+    "groupId": 379,
+    "title": "379: 阜",
+    "groupKey": "阜",
+    "sourceVolume": 1,
+    "sourcePage": 379,
+    "count": 1,
+    "kanjiIds": [
+      826
+    ],
+    "kanjiList": [
+      "阜"
+    ]
+  },
+  {
+    "groupId": 380,
+    "title": "380: 追",
+    "groupKey": "追",
+    "sourceVolume": 1,
+    "sourcePage": 380,
+    "count": 1,
+    "kanjiIds": [
+      827
+    ],
+    "kanjiList": [
+      "追"
+    ]
+  },
+  {
+    "groupId": 381,
+    "title": "381: 師",
+    "groupKey": "師",
+    "sourceVolume": 1,
+    "sourcePage": 381,
+    "count": 1,
+    "kanjiIds": [
+      828
+    ],
+    "kanjiList": [
+      "師"
+    ]
+  },
+  {
+    "groupId": 382,
+    "title": "382: 帥",
+    "groupKey": "帥",
+    "sourceVolume": 1,
+    "sourcePage": 382,
+    "count": 1,
+    "kanjiIds": [
+      829
+    ],
+    "kanjiList": [
+      "帥"
+    ]
+  },
+  {
+    "groupId": 383,
+    "title": "383: 官",
+    "groupKey": "官",
+    "sourceVolume": 1,
+    "sourcePage": 383,
+    "count": 1,
+    "kanjiIds": [
+      830
+    ],
+    "kanjiList": [
+      "官"
+    ]
+  },
+  {
+    "groupId": 384,
+    "title": "384: 管",
+    "groupKey": "管",
+    "sourceVolume": 1,
+    "sourcePage": 384,
+    "count": 1,
+    "kanjiIds": [
+      831
+    ],
+    "kanjiList": [
+      "管"
+    ]
+  },
+  {
+    "groupId": 385,
+    "title": "385: 遣",
+    "groupKey": "遣",
+    "sourceVolume": 1,
+    "sourcePage": 385,
+    "count": 1,
+    "kanjiIds": [
+      832
+    ],
+    "kanjiList": [
+      "遣"
+    ]
+  },
+  {
+    "groupId": 386,
+    "title": "386: 歸",
+    "groupKey": "帰",
+    "sourceVolume": 1,
+    "sourcePage": 386,
+    "count": 1,
+    "kanjiIds": [
+      833
+    ],
+    "kanjiList": [
+      "歸"
+    ]
+  },
+  {
+    "groupId": 387,
+    "title": "387: 婦",
+    "groupKey": "婦",
+    "sourceVolume": 1,
+    "sourcePage": 387,
+    "count": 1,
+    "kanjiIds": [
+      834
+    ],
+    "kanjiList": [
+      "婦"
+    ]
+  },
+  {
+    "groupId": 388,
+    "title": "388: 掃",
+    "groupKey": "掃",
+    "sourceVolume": 1,
+    "sourcePage": 388,
+    "count": 1,
+    "kanjiIds": [
+      835
+    ],
+    "kanjiList": [
+      "掃"
+    ]
+  },
+  {
+    "groupId": 389,
+    "title": "389: 浸",
+    "groupKey": "浸",
+    "sourceVolume": 1,
+    "sourcePage": 389,
+    "count": 1,
+    "kanjiIds": [
+      836
+    ],
+    "kanjiList": [
+      "浸"
+    ]
+  },
+  {
+    "groupId": 390,
+    "title": "390: 寝",
+    "groupKey": "寝",
+    "sourceVolume": 1,
+    "sourcePage": 390,
+    "count": 1,
+    "kanjiIds": [
+      837
+    ],
+    "kanjiList": [
+      "寝"
+    ]
+  },
+  {
+    "groupId": 391,
+    "title": "391: 尋",
+    "groupKey": "尋",
+    "sourceVolume": 1,
+    "sourcePage": 391,
+    "count": 1,
+    "kanjiIds": [
+      838
+    ],
+    "kanjiList": [
+      "尋"
+    ]
+  },
+  {
+    "groupId": 392,
+    "title": "392: 屋",
+    "groupKey": "屋",
+    "sourceVolume": 1,
+    "sourcePage": 392,
+    "count": 1,
+    "kanjiIds": [
+      839
+    ],
+    "kanjiList": [
+      "屋"
+    ]
+  },
+  {
+    "groupId": 393,
+    "title": "393: 至",
+    "groupKey": "至",
+    "sourceVolume": 1,
+    "sourcePage": 393,
+    "count": 1,
+    "kanjiIds": [
+      840
+    ],
+    "kanjiList": [
+      "至"
+    ]
+  },
+  {
+    "groupId": 394,
+    "title": "394: 握",
+    "groupKey": "握",
+    "sourceVolume": 1,
+    "sourcePage": 394,
+    "count": 1,
+    "kanjiIds": [
+      841
+    ],
+    "kanjiList": [
+      "握"
+    ]
+  },
+  {
+    "groupId": 395,
+    "title": "395: 臺",
+    "groupKey": "臺",
+    "sourceVolume": 1,
+    "sourcePage": 395,
+    "count": 1,
+    "kanjiIds": [
+      842
+    ],
+    "kanjiList": [
+      "臺"
+    ]
+  },
+  {
+    "groupId": 396,
+    "title": "396: 室",
+    "groupKey": "室",
+    "sourceVolume": 1,
+    "sourcePage": 396,
+    "count": 1,
+    "kanjiIds": [
+      843
+    ],
+    "kanjiList": [
+      "室"
+    ]
+  },
+  {
+    "groupId": 397,
+    "title": "397: 倒",
+    "groupKey": "倒",
+    "sourceVolume": 1,
+    "sourcePage": 397,
+    "count": 1,
+    "kanjiIds": [
+      844
+    ],
+    "kanjiList": [
+      "倒"
+    ]
+  },
+  {
+    "groupId": 398,
+    "title": "398: 到",
+    "groupKey": "到",
+    "sourceVolume": 1,
+    "sourcePage": 398,
+    "count": 1,
+    "kanjiIds": [
+      845
+    ],
+    "kanjiList": [
+      "到"
+    ]
+  },
+  {
+    "groupId": 399,
+    "title": "399: 致",
+    "groupKey": "致",
+    "sourceVolume": 1,
+    "sourcePage": 399,
+    "count": 1,
+    "kanjiIds": [
+      846
+    ],
+    "kanjiList": [
+      "致"
+    ]
+  },
+  {
+    "groupId": 400,
+    "title": "400: 亡",
+    "groupKey": "亡",
+    "sourceVolume": 1,
+    "sourcePage": 400,
+    "count": 1,
+    "kanjiIds": [
+      847
+    ],
+    "kanjiList": [
+      "亡"
+    ]
+  },
+  {
+    "groupId": 401,
+    "title": "401: 望",
+    "groupKey": "望",
+    "sourceVolume": 1,
+    "sourcePage": 401,
+    "count": 1,
+    "kanjiIds": [
+      848
+    ],
+    "kanjiList": [
+      "望"
+    ]
+  },
+  {
+    "groupId": 402,
+    "title": "402: 忘",
+    "groupKey": "忘",
+    "sourceVolume": 1,
+    "sourcePage": 402,
+    "count": 1,
+    "kanjiIds": [
+      849
+    ],
+    "kanjiList": [
+      "忘"
+    ]
+  },
+  {
+    "groupId": 403,
+    "title": "403: 忙",
+    "groupKey": "忙",
+    "sourceVolume": 1,
+    "sourcePage": 403,
+    "count": 1,
+    "kanjiIds": [
+      850
+    ],
+    "kanjiList": [
+      "忙"
+    ]
+  },
+  {
+    "groupId": 404,
+    "title": "404: 夢",
+    "groupKey": "夢",
+    "sourceVolume": 1,
+    "sourcePage": 404,
+    "count": 1,
+    "kanjiIds": [
+      851
+    ],
+    "kanjiList": [
+      "夢"
+    ]
+  },
+  {
+    "groupId": 405,
+    "title": "405: 盲",
+    "groupKey": "盲",
+    "sourceVolume": 1,
+    "sourcePage": 405,
+    "count": 1,
+    "kanjiIds": [
+      852
+    ],
+    "kanjiList": [
+      "盲"
+    ]
+  },
+  {
+    "groupId": 406,
+    "title": "406: 荒",
+    "groupKey": "荒",
+    "sourceVolume": 1,
+    "sourcePage": 406,
+    "count": 1,
+    "kanjiIds": [
+      853
+    ],
+    "kanjiList": [
+      "荒"
+    ]
+  },
+  {
+    "groupId": 407,
+    "title": "407: 慌",
+    "groupKey": "慌",
+    "sourceVolume": 1,
+    "sourcePage": 407,
+    "count": 1,
+    "kanjiIds": [
+      854
+    ],
+    "kanjiList": [
+      "慌"
+    ]
+  },
+  {
+    "groupId": 408,
+    "title": "408: 皇",
+    "groupKey": "皇",
+    "sourceVolume": 1,
+    "sourcePage": 408,
+    "count": 1,
+    "kanjiIds": [
+      855
+    ],
+    "kanjiList": [
+      "皇"
+    ]
+  },
+  {
+    "groupId": 409,
+    "title": "409: 聖",
+    "groupKey": "聖",
+    "sourceVolume": 1,
+    "sourcePage": 409,
+    "count": 1,
+    "kanjiIds": [
+      856
+    ],
+    "kanjiList": [
+      "聖"
+    ]
+  },
+  {
+    "groupId": 410,
+    "title": "410: 聽",
+    "groupKey": "聽",
+    "sourceVolume": 1,
+    "sourcePage": 410,
+    "count": 1,
+    "kanjiIds": [
+      857
+    ],
+    "kanjiList": [
+      "聽"
+    ]
+  },
+  {
+    "groupId": 411,
+    "title": "411: 德",
+    "groupKey": "德",
+    "sourceVolume": 1,
+    "sourcePage": 411,
+    "count": 1,
+    "kanjiIds": [
+      858
+    ],
+    "kanjiList": [
+      "德"
+    ]
+  },
+  {
+    "groupId": 412,
+    "title": "412: 廳, 廳",
+    "groupKey": "廳",
+    "sourceVolume": 1,
+    "sourcePage": 412,
+    "count": 2,
+    "kanjiIds": [
+      859,
+      894
+    ],
+    "kanjiList": [
+      "廳",
+      "廳"
+    ]
+  },
+  {
+    "groupId": 413,
+    "title": "413: 庶, 庶",
+    "groupKey": "庶",
+    "sourceVolume": 1,
+    "sourcePage": 413,
+    "count": 2,
+    "kanjiIds": [
+      861,
+      909
+    ],
+    "kanjiList": [
+      "庶",
+      "庶"
+    ]
+  },
+  {
+    "groupId": 414,
+    "title": "414: 遮",
+    "groupKey": "遮",
+    "sourceVolume": 1,
+    "sourcePage": 414,
+    "count": 1,
+    "kanjiIds": [
+      862
+    ],
+    "kanjiList": [
+      "遮"
+    ]
+  },
+  {
+    "groupId": 415,
+    "title": "415: 席",
+    "groupKey": "席",
+    "sourceVolume": 1,
+    "sourcePage": 415,
+    "count": 1,
+    "kanjiIds": [
+      863
+    ],
+    "kanjiList": [
+      "席"
+    ]
+  },
+  {
+    "groupId": 416,
+    "title": "416: 度",
+    "groupKey": "度",
+    "sourceVolume": 1,
+    "sourcePage": 416,
+    "count": 1,
+    "kanjiIds": [
+      864
+    ],
+    "kanjiList": [
+      "度"
+    ]
+  },
+  {
+    "groupId": 417,
+    "title": "417: 渡, 渡",
+    "groupKey": "渡",
+    "sourceVolume": 1,
+    "sourcePage": 417,
+    "count": 2,
+    "kanjiIds": [
+      865,
+      910
+    ],
+    "kanjiList": [
+      "渡",
+      "渡"
+    ]
+  },
+  {
+    "groupId": 418,
+    "title": "418: 諸, 諸",
+    "groupKey": "諸",
+    "sourceVolume": 1,
+    "sourcePage": 418,
+    "count": 2,
+    "kanjiIds": [
+      867,
+      899
+    ],
+    "kanjiList": [
+      "諸",
+      "諸"
+    ]
+  },
+  {
+    "groupId": 419,
+    "title": "419: 儲",
+    "groupKey": "儲",
+    "sourceVolume": 1,
+    "sourcePage": 419,
+    "count": 1,
+    "kanjiIds": [
+      868
+    ],
+    "kanjiList": [
+      "儲"
+    ]
+  },
+  {
+    "groupId": 420,
+    "title": "420: 著, 著",
+    "groupKey": "著",
+    "sourceVolume": 1,
+    "sourcePage": 420,
+    "count": 2,
+    "kanjiIds": [
+      871,
+      898
+    ],
+    "kanjiList": [
+      "著",
+      "著"
+    ]
+  },
+  {
+    "groupId": 421,
+    "title": "421: 煮, 煮",
+    "groupKey": "煮",
+    "sourceVolume": 1,
+    "sourcePage": 421,
+    "count": 2,
+    "kanjiIds": [
+      872,
+      897
+    ],
+    "kanjiList": [
+      "煮",
+      "煮"
+    ]
+  },
+  {
+    "groupId": 422,
+    "title": "422: 猪",
+    "groupKey": "猪",
+    "sourceVolume": 1,
+    "sourcePage": 422,
+    "count": 1,
+    "kanjiIds": [
+      873
+    ],
+    "kanjiList": [
+      "猪"
+    ]
+  },
+  {
+    "groupId": 423,
+    "title": "423: 箸",
+    "groupKey": "箸",
+    "sourceVolume": 1,
+    "sourcePage": 423,
+    "count": 1,
+    "kanjiIds": [
+      874
+    ],
+    "kanjiList": [
+      "箸"
+    ]
+  },
+  {
+    "groupId": 424,
+    "title": "424: 賭",
+    "groupKey": "賭",
+    "sourceVolume": 1,
+    "sourcePage": 424,
+    "count": 1,
+    "kanjiIds": [
+      875
+    ],
+    "kanjiList": [
+      "賭"
+    ]
+  },
+  {
+    "groupId": 425,
+    "title": "425: 予",
+    "groupKey": "予",
+    "sourceVolume": 1,
+    "sourcePage": 425,
+    "count": 1,
+    "kanjiIds": [
+      876
+    ],
+    "kanjiList": [
+      "予"
+    ]
+  },
+  {
+    "groupId": 426,
+    "title": "426: 預",
+    "groupKey": "預",
+    "sourceVolume": 1,
+    "sourcePage": 426,
+    "count": 1,
+    "kanjiIds": [
+      877
+    ],
+    "kanjiList": [
+      "預"
+    ]
+  },
+  {
+    "groupId": 427,
+    "title": "427: 野",
+    "groupKey": "野",
+    "sourceVolume": 1,
+    "sourcePage": 427,
+    "count": 1,
+    "kanjiIds": [
+      878
+    ],
+    "kanjiList": [
+      "野"
+    ]
+  },
+  {
+    "groupId": 428,
+    "title": "428: 序",
+    "groupKey": "序",
+    "sourceVolume": 1,
+    "sourcePage": 428,
+    "count": 1,
+    "kanjiIds": [
+      879
+    ],
+    "kanjiList": [
+      "序"
+    ]
+  },
+  {
+    "groupId": 429,
+    "title": "429: 叙",
+    "groupKey": "叙",
+    "sourceVolume": 1,
+    "sourcePage": 429,
+    "count": 1,
+    "kanjiIds": [
+      880
+    ],
+    "kanjiList": [
+      "叙"
+    ]
+  },
+  {
+    "groupId": 430,
+    "title": "430: 斜",
+    "groupKey": "斜",
+    "sourceVolume": 1,
+    "sourcePage": 430,
+    "count": 1,
+    "kanjiIds": [
+      881
+    ],
+    "kanjiList": [
+      "斜"
+    ]
+  },
+  {
+    "groupId": 431,
+    "title": "431: 途",
+    "groupKey": "途",
+    "sourceVolume": 1,
+    "sourcePage": 431,
+    "count": 1,
+    "kanjiIds": [
+      882
+    ],
+    "kanjiList": [
+      "途"
+    ]
+  },
+  {
+    "groupId": 432,
+    "title": "432: 余",
+    "groupKey": "余",
+    "sourceVolume": 1,
+    "sourcePage": 432,
+    "count": 1,
+    "kanjiIds": [
+      883
+    ],
+    "kanjiList": [
+      "余"
+    ]
+  },
+  {
+    "groupId": 433,
+    "title": "433: 除",
+    "groupKey": "除",
+    "sourceVolume": 1,
+    "sourcePage": 433,
+    "count": 1,
+    "kanjiIds": [
+      884
+    ],
+    "kanjiList": [
+      "除"
+    ]
+  },
+  {
+    "groupId": 434,
+    "title": "434: 徐",
+    "groupKey": "徐",
+    "sourceVolume": 1,
+    "sourcePage": 434,
+    "count": 1,
+    "kanjiIds": [
+      885
+    ],
+    "kanjiList": [
+      "徐"
+    ]
+  },
+  {
+    "groupId": 435,
+    "title": "435: 塗",
+    "groupKey": "塗",
+    "sourceVolume": 1,
+    "sourcePage": 435,
+    "count": 1,
+    "kanjiIds": [
+      886
+    ],
+    "kanjiList": [
+      "塗"
+    ]
+  },
+  {
+    "groupId": 436,
+    "title": "436: 束",
+    "groupKey": "束",
+    "sourceVolume": 1,
+    "sourcePage": 436,
+    "count": 1,
+    "kanjiIds": [
+      887
+    ],
+    "kanjiList": [
+      "束"
+    ]
+  },
+  {
+    "groupId": 437,
+    "title": "437: 整",
+    "groupKey": "整",
+    "sourceVolume": 1,
+    "sourcePage": 437,
+    "count": 1,
+    "kanjiIds": [
+      889
+    ],
+    "kanjiList": [
+      "整"
+    ]
+  },
+  {
+    "groupId": 438,
+    "title": "438: 各",
+    "groupKey": "各",
+    "sourceVolume": 1,
+    "sourcePage": 438,
+    "count": 1,
+    "kanjiIds": [
+      892
+    ],
+    "kanjiList": [
+      "各"
+    ]
+  },
+  {
+    "groupId": 439,
+    "title": "439: 客",
+    "groupKey": "客",
+    "sourceVolume": 1,
+    "sourcePage": 439,
+    "count": 1,
+    "kanjiIds": [
+      893
+    ],
+    "kanjiList": [
+      "客"
+    ]
+  },
+  {
+    "groupId": 440,
+    "title": "440: 欠",
+    "groupKey": "欠",
+    "sourceVolume": 1,
+    "sourcePage": 440,
+    "count": 1,
+    "kanjiIds": [
+      900
+    ],
+    "kanjiList": [
+      "欠"
+    ]
+  },
+  {
+    "groupId": 441,
+    "title": "441: 次",
+    "groupKey": "次",
+    "sourceVolume": 1,
+    "sourcePage": 441,
+    "count": 1,
+    "kanjiIds": [
+      901
+    ],
+    "kanjiList": [
+      "次"
+    ]
+  },
+  {
+    "groupId": 442,
+    "title": "442: 恣",
+    "groupKey": "恣",
+    "sourceVolume": 1,
+    "sourcePage": 442,
+    "count": 1,
+    "kanjiIds": [
+      902
+    ],
+    "kanjiList": [
+      "恣"
+    ]
+  },
+  {
+    "groupId": 443,
+    "title": "443: 姿",
+    "groupKey": "姿",
+    "sourceVolume": 1,
+    "sourcePage": 443,
+    "count": 1,
+    "kanjiIds": [
+      903
+    ],
+    "kanjiList": [
+      "姿"
+    ]
+  },
+  {
+    "groupId": 444,
+    "title": "444: 咨",
+    "groupKey": "咨",
+    "sourceVolume": 1,
+    "sourcePage": 444,
+    "count": 1,
+    "kanjiIds": [
+      904
+    ],
+    "kanjiList": [
+      "咨"
+    ]
+  },
+  {
+    "groupId": 445,
+    "title": "445: 吹",
+    "groupKey": "吹",
+    "sourceVolume": 1,
+    "sourcePage": 445,
+    "count": 1,
+    "kanjiIds": [
+      905
+    ],
+    "kanjiList": [
+      "吹"
+    ]
+  },
+  {
+    "groupId": 446,
+    "title": "446: 炊",
+    "groupKey": "炊",
+    "sourceVolume": 1,
+    "sourcePage": 446,
+    "count": 1,
+    "kanjiIds": [
+      906
+    ],
+    "kanjiList": [
+      "炊"
+    ]
+  },
+  {
+    "groupId": 447,
+    "title": "447: 軟",
+    "groupKey": "軟",
+    "sourceVolume": 1,
+    "sourcePage": 447,
+    "count": 1,
+    "kanjiIds": [
+      907
+    ],
+    "kanjiList": [
+      "軟"
+    ]
+  },
+  {
+    "groupId": 448,
+    "title": "448: 決",
+    "groupKey": "決",
+    "sourceVolume": 1,
+    "sourcePage": 448,
+    "count": 1,
+    "kanjiIds": [
+      908
+    ],
+    "kanjiList": [
+      "決"
+    ]
+  }
+]

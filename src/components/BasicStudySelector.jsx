@@ -1,4 +1,4 @@
-import BASIC_PAGE_META from '../data/basic_page_meta.json';
+import BASIC_PAGE_META from '../data/Basic_Page_Meta.json';
 
 export default function BasicStudySelector({
   safeVol,

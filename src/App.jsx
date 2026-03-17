@@ -24,9 +24,9 @@ import {
   Layers,
 } from 'lucide-react';
 import { supabase } from './lib/supabase';
-import RAW_BIM_KANJI_DATA from './data/Bim_Kanji.json';
-import RAW_BASIC_KANJI_DATA from './data/Basic_Kanji.json';
-import BASIC_PAGE_META from './data/Basic_Page_Meta.json';
+import RAW_BIM_KANJI_DATA from './data/bim_kanji.json';
+import RAW_BASIC_KANJI_DATA from './data/basic_kanji.json';
+import BASIC_PAGE_META from './data/basic_page_meta.json';
 // ==========================================
 // 1. HELPERS & NORMALIZATION
 // ==========================================

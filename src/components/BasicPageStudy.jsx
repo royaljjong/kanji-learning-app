@@ -1,6 +1,6 @@
 import React from 'react';
 import { BookOpen, FileText } from 'lucide-react';
-import BASIC_PAGE_META from '../data/Basic_Page_Meta.json';
+import BASIC_PAGE_META from '../data/basic_page_meta.json';
 
 export default function BasicPageStudySection({
   currentDatasetList,

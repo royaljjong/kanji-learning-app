@@ -1059,7 +1059,7 @@ const EmptyState = ({ message, icon: Icon, children }) => (
 
 const FlipCard = ({ isFlipped, front, back }) => {
   return (
-    <div className="relative w-full aspect-[4/5] [perspective:2000px]">
+    <div className="relative w-full h-[70vh] md:h-auto md:aspect-[4/5] [perspective:2000px]">
       <div className="relative h-full w-full transition-transform duration-700" style={{ transformStyle: 'preserve-3d', transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}>
         <div className="absolute inset-0" style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>{front}</div>
         <div className="absolute inset-0" style={{ transform: 'rotateY(180deg)', backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}>{back}</div>
@@ -1080,7 +1080,7 @@ const App = () => {
     () => sortKanjiList(ALL_KANJI_DATA.filter((item) => item.dataset === activeTrack)),
     [activeTrack]
   );
-
+const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [libFilter, setLibFilter] = useState('all');
   const [libSort, setLibSort] = useState('default');
@@ -2843,16 +2843,16 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
     };
 
     const front = (
-      <div className="h-full w-full bg-gradient-to-b from-slate-900 to-slate-950 border-2 border-white/10 rounded-[3rem] p-12 flex flex-col items-center justify-center shadow-2xl">
-        <h2 className={`text-[12rem] font-bold text-white leading-none`} style={{ textShadow: `0 0 50px ${trackConfig.dropShadowHex}` }}>
-          {currentCard.kanji}
+<div className="h-full w-full bg-gradient-to-b from-slate-900 to-slate-950 border-2 border-white/10 rounded-[2rem] md:rounded-[3rem] p-6 md:p-12 flex flex-col items-center justify-center shadow-2xl">
+  <h2 className={`text-[5rem] sm:text-[7rem] md:text-[12rem] font-bold text-white leading-none`} style={{ textShadow: `0 0 50px ${trackConfig.dropShadowHex}` }}>
+              {currentCard.kanji}
         </h2>
       </div>
     );
 
     const back = (
-      <div className="h-full w-full bg-slate-950 border-2 border-slate-700 rounded-[3rem] p-8 flex flex-col overflow-hidden shadow-2xl">
-        <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar space-y-5">
+<div className="h-full w-full bg-slate-950 border-2 border-slate-700 rounded-[2rem] md:rounded-[3rem] p-4 md:p-8 flex flex-col overflow-hidden shadow-2xl">
+          <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar space-y-5">
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-3xl font-black text-white">{currentCard.mean}</h3>
@@ -3090,8 +3090,8 @@ const modeQuestion =
     }
 
     return (
-      <div className="flex flex-col items-center max-w-2xl mx-auto py-4 animate-in fade-in duration-300 w-full">
-        {sessionConfig.type === 'flash_review'
+<div className="flex flex-col items-center max-w-2xl mx-auto py-2 md:py-4 animate-in fade-in duration-300 w-full">
+          {sessionConfig.type === 'flash_review'
           ? renderFlashMultipleChoiceQuiz()
           : renderSrsStudyCard(studyQueue[0])}
       </div>
@@ -3312,7 +3312,7 @@ const modeQuestion =
       <div className={`fixed top-[-10%] left-[-10%] w-[50%] h-[50%] ${trackConfig.bgGlow} blur-[120px] rounded-full pointer-events-none transition-colors duration-1000`} />
       <div className="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-slate-800/20 blur-[120px] rounded-full pointer-events-none" />
 
-      <nav className="fixed left-0 top-0 h-full w-24 border-r border-white/5 bg-slate-950/80 backdrop-blur-xl flex flex-col items-center py-6 z-50 overflow-y-auto custom-scrollbar">
+<nav className={`fixed left-0 top-0 h-full w-24 border-r border-white/5 bg-slate-950/95 backdrop-blur-xl flex flex-col items-center py-6 z-50 overflow-y-auto custom-scrollbar transition-transform duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}>
         <div className="w-12 h-12 bg-gradient-to-tr from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center shadow-lg mb-6 shrink-0">
           <Zap className="text-white w-6 h-6" />
         </div>
@@ -3362,8 +3362,21 @@ const modeQuestion =
         </button>
       </nav>
 
-      <main className="pl-24 w-full min-h-screen flex flex-col">
-        <header className="w-full bg-slate-950/80 backdrop-blur-xl border-b border-white/5 sticky top-0 z-40 h-16 flex items-center px-10 justify-between">
+<main className="w-full min-h-screen flex flex-col md:pl-24">
+<header className="w-full bg-slate-950/80 backdrop-blur-xl border-b border-white/5 sticky top-0 z-40 h-16 flex items-center px-4 md:px-10 justify-between">
+  <div className="flex items-center gap-3">
+    <button
+      onClick={() => setIsMobileMenuOpen((prev) => !prev)}
+      className="md:hidden p-2 rounded-xl bg-slate-900 border border-white/10 text-slate-300"
+    >
+      ☰
+    </button>
+    <div>
+      <h1 className="text-lg font-bold text-white tracking-tight">
+        Kanji Mastery <span className={`text-[10px] uppercase ml-2 px-2 py-0.5 rounded-full bg-slate-800 ${trackConfig.textColor}`}>{activeTrack} mode</span>
+      </h1>
+    </div>
+  </div>
           <div>
             <h1 className="text-lg font-bold text-white tracking-tight">
               Kanji Mastery <span className={`text-[10px] uppercase ml-2 px-2 py-0.5 rounded-full bg-slate-800 ${trackConfig.textColor}`}>{activeTrack} mode</span>
@@ -3386,7 +3399,7 @@ const modeQuestion =
           </div>
         </header>
 
-        <div className="flex-1 p-10 max-w-7xl w-full mx-auto relative">
+<div className="flex-1 p-4 md:p-10 max-w-7xl w-full mx-auto relative">
           {view === 'home' && renderHome()}
           {view === 'page' && renderBasicPageStudy()}
           {view === 'group_study' && renderBasicGroupStudy()}

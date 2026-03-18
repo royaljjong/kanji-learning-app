@@ -2810,7 +2810,7 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
           </div>
           <ChevronRight className="text-slate-600 group-hover:text-orange-400 transition-colors" />
         </button>
-        <button onClick={() => { setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'flash_review', mode: 'onyomi', source: 'all' }); goTo(activeTrack, 'study'); }} className="w-full p-6 bg-slate-900 border border-white/10 rounded-2xl hover:bg-slate-800 transition-all flex items-center justify-between group">
+        <button onClick={() => { setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'flash_review', mode: 'reading', source: 'all' }); goTo(activeTrack, 'study'); }} className="w-full p-6 bg-slate-900 border border-white/10 rounded-2xl hover:bg-slate-800 transition-all flex items-center justify-between group">
           <div className="flex items-center gap-4">
             <div className="w-10 h-10 bg-violet-500/20 rounded-xl flex items-center justify-center text-violet-400 shadow-inner"><Target className="w-5 h-5" /></div>
             <div className="text-left">

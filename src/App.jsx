@@ -1566,6 +1566,19 @@ const getQuizText = useCallback((kanjiData, mode) => {
     const { type, source, mode } = sessionConfig;
 
     if (type === 'srs') {
+          if (source === 'today') {
+      const todayQueue = unique(
+        (activeDaily.todaySeenIds || []).filter((id) => {
+          const data = kanjiMap[id];
+          return data && data.dataset === activeTrack && activeCards[id];
+        })
+      );
+
+      setStudyQueue(todayQueue);
+      setActiveQuiz(null);
+      setIsBuildingSession(false);
+      return;
+    }
       const now = Date.now();
       const learningCards = [];
       const reviewCards = [];
@@ -2776,7 +2789,7 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
 
       <div className="w-full space-y-4">
         {activeDaily.todaySeenIds.length > 0 && (
-          <button onClick={() => { setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'flash_review', mode: 'meaning', source: 'today' }); goTo(activeTrack, 'study'); }} className="w-full p-6 bg-slate-900 border border-white/10 rounded-2xl hover:bg-slate-800 transition-all flex items-center justify-between group">
+          <button onClick={() => { setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'srs', source: 'today' }); goTo(activeTrack, 'study'); }} className="w-full p-6 bg-slate-900 border border-white/10 rounded-2xl hover:bg-slate-800 transition-all flex items-center justify-between group">
             <div className="flex items-center gap-4">
               <div className="w-10 h-10 bg-blue-500/20 rounded-xl flex items-center justify-center text-blue-400 shadow-inner"><Clock className="w-5 h-5" /></div>
               <div className="text-left">

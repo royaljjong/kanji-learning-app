@@ -1778,9 +1778,10 @@ const studiedIds = unique([
     }
   }, [sessionConfig, activeCards, kanjiMap, activeTrack, activeDaily, getWeaknessScore]);
 
-  useEffect(() => {
-    if (view === 'study') buildSessionQueue();
-  }, [view, buildSessionQueue]);
+useEffect(() => {
+  if (view !== 'study' || !isBuildingSession) return;
+  buildSessionQueue();
+}, [view, isBuildingSession, buildSessionQueue]);
 
   // --- Flash Quiz Generator ---
   const generateQuiz = useCallback((targetId, mode) => {
@@ -2901,6 +2902,52 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
             <ChevronRight className="text-slate-600 group-hover:text-blue-400 transition-colors" />
           </button>
         )}
+        {activeTrack === 'bim' && (
+  <>
+    <button
+      onClick={() => {
+        setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'srs', source: 'today' });
+        goTo('bim', 'study');
+      }}
+      disabled={(activeDaily.todaySeenIds || []).length === 0}
+      className={`w-full p-6 border rounded-2xl transition-all flex items-center justify-between group ${
+        (activeDaily.todaySeenIds || []).length === 0
+          ? 'bg-slate-900/50 border-white/5 text-slate-600 cursor-not-allowed'
+          : 'bg-slate-900 border-white/10 hover:bg-slate-800'
+      }`}
+    >
+      <div className="flex items-center gap-4">
+        <div className="w-10 h-10 bg-blue-500/20 rounded-xl flex items-center justify-center text-blue-400 shadow-inner">
+          <Clock className="w-5 h-5" />
+        </div>
+        <div className="text-left">
+          <p className="text-lg font-bold text-white group-hover:text-blue-400 transition-colors">이전 학습으로 가기</p>
+          <p className="text-xs text-slate-500 mt-1">방금 세션에서 본 카드를 다시 복습합니다.</p>
+        </div>
+      </div>
+      <ChevronRight className="text-slate-600 group-hover:text-blue-400 transition-colors" />
+    </button>
+
+    <button
+      onClick={() => {
+        setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'srs', source: 'advance' });
+        goTo('bim', 'study');
+      }}
+      className="w-full p-6 bg-slate-900 border border-white/10 rounded-2xl hover:bg-slate-800 transition-all flex items-center justify-between group"
+    >
+      <div className="flex items-center gap-4">
+        <div className="w-10 h-10 bg-violet-500/20 rounded-xl flex items-center justify-center text-violet-400 shadow-inner">
+          <Layers className="w-5 h-5" />
+        </div>
+        <div className="text-left">
+          <p className="text-lg font-bold text-white group-hover:text-violet-400 transition-colors">다음 학습으로 가기</p>
+          <p className="text-xs text-slate-500 mt-1">다음 신규 BIM 한자 5개를 미리 학습합니다.</p>
+        </div>
+      </div>
+      <ChevronRight className="text-slate-600 group-hover:text-violet-400 transition-colors" />
+    </button>
+  </>
+)}
         <button onClick={() => { setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'flash_review', mode: 'meaning', source: 'weak' }); goTo(activeTrack, 'study'); }} className="w-full p-6 bg-slate-900 border border-white/10 rounded-2xl hover:bg-slate-800 transition-all flex items-center justify-between group">
           <div className="flex items-center gap-4">
             <div className="w-10 h-10 bg-orange-500/20 rounded-xl flex items-center justify-center text-orange-400 shadow-inner"><AlertTriangle className="w-5 h-5" /></div>

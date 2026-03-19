@@ -3,7 +3,7 @@
     "id": 1,
     "kanji": "備",
     "meaning_kr": "관련 의미",
-    "onyomi": "ビ",
+    "onyomi": "び",
     "kunyomi": "そなえる",
     "bim_term": {
       "word": "設備",
@@ -37,7 +37,7 @@
     "id": 2,
     "kanji": "全",
     "meaning_kr": "전부/완전",
-    "onyomi": "ゼン",
+    "onyomi": "ぜん",
     "kunyomi": "すべて",
     "bim_term": {
       "word": "安全",
@@ -71,7 +71,7 @@
     "id": 3,
     "kanji": "力",
     "meaning_kr": "힘",
-    "onyomi": "リョク",
+    "onyomi": "りょく",
     "kunyomi": "ちから",
     "bim_term": {
       "word": "応力",
@@ -105,7 +105,7 @@
     "id": 4,
     "kanji": "勾",
     "meaning_kr": "구배/굽다",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "",
     "bim_term": {
       "word": "勾配",
@@ -128,7 +128,7 @@
     "id": 5,
     "kanji": "図",
     "meaning_kr": "도면",
-    "onyomi": "ズ",
+    "onyomi": "ず",
     "kunyomi": "はかる",
     "bim_term": {
       "word": "図面",
@@ -162,7 +162,7 @@
     "id": 6,
     "kanji": "基",
     "meaning_kr": "기초",
-    "onyomi": "キ",
+    "onyomi": "き",
     "kunyomi": "もと",
     "bim_term": {
       "word": "基準",
@@ -196,7 +196,7 @@
     "id": 7,
     "kanji": "壁",
     "meaning_kr": "벽",
-    "onyomi": "ヘキ",
+    "onyomi": "へき",
     "kunyomi": "かべ",
     "bim_term": {
       "word": "外壁",
@@ -230,7 +230,7 @@
     "id": 8,
     "kanji": "安",
     "meaning_kr": "안전/편안",
-    "onyomi": "アン",
+    "onyomi": "あん",
     "kunyomi": "やすい",
     "bim_term": {
       "word": "安全",
@@ -259,7 +259,7 @@
     "id": 9,
     "kanji": "属",
     "meaning_kr": "속하다",
-    "onyomi": "ゾク",
+    "onyomi": "ぞく",
     "kunyomi": "",
     "bim_term": {
       "word": "属性",
@@ -282,7 +282,7 @@
     "id": 10,
     "kanji": "工",
     "meaning_kr": "공사/장인",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "たくみ",
     "bim_term": {
       "word": "施工",
@@ -316,7 +316,7 @@
     "id": 11,
     "kanji": "床",
     "meaning_kr": "바닥",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "ゆか",
     "bim_term": {
       "word": "床仕上",
@@ -350,7 +350,7 @@
     "id": 12,
     "kanji": "度",
     "meaning_kr": "정도",
-    "onyomi": "ド",
+    "onyomi": "ど",
     "kunyomi": "たび",
     "bim_term": {
       "word": "強度",
@@ -379,7 +379,7 @@
     "id": 13,
     "kanji": "座",
     "meaning_kr": "자리",
-    "onyomi": "ザ",
+    "onyomi": "ざ",
     "kunyomi": "すわる",
     "bim_term": {
       "word": "座標",
@@ -413,7 +413,7 @@
     "id": 14,
     "kanji": "建",
     "meaning_kr": "짓다",
-    "onyomi": "ケン",
+    "onyomi": "けん",
     "kunyomi": "たてる",
     "bim_term": {
       "word": "建築",
@@ -447,7 +447,7 @@
     "id": 15,
     "kanji": "強",
     "meaning_kr": "강하다",
-    "onyomi": "キョウ",
+    "onyomi": "きょう",
     "kunyomi": "つよい",
     "bim_term": {
       "word": "強度",
@@ -476,7 +476,7 @@
     "id": 16,
     "kanji": "応",
     "meaning_kr": "응하다",
-    "onyomi": "オウ",
+    "onyomi": "おう",
     "kunyomi": "こたえる",
     "bim_term": {
       "word": "応力",
@@ -505,7 +505,7 @@
     "id": 17,
     "kanji": "性",
     "meaning_kr": "성질",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "",
     "bim_term": {
       "word": "剛性",
@@ -528,7 +528,7 @@
     "id": 18,
     "kanji": "排",
     "meaning_kr": "배출",
-    "onyomi": "ハイ",
+    "onyomi": "はい",
     "kunyomi": "",
     "bim_term": {
       "word": "排水",
@@ -556,7 +556,7 @@
     "id": 19,
     "kanji": "断",
     "meaning_kr": "관련 의미",
-    "onyomi": "ダン",
+    "onyomi": "だん",
     "kunyomi": "たつ",
     "bim_term": {
       "word": "断面図",
@@ -585,7 +585,7 @@
     "id": 20,
     "kanji": "施",
     "meaning_kr": "베풀다/시행",
-    "onyomi": "シ",
+    "onyomi": "し",
     "kunyomi": "ほどこす",
     "bim_term": {
       "word": "施工",
@@ -614,7 +614,7 @@
     "id": 21,
     "kanji": "柱",
     "meaning_kr": "기둥",
-    "onyomi": "チュウ",
+    "onyomi": "ちゅう",
     "kunyomi": "はしら",
     "bim_term": {
       "word": "柱芯",
@@ -648,7 +648,7 @@
     "id": 22,
     "kanji": "梁",
     "meaning_kr": "보",
-    "onyomi": "リョウ",
+    "onyomi": "りょう",
     "kunyomi": "はり",
     "bim_term": {
       "word": "梁成",
@@ -682,7 +682,7 @@
     "id": 23,
     "kanji": "標",
     "meaning_kr": "표준/표고",
-    "onyomi": "ヒョウ",
+    "onyomi": "ひょう",
     "kunyomi": "",
     "bim_term": {
       "word": "標高",
@@ -710,7 +710,7 @@
     "id": 24,
     "kanji": "気",
     "meaning_kr": "기운/기",
-    "onyomi": "キ",
+    "onyomi": "き",
     "kunyomi": "",
     "bim_term": {
       "word": "電気室",
@@ -738,7 +738,7 @@
     "id": 25,
     "kanji": "水",
     "meaning_kr": "물",
-    "onyomi": "スイ",
+    "onyomi": "すい",
     "kunyomi": "みず",
     "bim_term": {
       "word": "給水",
@@ -772,7 +772,7 @@
     "id": 26,
     "kanji": "法",
     "meaning_kr": "법/공법",
-    "onyomi": "ホウ",
+    "onyomi": "ほう",
     "kunyomi": "のり",
     "bim_term": {
       "word": "",
@@ -795,7 +795,7 @@
     "id": 27,
     "kanji": "礎",
     "meaning_kr": "기초석",
-    "onyomi": "ソ",
+    "onyomi": "そ",
     "kunyomi": "いしずえ",
     "bim_term": {
       "word": "基礎",
@@ -824,7 +824,7 @@
     "id": 28,
     "kanji": "程",
     "meaning_kr": "정도/공정",
-    "onyomi": "テイ",
+    "onyomi": "てい",
     "kunyomi": "ほど",
     "bim_term": {
       "word": "工程",
@@ -853,7 +853,7 @@
     "id": 29,
     "kanji": "空",
     "meaning_kr": "공기/비다",
-    "onyomi": "クウ",
+    "onyomi": "くう",
     "kunyomi": "そら",
     "bim_term": {
       "word": "空調",
@@ -882,7 +882,7 @@
     "id": 30,
     "kanji": "筋",
     "meaning_kr": "근/철근",
-    "onyomi": "キン",
+    "onyomi": "きん",
     "kunyomi": "すじ",
     "bim_term": {
       "word": "鉄筋",
@@ -911,7 +911,7 @@
     "id": 31,
     "kanji": "管",
     "meaning_kr": "관/관리",
-    "onyomi": "カン",
+    "onyomi": "かん",
     "kunyomi": "くだ",
     "bim_term": {
       "word": "配管",
@@ -945,7 +945,7 @@
     "id": 32,
     "kanji": "築",
     "meaning_kr": "쌓다/짓다",
-    "onyomi": "チク",
+    "onyomi": "ちく",
     "kunyomi": "きずく",
     "bim_term": {
       "word": "建築",
@@ -974,7 +974,7 @@
     "id": 33,
     "kanji": "給",
     "meaning_kr": "공급",
-    "onyomi": "キュウ",
+    "onyomi": "きゅう",
     "kunyomi": "",
     "bim_term": {
       "word": "給水",
@@ -1002,7 +1002,7 @@
     "id": 34,
     "kanji": "統",
     "meaning_kr": "거느리다",
-    "onyomi": "トウ",
+    "onyomi": "とう",
     "kunyomi": "すべる",
     "bim_term": {
       "word": "統合",
@@ -1031,7 +1031,7 @@
     "id": 35,
     "kanji": "荷",
     "meaning_kr": "짐/하중",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "に",
     "bim_term": {
       "word": "荷重",
@@ -1060,7 +1060,7 @@
     "id": 36,
     "kanji": "計",
     "meaning_kr": "계산/계획",
-    "onyomi": "ケイ",
+    "onyomi": "けい",
     "kunyomi": "はかる",
     "bim_term": {
       "word": "設計",
@@ -1089,7 +1089,7 @@
     "id": 37,
     "kanji": "設",
     "meaning_kr": "설치하다",
-    "onyomi": "セツ",
+    "onyomi": "せつ",
     "kunyomi": "もうける",
     "bim_term": {
       "word": "設計",
@@ -1123,7 +1123,7 @@
     "id": 38,
     "kanji": "調",
     "meaning_kr": "조절",
-    "onyomi": "チョウ",
+    "onyomi": "ちょう",
     "kunyomi": "ととのえる",
     "bim_term": {
       "word": "空調",
@@ -1152,7 +1152,7 @@
     "id": 39,
     "kanji": "連",
     "meaning_kr": "이어지다",
-    "onyomi": "レン",
+    "onyomi": "れん",
     "kunyomi": "つらなる",
     "bim_term": {
       "word": "連携",
@@ -1181,7 +1181,7 @@
     "id": 40,
     "kanji": "配",
     "meaning_kr": "배치/배분",
-    "onyomi": "ハイ",
+    "onyomi": "はい",
     "kunyomi": "くばる",
     "bim_term": {
       "word": "配筋",
@@ -1215,7 +1215,7 @@
     "id": 41,
     "kanji": "重",
     "meaning_kr": "무겁다/중",
-    "onyomi": "ジュウ",
+    "onyomi": "じゅう",
     "kunyomi": "おもい",
     "bim_term": {
       "word": "荷重",
@@ -1244,7 +1244,7 @@
     "id": 42,
     "kanji": "鉄",
     "meaning_kr": "철",
-    "onyomi": "テツ",
+    "onyomi": "てつ",
     "kunyomi": "",
     "bim_term": {
       "word": "鉄筋",
@@ -1272,7 +1272,7 @@
     "id": 43,
     "kanji": "電",
     "meaning_kr": "전기",
-    "onyomi": "デン",
+    "onyomi": "でん",
     "kunyomi": "",
     "bim_term": {
       "word": "電気室",
@@ -1300,7 +1300,7 @@
     "id": 44,
     "kanji": "面",
     "meaning_kr": "면",
-    "onyomi": "メン",
+    "onyomi": "めん",
     "kunyomi": "おもて",
     "bim_term": {
       "word": "図面",
@@ -1334,7 +1334,7 @@
     "id": 45,
     "kanji": "上",
     "meaning_kr": "관련 의미",
-    "onyomi": "ジョウ",
+    "onyomi": "じょう",
     "kunyomi": "うえ",
     "bim_term": {
       "word": "床仕上",
@@ -1368,7 +1368,7 @@
     "id": 46,
     "kanji": "下",
     "meaning_kr": "아래",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "した",
     "bim_term": {
       "word": "廊下",
@@ -1402,7 +1402,7 @@
     "id": 47,
     "kanji": "中",
     "meaning_kr": "가운데",
-    "onyomi": "チュウ",
+    "onyomi": "ちゅう",
     "kunyomi": "なか",
     "bim_term": {
       "word": "中心線",
@@ -1436,7 +1436,7 @@
     "id": 48,
     "kanji": "井",
     "meaning_kr": "우물/정",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "い",
     "bim_term": {
       "word": "天井",
@@ -1470,7 +1470,7 @@
     "id": 49,
     "kanji": "仕",
     "meaning_kr": "하다/섬기다",
-    "onyomi": "シ",
+    "onyomi": "し",
     "kunyomi": "つかえる",
     "bim_term": {
       "word": "仕様書",
@@ -1499,7 +1499,7 @@
     "id": 50,
     "kanji": "付",
     "meaning_kr": "붙이다",
-    "onyomi": "フ",
+    "onyomi": "ふ",
     "kunyomi": "つける",
     "bim_term": {
       "word": "取付",
@@ -1528,7 +1528,7 @@
     "id": 51,
     "kanji": "令",
     "meaning_kr": "명령",
-    "onyomi": "レイ",
+    "onyomi": "れい",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -1545,7 +1545,7 @@
     "id": 52,
     "kanji": "仮",
     "meaning_kr": "임시",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "かり",
     "bim_term": {
       "word": "仮設",
@@ -1574,7 +1574,7 @@
     "id": 53,
     "kanji": "件",
     "meaning_kr": "건",
-    "onyomi": "ケン",
+    "onyomi": "けん",
     "kunyomi": "",
     "bim_term": {
       "word": "条件",
@@ -1597,7 +1597,7 @@
     "id": 54,
     "kanji": "伏",
     "meaning_kr": "엎드리다/후세",
-    "onyomi": "フク",
+    "onyomi": "ふく",
     "kunyomi": "ふす",
     "bim_term": {
       "word": "伏図",
@@ -1626,7 +1626,7 @@
     "id": 55,
     "kanji": "位",
     "meaning_kr": "위치",
-    "onyomi": "イ",
+    "onyomi": "い",
     "kunyomi": "くらい",
     "bim_term": {
       "word": "方位",
@@ -1655,7 +1655,7 @@
     "id": 56,
     "kanji": "低",
     "meaning_kr": "낮다",
-    "onyomi": "テイ",
+    "onyomi": "てい",
     "kunyomi": "ひくい",
     "bim_term": {
       "word": "低層",
@@ -1684,7 +1684,7 @@
     "id": 57,
     "kanji": "例",
     "meaning_kr": "예",
-    "onyomi": "レイ",
+    "onyomi": "れい",
     "kunyomi": "たとえる",
     "bim_term": {
       "word": "凡例",
@@ -1713,7 +1713,7 @@
     "id": 58,
     "kanji": "価",
     "meaning_kr": "값",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "あたい",
     "bim_term": {
       "word": "",
@@ -1736,7 +1736,7 @@
     "id": 59,
     "kanji": "便",
     "meaning_kr": "편의/편변",
-    "onyomi": "ベン",
+    "onyomi": "べん",
     "kunyomi": "たより",
     "bim_term": {
       "word": "便所",
@@ -1765,7 +1765,7 @@
     "id": 60,
     "kanji": "信",
     "meaning_kr": "믿다/통신",
-    "onyomi": "シン",
+    "onyomi": "しん",
     "kunyomi": "",
     "bim_term": {
       "word": "通信",
@@ -1788,7 +1788,7 @@
     "id": 61,
     "kanji": "修",
     "meaning_kr": "수리/수정",
-    "onyomi": "シュウ",
+    "onyomi": "しゅう",
     "kunyomi": "おさめる",
     "bim_term": {
       "word": "改修",
@@ -1817,7 +1817,7 @@
     "id": 62,
     "kanji": "倉",
     "meaning_kr": "창고",
-    "onyomi": "ソウ",
+    "onyomi": "そう",
     "kunyomi": "くら",
     "bim_term": {
       "word": "倉庫",
@@ -1846,7 +1846,7 @@
     "id": 63,
     "kanji": "側",
     "meaning_kr": "측/옆",
-    "onyomi": "ソク",
+    "onyomi": "そく",
     "kunyomi": "がわ",
     "bim_term": {
       "word": "側溝",
@@ -1875,7 +1875,7 @@
     "id": 64,
     "kanji": "傾",
     "meaning_kr": "기울다",
-    "onyomi": "ケイ",
+    "onyomi": "けい",
     "kunyomi": "かたむく",
     "bim_term": {
       "word": "傾斜",
@@ -1904,7 +1904,7 @@
     "id": 65,
     "kanji": "先",
     "meaning_kr": "관련 의미",
-    "onyomi": "セン",
+    "onyomi": "せん",
     "kunyomi": "さき",
     "bim_term": {
       "word": "軒先",
@@ -1933,7 +1933,7 @@
     "id": 66,
     "kanji": "免",
     "meaning_kr": "면하다",
-    "onyomi": "メン",
+    "onyomi": "めん",
     "kunyomi": "まぬかれる",
     "bim_term": {
       "word": "免震",
@@ -1962,7 +1962,7 @@
     "id": 67,
     "kanji": "入",
     "meaning_kr": "들다",
-    "onyomi": "ニュウ",
+    "onyomi": "にゅう",
     "kunyomi": "いる",
     "bim_term": {
       "word": "搬入",
@@ -1991,7 +1991,7 @@
     "id": 68,
     "kanji": "具",
     "meaning_kr": "관련 의미",
-    "onyomi": "グ",
+    "onyomi": "ぐ",
     "kunyomi": "そなえる",
     "bim_term": {
       "word": "建具",
@@ -2020,7 +2020,7 @@
     "id": 69,
     "kanji": "内",
     "meaning_kr": "안",
-    "onyomi": "ナイ",
+    "onyomi": "ない",
     "kunyomi": "うち",
     "bim_term": {
       "word": "内壁",
@@ -2049,7 +2049,7 @@
     "id": 70,
     "kanji": "冷",
     "meaning_kr": "차갑다",
-    "onyomi": "レイ",
+    "onyomi": "れい",
     "kunyomi": "つめたい",
     "bim_term": {
       "word": "冷水",
@@ -2078,7 +2078,7 @@
     "id": 71,
     "kanji": "凡",
     "meaning_kr": "무릇/범례",
-    "onyomi": "ボン",
+    "onyomi": "ぼん",
     "kunyomi": "",
     "bim_term": {
       "word": "凡例",
@@ -2101,7 +2101,7 @@
     "id": 72,
     "kanji": "出",
     "meaning_kr": "나가다",
-    "onyomi": "シュツ",
+    "onyomi": "しゅつ",
     "kunyomi": "でる",
     "bim_term": {
       "word": "墨出し",
@@ -2130,7 +2130,7 @@
     "id": 73,
     "kanji": "分",
     "meaning_kr": "나누다",
-    "onyomi": "ブン",
+    "onyomi": "ぶん",
     "kunyomi": "わける",
     "bim_term": {
       "word": "分電盤",
@@ -2159,7 +2159,7 @@
     "id": 74,
     "kanji": "切",
     "meaning_kr": "절단/절토",
-    "onyomi": "セツ",
+    "onyomi": "せつ",
     "kunyomi": "きる",
     "bim_term": {
       "word": "切土",
@@ -2188,7 +2188,7 @@
     "id": 75,
     "kanji": "制",
     "meaning_kr": "제어/제도",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "",
     "bim_term": {
       "word": "制御",
@@ -2211,7 +2211,7 @@
     "id": 76,
     "kanji": "削",
     "meaning_kr": "깎다",
-    "onyomi": "サク",
+    "onyomi": "さく",
     "kunyomi": "けずる",
     "bim_term": {
       "word": "削除",
@@ -2240,7 +2240,7 @@
     "id": 77,
     "kanji": "剛",
     "meaning_kr": "굳세다",
-    "onyomi": "ゴウ",
+    "onyomi": "ごう",
     "kunyomi": "",
     "bim_term": {
       "word": "剛性",
@@ -2263,7 +2263,7 @@
     "id": 78,
     "kanji": "加",
     "meaning_kr": "더하다",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "くわえる",
     "bim_term": {
       "word": "追加",
@@ -2292,7 +2292,7 @@
     "id": 79,
     "kanji": "協",
     "meaning_kr": "협력",
-    "onyomi": "キョウ",
+    "onyomi": "きょう",
     "kunyomi": "",
     "bim_term": {
       "word": "協議",
@@ -2315,7 +2315,7 @@
     "id": 80,
     "kanji": "厚",
     "meaning_kr": "두껍다",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "あつい",
     "bim_term": {
       "word": "厚み",
@@ -2344,7 +2344,7 @@
     "id": 81,
     "kanji": "原",
     "meaning_kr": "원/원가",
-    "onyomi": "ゲン",
+    "onyomi": "げん",
     "kunyomi": "はら",
     "bim_term": {
       "word": "",
@@ -2367,7 +2367,7 @@
     "id": 82,
     "kanji": "厨",
     "meaning_kr": "부엌",
-    "onyomi": "チュウ",
+    "onyomi": "ちゅう",
     "kunyomi": "",
     "bim_term": {
       "word": "厨房",
@@ -2390,7 +2390,7 @@
     "id": 83,
     "kanji": "参",
     "meaning_kr": "참가/참조",
-    "onyomi": "サン",
+    "onyomi": "さん",
     "kunyomi": "まいる",
     "bim_term": {
       "word": "参照",
@@ -2419,7 +2419,7 @@
     "id": 84,
     "kanji": "取",
     "meaning_kr": "취하다",
-    "onyomi": "シュ",
+    "onyomi": "しゅ",
     "kunyomi": "とる",
     "bim_term": {
       "word": "取付",
@@ -2448,7 +2448,7 @@
     "id": 85,
     "kanji": "受",
     "meaning_kr": "받다",
-    "onyomi": "ジュ",
+    "onyomi": "じゅ",
     "kunyomi": "うける",
     "bim_term": {
       "word": "受変電",
@@ -2477,7 +2477,7 @@
     "id": 86,
     "kanji": "口",
     "meaning_kr": "입/구멍",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "くち",
     "bim_term": {
       "word": "開口",
@@ -2506,7 +2506,7 @@
     "id": 87,
     "kanji": "可",
     "meaning_kr": "허락/가능",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "べき",
     "bim_term": {
       "word": "可能",
@@ -2535,7 +2535,7 @@
     "id": 88,
     "kanji": "合",
     "meaning_kr": "합치다",
-    "onyomi": "ゴウ",
+    "onyomi": "ごう",
     "kunyomi": "あう",
     "bim_term": {
       "word": "取り合い",
@@ -2564,7 +2564,7 @@
     "id": 89,
     "kanji": "吊",
     "meaning_kr": "매달다",
-    "onyomi": "チョウ",
+    "onyomi": "ちょう",
     "kunyomi": "つる",
     "bim_term": {
       "word": "吊り金具",
@@ -2593,7 +2593,7 @@
     "id": 90,
     "kanji": "名",
     "meaning_kr": "이름",
-    "onyomi": "メイ",
+    "onyomi": "めい",
     "kunyomi": "な",
     "bim_term": {
       "word": "名称",
@@ -2622,7 +2622,7 @@
     "id": 91,
     "kanji": "向",
     "meaning_kr": "향하다",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "むく",
     "bim_term": {
       "word": "方向",
@@ -2651,7 +2651,7 @@
     "id": 92,
     "kanji": "品",
     "meaning_kr": "물건/품질",
-    "onyomi": "ヒン",
+    "onyomi": "ひん",
     "kunyomi": "しな",
     "bim_term": {
       "word": "品質",
@@ -2680,7 +2680,7 @@
     "id": 93,
     "kanji": "回",
     "meaning_kr": "돌다/회",
-    "onyomi": "カイ",
+    "onyomi": "かい",
     "kunyomi": "まわる",
     "bim_term": {
       "word": "回避",
@@ -2709,7 +2709,7 @@
     "id": 94,
     "kanji": "囲",
     "meaning_kr": "둘러싸다",
-    "onyomi": "イ",
+    "onyomi": "い",
     "kunyomi": "かこむ",
     "bim_term": {
       "word": "範囲",
@@ -2738,7 +2738,7 @@
     "id": 95,
     "kanji": "土",
     "meaning_kr": "흙",
-    "onyomi": "ド",
+    "onyomi": "ど",
     "kunyomi": "つち",
     "bim_term": {
       "word": "土圧",
@@ -2767,7 +2767,7 @@
     "id": 96,
     "kanji": "圧",
     "meaning_kr": "압력",
-    "onyomi": "アツ",
+    "onyomi": "あつ",
     "kunyomi": "",
     "bim_term": {
       "word": "土圧",
@@ -2790,7 +2790,7 @@
     "id": 97,
     "kanji": "地",
     "meaning_kr": "땅",
-    "onyomi": "チ",
+    "onyomi": "ち",
     "kunyomi": "ち",
     "bim_term": {
       "word": "地盤",
@@ -2819,7 +2819,7 @@
     "id": 98,
     "kanji": "型",
     "meaning_kr": "형태",
-    "onyomi": "ケイ",
+    "onyomi": "けい",
     "kunyomi": "かた",
     "bim_term": {
       "word": "型枠",
@@ -2848,7 +2848,7 @@
     "id": 99,
     "kanji": "埋",
     "meaning_kr": "묻다",
-    "onyomi": "マイ",
+    "onyomi": "まい",
     "kunyomi": "うめる",
     "bim_term": {
       "word": "埋戻し",
@@ -2877,7 +2877,7 @@
     "id": 100,
     "kanji": "場",
     "meaning_kr": "장소",
-    "onyomi": "ジョウ",
+    "onyomi": "じょう",
     "kunyomi": "ば",
     "bim_term": {
       "word": "現場",
@@ -2906,7 +2906,7 @@
     "id": 101,
     "kanji": "墨",
     "meaning_kr": "먹",
-    "onyomi": "ボク",
+    "onyomi": "ぼく",
     "kunyomi": "すみ",
     "bim_term": {
       "word": "墨出し",
@@ -2935,7 +2935,7 @@
     "id": 102,
     "kanji": "変",
     "meaning_kr": "변하다",
-    "onyomi": "ヘン",
+    "onyomi": "へん",
     "kunyomi": "かわる",
     "bim_term": {
       "word": "変更",
@@ -2964,7 +2964,7 @@
     "id": 103,
     "kanji": "外",
     "meaning_kr": "바깥",
-    "onyomi": "ガイ",
+    "onyomi": "がい",
     "kunyomi": "そと",
     "bim_term": {
       "word": "外壁",
@@ -2993,7 +2993,7 @@
     "id": 104,
     "kanji": "天",
     "meaning_kr": "하늘/천장",
-    "onyomi": "テン",
+    "onyomi": "てん",
     "kunyomi": "あま",
     "bim_term": {
       "word": "天井",
@@ -3022,7 +3022,7 @@
     "id": 105,
     "kanji": "定",
     "meaning_kr": "정하다",
-    "onyomi": "テイ",
+    "onyomi": "てい",
     "kunyomi": "さだめる",
     "bim_term": {
       "word": "算定",
@@ -3051,7 +3051,7 @@
     "id": 106,
     "kanji": "室",
     "meaning_kr": "방",
-    "onyomi": "シツ",
+    "onyomi": "しつ",
     "kunyomi": "むろ",
     "bim_term": {
       "word": "機械室",
@@ -3080,7 +3080,7 @@
     "id": 107,
     "kanji": "容",
     "meaning_kr": "용적/수용",
-    "onyomi": "ヨウ",
+    "onyomi": "よう",
     "kunyomi": "いれる",
     "bim_term": {
       "word": "容積率",
@@ -3109,7 +3109,7 @@
     "id": 108,
     "kanji": "導",
     "meaning_kr": "이끌다",
-    "onyomi": "ドウ",
+    "onyomi": "どう",
     "kunyomi": "みちびく",
     "bim_term": {
       "word": "誘導灯",
@@ -3138,7 +3138,7 @@
     "id": 109,
     "kanji": "尺",
     "meaning_kr": "자/척도",
-    "onyomi": "シャク",
+    "onyomi": "しゃく",
     "kunyomi": "",
     "bim_term": {
       "word": "縮尺",
@@ -3161,7 +3161,7 @@
     "id": 110,
     "kanji": "屋",
     "meaning_kr": "집/지붕",
-    "onyomi": "オク",
+    "onyomi": "おく",
     "kunyomi": "や",
     "bim_term": {
       "word": "屋根",
@@ -3190,7 +3190,7 @@
     "id": 111,
     "kanji": "展",
     "meaning_kr": "펼치다",
-    "onyomi": "テン",
+    "onyomi": "てん",
     "kunyomi": "",
     "bim_term": {
       "word": "展開図",
@@ -3213,7 +3213,7 @@
     "id": 112,
     "kanji": "層",
     "meaning_kr": "층",
-    "onyomi": "ソウ",
+    "onyomi": "そう",
     "kunyomi": "",
     "bim_term": {
       "word": "低層",
@@ -3236,7 +3236,7 @@
     "id": 113,
     "kanji": "履",
     "meaning_kr": "밟다/이력",
-    "onyomi": "リ",
+    "onyomi": "り",
     "kunyomi": "はく",
     "bim_term": {
       "word": "履歴",
@@ -3265,7 +3265,7 @@
     "id": 114,
     "kanji": "川",
     "meaning_kr": "내",
-    "onyomi": "セン",
+    "onyomi": "せん",
     "kunyomi": "かわ",
     "bim_term": {
       "word": "河川",
@@ -3294,7 +3294,7 @@
     "id": 115,
     "kanji": "差",
     "meaning_kr": "차이",
-    "onyomi": "サ",
+    "onyomi": "さ",
     "kunyomi": "さ",
     "bim_term": {
       "word": "",
@@ -3317,7 +3317,7 @@
     "id": 116,
     "kanji": "幅",
     "meaning_kr": "폭",
-    "onyomi": "フク",
+    "onyomi": "ふく",
     "kunyomi": "はば",
     "bim_term": {
       "word": "幅",
@@ -3346,7 +3346,7 @@
     "id": 117,
     "kanji": "干",
     "meaning_kr": "간섭/말리다",
-    "onyomi": "カン",
+    "onyomi": "かん",
     "kunyomi": "ほす",
     "bim_term": {
       "word": "干渉",
@@ -3375,7 +3375,7 @@
     "id": 118,
     "kanji": "平",
     "meaning_kr": "평평하다",
-    "onyomi": "ヘイ",
+    "onyomi": "へい",
     "kunyomi": "たいら",
     "bim_term": {
       "word": "平面図",
@@ -3404,7 +3404,7 @@
     "id": 119,
     "kanji": "年",
     "meaning_kr": "해",
-    "onyomi": "ネン",
+    "onyomi": "ねん",
     "kunyomi": "とし",
     "bim_term": {
       "word": "",
@@ -3427,7 +3427,7 @@
     "id": 120,
     "kanji": "幹",
     "meaning_kr": "줄기/간선",
-    "onyomi": "カン",
+    "onyomi": "かん",
     "kunyomi": "みき",
     "bim_term": {
       "word": "幹線",
@@ -3456,7 +3456,7 @@
     "id": 121,
     "kanji": "底",
     "meaning_kr": "바닥",
-    "onyomi": "テイ",
+    "onyomi": "てい",
     "kunyomi": "そこ",
     "bim_term": {
       "word": "底面",
@@ -3485,7 +3485,7 @@
     "id": 122,
     "kanji": "庫",
     "meaning_kr": "곳집",
-    "onyomi": "コ",
+    "onyomi": "こ",
     "kunyomi": "",
     "bim_term": {
       "word": "倉庫",
@@ -3508,7 +3508,7 @@
     "id": 123,
     "kanji": "廊",
     "meaning_kr": "복도",
-    "onyomi": "ロウ",
+    "onyomi": "ろう",
     "kunyomi": "",
     "bim_term": {
       "word": "廊下",
@@ -3531,7 +3531,7 @@
     "id": 124,
     "kanji": "弁",
     "meaning_kr": "변/밸브",
-    "onyomi": "ベン",
+    "onyomi": "べん",
     "kunyomi": "",
     "bim_term": {
       "word": "弁",
@@ -3554,7 +3554,7 @@
     "id": 125,
     "kanji": "式",
     "meaning_kr": "형식/수식",
-    "onyomi": "シキ",
+    "onyomi": "しき",
     "kunyomi": "",
     "bim_term": {
       "word": "数式",
@@ -3577,7 +3577,7 @@
     "id": 126,
     "kanji": "影",
     "meaning_kr": "그림자/투영",
-    "onyomi": "エイ",
+    "onyomi": "えい",
     "kunyomi": "かげ",
     "bim_term": {
       "word": "投影",
@@ -3606,7 +3606,7 @@
     "id": 127,
     "kanji": "御",
     "meaning_kr": "제어/막다",
-    "onyomi": "ギョ",
+    "onyomi": "ぎょ",
     "kunyomi": "おん",
     "bim_term": {
       "word": "制御",
@@ -3635,7 +3635,7 @@
     "id": 128,
     "kanji": "心",
     "meaning_kr": "마음/중심",
-    "onyomi": "シン",
+    "onyomi": "しん",
     "kunyomi": "こころ",
     "bim_term": {
       "word": "中心線",
@@ -3664,7 +3664,7 @@
     "id": 129,
     "kanji": "成",
     "meaning_kr": "이루다/춤",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "なる",
     "bim_term": {
       "word": "梁成",
@@ -3693,7 +3693,7 @@
     "id": 130,
     "kanji": "戻",
     "meaning_kr": "되돌리다",
-    "onyomi": "レイ",
+    "onyomi": "れい",
     "kunyomi": "もどす",
     "bim_term": {
       "word": "埋戻し",
@@ -3722,7 +3722,7 @@
     "id": 131,
     "kanji": "房",
     "meaning_kr": "방/실",
-    "onyomi": "ボウ",
+    "onyomi": "ぼう",
     "kunyomi": "ふさ",
     "bim_term": {
       "word": "厨房",
@@ -3751,7 +3751,7 @@
     "id": 132,
     "kanji": "所",
     "meaning_kr": "장소",
-    "onyomi": "ショ",
+    "onyomi": "しょ",
     "kunyomi": "ところ",
     "bim_term": {
       "word": "便所",
@@ -3780,7 +3780,7 @@
     "id": 133,
     "kanji": "扉",
     "meaning_kr": "문짝",
-    "onyomi": "ヒ",
+    "onyomi": "ひ",
     "kunyomi": "とびら",
     "bim_term": {
       "word": "扉",
@@ -3809,7 +3809,7 @@
     "id": 134,
     "kanji": "手",
     "meaning_kr": "손/수",
-    "onyomi": "シュ",
+    "onyomi": "しゅ",
     "kunyomi": "て",
     "bim_term": {
       "word": "継手",
@@ -3838,7 +3838,7 @@
     "id": 135,
     "kanji": "打",
     "meaning_kr": "치다",
-    "onyomi": "ダ",
+    "onyomi": "だ",
     "kunyomi": "うつ",
     "bim_term": {
       "word": "打設",
@@ -3867,7 +3867,7 @@
     "id": 136,
     "kanji": "承",
     "meaning_kr": "받들다/승인",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "うけたまわる",
     "bim_term": {
       "word": "承認",
@@ -3896,7 +3896,7 @@
     "id": 137,
     "kanji": "投",
     "meaning_kr": "던지다/투영",
-    "onyomi": "トウ",
+    "onyomi": "とう",
     "kunyomi": "なげる",
     "bim_term": {
       "word": "投影",
@@ -3925,7 +3925,7 @@
     "id": 138,
     "kanji": "持",
     "meaning_kr": "들다",
-    "onyomi": "ジ",
+    "onyomi": "じ",
     "kunyomi": "もつ",
     "bim_term": {
       "word": "維持管理",
@@ -3954,7 +3954,7 @@
     "id": 139,
     "kanji": "捗",
     "meaning_kr": "진척",
-    "onyomi": "チョク",
+    "onyomi": "ちょく",
     "kunyomi": "はかどる",
     "bim_term": {
       "word": "進捗",
@@ -3983,7 +3983,7 @@
     "id": 140,
     "kanji": "掘",
     "meaning_kr": "파다",
-    "onyomi": "クツ",
+    "onyomi": "くつ",
     "kunyomi": "ほる",
     "bim_term": {
       "word": "掘削",
@@ -4012,7 +4012,7 @@
     "id": 141,
     "kanji": "接",
     "meaning_kr": "접합",
-    "onyomi": "セツ",
+    "onyomi": "せつ",
     "kunyomi": "つぐ",
     "bim_term": {
       "word": "接続",
@@ -4041,7 +4041,7 @@
     "id": 142,
     "kanji": "揚",
     "meaning_kr": "올리다",
-    "onyomi": "ヨウ",
+    "onyomi": "よう",
     "kunyomi": "あげる",
     "bim_term": {
       "word": "揚重",
@@ -4070,7 +4070,7 @@
     "id": 143,
     "kanji": "換",
     "meaning_kr": "바꾸다",
-    "onyomi": "カン",
+    "onyomi": "かん",
     "kunyomi": "かえる",
     "bim_term": {
       "word": "換気",
@@ -4099,7 +4099,7 @@
     "id": 144,
     "kanji": "搬",
     "meaning_kr": "나르다",
-    "onyomi": "ハン",
+    "onyomi": "はん",
     "kunyomi": "",
     "bim_term": {
       "word": "搬入",
@@ -4122,7 +4122,7 @@
     "id": 145,
     "kanji": "携",
     "meaning_kr": "휴대/연계",
-    "onyomi": "ケイ",
+    "onyomi": "けい",
     "kunyomi": "たずさえる",
     "bim_term": {
       "word": "連携",
@@ -4151,7 +4151,7 @@
     "id": 146,
     "kanji": "支",
     "meaning_kr": "지탱하다",
-    "onyomi": "シ",
+    "onyomi": "し",
     "kunyomi": "ささえる",
     "bim_term": {
       "word": "支持",
@@ -4180,7 +4180,7 @@
     "id": 147,
     "kanji": "改",
     "meaning_kr": "고치다",
-    "onyomi": "カイ",
+    "onyomi": "かい",
     "kunyomi": "あらためる",
     "bim_term": {
       "word": "改修",
@@ -4209,7 +4209,7 @@
     "id": 148,
     "kanji": "数",
     "meaning_kr": "수",
-    "onyomi": "スウ",
+    "onyomi": "すう",
     "kunyomi": "かず",
     "bim_term": {
       "word": "数式",
@@ -4238,7 +4238,7 @@
     "id": 149,
     "kanji": "整",
     "meaning_kr": "정리",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "ととのえる",
     "bim_term": {
       "word": "整合",
@@ -4267,7 +4267,7 @@
     "id": 150,
     "kanji": "斜",
     "meaning_kr": "비스듬하다",
-    "onyomi": "シャ",
+    "onyomi": "しゃ",
     "kunyomi": "ななめ",
     "bim_term": {
       "word": "傾斜",
@@ -4296,7 +4296,7 @@
     "id": 151,
     "kanji": "新",
     "meaning_kr": "새롭다",
-    "onyomi": "シン",
+    "onyomi": "しん",
     "kunyomi": "あたらしい",
     "bim_term": {
       "word": "更新",
@@ -4325,7 +4325,7 @@
     "id": 152,
     "kanji": "方",
     "meaning_kr": "방향",
-    "onyomi": "ホウ",
+    "onyomi": "ほう",
     "kunyomi": "かた",
     "bim_term": {
       "word": "方位",
@@ -4354,7 +4354,7 @@
     "id": 153,
     "kanji": "日",
     "meaning_kr": "날",
-    "onyomi": "ニチ",
+    "onyomi": "にち",
     "kunyomi": "ひ",
     "bim_term": {
       "word": "",
@@ -4377,7 +4377,7 @@
     "id": 154,
     "kanji": "明",
     "meaning_kr": "밝다",
-    "onyomi": "メイ",
+    "onyomi": "めい",
     "kunyomi": "あかるい",
     "bim_term": {
       "word": "照明",
@@ -4406,7 +4406,7 @@
     "id": 155,
     "kanji": "更",
     "meaning_kr": "다시/경",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "さら",
     "bim_term": {
       "word": "変更",
@@ -4435,7 +4435,7 @@
     "id": 156,
     "kanji": "書",
     "meaning_kr": "쓰다/문서",
-    "onyomi": "ショ",
+    "onyomi": "しょ",
     "kunyomi": "かく",
     "bim_term": {
       "word": "仕様書",
@@ -4464,7 +4464,7 @@
     "id": 157,
     "kanji": "月",
     "meaning_kr": "달",
-    "onyomi": "ゲツ",
+    "onyomi": "げつ",
     "kunyomi": "つき",
     "bim_term": {
       "word": "",
@@ -4487,7 +4487,7 @@
     "id": 158,
     "kanji": "木",
     "meaning_kr": "나무",
-    "onyomi": "モク",
+    "onyomi": "もく",
     "kunyomi": "き",
     "bim_term": {
       "word": "",
@@ -4510,7 +4510,7 @@
     "id": 159,
     "kanji": "条",
     "meaning_kr": "조목",
-    "onyomi": "ジョウ",
+    "onyomi": "じょう",
     "kunyomi": "",
     "bim_term": {
       "word": "条件",
@@ -4533,7 +4533,7 @@
     "id": 160,
     "kanji": "杭",
     "meaning_kr": "말뚝",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "くい",
     "bim_term": {
       "word": "杭基礎",
@@ -4562,7 +4562,7 @@
     "id": 161,
     "kanji": "枠",
     "meaning_kr": "틀",
-    "onyomi": "ワク",
+    "onyomi": "わく",
     "kunyomi": "",
     "bim_term": {
       "word": "型枠",
@@ -4585,7 +4585,7 @@
     "id": 162,
     "kanji": "査",
     "meaning_kr": "조사",
-    "onyomi": "サ",
+    "onyomi": "さ",
     "kunyomi": "",
     "bim_term": {
       "word": "検査",
@@ -4608,7 +4608,7 @@
     "id": 163,
     "kanji": "根",
     "meaning_kr": "뿌리/근",
-    "onyomi": "コン",
+    "onyomi": "こん",
     "kunyomi": "ね",
     "bim_term": {
       "word": "屋根",
@@ -4637,7 +4637,7 @@
     "id": 164,
     "kanji": "格",
     "meaning_kr": "격/규격",
-    "onyomi": "カク",
+    "onyomi": "かく",
     "kunyomi": "",
     "bim_term": {
       "word": "規格",
@@ -4660,7 +4660,7 @@
     "id": 165,
     "kanji": "桝",
     "meaning_kr": "받이통/집수정",
-    "onyomi": "マス",
+    "onyomi": "ます",
     "kunyomi": "ます",
     "bim_term": {
       "word": "",
@@ -4683,7 +4683,7 @@
     "id": 166,
     "kanji": "械",
     "meaning_kr": "기계",
-    "onyomi": "カイ",
+    "onyomi": "かい",
     "kunyomi": "",
     "bim_term": {
       "word": "機械室",
@@ -4706,7 +4706,7 @@
     "id": 167,
     "kanji": "検",
     "meaning_kr": "검사",
-    "onyomi": "ケン",
+    "onyomi": "けん",
     "kunyomi": "",
     "bim_term": {
       "word": "検査",
@@ -4729,7 +4729,7 @@
     "id": 168,
     "kanji": "様",
     "meaning_kr": "모양/양식",
-    "onyomi": "ヨウ",
+    "onyomi": "よう",
     "kunyomi": "さま",
     "bim_term": {
       "word": "仕様書",
@@ -4758,7 +4758,7 @@
     "id": 169,
     "kanji": "橋",
     "meaning_kr": "다리",
-    "onyomi": "キョウ",
+    "onyomi": "きょう",
     "kunyomi": "はし",
     "bim_term": {
       "word": "橋梁",
@@ -4787,7 +4787,7 @@
     "id": 170,
     "kanji": "機",
     "meaning_kr": "기계/기회",
-    "onyomi": "キ",
+    "onyomi": "き",
     "kunyomi": "はた",
     "bim_term": {
       "word": "機械室",
@@ -4816,7 +4816,7 @@
     "id": 171,
     "kanji": "止",
     "meaning_kr": "멈추다",
-    "onyomi": "シ",
+    "onyomi": "し",
     "kunyomi": "とまる",
     "bim_term": {
       "word": "止水",
@@ -4845,7 +4845,7 @@
     "id": 172,
     "kanji": "歴",
     "meaning_kr": "지나다/이력",
-    "onyomi": "レキ",
+    "onyomi": "れき",
     "kunyomi": "",
     "bim_term": {
       "word": "履歴",
@@ -4868,7 +4868,7 @@
     "id": 173,
     "kanji": "段",
     "meaning_kr": "단",
-    "onyomi": "ダン",
+    "onyomi": "だん",
     "kunyomi": "",
     "bim_term": {
       "word": "階段",
@@ -4891,7 +4891,7 @@
     "id": 174,
     "kanji": "河",
     "meaning_kr": "강",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "かわ",
     "bim_term": {
       "word": "河川",
@@ -4920,7 +4920,7 @@
     "id": 175,
     "kanji": "注",
     "meaning_kr": "붓다/주기",
-    "onyomi": "チュウ",
+    "onyomi": "ちゅう",
     "kunyomi": "そそぐ",
     "bim_term": {
       "word": "注記",
@@ -4949,7 +4949,7 @@
     "id": 176,
     "kanji": "浴",
     "meaning_kr": "목욕",
-    "onyomi": "ヨク",
+    "onyomi": "よく",
     "kunyomi": "あびる",
     "bim_term": {
       "word": "浴室",
@@ -4978,7 +4978,7 @@
     "id": 177,
     "kanji": "深",
     "meaning_kr": "깊다",
-    "onyomi": "シン",
+    "onyomi": "しん",
     "kunyomi": "ふかい",
     "bim_term": {
       "word": "深さ",
@@ -5007,7 +5007,7 @@
     "id": 178,
     "kanji": "渉",
     "meaning_kr": "건너다/간섭",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "わたる",
     "bim_term": {
       "word": "干渉",
@@ -5036,7 +5036,7 @@
     "id": 179,
     "kanji": "渠",
     "meaning_kr": "도랑",
-    "onyomi": "キョ",
+    "onyomi": "きょ",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -5053,7 +5053,7 @@
     "id": 180,
     "kanji": "温",
     "meaning_kr": "따뜻하다",
-    "onyomi": "オン",
+    "onyomi": "おん",
     "kunyomi": "あたたかい",
     "bim_term": {
       "word": "温水",
@@ -5082,7 +5082,7 @@
     "id": 181,
     "kanji": "測",
     "meaning_kr": "재다",
-    "onyomi": "ソク",
+    "onyomi": "そく",
     "kunyomi": "はかる",
     "bim_term": {
       "word": "測量",
@@ -5111,7 +5111,7 @@
     "id": 182,
     "kanji": "港",
     "meaning_kr": "항구",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "みなと",
     "bim_term": {
       "word": "港湾",
@@ -5140,7 +5140,7 @@
     "id": 183,
     "kanji": "湯",
     "meaning_kr": "탕",
-    "onyomi": "トウ",
+    "onyomi": "とう",
     "kunyomi": "ゆ",
     "bim_term": {
       "word": "給湯",
@@ -5169,7 +5169,7 @@
     "id": 184,
     "kanji": "湾",
     "meaning_kr": "만",
-    "onyomi": "ワン",
+    "onyomi": "わん",
     "kunyomi": "",
     "bim_term": {
       "word": "港湾",
@@ -5192,7 +5192,7 @@
     "id": 185,
     "kanji": "準",
     "meaning_kr": "준하다/기준",
-    "onyomi": "ジュン",
+    "onyomi": "じゅん",
     "kunyomi": "",
     "bim_term": {
       "word": "基準",
@@ -5215,7 +5215,7 @@
     "id": 186,
     "kanji": "溝",
     "meaning_kr": "도랑",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "みぞ",
     "bim_term": {
       "word": "側溝",
@@ -5244,7 +5244,7 @@
     "id": 187,
     "kanji": "溶",
     "meaning_kr": "녹다",
-    "onyomi": "ヨウ",
+    "onyomi": "よう",
     "kunyomi": "とける",
     "bim_term": {
       "word": "",
@@ -5267,7 +5267,7 @@
     "id": 188,
     "kanji": "火",
     "meaning_kr": "불",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "ひ",
     "bim_term": {
       "word": "防火",
@@ -5296,7 +5296,7 @@
     "id": 189,
     "kanji": "灯",
     "meaning_kr": "등불",
-    "onyomi": "トウ",
+    "onyomi": "とう",
     "kunyomi": "ひ",
     "bim_term": {
       "word": "誘導灯",
@@ -5325,7 +5325,7 @@
     "id": 190,
     "kanji": "災",
     "meaning_kr": "재앙",
-    "onyomi": "サイ",
+    "onyomi": "さい",
     "kunyomi": "わざわい",
     "bim_term": {
       "word": "防災",
@@ -5354,7 +5354,7 @@
     "id": 191,
     "kanji": "煙",
     "meaning_kr": "연기",
-    "onyomi": "エン",
+    "onyomi": "えん",
     "kunyomi": "けむり",
     "bim_term": {
       "word": "排煙",
@@ -5383,7 +5383,7 @@
     "id": 192,
     "kanji": "照",
     "meaning_kr": "비추다",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "てる",
     "bim_term": {
       "word": "照明",
@@ -5412,7 +5412,7 @@
     "id": 193,
     "kanji": "玄",
     "meaning_kr": "검다/현",
-    "onyomi": "ゲン",
+    "onyomi": "げん",
     "kunyomi": "",
     "bim_term": {
       "word": "玄関",
@@ -5435,7 +5435,7 @@
     "id": 194,
     "kanji": "率",
     "meaning_kr": "비율",
-    "onyomi": "リツ",
+    "onyomi": "りつ",
     "kunyomi": "",
     "bim_term": {
       "word": "容積率",
@@ -5458,7 +5458,7 @@
     "id": 195,
     "kanji": "現",
     "meaning_kr": "현장/나타나다",
-    "onyomi": "ゲン",
+    "onyomi": "げん",
     "kunyomi": "あらわれる",
     "bim_term": {
       "word": "現場",
@@ -5487,7 +5487,7 @@
     "id": 196,
     "kanji": "理",
     "meaning_kr": "다스리다/관리",
-    "onyomi": "リ",
+    "onyomi": "り",
     "kunyomi": "ことわり",
     "bim_term": {
       "word": "維持管理",
@@ -5516,7 +5516,7 @@
     "id": 197,
     "kanji": "生",
     "meaning_kr": "나다/생",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "いきる",
     "bim_term": {
       "word": "養生",
@@ -5545,7 +5545,7 @@
     "id": 198,
     "kanji": "申",
     "meaning_kr": "신청",
-    "onyomi": "シン",
+    "onyomi": "しん",
     "kunyomi": "もうす",
     "bim_term": {
       "word": "",
@@ -5568,7 +5568,7 @@
     "id": 199,
     "kanji": "留",
     "meaning_kr": "머무르다/고정",
-    "onyomi": "リュウ",
+    "onyomi": "りゅう",
     "kunyomi": "とめる",
     "bim_term": {
       "word": "留め",
@@ -5597,7 +5597,7 @@
     "id": 200,
     "kanji": "盛",
     "meaning_kr": "성토/성하다",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "もる",
     "bim_term": {
       "word": "盛土",
@@ -5626,7 +5626,7 @@
     "id": 201,
     "kanji": "盤",
     "meaning_kr": "반/판",
-    "onyomi": "バン",
+    "onyomi": "ばん",
     "kunyomi": "",
     "bim_term": {
       "word": "地盤",
@@ -5649,7 +5649,7 @@
     "id": 202,
     "kanji": "矩",
     "meaning_kr": "곱자/직각",
-    "onyomi": "ク",
+    "onyomi": "く",
     "kunyomi": "",
     "bim_term": {
       "word": "矩計",
@@ -5672,7 +5672,7 @@
     "id": 203,
     "kanji": "確",
     "meaning_kr": "확실",
-    "onyomi": "カク",
+    "onyomi": "かく",
     "kunyomi": "たしか",
     "bim_term": {
       "word": "確認",
@@ -5701,7 +5701,7 @@
     "id": 204,
     "kanji": "票",
     "meaning_kr": "표",
-    "onyomi": "ヒョウ",
+    "onyomi": "ひょう",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -5718,7 +5718,7 @@
     "id": 205,
     "kanji": "称",
     "meaning_kr": "일컫다",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "となえる",
     "bim_term": {
       "word": "名称",
@@ -5747,7 +5747,7 @@
     "id": 206,
     "kanji": "積",
     "meaning_kr": "쌓다",
-    "onyomi": "セキ",
+    "onyomi": "せき",
     "kunyomi": "つむ",
     "bim_term": {
       "word": "積算",
@@ -5776,7 +5776,7 @@
     "id": 207,
     "kanji": "突",
     "meaning_kr": "찌르다/충돌",
-    "onyomi": "トツ",
+    "onyomi": "とつ",
     "kunyomi": "つく",
     "bim_term": {
       "word": "衝突",
@@ -5805,7 +5805,7 @@
     "id": 208,
     "kanji": "窓",
     "meaning_kr": "창",
-    "onyomi": "ソウ",
+    "onyomi": "そう",
     "kunyomi": "まど",
     "bim_term": {
       "word": "窓",
@@ -5834,7 +5834,7 @@
     "id": 209,
     "kanji": "立",
     "meaning_kr": "서다",
-    "onyomi": "リツ",
+    "onyomi": "りつ",
     "kunyomi": "たつ",
     "bim_term": {
       "word": "立面図",
@@ -5863,7 +5863,7 @@
     "id": 210,
     "kanji": "竣",
     "meaning_kr": "완공",
-    "onyomi": "シュン",
+    "onyomi": "しゅん",
     "kunyomi": "",
     "bim_term": {
       "word": "竣工",
@@ -5886,7 +5886,7 @@
     "id": 211,
     "kanji": "箇",
     "meaning_kr": "개소",
-    "onyomi": "カ",
+    "onyomi": "か",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -5903,7 +5903,7 @@
     "id": 212,
     "kanji": "算",
     "meaning_kr": "계산",
-    "onyomi": "サン",
+    "onyomi": "さん",
     "kunyomi": "",
     "bim_term": {
       "word": "算定",
@@ -5926,7 +5926,7 @@
     "id": 213,
     "kanji": "範",
     "meaning_kr": "범위/규범",
-    "onyomi": "ハン",
+    "onyomi": "はん",
     "kunyomi": "",
     "bim_term": {
       "word": "範囲",
@@ -5949,7 +5949,7 @@
     "id": 214,
     "kanji": "精",
     "meaning_kr": "정밀",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "",
     "bim_term": {
       "word": "精度",
@@ -5972,7 +5972,7 @@
     "id": 215,
     "kanji": "約",
     "meaning_kr": "묶다/약",
-    "onyomi": "ヤク",
+    "onyomi": "やく",
     "kunyomi": "",
     "bim_term": {
       "word": "集約",
@@ -5995,7 +5995,7 @@
     "id": 216,
     "kanji": "納",
     "meaning_kr": "납입/맞춤",
-    "onyomi": "ノウ",
+    "onyomi": "のう",
     "kunyomi": "おさめる",
     "bim_term": {
       "word": "納まり",
@@ -6024,7 +6024,7 @@
     "id": 217,
     "kanji": "細",
     "meaning_kr": "가늘다/세부",
-    "onyomi": "サイ",
+    "onyomi": "さい",
     "kunyomi": "ほそい",
     "bim_term": {
       "word": "詳細図",
@@ -6053,7 +6053,7 @@
     "id": 218,
     "kanji": "組",
     "meaning_kr": "조립/조",
-    "onyomi": "ソ",
+    "onyomi": "そ",
     "kunyomi": "くむ",
     "bim_term": {
       "word": "組立",
@@ -6082,7 +6082,7 @@
     "id": 219,
     "kanji": "継",
     "meaning_kr": "잇다",
-    "onyomi": "ケイ",
+    "onyomi": "けい",
     "kunyomi": "つぐ",
     "bim_term": {
       "word": "継手",
@@ -6111,7 +6111,7 @@
     "id": 220,
     "kanji": "続",
     "meaning_kr": "계속",
-    "onyomi": "ゾク",
+    "onyomi": "ぞく",
     "kunyomi": "つづく",
     "bim_term": {
       "word": "接続",
@@ -6140,7 +6140,7 @@
     "id": 221,
     "kanji": "維",
     "meaning_kr": "유지",
-    "onyomi": "イ",
+    "onyomi": "い",
     "kunyomi": "",
     "bim_term": {
       "word": "維持管理",
@@ -6163,7 +6163,7 @@
     "id": 222,
     "kanji": "線",
     "meaning_kr": "선",
-    "onyomi": "セン",
+    "onyomi": "せん",
     "kunyomi": "",
     "bim_term": {
       "word": "中心線",
@@ -6186,7 +6186,7 @@
     "id": 223,
     "kanji": "締",
     "meaning_kr": "조이다",
-    "onyomi": "テイ",
+    "onyomi": "てい",
     "kunyomi": "しめる",
     "bim_term": {
       "word": "",
@@ -6209,7 +6209,7 @@
     "id": 224,
     "kanji": "緩",
     "meaning_kr": "느슨하다",
-    "onyomi": "カン",
+    "onyomi": "かん",
     "kunyomi": "ゆるい",
     "bim_term": {
       "word": "",
@@ -6232,7 +6232,7 @@
     "id": 225,
     "kanji": "縮",
     "meaning_kr": "줄이다",
-    "onyomi": "シュク",
+    "onyomi": "しゅく",
     "kunyomi": "ちぢむ",
     "bim_term": {
       "word": "縮尺",
@@ -6261,7 +6261,7 @@
     "id": 226,
     "kanji": "置",
     "meaning_kr": "놓다",
-    "onyomi": "チ",
+    "onyomi": "ち",
     "kunyomi": "おく",
     "bim_term": {
       "word": "位置",
@@ -6290,7 +6290,7 @@
     "id": 227,
     "kanji": "耐",
     "meaning_kr": "견디다",
-    "onyomi": "タイ",
+    "onyomi": "たい",
     "kunyomi": "たえる",
     "bim_term": {
       "word": "耐火",
@@ -6319,7 +6319,7 @@
     "id": 228,
     "kanji": "能",
     "meaning_kr": "능력",
-    "onyomi": "ノウ",
+    "onyomi": "のう",
     "kunyomi": "",
     "bim_term": {
       "word": "性能",
@@ -6342,7 +6342,7 @@
     "id": 229,
     "kanji": "舗",
     "meaning_kr": "포장",
-    "onyomi": "ホ",
+    "onyomi": "ほ",
     "kunyomi": "",
     "bim_term": {
       "word": "舗装",
@@ -6365,7 +6365,7 @@
     "id": 230,
     "kanji": "芯",
     "meaning_kr": "심/중심",
-    "onyomi": "シン",
+    "onyomi": "しん",
     "kunyomi": "",
     "bim_term": {
       "word": "通芯",
@@ -6388,7 +6388,7 @@
     "id": 231,
     "kanji": "蔽",
     "meaning_kr": "가리다",
-    "onyomi": "ヘイ",
+    "onyomi": "へい",
     "kunyomi": "おおう",
     "bim_term": {
       "word": "建蔽率",
@@ -6417,7 +6417,7 @@
     "id": 232,
     "kanji": "衛",
     "meaning_kr": "지키다/위생",
-    "onyomi": "エイ",
+    "onyomi": "えい",
     "kunyomi": "",
     "bim_term": {
       "word": "衛生",
@@ -6440,7 +6440,7 @@
     "id": 233,
     "kanji": "衝",
     "meaning_kr": "충돌",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "つく",
     "bim_term": {
       "word": "衝突",
@@ -6469,7 +6469,7 @@
     "id": 234,
     "kanji": "表",
     "meaning_kr": "표/겉",
-    "onyomi": "ヒョウ",
+    "onyomi": "ひょう",
     "kunyomi": "おもて",
     "bim_term": {
       "word": "",
@@ -6492,7 +6492,7 @@
     "id": 235,
     "kanji": "装",
     "meaning_kr": "꾸미다/장착",
-    "onyomi": "ソウ",
+    "onyomi": "そう",
     "kunyomi": "よそおう",
     "bim_term": {
       "word": "舗装",
@@ -6521,7 +6521,7 @@
     "id": 236,
     "kanji": "補",
     "meaning_kr": "보수/보충",
-    "onyomi": "ホ",
+    "onyomi": "ほ",
     "kunyomi": "おぎなう",
     "bim_term": {
       "word": "補修",
@@ -6550,7 +6550,7 @@
     "id": 237,
     "kanji": "規",
     "meaning_kr": "규정",
-    "onyomi": "キ",
+    "onyomi": "き",
     "kunyomi": "",
     "bim_term": {
       "word": "規格",
@@ -6573,7 +6573,7 @@
     "id": 238,
     "kanji": "記",
     "meaning_kr": "기록",
-    "onyomi": "キ",
+    "onyomi": "き",
     "kunyomi": "しるす",
     "bim_term": {
       "word": "注記",
@@ -6602,7 +6602,7 @@
     "id": 239,
     "kanji": "許",
     "meaning_kr": "허가",
-    "onyomi": "キョ",
+    "onyomi": "きょ",
     "kunyomi": "ゆるす",
     "bim_term": {
       "word": "",
@@ -6625,7 +6625,7 @@
     "id": 240,
     "kanji": "詳",
     "meaning_kr": "상세하다",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "くわしい",
     "bim_term": {
       "word": "詳細図",
@@ -6654,7 +6654,7 @@
     "id": 241,
     "kanji": "認",
     "meaning_kr": "인정",
-    "onyomi": "ニン",
+    "onyomi": "にん",
     "kunyomi": "みとめる",
     "bim_term": {
       "word": "確認",
@@ -6683,7 +6683,7 @@
     "id": 242,
     "kanji": "誘",
     "meaning_kr": "유도하다",
-    "onyomi": "ユウ",
+    "onyomi": "ゆう",
     "kunyomi": "さそう",
     "bim_term": {
       "word": "誘導灯",
@@ -6712,7 +6712,7 @@
     "id": 243,
     "kanji": "請",
     "meaning_kr": "청구/신청",
-    "onyomi": "セイ",
+    "onyomi": "せい",
     "kunyomi": "こう",
     "bim_term": {
       "word": "",
@@ -6735,7 +6735,7 @@
     "id": 244,
     "kanji": "議",
     "meaning_kr": "의논",
-    "onyomi": "ギ",
+    "onyomi": "ぎ",
     "kunyomi": "",
     "bim_term": {
       "word": "協議",
@@ -6758,7 +6758,7 @@
     "id": 245,
     "kanji": "費",
     "meaning_kr": "비용",
-    "onyomi": "ヒ",
+    "onyomi": "ひ",
     "kunyomi": "ついやす",
     "bim_term": {
       "word": "",
@@ -6781,7 +6781,7 @@
     "id": 246,
     "kanji": "質",
     "meaning_kr": "바탕/품질",
-    "onyomi": "シツ",
+    "onyomi": "しつ",
     "kunyomi": "たち",
     "bim_term": {
       "word": "品質",
@@ -6810,7 +6810,7 @@
     "id": 247,
     "kanji": "足",
     "meaning_kr": "발/족",
-    "onyomi": "ソク",
+    "onyomi": "そく",
     "kunyomi": "あし",
     "bim_term": {
       "word": "足場",
@@ -6839,7 +6839,7 @@
     "id": 248,
     "kanji": "路",
     "meaning_kr": "길",
-    "onyomi": "ロ",
+    "onyomi": "ろ",
     "kunyomi": "じ",
     "bim_term": {
       "word": "道路",
@@ -6868,7 +6868,7 @@
     "id": 249,
     "kanji": "軒",
     "meaning_kr": "처마",
-    "onyomi": "ケン",
+    "onyomi": "けん",
     "kunyomi": "のき",
     "bim_term": {
       "word": "軒先",
@@ -6897,7 +6897,7 @@
     "id": 250,
     "kanji": "追",
     "meaning_kr": "추가/쫓다",
-    "onyomi": "ツイ",
+    "onyomi": "つい",
     "kunyomi": "おう",
     "bim_term": {
       "word": "追加",
@@ -6926,7 +6926,7 @@
     "id": 251,
     "kanji": "通",
     "meaning_kr": "통하다",
-    "onyomi": "ツウ",
+    "onyomi": "つう",
     "kunyomi": "とおる",
     "bim_term": {
       "word": "通芯",
@@ -6955,7 +6955,7 @@
     "id": 252,
     "kanji": "週",
     "meaning_kr": "주",
-    "onyomi": "シュウ",
+    "onyomi": "しゅう",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -6972,7 +6972,7 @@
     "id": 253,
     "kanji": "進",
     "meaning_kr": "나아가다",
-    "onyomi": "シン",
+    "onyomi": "しん",
     "kunyomi": "すすむ",
     "bim_term": {
       "word": "進捗",
@@ -7001,7 +7001,7 @@
     "id": 254,
     "kanji": "道",
     "meaning_kr": "길",
-    "onyomi": "ドウ",
+    "onyomi": "どう",
     "kunyomi": "みち",
     "bim_term": {
       "word": "道路",
@@ -7030,7 +7030,7 @@
     "id": 255,
     "kanji": "避",
     "meaning_kr": "피하다",
-    "onyomi": "ヒ",
+    "onyomi": "ひ",
     "kunyomi": "さける",
     "bim_term": {
       "word": "避難",
@@ -7059,7 +7059,7 @@
     "id": 256,
     "kanji": "量",
     "meaning_kr": "양",
-    "onyomi": "リョウ",
+    "onyomi": "りょう",
     "kunyomi": "はかる",
     "bim_term": {
       "word": "測量",
@@ -7088,7 +7088,7 @@
     "id": 257,
     "kanji": "金",
     "meaning_kr": "관련 의미",
-    "onyomi": "キン",
+    "onyomi": "きん",
     "kunyomi": "かね",
     "bim_term": {
       "word": "吊り金具",
@@ -7117,7 +7117,7 @@
     "id": 258,
     "kanji": "鋼",
     "meaning_kr": "강철",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "はがね",
     "bim_term": {
       "word": "",
@@ -7140,7 +7140,7 @@
     "id": 259,
     "kanji": "錆",
     "meaning_kr": "관련 의미",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "さび",
     "bim_term": {
       "word": "",
@@ -7163,7 +7163,7 @@
     "id": 260,
     "kanji": "長",
     "meaning_kr": "길다",
-    "onyomi": "チョウ",
+    "onyomi": "ちょう",
     "kunyomi": "ながい",
     "bim_term": {
       "word": "長さ",
@@ -7192,7 +7192,7 @@
     "id": 261,
     "kanji": "開",
     "meaning_kr": "열다",
-    "onyomi": "カイ",
+    "onyomi": "かい",
     "kunyomi": "ひらく",
     "bim_term": {
       "word": "開口",
@@ -7221,7 +7221,7 @@
     "id": 262,
     "kanji": "関",
     "meaning_kr": "관계/출입문",
-    "onyomi": "カン",
+    "onyomi": "かん",
     "kunyomi": "せき",
     "bim_term": {
       "word": "玄関",
@@ -7250,7 +7250,7 @@
     "id": 263,
     "kanji": "防",
     "meaning_kr": "막다",
-    "onyomi": "ボウ",
+    "onyomi": "ぼう",
     "kunyomi": "ふせぐ",
     "bim_term": {
       "word": "防火",
@@ -7279,7 +7279,7 @@
     "id": 264,
     "kanji": "除",
     "meaning_kr": "없애다",
-    "onyomi": "ジョ",
+    "onyomi": "じょ",
     "kunyomi": "のぞく",
     "bim_term": {
       "word": "削除",
@@ -7308,7 +7308,7 @@
     "id": 265,
     "kanji": "階",
     "meaning_kr": "층계",
-    "onyomi": "カイ",
+    "onyomi": "かい",
     "kunyomi": "",
     "bim_term": {
       "word": "階段",
@@ -7331,7 +7331,7 @@
     "id": 266,
     "kanji": "集",
     "meaning_kr": "모이다",
-    "onyomi": "シュウ",
+    "onyomi": "しゅう",
     "kunyomi": "あつまる",
     "bim_term": {
       "word": "集約",
@@ -7360,7 +7360,7 @@
     "id": 267,
     "kanji": "難",
     "meaning_kr": "어려움/피난",
-    "onyomi": "ナン",
+    "onyomi": "なん",
     "kunyomi": "むずかしい",
     "bim_term": {
       "word": "避難",
@@ -7389,7 +7389,7 @@
     "id": 268,
     "kanji": "震",
     "meaning_kr": "지진",
-    "onyomi": "シン",
+    "onyomi": "しん",
     "kunyomi": "ふるえる",
     "bim_term": {
       "word": "耐震",
@@ -7418,7 +7418,7 @@
     "id": 269,
     "kanji": "類",
     "meaning_kr": "종류",
-    "onyomi": "ルイ",
+    "onyomi": "るい",
     "kunyomi": "たぐい",
     "bim_term": {
       "word": "分類",
@@ -7447,7 +7447,7 @@
     "id": 270,
     "kanji": "養",
     "meaning_kr": "기르다",
-    "onyomi": "ヨウ",
+    "onyomi": "よう",
     "kunyomi": "やしなう",
     "bim_term": {
       "word": "養生",
@@ -7476,7 +7476,7 @@
     "id": 271,
     "kanji": "骨",
     "meaning_kr": "뼈",
-    "onyomi": "コツ",
+    "onyomi": "こつ",
     "kunyomi": "ほね",
     "bim_term": {
       "word": "鉄骨",
@@ -7505,7 +7505,7 @@
     "id": 272,
     "kanji": "高",
     "meaning_kr": "높다",
-    "onyomi": "コウ",
+    "onyomi": "こう",
     "kunyomi": "たかい",
     "bim_term": {
       "word": "標高",
@@ -7534,7 +7534,7 @@
     "id": 273,
     "kanji": "塗",
     "meaning_kr": "칠하다",
-    "onyomi": "ト",
+    "onyomi": "と",
     "kunyomi": "ぬる",
     "bim_term": {
       "word": "",
@@ -7557,7 +7557,7 @@
     "id": 274,
     "kanji": "既",
     "meaning_kr": "이미/기존",
-    "onyomi": "キ",
+    "onyomi": "き",
     "kunyomi": "すでに",
     "bim_term": {
       "word": "",
@@ -7580,7 +7580,7 @@
     "id": 275,
     "kanji": "撤",
     "meaning_kr": "철거하다",
-    "onyomi": "テツ",
+    "onyomi": "てつ",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -7597,7 +7597,7 @@
     "id": 276,
     "kanji": "去",
     "meaning_kr": "가다/제거",
-    "onyomi": "キョ",
+    "onyomi": "きょ",
     "kunyomi": "さる",
     "bim_term": {
       "word": "",
@@ -7620,7 +7620,7 @@
     "id": 277,
     "kanji": "解",
     "meaning_kr": "풀다/해체",
-    "onyomi": "カイ",
+    "onyomi": "かい",
     "kunyomi": "とく",
     "bim_term": {
       "word": "",
@@ -7643,7 +7643,7 @@
     "id": 278,
     "kanji": "体",
     "meaning_kr": "몸/체",
-    "onyomi": "タイ",
+    "onyomi": "たい",
     "kunyomi": "からだ",
     "bim_term": {
       "word": "",
@@ -7666,7 +7666,7 @@
     "id": 279,
     "kanji": "躯",
     "meaning_kr": "몸통/골조",
-    "onyomi": "ク",
+    "onyomi": "く",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -7683,7 +7683,7 @@
     "id": 280,
     "kanji": "意",
     "meaning_kr": "뜻/의도",
-    "onyomi": "イ",
+    "onyomi": "い",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -7700,7 +7700,7 @@
     "id": 281,
     "kanji": "匠",
     "meaning_kr": "장인/디자인",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -7717,7 +7717,7 @@
     "id": 282,
     "kanji": "増",
     "meaning_kr": "늘리다",
-    "onyomi": "ゾウ",
+    "onyomi": "ぞう",
     "kunyomi": "ふえる",
     "bim_term": {
       "word": "",
@@ -7740,7 +7740,7 @@
     "id": 283,
     "kanji": "汚",
     "meaning_kr": "더럽다",
-    "onyomi": "オ",
+    "onyomi": "お",
     "kunyomi": "けがす",
     "bim_term": {
       "word": "",
@@ -7763,7 +7763,7 @@
     "id": 284,
     "kanji": "雑",
     "meaning_kr": "잡다",
-    "onyomi": "ザツ",
+    "onyomi": "ざつ",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -7780,7 +7780,7 @@
     "id": 285,
     "kanji": "竪",
     "meaning_kr": "세로",
-    "onyomi": "ジュ",
+    "onyomi": "じゅ",
     "kunyomi": "たて",
     "bim_term": {
       "word": "",
@@ -7803,7 +7803,7 @@
     "id": 286,
     "kanji": "横",
     "meaning_kr": "가로",
-    "onyomi": "オウ",
+    "onyomi": "おう",
     "kunyomi": "よこ",
     "bim_term": {
       "word": "",
@@ -7826,7 +7826,7 @@
     "id": 287,
     "kanji": "枝",
     "meaning_kr": "가지",
-    "onyomi": "シ",
+    "onyomi": "し",
     "kunyomi": "えだ",
     "bim_term": {
       "word": "",
@@ -7849,7 +7849,7 @@
     "id": 288,
     "kanji": "本",
     "meaning_kr": "근본/본관",
-    "onyomi": "ホン",
+    "onyomi": "ほん",
     "kunyomi": "もと",
     "bim_term": {
       "word": "",
@@ -7872,7 +7872,7 @@
     "id": 289,
     "kanji": "漏",
     "meaning_kr": "새다",
-    "onyomi": "ロウ",
+    "onyomi": "ろう",
     "kunyomi": "もる",
     "bim_term": {
       "word": "",
@@ -7895,7 +7895,7 @@
     "id": 290,
     "kanji": "弱",
     "meaning_kr": "약하다",
-    "onyomi": "ジャク",
+    "onyomi": "じゃく",
     "kunyomi": "よわい",
     "bim_term": {
       "word": "",
@@ -7918,7 +7918,7 @@
     "id": 291,
     "kanji": "端",
     "meaning_kr": "끝",
-    "onyomi": "タン",
+    "onyomi": "たん",
     "kunyomi": "はし",
     "bim_term": {
       "word": "",
@@ -7941,7 +7941,7 @@
     "id": 292,
     "kanji": "子",
     "meaning_kr": "자식/자",
-    "onyomi": "シ",
+    "onyomi": "し",
     "kunyomi": "こ",
     "bim_term": {
       "word": "",
@@ -7964,7 +7964,7 @@
     "id": 293,
     "kanji": "台",
     "meaning_kr": "대/판",
-    "onyomi": "ダイ",
+    "onyomi": "だい",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -7981,7 +7981,7 @@
     "id": 294,
     "kanji": "遮",
     "meaning_kr": "가리다/차단",
-    "onyomi": "シャ",
+    "onyomi": "しゃ",
     "kunyomi": "さえぎる",
     "bim_term": {
       "word": "",
@@ -8004,7 +8004,7 @@
     "id": 295,
     "kanji": "器",
     "meaning_kr": "기구/기기",
-    "onyomi": "キ",
+    "onyomi": "き",
     "kunyomi": "うつわ",
     "bim_term": {
       "word": "",
@@ -8027,7 +8027,7 @@
     "id": 296,
     "kanji": "故",
     "meaning_kr": "고장/옛",
-    "onyomi": "コ",
+    "onyomi": "こ",
     "kunyomi": "ゆえ",
     "bim_term": {
       "word": "",
@@ -8050,7 +8050,7 @@
     "id": 297,
     "kanji": "障",
     "meaning_kr": "막히다/장애",
-    "onyomi": "ショウ",
+    "onyomi": "しょう",
     "kunyomi": "さわる",
     "bim_term": {
       "word": "",
@@ -8073,7 +8073,7 @@
     "id": 298,
     "kanji": "桁",
     "meaning_kr": "들보/거더",
-    "onyomi": "ケタ",
+    "onyomi": "けた",
     "kunyomi": "けた",
     "bim_term": {
       "word": "",
@@ -8096,7 +8096,7 @@
     "id": 299,
     "kanji": "槽",
     "meaning_kr": "통/탱크",
-    "onyomi": "ソウ",
+    "onyomi": "そう",
     "kunyomi": "",
     "bim_term": {
       "word": "",
@@ -8113,7 +8113,7 @@
     "id": 300,
     "kanji": "被",
     "meaning_kr": "덮다/피복",
-    "onyomi": "ヒ",
+    "onyomi": "ひ",
     "kunyomi": "こうむる",
     "bim_term": {
       "word": "",

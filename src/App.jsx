@@ -1620,7 +1620,22 @@ const getQuizText = useCallback((kanjiData, mode) => {
       setActiveQuiz(null);
       setIsBuildingSession(false);
       return;
-    }
+    } 
+          if (source === 'advance' && activeTrack === 'bim') {
+    const advanceQueue = Object.values(activeCards)
+      .filter((card) => {
+        const data = kanjiMap[card.kanjiId];
+        if (!data || data.dataset !== 'bim') return false;
+        return card.status === 'new';
+      })
+      .map((card) => card.kanjiId)
+      .slice(0, 5);
+
+    setStudyQueue(advanceQueue);
+    setActiveQuiz(null);
+    setIsBuildingSession(false);
+    return;
+  }
       const now = Date.now();
       const learningCards = [];
       const reviewCards = [];
@@ -2428,6 +2443,34 @@ if (mode === 'meaning') {
                   스토리 암기장 <Layers className="w-5 h-5" />
                 </button>
               )}
+              {activeTrack === 'bim' && (
+  <>
+<button
+  onClick={() => {
+    setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'srs', source: 'today' });
+    goTo('bim', 'study');
+  }}
+  disabled={(activeDaily.todaySeenIds || []).length === 0}
+  className={`px-6 py-4 border rounded-2xl font-bold transition-all ${
+    (activeDaily.todaySeenIds || []).length === 0
+      ? 'bg-slate-900/50 border-white/5 text-slate-600 cursor-not-allowed'
+      : 'bg-slate-900 border border-white/10 text-white hover:bg-slate-800'
+  }`}
+>
+  이전 학습으로 가기
+</button>
+
+    <button
+      onClick={() => {
+        setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'srs', source: 'advance' });
+        goTo('bim', 'study');
+      }}
+      className="px-6 py-4 bg-slate-900 border border-white/10 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all"
+    >
+      다음 학습으로 가기
+    </button>
+  </>
+)}
 {activeTrack === 'basic' && (
   <>
     <button

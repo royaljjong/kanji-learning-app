@@ -1329,7 +1329,28 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     },
     []
   );
+const rolloverDailyState = useCallback((daily, track) => {
+  const today = getTodayKey();
+  const sanitized = sanitizeDailyState(daily, track);
 
+  if (sanitized.dateKey === today) return sanitized;
+
+  const yesterdayKey = getYesterdayKey();
+  const keepStreak =
+    sanitized.lastStudyDate === today || sanitized.lastStudyDate === yesterdayKey
+      ? sanitized.streak
+      : 0;
+
+  return sanitizeDailyState(
+    {
+      ...sanitized,
+      dateKey: today,
+      streak: keepStreak,
+    },
+    track,
+    { resetTodayArrays: true }
+  );
+}, []);
   const applyProgressToState = useCallback((progress) => {
     if (!progress) return;
 
@@ -1431,28 +1452,7 @@ const nextBasicDaily = reconcileDailyWithCards(
 
     return () => clearTimeout(timer);
   }, [session, progressReady, saveProgressToSupabase]);
-const rolloverDailyState = useCallback((daily, track) => {
-  const today = getTodayKey();
-  const sanitized = sanitizeDailyState(daily, track);
 
-  if (sanitized.dateKey === today) return sanitized;
-
-  const yesterdayKey = getYesterdayKey();
-  const keepStreak =
-    sanitized.lastStudyDate === today || sanitized.lastStudyDate === yesterdayKey
-      ? sanitized.streak
-      : 0;
-
-  return sanitizeDailyState(
-    {
-      ...sanitized,
-      dateKey: today,
-      streak: keepStreak,
-    },
-    track,
-    { resetTodayArrays: true }
-  );
-}, []);
   const markStudiedToday = (prev) => {
     const today = getTodayKey();
     if (prev.lastStudyDate === today) return prev;

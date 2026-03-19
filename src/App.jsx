@@ -1335,11 +1335,15 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const nextBimCards = migrateCardsState(progress.bim_cards, 'bim');
     const nextBasicCards = migrateCardsState(progress.basic_cards, 'basic');
-    const nextBimDaily = reconcileDailyWithCards(sanitizeDailyState(progress.bim_daily, 'bim'), nextBimCards);
-    const nextBasicDaily = reconcileDailyWithCards(
-      sanitizeDailyState(progress.basic_daily, 'basic'),
-      nextBasicCards
-    );
+const nextBimDaily = reconcileDailyWithCards(
+  rolloverDailyState(progress.bim_daily, 'bim'),
+  nextBimCards
+);
+
+const nextBasicDaily = reconcileDailyWithCards(
+  rolloverDailyState(progress.basic_daily, 'basic'),
+  nextBasicCards
+);
 
     setActiveTrack(progress.active_track || 'bim');
     setBimCards(nextBimCards);
@@ -1348,7 +1352,7 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     setBasicHistory(sanitizeHistoryList(progress.basic_history, 'basic'));
     setBimDaily(nextBimDaily);
     setBasicDaily(nextBasicDaily);
-  }, []);
+  }, [rolloverDailyState]);
 
   const loadUserProgress = useCallback(
     async (userId) => {
@@ -1427,7 +1431,28 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return () => clearTimeout(timer);
   }, [session, progressReady, saveProgressToSupabase]);
+const rolloverDailyState = useCallback((daily, track) => {
+  const today = getTodayKey();
+  const sanitized = sanitizeDailyState(daily, track);
 
+  if (sanitized.dateKey === today) return sanitized;
+
+  const yesterdayKey = getYesterdayKey();
+  const keepStreak =
+    sanitized.lastStudyDate === today || sanitized.lastStudyDate === yesterdayKey
+      ? sanitized.streak
+      : 0;
+
+  return sanitizeDailyState(
+    {
+      ...sanitized,
+      dateKey: today,
+      streak: keepStreak,
+    },
+    track,
+    { resetTodayArrays: true }
+  );
+}, []);
   const markStudiedToday = (prev) => {
     const today = getTodayKey();
     if (prev.lastStudyDate === today) return prev;
@@ -1477,6 +1502,7 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     setSearchTerm('');
     setSelectedKanjiId(null);
     setIsBuildingSession(targetView === 'study');
+    setIsMobileMenuOpen(false);
 
     if (targetView === 'library') setLibFilter(track);
 
@@ -1503,6 +1529,26 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     setView(targetView);
   }, [getRecommendedBasicGroupStart, getRecommendedBasicPageTarget]);
 
+  const getAllBasicGroups = useCallback(() => {
+  return unique(
+    sortKanjiList(BASIC_KANJI_DATA)
+      .map((item) => item.groupNum)
+      .filter((num) => Number.isFinite(num))
+  ).sort((a, b) => a - b);
+}, []);
+
+const getRelativeBasicGroup = useCallback((offset = 0) => {
+  const groups = getAllBasicGroups();
+  if (groups.length === 0) return 1;
+
+  const current = getRecommendedBasicGroupStart();
+  const currentIndex = groups.indexOf(current);
+  if (currentIndex === -1) return current;
+
+  const nextIndex = Math.max(0, Math.min(groups.length - 1, currentIndex + offset));
+  return groups[nextIndex];
+}, [getAllBasicGroups, getRecommendedBasicGroupStart]);
+
 const startRegularStudy = useCallback(() => {
   if (activeTrack === 'bim') {
     setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'srs' });
@@ -1510,14 +1556,10 @@ const startRegularStudy = useCallback(() => {
     return;
   }
 
-  setStudyGroupNum(1);
-  goTo('basic', 'group_study', { groupNum: 1 });
-}, [activeTrack, goTo]);
-
-  const startBasicReview = useCallback(() => {
-    setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'srs' });
-    goTo('basic', 'study');
-  }, [goTo]);
+  const targetGroup = getRecommendedBasicGroupStart();
+  setStudyGroupNum(targetGroup);
+  goTo('basic', 'group_study', { groupNum: targetGroup });
+}, [activeTrack, goTo, getRecommendedBasicGroupStart]);
 
   const getGroupStudyChunk = useCallback((currentGroupNum) => {
     const currentGroupCards = currentDatasetList
@@ -2386,7 +2428,23 @@ if (mode === 'meaning') {
                   스토리 암기장 <Layers className="w-5 h-5" />
                 </button>
               )}
+{activeTrack === 'basic' && (
+  <>
+    <button
+      onClick={() => goTo('basic', 'group_study', { groupNum: getRelativeBasicGroup(-1) })}
+      className="px-6 py-4 bg-slate-900 border border-white/10 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all"
+    >
+      저번 학습으로 가기
+    </button>
 
+    <button
+      onClick={() => goTo('basic', 'group_study', { groupNum: getRelativeBasicGroup(1) })}
+      className="px-6 py-4 bg-slate-900 border border-white/10 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all"
+    >
+      다음 학습으로 가기
+    </button>
+  </>
+)}
               <button
                 onClick={() => goTo(activeTrack, 'library')}
                 className="px-8 py-4 bg-slate-900 border border-white/10 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all"
@@ -3311,6 +3369,14 @@ const modeQuestion =
     <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-slate-500/30 overflow-x-hidden flex">
       <div className={`fixed top-[-10%] left-[-10%] w-[50%] h-[50%] ${trackConfig.bgGlow} blur-[120px] rounded-full pointer-events-none transition-colors duration-1000`} />
       <div className="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-slate-800/20 blur-[120px] rounded-full pointer-events-none" />
+{isMobileMenuOpen && (
+  <button
+    type="button"
+    aria-label="메뉴 닫기"
+    onClick={() => setIsMobileMenuOpen(false)}
+    className="fixed inset-0 z-40 bg-slate-950/70 backdrop-blur-sm md:hidden"
+  />
+)}
 
 <nav className={`fixed left-0 top-0 h-full w-24 border-r border-white/5 bg-slate-950/95 backdrop-blur-xl flex flex-col items-center py-6 z-50 overflow-y-auto custom-scrollbar transition-transform duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}>
         <div className="w-12 h-12 bg-gradient-to-tr from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center shadow-lg mb-6 shrink-0">
@@ -3365,23 +3431,19 @@ const modeQuestion =
 <main className="w-full min-h-screen flex flex-col md:pl-24">
 <header className="w-full bg-slate-950/80 backdrop-blur-xl border-b border-white/5 sticky top-0 z-40 h-16 flex items-center px-4 md:px-10 justify-between">
   <div className="flex items-center gap-3">
-    <button
-      onClick={() => setIsMobileMenuOpen((prev) => !prev)}
-      className="md:hidden p-2 rounded-xl bg-slate-900 border border-white/10 text-slate-300"
-    >
-      ☰
-    </button>
+<button
+  onClick={() => setIsMobileMenuOpen((prev) => !prev)}
+  className="md:hidden p-2 rounded-xl bg-slate-900 border border-white/10 text-slate-300"
+  aria-label={isMobileMenuOpen ? '메뉴 닫기' : '메뉴 열기'}
+>
+  {isMobileMenuOpen ? <X className="w-5 h-5" /> : '☰'}
+</button>
     <div>
       <h1 className="text-lg font-bold text-white tracking-tight">
         Kanji Mastery <span className={`text-[10px] uppercase ml-2 px-2 py-0.5 rounded-full bg-slate-800 ${trackConfig.textColor}`}>{activeTrack} mode</span>
       </h1>
     </div>
   </div>
-          <div>
-            <h1 className="text-lg font-bold text-white tracking-tight">
-              Kanji Mastery <span className={`text-[10px] uppercase ml-2 px-2 py-0.5 rounded-full bg-slate-800 ${trackConfig.textColor}`}>{activeTrack} mode</span>
-            </h1>
-          </div>
           <div className="flex items-center gap-4">
             {activeTrack === 'basic' && (
                <div className="flex items-center gap-2 px-3 py-1 bg-slate-900 border border-white/10 rounded-full text-slate-400 text-[10px] font-bold">

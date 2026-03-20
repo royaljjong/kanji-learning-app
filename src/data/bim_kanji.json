@@ -2,7 +2,7 @@
   {
     "id": 1,
     "kanji": "備",
-    "meaning_kr": "관련 의미",
+    "meaning_kr": "갖추다/설비",
     "onyomi": "び",
     "kunyomi": "そなえる",
     "bim_term": {
@@ -24,9 +24,9 @@
     ],
     "kunExamples": [
       {
-        "word": "備",
+        "word": "備える",
         "reading": "そなえる",
-        "meaning": "관련 의미"
+        "meaning": "갖추다"
       }
     ],
     "importance": "S",
@@ -555,7 +555,7 @@
   {
     "id": 19,
     "kanji": "断",
-    "meaning_kr": "관련 의미",
+    "meaning_kr": "끊다/단절",
     "onyomi": "だん",
     "kunyomi": "たつ",
     "bim_term": {
@@ -572,9 +572,9 @@
     ],
     "kunExamples": [
       {
-        "word": "断",
+        "word": "断つ",
         "reading": "たつ",
-        "meaning": "관련 의미"
+        "meaning": "끊다"
       }
     ],
     "importance": "S",
@@ -775,9 +775,9 @@
     "onyomi": "ほう",
     "kunyomi": "のり",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "建築法",
+      "reading": "けんちくほう",
+      "meaning": "건축법"
     },
     "onExamples": [],
     "kunExamples": [
@@ -1333,7 +1333,7 @@
   {
     "id": 45,
     "kanji": "上",
-    "meaning_kr": "관련 의미",
+    "meaning_kr": "위/상부",
     "onyomi": "じょう",
     "kunyomi": "うえ",
     "bim_term": {
@@ -1357,7 +1357,7 @@
       {
         "word": "上",
         "reading": "うえ",
-        "meaning": "관련 의미"
+        "meaning": "위"
       }
     ],
     "importance": "A",
@@ -1531,9 +1531,9 @@
     "onyomi": "れい",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "法令",
+      "reading": "ほうれい",
+      "meaning": "법령"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -1602,7 +1602,7 @@
     "bim_term": {
       "word": "伏図",
       "reading": "ふくず",
-      "meaning": "평면 배치도/복도"
+      "meaning": "구조 평면도"
     },
     "onExamples": [
       {
@@ -1716,9 +1716,9 @@
     "onyomi": "か",
     "kunyomi": "あたい",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "単価",
+      "reading": "たんか",
+      "meaning": "단가"
     },
     "onExamples": [],
     "kunExamples": [
@@ -1735,7 +1735,7 @@
   {
     "id": 59,
     "kanji": "便",
-    "meaning_kr": "편의/편변",
+    "meaning_kr": "편의/변소",
     "onyomi": "べん",
     "kunyomi": "たより",
     "bim_term": {
@@ -1903,7 +1903,7 @@
   {
     "id": 65,
     "kanji": "先",
-    "meaning_kr": "관련 의미",
+    "meaning_kr": "먼저/끝",
     "onyomi": "せん",
     "kunyomi": "さき",
     "bim_term": {
@@ -1922,7 +1922,7 @@
       {
         "word": "先",
         "reading": "さき",
-        "meaning": "관련 의미"
+        "meaning": "끝/앞"
       }
     ],
     "importance": "A",
@@ -1990,13 +1990,13 @@
   {
     "id": 68,
     "kanji": "具",
-    "meaning_kr": "관련 의미",
+    "meaning_kr": "도구/갖추다",
     "onyomi": "ぐ",
     "kunyomi": "そなえる",
     "bim_term": {
       "word": "建具",
       "reading": "たてぐ",
-      "meaning": "건구/문창호"
+      "meaning": "창호"
     },
     "onExamples": [
       {
@@ -2007,9 +2007,9 @@
     ],
     "kunExamples": [
       {
-        "word": "具",
+        "word": "具える",
         "reading": "そなえる",
-        "meaning": "관련 의미"
+        "meaning": "갖추다"
       }
     ],
     "importance": "A",
@@ -2347,9 +2347,9 @@
     "onyomi": "げん",
     "kunyomi": "はら",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "原価",
+      "reading": "げんか",
+      "meaning": "원가"
     },
     "onExamples": [],
     "kunExamples": [
@@ -2791,7 +2791,7 @@
     "kanji": "地",
     "meaning_kr": "땅",
     "onyomi": "ち",
-    "kunyomi": "ち",
+    "kunyomi": "つち",
     "bim_term": {
       "word": "地盤",
       "reading": "じばん",
@@ -3079,7 +3079,7 @@
   {
     "id": 107,
     "kanji": "容",
-    "meaning_kr": "용적/수용",
+    "meaning_kr": "용납하다/용적",
     "onyomi": "よう",
     "kunyomi": "いれる",
     "bim_term": {
@@ -3297,9 +3297,9 @@
     "onyomi": "さ",
     "kunyomi": "さ",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "段差",
+      "reading": "だんさ",
+      "meaning": "단차"
     },
     "onExamples": [],
     "kunExamples": [
@@ -3369,7 +3369,7 @@
     ],
     "importance": "A",
     "reason": "干渉에서 반복 출현하는 핵심 글자",
-    "memory_hint": "방패/막다"
+    "memory_hint": "방패 모양에서 말리다/간섭하다"
   },
   {
     "id": 118,
@@ -3407,9 +3407,9 @@
     "onyomi": "ねん",
     "kunyomi": "とし",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "耐用年数",
+      "reading": "たいようねんすう",
+      "meaning": "내용연수"
     },
     "onExamples": [],
     "kunExamples": [
@@ -3530,7 +3530,7 @@
   {
     "id": 124,
     "kanji": "弁",
-    "meaning_kr": "변/밸브",
+    "meaning_kr": "밸브/변",
     "onyomi": "べん",
     "kunyomi": "",
     "bim_term": {
@@ -3605,7 +3605,7 @@
   {
     "id": 127,
     "kanji": "御",
-    "meaning_kr": "제어/막다",
+    "meaning_kr": "제어하다/다스리다",
     "onyomi": "ぎょ",
     "kunyomi": "おん",
     "bim_term": {
@@ -3663,13 +3663,13 @@
   {
     "id": 129,
     "kanji": "成",
-    "meaning_kr": "이루다/춤",
+    "meaning_kr": "이루다/높이",
     "onyomi": "せい",
     "kunyomi": "なる",
     "bim_term": {
       "word": "梁成",
       "reading": "はりせい",
-      "meaning": "보 춤"
+      "meaning": "보 춤(보 높이)"
     },
     "onExamples": [
       {
@@ -3693,7 +3693,7 @@
     "id": 130,
     "kanji": "戻",
     "meaning_kr": "되돌리다",
-    "onyomi": "れい",
+    "onyomi": "",
     "kunyomi": "もどす",
     "bim_term": {
       "word": "埋戻し",
@@ -4357,9 +4357,9 @@
     "onyomi": "にち",
     "kunyomi": "ひ",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "日影",
+      "reading": "ひかげ",
+      "meaning": "일영"
     },
     "onExamples": [],
     "kunExamples": [
@@ -4467,9 +4467,9 @@
     "onyomi": "げつ",
     "kunyomi": "つき",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "月次",
+      "reading": "げつじ",
+      "meaning": "월차/월간"
     },
     "onExamples": [],
     "kunExamples": [
@@ -4490,9 +4490,9 @@
     "onyomi": "もく",
     "kunyomi": "き",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "木造",
+      "reading": "もくぞう",
+      "meaning": "목조"
     },
     "onExamples": [],
     "kunExamples": [
@@ -4636,7 +4636,7 @@
   {
     "id": 164,
     "kanji": "格",
-    "meaning_kr": "격/규격",
+    "meaning_kr": "격식/규격",
     "onyomi": "かく",
     "kunyomi": "",
     "bim_term": {
@@ -4663,9 +4663,9 @@
     "onyomi": "ます",
     "kunyomi": "ます",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "桝",
+      "reading": "ます",
+      "meaning": "집수정/받이통"
     },
     "onExamples": [],
     "kunExamples": [
@@ -4815,7 +4815,7 @@
   {
     "id": 171,
     "kanji": "止",
-    "meaning_kr": "멈추다",
+    "meaning_kr": "멈추다/지수",
     "onyomi": "し",
     "kunyomi": "とまる",
     "bim_term": {
@@ -5039,9 +5039,9 @@
     "onyomi": "きょ",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "管渠",
+      "reading": "かんきょ",
+      "meaning": "관거"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -5247,9 +5247,9 @@
     "onyomi": "よう",
     "kunyomi": "とける",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "溶接",
+      "reading": "ようせつ",
+      "meaning": "용접"
     },
     "onExamples": [],
     "kunExamples": [
@@ -5266,7 +5266,7 @@
   {
     "id": 188,
     "kanji": "火",
-    "meaning_kr": "불",
+    "meaning_kr": "불/방화",
     "onyomi": "か",
     "kunyomi": "ひ",
     "bim_term": {
@@ -5548,9 +5548,9 @@
     "onyomi": "しん",
     "kunyomi": "もうす",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "申請",
+      "reading": "しんせい",
+      "meaning": "신청"
     },
     "onExamples": [],
     "kunExamples": [
@@ -5704,9 +5704,9 @@
     "onyomi": "ひょう",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "帳票",
+      "reading": "ちょうひょう",
+      "meaning": "장표/리포트"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -5889,9 +5889,9 @@
     "onyomi": "か",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "箇所",
+      "reading": "かしょ",
+      "meaning": "개소"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -5994,7 +5994,7 @@
   {
     "id": 216,
     "kanji": "納",
-    "meaning_kr": "납입/맞춤",
+    "meaning_kr": "납입/정리",
     "onyomi": "のう",
     "kunyomi": "おさめる",
     "bim_term": {
@@ -6189,9 +6189,9 @@
     "onyomi": "てい",
     "kunyomi": "しめる",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "締固め",
+      "reading": "しめかため",
+      "meaning": "다짐"
     },
     "onExamples": [],
     "kunExamples": [
@@ -6212,9 +6212,9 @@
     "onyomi": "かん",
     "kunyomi": "ゆるい",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "緩勾配",
+      "reading": "かんこうばい",
+      "meaning": "완구배"
     },
     "onExamples": [],
     "kunExamples": [
@@ -6318,7 +6318,7 @@
   {
     "id": 228,
     "kanji": "能",
-    "meaning_kr": "능력",
+    "meaning_kr": "능력/성능",
     "onyomi": "のう",
     "kunyomi": "",
     "bim_term": {
@@ -6472,9 +6472,9 @@
     "onyomi": "ひょう",
     "kunyomi": "おもて",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "仕様表",
+      "reading": "しようひょう",
+      "meaning": "사양표"
     },
     "onExamples": [],
     "kunExamples": [
@@ -6605,9 +6605,9 @@
     "onyomi": "きょ",
     "kunyomi": "ゆるす",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "許容",
+      "reading": "きょよう",
+      "meaning": "허용"
     },
     "onExamples": [],
     "kunExamples": [
@@ -6715,9 +6715,9 @@
     "onyomi": "せい",
     "kunyomi": "こう",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "請求",
+      "reading": "せいきゅう",
+      "meaning": "청구"
     },
     "onExamples": [],
     "kunExamples": [
@@ -6761,9 +6761,9 @@
     "onyomi": "ひ",
     "kunyomi": "ついやす",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "経費",
+      "reading": "けいひ",
+      "meaning": "경비"
     },
     "onExamples": [],
     "kunExamples": [
@@ -6815,7 +6815,7 @@
     "bim_term": {
       "word": "足場",
       "reading": "あしば",
-      "meaning": "비계/발판"
+      "meaning": "비계/작업발판"
     },
     "onExamples": [
       {
@@ -6958,9 +6958,9 @@
     "onyomi": "しゅう",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "週報",
+      "reading": "しゅうほう",
+      "meaning": "주간 보고"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -7087,7 +7087,7 @@
   {
     "id": 257,
     "kanji": "金",
-    "meaning_kr": "관련 의미",
+    "meaning_kr": "금속/쇠",
     "onyomi": "きん",
     "kunyomi": "かね",
     "bim_term": {
@@ -7106,7 +7106,7 @@
       {
         "word": "金",
         "reading": "かね",
-        "meaning": "관련 의미"
+        "meaning": "금속"
       }
     ],
     "importance": "A",
@@ -7120,9 +7120,9 @@
     "onyomi": "こう",
     "kunyomi": "はがね",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "鋼材",
+      "reading": "こうざい",
+      "meaning": "강재"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7139,20 +7139,20 @@
   {
     "id": 259,
     "kanji": "錆",
-    "meaning_kr": "관련 의미",
-    "onyomi": "しょう",
+    "meaning_kr": "녹",
+    "onyomi": "",
     "kunyomi": "さび",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "錆止め",
+      "reading": "さびどめ",
+      "meaning": "방청/녹막이"
     },
     "onExamples": [],
     "kunExamples": [
       {
         "word": "錆",
         "reading": "さび",
-        "meaning": "관련 의미"
+        "meaning": "녹"
       }
     ],
     "importance": "A",
@@ -7220,7 +7220,7 @@
   {
     "id": 262,
     "kanji": "関",
-    "meaning_kr": "관계/출입문",
+    "meaning_kr": "관계/관문",
     "onyomi": "かん",
     "kunyomi": "せき",
     "bim_term": {
@@ -7537,9 +7537,9 @@
     "onyomi": "と",
     "kunyomi": "ぬる",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "塗装",
+      "reading": "とそう",
+      "meaning": "도장"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7560,9 +7560,9 @@
     "onyomi": "き",
     "kunyomi": "すでに",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "既存",
+      "reading": "きぞん",
+      "meaning": "기존"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7583,9 +7583,9 @@
     "onyomi": "てつ",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "撤去",
+      "reading": "てっきょ",
+      "meaning": "철거"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -7600,9 +7600,9 @@
     "onyomi": "きょ",
     "kunyomi": "さる",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "除去",
+      "reading": "じょきょ",
+      "meaning": "제거"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7623,9 +7623,9 @@
     "onyomi": "かい",
     "kunyomi": "とく",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "解体",
+      "reading": "かいたい",
+      "meaning": "해체"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7646,9 +7646,9 @@
     "onyomi": "たい",
     "kunyomi": "からだ",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "躯体",
+      "reading": "くたい",
+      "meaning": "구조체"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7669,9 +7669,9 @@
     "onyomi": "く",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "躯体",
+      "reading": "くたい",
+      "meaning": "구조체"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -7686,9 +7686,9 @@
     "onyomi": "い",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "意匠",
+      "reading": "いしょう",
+      "meaning": "의장/디자인"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -7703,9 +7703,9 @@
     "onyomi": "しょう",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "意匠",
+      "reading": "いしょう",
+      "meaning": "의장/디자인"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -7720,9 +7720,9 @@
     "onyomi": "ぞう",
     "kunyomi": "ふえる",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "増築",
+      "reading": "ぞうちく",
+      "meaning": "증축"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7743,9 +7743,9 @@
     "onyomi": "お",
     "kunyomi": "けがす",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "汚水",
+      "reading": "おすい",
+      "meaning": "오수"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7766,9 +7766,9 @@
     "onyomi": "ざつ",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "雑排水",
+      "reading": "ざつはいすい",
+      "meaning": "잡배수"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -7783,9 +7783,9 @@
     "onyomi": "じゅ",
     "kunyomi": "たて",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "竪樋",
+      "reading": "たてどい",
+      "meaning": "세로 홈통"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7806,9 +7806,9 @@
     "onyomi": "おう",
     "kunyomi": "よこ",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "横引き",
+      "reading": "よこびき",
+      "meaning": "수평 인출/가로 배관"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7829,9 +7829,9 @@
     "onyomi": "し",
     "kunyomi": "えだ",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "枝管",
+      "reading": "えだかん",
+      "meaning": "가지관"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7852,9 +7852,9 @@
     "onyomi": "ほん",
     "kunyomi": "もと",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "本設",
+      "reading": "ほんせつ",
+      "meaning": "본설"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7875,9 +7875,9 @@
     "onyomi": "ろう",
     "kunyomi": "もる",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "漏水",
+      "reading": "ろうすい",
+      "meaning": "누수"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7898,9 +7898,9 @@
     "onyomi": "じゃく",
     "kunyomi": "よわい",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "弱電",
+      "reading": "じゃくでん",
+      "meaning": "약전"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7921,9 +7921,9 @@
     "onyomi": "たん",
     "kunyomi": "はし",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "端部",
+      "reading": "たんぶ",
+      "meaning": "단부"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7944,9 +7944,9 @@
     "onyomi": "し",
     "kunyomi": "こ",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "端子",
+      "reading": "たんし",
+      "meaning": "단자"
     },
     "onExamples": [],
     "kunExamples": [
@@ -7967,9 +7967,9 @@
     "onyomi": "だい",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "架台",
+      "reading": "かだい",
+      "meaning": "가대"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -7984,9 +7984,9 @@
     "onyomi": "しゃ",
     "kunyomi": "さえぎる",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "遮音",
+      "reading": "しゃおん",
+      "meaning": "차음"
     },
     "onExamples": [],
     "kunExamples": [
@@ -8007,9 +8007,9 @@
     "onyomi": "き",
     "kunyomi": "うつわ",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "機器",
+      "reading": "きき",
+      "meaning": "기기"
     },
     "onExamples": [],
     "kunExamples": [
@@ -8030,9 +8030,9 @@
     "onyomi": "こ",
     "kunyomi": "ゆえ",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "故障",
+      "reading": "こしょう",
+      "meaning": "고장"
     },
     "onExamples": [],
     "kunExamples": [
@@ -8053,9 +8053,9 @@
     "onyomi": "しょう",
     "kunyomi": "さわる",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "障害",
+      "reading": "しょうがい",
+      "meaning": "장애"
     },
     "onExamples": [],
     "kunExamples": [
@@ -8076,9 +8076,9 @@
     "onyomi": "けた",
     "kunyomi": "けた",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "桁行",
+      "reading": "けたゆき",
+      "meaning": "도리방향/건물 길이"
     },
     "onExamples": [],
     "kunExamples": [
@@ -8099,9 +8099,9 @@
     "onyomi": "そう",
     "kunyomi": "",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "水槽",
+      "reading": "すいそう",
+      "meaning": "수조"
     },
     "onExamples": [],
     "kunExamples": [],
@@ -8116,9 +8116,9 @@
     "onyomi": "ひ",
     "kunyomi": "こうむる",
     "bim_term": {
-      "word": "",
-      "reading": "",
-      "meaning": ""
+      "word": "被覆",
+      "reading": "ひふく",
+      "meaning": "피복"
     },
     "onExamples": [],
     "kunExamples": [
@@ -8131,5 +8131,6739 @@
     "importance": "A",
     "reason": "내화피복/보온 피복 문맥",
     "memory_hint": "옷(衤)을 걸쳐 입으니 입을 피, 피복 피"
+  },
+  {
+    "id": 301,
+    "kanji": "用",
+    "meaning_kr": "쓰다/용도",
+    "onyomi": "よう",
+    "kunyomi": "もちいる",
+    "bim_term": {
+      "word": "用途地域",
+      "reading": "ようとちいき",
+      "meaning": "용도지역"
+    },
+    "onExamples": [
+      {
+        "word": "用途地域",
+        "reading": "ようとちいき",
+        "meaning": "용도지역"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "用",
+        "reading": "もちいる",
+        "meaning": "쓰다"
+      }
+    ],
+    "importance": "A",
+    "reason": "건축법 용도 분류 문맥",
+    "memory_hint": "用(쓸 용)은 통(冂) 안에 막대(丨)를 끼워 여러 데에 돌려 쓰는 모습이니 쓸 용"
+  },
+  {
+    "id": 302,
+    "kanji": "途",
+    "meaning_kr": "길/용도",
+    "onyomi": "と",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "用途地域",
+      "reading": "ようとちいき",
+      "meaning": "용도지역"
+    },
+    "onExamples": [
+      {
+        "word": "用途地域",
+        "reading": "ようとちいき",
+        "meaning": "용도지역"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "건축법 용도 분류 문맥",
+    "memory_hint": "途(길 도)는 길(辶)을 남은 것(余)처럼 이어 따라가니 길 도"
+  },
+  {
+    "id": 303,
+    "kanji": "域",
+    "meaning_kr": "구역",
+    "onyomi": "いき",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "地域地区",
+      "reading": "ちいきちく",
+      "meaning": "지역지구"
+    },
+    "onExamples": [
+      {
+        "word": "地域地区",
+        "reading": "ちいきちく",
+        "meaning": "지역지구"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도시계획 구역 문맥",
+    "memory_hint": "域(구역 역)은 흙(土) 위에 울타리(或)를 둘러 경계를 세우니 구역 역"
+  },
+  {
+    "id": 304,
+    "kanji": "種",
+    "meaning_kr": "종류",
+    "onyomi": "しゅ",
+    "kunyomi": "たね",
+    "bim_term": {
+      "word": "用途種別",
+      "reading": "ようとしゅべつ",
+      "meaning": "용도 종별"
+    },
+    "onExamples": [
+      {
+        "word": "用途種別",
+        "reading": "ようとしゅべつ",
+        "meaning": "용도 종별"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "種",
+        "reading": "たね",
+        "meaning": "종류"
+      }
+    ],
+    "importance": "A",
+    "reason": "법규 분류 문맥",
+    "memory_hint": "種(종류 종)은 벼(禾) 알을 무겁게(重) 나누어 심으니 종류 종"
+  },
+  {
+    "id": 305,
+    "kanji": "住",
+    "meaning_kr": "살다/주거",
+    "onyomi": "じゅう",
+    "kunyomi": "すむ",
+    "bim_term": {
+      "word": "住居地域",
+      "reading": "じゅうきょちいき",
+      "meaning": "주거지역"
+    },
+    "onExamples": [
+      {
+        "word": "住居地域",
+        "reading": "じゅうきょちいき",
+        "meaning": "주거지역"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "住",
+        "reading": "すむ",
+        "meaning": "살다"
+      }
+    ],
+    "importance": "A",
+    "reason": "용도지역 문맥",
+    "memory_hint": "住(살 주)는 사람(亻)이 기둥(主) 아래 머물러 사니 살 주"
+  },
+  {
+    "id": 306,
+    "kanji": "商",
+    "meaning_kr": "장사/상업",
+    "onyomi": "しょう",
+    "kunyomi": "あきなう",
+    "bim_term": {
+      "word": "商業地域",
+      "reading": "しょうぎょうちいき",
+      "meaning": "상업지역"
+    },
+    "onExamples": [
+      {
+        "word": "商業地域",
+        "reading": "しょうぎょうちいき",
+        "meaning": "상업지역"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "商",
+        "reading": "あきなう",
+        "meaning": "장사"
+      }
+    ],
+    "importance": "A",
+    "reason": "용도지역 문맥",
+    "memory_hint": "商(장사 상)은 지붕(亠) 아래 입(口)으로 값을 흥정하니 장사 상"
+  },
+  {
+    "id": 307,
+    "kanji": "業",
+    "meaning_kr": "업/산업",
+    "onyomi": "ぎょう",
+    "kunyomi": "わざ",
+    "bim_term": {
+      "word": "工業地域",
+      "reading": "こうぎょうちいき",
+      "meaning": "공업지역"
+    },
+    "onExamples": [
+      {
+        "word": "工業地域",
+        "reading": "こうぎょうちいき",
+        "meaning": "공업지역"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "業",
+        "reading": "わざ",
+        "meaning": "업"
+      }
+    ],
+    "importance": "A",
+    "reason": "용도지역 문맥",
+    "memory_hint": "業(업 업)은 나무판 위에 가지런한 일감이 쌓인 모양이니 업 업"
+  },
+  {
+    "id": 308,
+    "kanji": "居",
+    "meaning_kr": "거주",
+    "onyomi": "きょ",
+    "kunyomi": "いる",
+    "bim_term": {
+      "word": "住居用途",
+      "reading": "じゅうきょようと",
+      "meaning": "주거용도"
+    },
+    "onExamples": [
+      {
+        "word": "住居用途",
+        "reading": "じゅうきょようと",
+        "meaning": "주거용도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "居",
+        "reading": "いる",
+        "meaning": "거주"
+      }
+    ],
+    "importance": "A",
+    "reason": "주거 계획 문맥",
+    "memory_hint": "居(살 거)는 집(尸) 안에 옛 터(古) 잡고 머무니 살 거"
+  },
+  {
+    "id": 309,
+    "kanji": "専",
+    "meaning_kr": "오로지/전용",
+    "onyomi": "せん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "専用部分",
+      "reading": "せんようぶぶん",
+      "meaning": "전용부분"
+    },
+    "onExamples": [
+      {
+        "word": "専用部分",
+        "reading": "せんようぶぶん",
+        "meaning": "전용부분"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "주거·구획 문맥",
+    "memory_hint": "専(오로지 전)은 실타래를 한 손으로 붙들어 하나에만 쓰니 오로지 전"
+  },
+  {
+    "id": 310,
+    "kanji": "任",
+    "meaning_kr": "맡기다/책임",
+    "onyomi": "にん",
+    "kunyomi": "まかせる",
+    "bim_term": {
+      "word": "主任技術者",
+      "reading": "しゅにんぎじゅつしゃ",
+      "meaning": "주임기술자"
+    },
+    "onExamples": [
+      {
+        "word": "主任技術者",
+        "reading": "しゅにんぎじゅつしゃ",
+        "meaning": "주임기술자"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "任",
+        "reading": "まかせる",
+        "meaning": "맡기다"
+      }
+    ],
+    "importance": "A",
+    "reason": "현장 역할 문맥",
+    "memory_hint": "任(맡길 임)은 사람(亻)이 짐(壬)을 지고 책임지니 맡길 임"
+  },
+  {
+    "id": 311,
+    "kanji": "延",
+    "meaning_kr": "늘이다/연장",
+    "onyomi": "えん",
+    "kunyomi": "のべる",
+    "bim_term": {
+      "word": "延焼ライン",
+      "reading": "えんしょうライン",
+      "meaning": "연소라인"
+    },
+    "onExamples": [
+      {
+        "word": "延焼ライン",
+        "reading": "えんしょうライン",
+        "meaning": "연소라인"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "延",
+        "reading": "のべる",
+        "meaning": "늘이다"
+      }
+    ],
+    "importance": "A",
+    "reason": "대지·방재 문맥",
+    "memory_hint": "延(늘일 연)은 발걸음(廴)이 길게 이어져 뻗어가니 늘일 연"
+  },
+  {
+    "id": 312,
+    "kanji": "北",
+    "meaning_kr": "북쪽",
+    "onyomi": "ほく",
+    "kunyomi": "きた",
+    "bim_term": {
+      "word": "北側斜線",
+      "reading": "きたがわしゃせん",
+      "meaning": "북측사선"
+    },
+    "onExamples": [
+      {
+        "word": "北側斜線",
+        "reading": "きたがわしゃせん",
+        "meaning": "북측사선"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "北",
+        "reading": "きた",
+        "meaning": "북쪽"
+      }
+    ],
+    "importance": "A",
+    "reason": "사선제한 문맥",
+    "memory_hint": "北(북녘 북)은 두 사람이 등을 지고 반대로 서니 북녘 북"
+  },
+  {
+    "id": 313,
+    "kanji": "南",
+    "meaning_kr": "남쪽",
+    "onyomi": "なん",
+    "kunyomi": "みなみ",
+    "bim_term": {
+      "word": "南面採光",
+      "reading": "なんめんさいこう",
+      "meaning": "남면채광"
+    },
+    "onExamples": [
+      {
+        "word": "南面採光",
+        "reading": "なんめんさいこう",
+        "meaning": "남면채광"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "南",
+        "reading": "みなみ",
+        "meaning": "남쪽"
+      }
+    ],
+    "importance": "A",
+    "reason": "배치·채광 문맥",
+    "memory_hint": "南(남녘 남)은 지붕 아래 따뜻한 바람 드는 쪽이니 남녘 남"
+  },
+  {
+    "id": 314,
+    "kanji": "東",
+    "meaning_kr": "동쪽",
+    "onyomi": "とう",
+    "kunyomi": "ひがし",
+    "bim_term": {
+      "word": "東面立面図",
+      "reading": "とうめんりつめんず",
+      "meaning": "동측 입면도"
+    },
+    "onExamples": [
+      {
+        "word": "東面立面図",
+        "reading": "とうめんりつめんず",
+        "meaning": "동측 입면도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "東",
+        "reading": "ひがし",
+        "meaning": "동쪽"
+      }
+    ],
+    "importance": "A",
+    "reason": "방향·입면 문맥",
+    "memory_hint": "東(동녘 동)은 나무(木) 사이로 해(日)가 떠오르니 동녘 동"
+  },
+  {
+    "id": 315,
+    "kanji": "西",
+    "meaning_kr": "서쪽",
+    "onyomi": "せい",
+    "kunyomi": "にし",
+    "bim_term": {
+      "word": "西面立面図",
+      "reading": "せいめんりつめんず",
+      "meaning": "서측 입면도"
+    },
+    "onExamples": [
+      {
+        "word": "西面立面図",
+        "reading": "せいめんりつめんず",
+        "meaning": "서측 입면도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "西",
+        "reading": "にし",
+        "meaning": "서쪽"
+      }
+    ],
+    "importance": "A",
+    "reason": "방향·입면 문맥",
+    "memory_hint": "西(서녘 서)는 해가 그물(覀)처럼 걸려 내려가니 서녘 서"
+  },
+  {
+    "id": 316,
+    "kanji": "景",
+    "meaning_kr": "경관",
+    "onyomi": "けい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "景観条例",
+      "reading": "けいかんじょうれい",
+      "meaning": "경관조례"
+    },
+    "onExamples": [
+      {
+        "word": "景観条例",
+        "reading": "けいかんじょうれい",
+        "meaning": "경관조례"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "경관 심의 문맥",
+    "memory_hint": "景(볕 경)은 해(日)가 높은 곳(京)에서 비춰 보이는 풍경이니 볕 경"
+  },
+  {
+    "id": 317,
+    "kanji": "望",
+    "meaning_kr": "바라보다/조망",
+    "onyomi": "ぼう",
+    "kunyomi": "のぞむ",
+    "bim_term": {
+      "word": "眺望検討",
+      "reading": "ちょうぼうけんとう",
+      "meaning": "조망 검토"
+    },
+    "onExamples": [
+      {
+        "word": "眺望検討",
+        "reading": "ちょうぼうけんとう",
+        "meaning": "조망 검토"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "望",
+        "reading": "のぞむ",
+        "meaning": "바라보다"
+      }
+    ],
+    "importance": "A",
+    "reason": "배치·조망 문맥",
+    "memory_hint": "望(바랄 망)은 달(月) 밝은 밤 왕(王)처럼 멀리 바라보니 바랄 망"
+  },
+  {
+    "id": 318,
+    "kanji": "採",
+    "meaning_kr": "채취/채광",
+    "onyomi": "さい",
+    "kunyomi": "とる",
+    "bim_term": {
+      "word": "採光計画",
+      "reading": "さいこうけいかく",
+      "meaning": "채광계획"
+    },
+    "onExamples": [
+      {
+        "word": "採光計画",
+        "reading": "さいこうけいかく",
+        "meaning": "채광계획"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "採",
+        "reading": "とる",
+        "meaning": "채취"
+      }
+    ],
+    "importance": "A",
+    "reason": "채광 검토 문맥",
+    "memory_hint": "採(캘 채)는 손(扌)으로 나무(采)의 열매를 따내니 캘 채"
+  },
+  {
+    "id": 319,
+    "kanji": "光",
+    "meaning_kr": "빛",
+    "onyomi": "こう",
+    "kunyomi": "ひかり",
+    "bim_term": {
+      "word": "採光補正係数",
+      "reading": "さいこうほせいけいすう",
+      "meaning": "채광보정계수"
+    },
+    "onExamples": [
+      {
+        "word": "採光補正係数",
+        "reading": "さいこうほせいけいすう",
+        "meaning": "채광보정계수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "光",
+        "reading": "ひかり",
+        "meaning": "빛"
+      }
+    ],
+    "importance": "A",
+    "reason": "채광 계산 문맥",
+    "memory_hint": "光(빛 광)은 사람(儿) 머리 위로 불빛이 번쩍 나니 빛 광"
+  },
+  {
+    "id": 320,
+    "kanji": "風",
+    "meaning_kr": "바람/풍",
+    "onyomi": "ふう",
+    "kunyomi": "かぜ",
+    "bim_term": {
+      "word": "通風計画",
+      "reading": "つうふうけいかく",
+      "meaning": "통풍계획"
+    },
+    "onExamples": [
+      {
+        "word": "通風計画",
+        "reading": "つうふうけいかく",
+        "meaning": "통풍계획"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "風",
+        "reading": "かぜ",
+        "meaning": "바람"
+      }
+    ],
+    "importance": "A",
+    "reason": "환기·배치 문맥",
+    "memory_hint": "風(바람 풍)은 벌레(虫)도 들어 있는 틀(凡) 안을 휘도는 기운이니 바람 풍"
+  },
+  {
+    "id": 321,
+    "kanji": "境",
+    "meaning_kr": "경계",
+    "onyomi": "きょう",
+    "kunyomi": "さかい",
+    "bim_term": {
+      "word": "境界線",
+      "reading": "きょうかいせん",
+      "meaning": "경계선"
+    },
+    "onExamples": [
+      {
+        "word": "境界線",
+        "reading": "きょうかいせん",
+        "meaning": "경계선"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "境",
+        "reading": "さかい",
+        "meaning": "경계"
+      }
+    ],
+    "importance": "A",
+    "reason": "대지 경계 문맥",
+    "memory_hint": "境(지경 경)은 흙(土) 위에 끝(竟)을 정해 선을 그으니 지경 경"
+  },
+  {
+    "id": 322,
+    "kanji": "界",
+    "meaning_kr": "경계/세계",
+    "onyomi": "かい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "境界確定",
+      "reading": "きょうかいかくてい",
+      "meaning": "경계확정"
+    },
+    "onExamples": [
+      {
+        "word": "境界確定",
+        "reading": "きょうかいかくてい",
+        "meaning": "경계확정"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "대지 경계 문맥",
+    "memory_hint": "界(경계 계)는 밭(田)을 칼(介)처럼 나누어 구분하니 경계 계"
+  },
+  {
+    "id": 323,
+    "kanji": "敷",
+    "meaning_kr": "부지에 깔다",
+    "onyomi": "しき",
+    "kunyomi": "しく",
+    "bim_term": {
+      "word": "敷地境界線",
+      "reading": "しきちきょうかいせん",
+      "meaning": "대지경계선"
+    },
+    "onExamples": [
+      {
+        "word": "敷地境界線",
+        "reading": "しきちきょうかいせん",
+        "meaning": "대지경계선"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "敷",
+        "reading": "しく",
+        "meaning": "부지에 깔다"
+      }
+    ],
+    "importance": "A",
+    "reason": "건축계획 기본 문맥",
+    "memory_hint": "敷(깔 부)는 펼친 것(旉)을 손질해 땅에 넓게 펴니 깔 부"
+  },
+  {
+    "id": 324,
+    "kanji": "隣",
+    "meaning_kr": "이웃/인접",
+    "onyomi": "りん",
+    "kunyomi": "となり",
+    "bim_term": {
+      "word": "隣地境界線",
+      "reading": "りんちきょうかいせん",
+      "meaning": "인접대지경계선"
+    },
+    "onExamples": [
+      {
+        "word": "隣地境界線",
+        "reading": "りんちきょうかいせん",
+        "meaning": "인접대지경계선"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "隣",
+        "reading": "となり",
+        "meaning": "이웃"
+      }
+    ],
+    "importance": "A",
+    "reason": "대지 관계 문맥",
+    "memory_hint": "隣(이웃 린)은 언덕(阝) 옆에 나란한 집(粦)이 붙어 있으니 이웃 린"
+  },
+  {
+    "id": 325,
+    "kanji": "行",
+    "meaning_kr": "행하다/시행",
+    "onyomi": "こう",
+    "kunyomi": "おこなう",
+    "bim_term": {
+      "word": "施行令",
+      "reading": "しこうれい",
+      "meaning": "시행령"
+    },
+    "onExamples": [
+      {
+        "word": "施行令",
+        "reading": "しこうれい",
+        "meaning": "시행령"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "行",
+        "reading": "おこなう",
+        "meaning": "행하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "법규 문맥",
+    "memory_hint": "行(다닐 행)은 네거리 길이 곧게 뻗은 모양이니 다닐 행"
+  },
+  {
+    "id": 326,
+    "kanji": "則",
+    "meaning_kr": "법칙/규칙",
+    "onyomi": "そく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "施行規則",
+      "reading": "しこうきそく",
+      "meaning": "시행규칙"
+    },
+    "onExamples": [
+      {
+        "word": "施行規則",
+        "reading": "しこうきそく",
+        "meaning": "시행규칙"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "법규 문맥",
+    "memory_hint": "則(법칙 칙)은 조개(貝) 값을 칼(刂)로 가르듯 기준 세우니 법칙 칙"
+  },
+  {
+    "id": 327,
+    "kanji": "省",
+    "meaning_kr": "부처",
+    "onyomi": "しょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "国土交通省",
+      "reading": "こくどこうつうしょう",
+      "meaning": "국토교통성"
+    },
+    "onExamples": [
+      {
+        "word": "国土交通省",
+        "reading": "こくどこうつうしょう",
+        "meaning": "국토교통성"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "행정기관 문맥",
+    "memory_hint": "省(살필 성)은 적을 소(少)를 눈(目)으로 자세히 보니 살필 성"
+  },
+  {
+    "id": 328,
+    "kanji": "庁",
+    "meaning_kr": "관청",
+    "onyomi": "ちょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "建築審査庁",
+      "reading": "けんちくしんさちょう",
+      "meaning": "건축심사청"
+    },
+    "onExamples": [
+      {
+        "word": "建築審査庁",
+        "reading": "けんちくしんさちょう",
+        "meaning": "건축심사청"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "행정기관 문맥",
+    "memory_hint": "庁(관청 청)은 집(广) 아래 한 줄기(丁) 명령이 모이는 곳이니 관청 청"
+  },
+  {
+    "id": 329,
+    "kanji": "府",
+    "meaning_kr": "도부현의 부",
+    "onyomi": "ふ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "大阪府",
+      "reading": "おおさかふ",
+      "meaning": "오사카부"
+    },
+    "onExamples": [
+      {
+        "word": "大阪府",
+        "reading": "おおさかふ",
+        "meaning": "오사카부"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "행정구역 문맥",
+    "memory_hint": "府(마을 부/관청 부)는 집(广) 안에 사람(付)이 모여 행정 보는 곳이니 부"
+  },
+  {
+    "id": 330,
+    "kanji": "県",
+    "meaning_kr": "현",
+    "onyomi": "けん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "神奈川県",
+      "reading": "かながわけん",
+      "meaning": "가나가와현"
+    },
+    "onExamples": [
+      {
+        "word": "神奈川県",
+        "reading": "かながわけん",
+        "meaning": "가나가와현"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "행정구역 문맥",
+    "memory_hint": "県(고을 현)은 그물에 걸린 눈(目)을 들어 표지하니 고을 현"
+  },
+  {
+    "id": 331,
+    "kanji": "市",
+    "meaning_kr": "시",
+    "onyomi": "し",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "横浜市",
+      "reading": "よこはまし",
+      "meaning": "요코하마시"
+    },
+    "onExamples": [
+      {
+        "word": "横浜市",
+        "reading": "よこはまし",
+        "meaning": "요코하마시"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "행정구역 문맥",
+    "memory_hint": "市(저자 시)는 깃발 모양 아래 천(巾) 막이 선 시장이니 저자 시"
+  },
+  {
+    "id": 332,
+    "kanji": "町",
+    "meaning_kr": "마을/정",
+    "onyomi": "ちょう",
+    "kunyomi": "まち",
+    "bim_term": {
+      "word": "町丁目",
+      "reading": "ちょうちょうめ",
+      "meaning": "번지 구획"
+    },
+    "onExamples": [
+      {
+        "word": "町丁目",
+        "reading": "ちょうちょうめ",
+        "meaning": "번지 구획"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "町",
+        "reading": "まち",
+        "meaning": "마을"
+      }
+    ],
+    "importance": "A",
+    "reason": "주소·행정 문맥",
+    "memory_hint": "町(마을 정)은 밭(田)과 길(丁)이 만나 이룬 구획이니 마을 정"
+  },
+  {
+    "id": 333,
+    "kanji": "村",
+    "meaning_kr": "마을/촌",
+    "onyomi": "そん",
+    "kunyomi": "むら",
+    "bim_term": {
+      "word": "村役場",
+      "reading": "むらやくば",
+      "meaning": "촌사무소"
+    },
+    "onExamples": [
+      {
+        "word": "村役場",
+        "reading": "むらやくば",
+        "meaning": "촌사무소"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "村",
+        "reading": "むら",
+        "meaning": "마을"
+      }
+    ],
+    "importance": "A",
+    "reason": "행정구역 문맥",
+    "memory_hint": "村(마을 촌)은 나무(木) 곁에 마을 표시(寸)가 있으니 마을 촌"
+  },
+  {
+    "id": 334,
+    "kanji": "済",
+    "meaning_kr": "끝나다/완료",
+    "onyomi": "さい",
+    "kunyomi": "すむ",
+    "bim_term": {
+      "word": "確認済証",
+      "reading": "かくにんずみしょう",
+      "meaning": "확인필증"
+    },
+    "onExamples": [
+      {
+        "word": "確認済証",
+        "reading": "かくにんずみしょう",
+        "meaning": "확인필증"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "済",
+        "reading": "すむ",
+        "meaning": "끝나다"
+      }
+    ],
+    "importance": "A",
+    "reason": "인허가 문맥",
+    "memory_hint": "済(마칠 제)은 물(氵)을 가지런히 건너 끝냈으니 마칠 제"
+  },
+  {
+    "id": 335,
+    "kanji": "証",
+    "meaning_kr": "증명",
+    "onyomi": "しょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "確認済証",
+      "reading": "かくにんずみしょう",
+      "meaning": "확인필증"
+    },
+    "onExamples": [
+      {
+        "word": "確認済証",
+        "reading": "かくにんずみしょう",
+        "meaning": "확인필증"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "인허가 문맥",
+    "memory_hint": "証(증거 증)은 말(言)로 바름(正)을 밝혀 보이니 증거 증"
+  },
+  {
+    "id": 336,
+    "kanji": "完",
+    "meaning_kr": "완전/완료",
+    "onyomi": "かん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "完了検査",
+      "reading": "かんりょうけんさ",
+      "meaning": "완료검사"
+    },
+    "onExamples": [
+      {
+        "word": "完了検査",
+        "reading": "かんりょうけんさ",
+        "meaning": "완료검사"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "준공 인허가 문맥",
+    "memory_hint": "完(완전 완)은 지붕(宀) 아래 사람(元)이 다 갖춰졌으니 완전 완"
+  },
+  {
+    "id": 337,
+    "kanji": "了",
+    "meaning_kr": "마치다",
+    "onyomi": "りょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "完了検査済証",
+      "reading": "かんりょうけんさずみしょう",
+      "meaning": "완료검사필증"
+    },
+    "onExamples": [
+      {
+        "word": "完了検査済証",
+        "reading": "かんりょうけんさずみしょう",
+        "meaning": "완료검사필증"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "준공 인허가 문맥",
+    "memory_hint": "了(마칠 료)는 갈고리 모양으로 일을 끝맺으니 마칠 료"
+  },
+  {
+    "id": 338,
+    "kanji": "交",
+    "meaning_kr": "교차/교부",
+    "onyomi": "こう",
+    "kunyomi": "まじわる",
+    "bim_term": {
+      "word": "交付申請",
+      "reading": "こうふしんせい",
+      "meaning": "교부신청"
+    },
+    "onExamples": [
+      {
+        "word": "交付申請",
+        "reading": "こうふしんせい",
+        "meaning": "교부신청"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "交",
+        "reading": "まじわる",
+        "meaning": "교차"
+      }
+    ],
+    "importance": "A",
+    "reason": "행정 서류 문맥",
+    "memory_hint": "交(사귈 교)는 사람 다리 모양이 서로 엇갈리니 사귈 교"
+  },
+  {
+    "id": 339,
+    "kanji": "帳",
+    "meaning_kr": "장부",
+    "onyomi": "ちょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "台帳登録",
+      "reading": "だいちょうとうろく",
+      "meaning": "대장등록"
+    },
+    "onExamples": [
+      {
+        "word": "台帳登録",
+        "reading": "だいちょうとうろく",
+        "meaning": "대장등록"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "시설 관리 문맥",
+    "memory_hint": "帳(장막 장/장부 장)은 천(巾)에 길게(長) 적어 두니 장부 장"
+  },
+  {
+    "id": 340,
+    "kanji": "登",
+    "meaning_kr": "오르다/등록",
+    "onyomi": "とう",
+    "kunyomi": "のぼる",
+    "bim_term": {
+      "word": "登記簿",
+      "reading": "とうきぼ",
+      "meaning": "등기부"
+    },
+    "onExamples": [
+      {
+        "word": "登記簿",
+        "reading": "とうきぼ",
+        "meaning": "등기부"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "登",
+        "reading": "のぼる",
+        "meaning": "오르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "행정 등록 문맥",
+    "memory_hint": "登(오를 등)은 발판(癶) 위에 제기(豆)를 놓고 올라서니 오를 등"
+  },
+  {
+    "id": 341,
+    "kanji": "録",
+    "meaning_kr": "기록",
+    "onyomi": "ろく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "登録情報",
+      "reading": "とうろくじょうほう",
+      "meaning": "등록정보"
+    },
+    "onExamples": [
+      {
+        "word": "登録情報",
+        "reading": "とうろくじょうほう",
+        "meaning": "등록정보"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "시스템 관리 문맥",
+    "memory_hint": "録(기록 록)은 쇠(金)칼로 새겨 남기니 기록 록"
+  },
+  {
+    "id": 342,
+    "kanji": "載",
+    "meaning_kr": "싣다/기재",
+    "onyomi": "さい",
+    "kunyomi": "のせる",
+    "bim_term": {
+      "word": "記載事項",
+      "reading": "きさいじこう",
+      "meaning": "기재사항"
+    },
+    "onExamples": [
+      {
+        "word": "記載事項",
+        "reading": "きさいじこう",
+        "meaning": "기재사항"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "載",
+        "reading": "のせる",
+        "meaning": "싣다"
+      }
+    ],
+    "importance": "A",
+    "reason": "문서 표기 문맥",
+    "memory_hint": "載(실을 재)은 수레(車)에 흙(土) 짐을 실어 올리니 실을 재"
+  },
+  {
+    "id": 343,
+    "kanji": "掲",
+    "meaning_kr": "걸다/게시",
+    "onyomi": "けい",
+    "kunyomi": "かかげる",
+    "bim_term": {
+      "word": "掲示板",
+      "reading": "けいじばん",
+      "meaning": "게시판"
+    },
+    "onExamples": [
+      {
+        "word": "掲示板",
+        "reading": "けいじばん",
+        "meaning": "게시판"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "掲",
+        "reading": "かかげる",
+        "meaning": "걸다"
+      }
+    ],
+    "importance": "A",
+    "reason": "현장 공지 문맥",
+    "memory_hint": "掲(걸 게)는 손(扌)으로 해(日) 아래 쪽지를 높이 드니 걸 게"
+  },
+  {
+    "id": 344,
+    "kanji": "示",
+    "meaning_kr": "보이다/표시",
+    "onyomi": "じ",
+    "kunyomi": "しめす",
+    "bim_term": {
+      "word": "表示内容",
+      "reading": "ひょうじないよう",
+      "meaning": "표시내용"
+    },
+    "onExamples": [
+      {
+        "word": "表示内容",
+        "reading": "ひょうじないよう",
+        "meaning": "표시내용"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "示",
+        "reading": "しめす",
+        "meaning": "보이다"
+      }
+    ],
+    "importance": "A",
+    "reason": "도면·UI 표기 문맥",
+    "memory_hint": "示(보일 시)는 제단 모양에 신호를 내려 보이니 보일 시"
+  },
+  {
+    "id": 345,
+    "kanji": "識",
+    "meaning_kr": "알다/식별",
+    "onyomi": "しき",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "識別番号",
+      "reading": "しきべつばんごう",
+      "meaning": "식별번호"
+    },
+    "onExamples": [
+      {
+        "word": "識別番号",
+        "reading": "しきべつばんごう",
+        "meaning": "식별번호"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "객체 식별 문맥",
+    "memory_hint": "識(알 식)은 말(言)을 소리(音)와 창(戈)처럼 구별해 알아보니 알 식"
+  },
+  {
+    "id": 346,
+    "kanji": "経",
+    "meaning_kr": "지나다/경로",
+    "onyomi": "けい",
+    "kunyomi": "へる",
+    "bim_term": {
+      "word": "避難経路",
+      "reading": "ひなんけいろ",
+      "meaning": "피난경로"
+    },
+    "onExamples": [
+      {
+        "word": "避難経路",
+        "reading": "ひなんけいろ",
+        "meaning": "피난경로"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "経",
+        "reading": "へる",
+        "meaning": "지나다"
+      }
+    ],
+    "importance": "A",
+    "reason": "피난 계획 문맥",
+    "memory_hint": "経(지날 경)은 실(糸)이 곧게(圣) 이어 지나가니 지날 경"
+  },
+  {
+    "id": 347,
+    "kanji": "昇",
+    "meaning_kr": "오르다",
+    "onyomi": "しょう",
+    "kunyomi": "のぼる",
+    "bim_term": {
+      "word": "昇降機",
+      "reading": "しょうこうき",
+      "meaning": "승강기"
+    },
+    "onExamples": [
+      {
+        "word": "昇降機",
+        "reading": "しょうこうき",
+        "meaning": "승강기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "昇",
+        "reading": "のぼる",
+        "meaning": "오르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "수직동선 문맥",
+    "memory_hint": "昇(오를 승)은 해(日)를 받쳐 두 손으로 올리니 오를 승"
+  },
+  {
+    "id": 348,
+    "kanji": "降",
+    "meaning_kr": "내리다",
+    "onyomi": "こう",
+    "kunyomi": "おりる",
+    "bim_term": {
+      "word": "昇降路",
+      "reading": "しょうこうろ",
+      "meaning": "승강로"
+    },
+    "onExamples": [
+      {
+        "word": "昇降路",
+        "reading": "しょうこうろ",
+        "meaning": "승강로"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "降",
+        "reading": "おりる",
+        "meaning": "내리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "수직동선 문맥",
+    "memory_hint": "降(내릴 강)은 언덕(阝)에서 걸음이 내려오니 내릴 강"
+  },
+  {
+    "id": 349,
+    "kanji": "消",
+    "meaning_kr": "끄다/소화",
+    "onyomi": "しょう",
+    "kunyomi": "けす",
+    "bim_term": {
+      "word": "消火設備",
+      "reading": "しょうかせつび",
+      "meaning": "소화설비"
+    },
+    "onExamples": [
+      {
+        "word": "消火設備",
+        "reading": "しょうかせつび",
+        "meaning": "소화설비"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "消",
+        "reading": "けす",
+        "meaning": "끄다"
+      }
+    ],
+    "importance": "A",
+    "reason": "방재 설비 문맥",
+    "memory_hint": "消(사라질 소)는 물(氵)이 불빛(肖)을 꺼 없애니 사라질 소"
+  },
+  {
+    "id": 350,
+    "kanji": "栓",
+    "meaning_kr": "마개/전",
+    "onyomi": "せん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "消火栓",
+      "reading": "しょうかせん",
+      "meaning": "소화전"
+    },
+    "onExamples": [
+      {
+        "word": "消火栓",
+        "reading": "しょうかせん",
+        "meaning": "소화전"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "소방 설비 문맥",
+    "memory_hint": "栓(마개 전)은 나무(木) 조각을 모두(全) 막아 꽂으니 마개 전"
+  },
+  {
+    "id": 351,
+    "kanji": "報",
+    "meaning_kr": "알리다/보고",
+    "onyomi": "ほう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "火災報知設備",
+      "reading": "かさいほうちせつび",
+      "meaning": "화재감지설비"
+    },
+    "onExamples": [
+      {
+        "word": "火災報知設備",
+        "reading": "かさいほうちせつび",
+        "meaning": "화재감지설비"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "소방 전기 문맥",
+    "memory_hint": "報(알릴 보)는 흙(幸)의 일을 손(攴)으로 두드려 알리니 알릴 보"
+  },
+  {
+    "id": 352,
+    "kanji": "知",
+    "meaning_kr": "알다/감지",
+    "onyomi": "ち",
+    "kunyomi": "しる",
+    "bim_term": {
+      "word": "報知器",
+      "reading": "ほうちき",
+      "meaning": "감지기"
+    },
+    "onExamples": [
+      {
+        "word": "報知器",
+        "reading": "ほうちき",
+        "meaning": "감지기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "知",
+        "reading": "しる",
+        "meaning": "알다"
+      }
+    ],
+    "importance": "A",
+    "reason": "화재감지 문맥",
+    "memory_hint": "知(알 지)는 화살(矢)처럼 분명한 말을 입(口)으로 전해 아느니 알 지"
+  },
+  {
+    "id": 353,
+    "kanji": "感",
+    "meaning_kr": "느끼다/감지",
+    "onyomi": "かん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "感知器",
+      "reading": "かんちき",
+      "meaning": "감지기"
+    },
+    "onExamples": [
+      {
+        "word": "感知器",
+        "reading": "かんちき",
+        "meaning": "감지기"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "소방 센서 문맥",
+    "memory_hint": "感(느낄 감)은 입(咸) 다문 마음(心)에 울림이 생기니 느낄 감"
+  },
+  {
+    "id": 354,
+    "kanji": "動",
+    "meaning_kr": "움직이다/동작",
+    "onyomi": "どう",
+    "kunyomi": "うごく",
+    "bim_term": {
+      "word": "連動制御",
+      "reading": "れんどうせいぎょ",
+      "meaning": "연동제어"
+    },
+    "onExamples": [
+      {
+        "word": "連動制御",
+        "reading": "れんどうせいぎょ",
+        "meaning": "연동제어"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "動",
+        "reading": "うごく",
+        "meaning": "움직이다"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 연동 문맥",
+    "memory_hint": "動(움직일 동)은 무거운 것(重)에 힘(力)이 더해져 움직이니 움직일 동"
+  },
+  {
+    "id": 355,
+    "kanji": "警",
+    "meaning_kr": "경계/경보",
+    "onyomi": "けい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "警報設備",
+      "reading": "けいほうせつび",
+      "meaning": "경보설비"
+    },
+    "onExamples": [
+      {
+        "word": "警報設備",
+        "reading": "けいほうせつび",
+        "meaning": "경보설비"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "방재 알람 문맥",
+    "memory_hint": "警(깨우칠 경)은 말(言)로 공경(敬)스럽게 경계시키니 경계할 경"
+  },
+  {
+    "id": 356,
+    "kanji": "鳴",
+    "meaning_kr": "울다/울리다",
+    "onyomi": "めい",
+    "kunyomi": "なく",
+    "bim_term": {
+      "word": "警鳴盤",
+      "reading": "けいめいばん",
+      "meaning": "경보반"
+    },
+    "onExamples": [
+      {
+        "word": "警鳴盤",
+        "reading": "けいめいばん",
+        "meaning": "경보반"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "鳴",
+        "reading": "なく",
+        "meaning": "울다"
+      }
+    ],
+    "importance": "A",
+    "reason": "경보 장치 문맥",
+    "memory_hint": "鳴(울 명)은 새(鳥)가 입(口) 벌려 소리 내니 울 명"
+  },
+  {
+    "id": 357,
+    "kanji": "非",
+    "meaning_kr": "아니다/비상",
+    "onyomi": "ひ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "非常用照明",
+      "reading": "ひじょうようしょうめい",
+      "meaning": "비상조명"
+    },
+    "onExamples": [
+      {
+        "word": "非常用照明",
+        "reading": "ひじょうようしょうめい",
+        "meaning": "비상조명"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "방재·비상 문맥",
+    "memory_hint": "非(아닐 비)는 깃털 둘이 어긋나 서로 같지 않으니 아닐 비"
+  },
+  {
+    "id": 358,
+    "kanji": "常",
+    "meaning_kr": "항상/상",
+    "onyomi": "じょう",
+    "kunyomi": "つね",
+    "bim_term": {
+      "word": "非常口",
+      "reading": "ひじょうぐち",
+      "meaning": "비상구"
+    },
+    "onExamples": [
+      {
+        "word": "非常口",
+        "reading": "ひじょうぐち",
+        "meaning": "비상구"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "常",
+        "reading": "つね",
+        "meaning": "항상"
+      }
+    ],
+    "importance": "A",
+    "reason": "방재·비상 문맥",
+    "memory_hint": "常(항상 상)은 지붕 아래 수건(巾)처럼 늘 걸려 변함없으니 항상 상"
+  },
+  {
+    "id": 359,
+    "kanji": "区",
+    "meaning_kr": "구분/구역",
+    "onyomi": "く",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "防火区画",
+      "reading": "ぼうかくかく",
+      "meaning": "방화구획"
+    },
+    "onExamples": [
+      {
+        "word": "防火区画",
+        "reading": "ぼうかくかく",
+        "meaning": "방화구획"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "방화구획 문맥",
+    "memory_hint": "区(구역 구)는 상자(匚) 안을 갈라 나누니 구역 구"
+  },
+  {
+    "id": 360,
+    "kanji": "画",
+    "meaning_kr": "획/구획",
+    "onyomi": "かく",
+    "kunyomi": "えがく",
+    "bim_term": {
+      "word": "区画線",
+      "reading": "くかくせん",
+      "meaning": "구획선"
+    },
+    "onExamples": [
+      {
+        "word": "区画線",
+        "reading": "くかくせん",
+        "meaning": "구획선"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "画",
+        "reading": "えがく",
+        "meaning": "획"
+      }
+    ],
+    "importance": "A",
+    "reason": "평면 구획 문맥",
+    "memory_hint": "画(획 화)는 밭(田)을 한 줄(一)로 가르며 나누니 획 화"
+  },
+  {
+    "id": 361,
+    "kanji": "貫",
+    "meaning_kr": "꿰뚫다",
+    "onyomi": "かん",
+    "kunyomi": "つらぬく",
+    "bim_term": {
+      "word": "貫通部",
+      "reading": "かんつうぶ",
+      "meaning": "관통부"
+    },
+    "onExamples": [
+      {
+        "word": "貫通部",
+        "reading": "かんつうぶ",
+        "meaning": "관통부"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "貫",
+        "reading": "つらぬく",
+        "meaning": "꿰뚫다"
+      }
+    ],
+    "importance": "A",
+    "reason": "슬래브·벽 관통 문맥",
+    "memory_hint": "貫(꿸 관)은 조개(貝)를 막대가 가운데로 꿰뚫으니 꿸 관"
+  },
+  {
+    "id": 362,
+    "kanji": "穴",
+    "meaning_kr": "구멍",
+    "onyomi": "けつ",
+    "kunyomi": "あな",
+    "bim_term": {
+      "word": "開口穴",
+      "reading": "かいこうあな",
+      "meaning": "개구부 구멍"
+    },
+    "onExamples": [
+      {
+        "word": "開口穴",
+        "reading": "かいこうあな",
+        "meaning": "개구부 구멍"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "穴",
+        "reading": "あな",
+        "meaning": "구멍"
+      }
+    ],
+    "importance": "A",
+    "reason": "개구·관통 문맥",
+    "memory_hint": "穴(구멍 혈)은 지붕(宀) 아래가 푹 비어 있으니 구멍 혈"
+  },
+  {
+    "id": 363,
+    "kanji": "充",
+    "meaning_kr": "채우다",
+    "onyomi": "じゅう",
+    "kunyomi": "みたす",
+    "bim_term": {
+      "word": "充填材",
+      "reading": "じゅうてんざい",
+      "meaning": "충전재"
+    },
+    "onExamples": [
+      {
+        "word": "充填材",
+        "reading": "じゅうてんざい",
+        "meaning": "충전재"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "充",
+        "reading": "みたす",
+        "meaning": "채우다"
+      }
+    ],
+    "importance": "A",
+    "reason": "관통부 보강 문맥",
+    "memory_hint": "充(채울 충)은 아이(儿) 머리(亠)까지 가득 차니 채울 충"
+  },
+  {
+    "id": 364,
+    "kanji": "填",
+    "meaning_kr": "메우다",
+    "onyomi": "てん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "充填工法",
+      "reading": "じゅうてんこうほう",
+      "meaning": "충전공법"
+    },
+    "onExamples": [
+      {
+        "word": "充填工法",
+        "reading": "じゅうてんこうほう",
+        "meaning": "충전공법"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "내화 충전 문맥",
+    "memory_hint": "填(메울 전)은 흙(土)을 진실로(真) 가득 넣으니 메울 전"
+  },
+  {
+    "id": 365,
+    "kanji": "覆",
+    "meaning_kr": "덮다/피복",
+    "onyomi": "ふく",
+    "kunyomi": "おおう",
+    "bim_term": {
+      "word": "被覆材",
+      "reading": "ひふくざい",
+      "meaning": "피복재"
+    },
+    "onExamples": [
+      {
+        "word": "被覆材",
+        "reading": "ひふくざい",
+        "meaning": "피복재"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "覆",
+        "reading": "おおう",
+        "meaning": "덮다"
+      }
+    ],
+    "importance": "A",
+    "reason": "보온·내화 피복 문맥",
+    "memory_hint": "覆(덮을 복)은 서쪽(覀) 덮개 아래 발걸음(復)이 가리워지니 덮을 복"
+  },
+  {
+    "id": 366,
+    "kanji": "張",
+    "meaning_kr": "당기다/붙이다",
+    "onyomi": "ちょう",
+    "kunyomi": "はる",
+    "bim_term": {
+      "word": "天井張り",
+      "reading": "てんじょうばり",
+      "meaning": "천장 마감 붙임"
+    },
+    "onExamples": [
+      {
+        "word": "天井張り",
+        "reading": "てんじょうばり",
+        "meaning": "천장 마감 붙임"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "張",
+        "reading": "はる",
+        "meaning": "당기다"
+      }
+    ],
+    "importance": "A",
+    "reason": "마감 시공 문맥",
+    "memory_hint": "張(베풀 장)는 활(弓)을 길게(長) 당겨 펴니 베풀 장"
+  },
+  {
+    "id": 367,
+    "kanji": "貼",
+    "meaning_kr": "붙이다",
+    "onyomi": "ちょう",
+    "kunyomi": "はる",
+    "bim_term": {
+      "word": "タイル貼り",
+      "reading": "タイルばり",
+      "meaning": "타일 붙임"
+    },
+    "onExamples": [
+      {
+        "word": "タイル貼り",
+        "reading": "タイルばり",
+        "meaning": "타일 붙임"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "貼",
+        "reading": "はる",
+        "meaning": "붙이다"
+      }
+    ],
+    "importance": "A",
+    "reason": "마감 시공 문맥",
+    "memory_hint": "貼(붙일 첩)는 조개껍질(貝) 같은 판을 점(占) 찍어 붙이니 붙일 첩"
+  },
+  {
+    "id": 368,
+    "kanji": "左",
+    "meaning_kr": "왼쪽",
+    "onyomi": "さ",
+    "kunyomi": "ひだり",
+    "bim_term": {
+      "word": "左官仕上",
+      "reading": "さかんしあげ",
+      "meaning": "미장 마감"
+    },
+    "onExamples": [
+      {
+        "word": "左官仕上",
+        "reading": "さかんしあげ",
+        "meaning": "미장 마감"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "meaning": "왼쪽"
+      }
+    ],
+    "importance": "A",
+    "reason": "마감 공종 문맥",
+    "memory_hint": "左(왼 좌)는 손(𠂇)으로 일을 받드는 쪽이니 왼 좌"
+  },
+  {
+    "id": 369,
+    "kanji": "官",
+    "meaning_kr": "관/공인",
+    "onyomi": "かん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "左官工事",
+      "reading": "さかんこうじ",
+      "meaning": "미장공사"
+    },
+    "onExamples": [
+      {
+        "word": "左官工事",
+        "reading": "さかんこうじ",
+        "meaning": "미장공사"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "마감 공종 문맥",
+    "memory_hint": "官(벼슬 관)은 지붕(宀) 아래 입구가 정해진 관청이니 벼슬 관"
+  },
+  {
+    "id": 370,
+    "kanji": "吹",
+    "meaning_kr": "불다/분사",
+    "onyomi": "すい",
+    "kunyomi": "ふく",
+    "bim_term": {
+      "word": "吹付塗装",
+      "reading": "ふきつけとそう",
+      "meaning": "분사도장"
+    },
+    "onExamples": [
+      {
+        "word": "吹付塗装",
+        "reading": "ふきつけとそう",
+        "meaning": "분사도장"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "吹",
+        "reading": "ふく",
+        "meaning": "불다"
+      }
+    ],
+    "importance": "A",
+    "reason": "도장·단열 문맥",
+    "memory_hint": "吹(불 취)는 입(口)으로 하품하듯 바람을 내보내니 불 취"
+  },
+  {
+    "id": 371,
+    "kanji": "乾",
+    "meaning_kr": "마르다",
+    "onyomi": "かん",
+    "kunyomi": "かわく",
+    "bim_term": {
+      "word": "乾燥時間",
+      "reading": "かんそうじかん",
+      "meaning": "건조시간"
+    },
+    "onExamples": [
+      {
+        "word": "乾燥時間",
+        "reading": "かんそうじかん",
+        "meaning": "건조시간"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "乾",
+        "reading": "かわく",
+        "meaning": "마르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "도장·마감 문맥",
+    "memory_hint": "乾(마를 건)은 해(日)와 깃발(乞)이 바싹 마른 모습이니 마를 건"
+  },
+  {
+    "id": 372,
+    "kanji": "湿",
+    "meaning_kr": "젖다/습기",
+    "onyomi": "しつ",
+    "kunyomi": "しめる",
+    "bim_term": {
+      "word": "湿式工法",
+      "reading": "しっしきこうほう",
+      "meaning": "습식공법"
+    },
+    "onExamples": [
+      {
+        "word": "湿式工法",
+        "reading": "しっしきこうほう",
+        "meaning": "습식공법"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "湿",
+        "reading": "しめる",
+        "meaning": "젖다"
+      }
+    ],
+    "importance": "A",
+    "reason": "마감 공법 문맥",
+    "memory_hint": "湿(젖을 습)은 물(氵)과 해(日) 기운이 어울려 축축해지니 젖을 습"
+  },
+  {
+    "id": 373,
+    "kanji": "目",
+    "meaning_kr": "눈/눈목",
+    "onyomi": "もく",
+    "kunyomi": "め",
+    "bim_term": {
+      "word": "目地材",
+      "reading": "めじざい",
+      "meaning": "줄눈재"
+    },
+    "onExamples": [
+      {
+        "word": "目地材",
+        "reading": "めじざい",
+        "meaning": "줄눈재"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "目",
+        "reading": "め",
+        "meaning": "눈"
+      }
+    ],
+    "importance": "A",
+    "reason": "마감 디테일 문맥",
+    "memory_hint": "目(눈 목)은 사람의 눈 모양을 본떠서 눈 목"
+  },
+  {
+    "id": 374,
+    "kanji": "伸",
+    "meaning_kr": "늘어나다",
+    "onyomi": "しん",
+    "kunyomi": "のびる",
+    "bim_term": {
+      "word": "伸縮目地",
+      "reading": "しんしゅくめじ",
+      "meaning": "신축줄눈"
+    },
+    "onExamples": [
+      {
+        "word": "伸縮目地",
+        "reading": "しんしゅくめじ",
+        "meaning": "신축줄눈"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "伸",
+        "reading": "のびる",
+        "meaning": "늘어나다"
+      }
+    ],
+    "importance": "A",
+    "reason": "온도변형 문맥",
+    "memory_hint": "伸(펼 신)은 사람(亻)이 몸(申)을 길게 펴니 펼 신"
+  },
+  {
+    "id": 375,
+    "kanji": "固",
+    "meaning_kr": "굳다/고정",
+    "onyomi": "こ",
+    "kunyomi": "かためる",
+    "bim_term": {
+      "word": "固定金具",
+      "reading": "こていかなぐ",
+      "meaning": "고정금구"
+    },
+    "onExamples": [
+      {
+        "word": "固定金具",
+        "reading": "こていかなぐ",
+        "meaning": "고정금구"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "固",
+        "reading": "かためる",
+        "meaning": "굳다"
+      }
+    ],
+    "importance": "A",
+    "reason": "설치·고정 문맥",
+    "memory_hint": "固(굳을 고)는 상자(囗) 안에 옛것(古)을 넣어 굳게 막으니 굳을 고"
+  },
+  {
+    "id": 376,
+    "kanji": "替",
+    "meaning_kr": "바꾸다",
+    "onyomi": "たい",
+    "kunyomi": "かえる",
+    "bim_term": {
+      "word": "取替工事",
+      "reading": "とりかえこうじ",
+      "meaning": "교체공사"
+    },
+    "onExamples": [
+      {
+        "word": "取替工事",
+        "reading": "とりかえこうじ",
+        "meaning": "교체공사"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "替",
+        "reading": "かえる",
+        "meaning": "바꾸다"
+      }
+    ],
+    "importance": "A",
+    "reason": "유지보수 문맥",
+    "memory_hint": "替(바꿀 체)는 두 사람(夫夫)이 번갈아 자리 바꾸니 바꿀 체"
+  },
+  {
+    "id": 377,
+    "kanji": "繕",
+    "meaning_kr": "깁다/보수",
+    "onyomi": "ぜん",
+    "kunyomi": "つくろう",
+    "bim_term": {
+      "word": "修繕計画",
+      "reading": "しゅうぜんけいかく",
+      "meaning": "수선계획"
+    },
+    "onExamples": [
+      {
+        "word": "修繕計画",
+        "reading": "しゅうぜんけいかく",
+        "meaning": "수선계획"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "繕",
+        "reading": "つくろう",
+        "meaning": "깁다"
+      }
+    ],
+    "importance": "A",
+    "reason": "유지보수 문맥",
+    "memory_hint": "繕(기울 선)은 실(糸)과 좋은 것(善)을 엮어 찢긴 곳을 기우니 기울 선"
+  },
+  {
+    "id": 378,
+    "kanji": "存",
+    "meaning_kr": "존재/기존",
+    "onyomi": "そん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "既存図",
+      "reading": "きそんず",
+      "meaning": "기존도면"
+    },
+    "onExamples": [
+      {
+        "word": "既存図",
+        "reading": "きそんず",
+        "meaning": "기존도면"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "리모델링 문맥",
+    "memory_hint": "存(있을 존)은 자(子)를 손에 두고 남겨 두니 있을 존"
+  },
+  {
+    "id": 379,
+    "kanji": "移",
+    "meaning_kr": "옮기다",
+    "onyomi": "い",
+    "kunyomi": "うつす",
+    "bim_term": {
+      "word": "移設工事",
+      "reading": "いせつこうじ",
+      "meaning": "이설공사"
+    },
+    "onExamples": [
+      {
+        "word": "移設工事",
+        "reading": "いせつこうじ",
+        "meaning": "이설공사"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "移",
+        "reading": "うつす",
+        "meaning": "옮기다"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 이전 문맥",
+    "memory_hint": "移(옮길 이)는 벼(禾)를 많음(多) 따라 다른 곳으로 옮기니 옮길 이"
+  },
+  {
+    "id": 380,
+    "kanji": "期",
+    "meaning_kr": "기한/시기",
+    "onyomi": "き",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "工期",
+      "reading": "こうき",
+      "meaning": "공기"
+    },
+    "onExamples": [
+      {
+        "word": "工期",
+        "reading": "こうき",
+        "meaning": "공기"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "공정 관리 문맥",
+    "memory_hint": "期(기약할 기)는 그(其)날을 달(月)로 정해 두니 기약할 기"
+  },
+  {
+    "id": 381,
+    "kanji": "歩",
+    "meaning_kr": "걷다/보",
+    "onyomi": "ほ",
+    "kunyomi": "あるく",
+    "bim_term": {
+      "word": "歩掛",
+      "reading": "ぶがかり",
+      "meaning": "노무량 기준"
+    },
+    "onExamples": [
+      {
+        "word": "歩掛",
+        "reading": "ぶがかり",
+        "meaning": "노무량 기준"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "歩",
+        "reading": "あるく",
+        "meaning": "걷다"
+      }
+    ],
+    "importance": "A",
+    "reason": "적산 문맥",
+    "memory_hint": "歩(걸음 보)는 발(止)을 조금(少)씩 옮기며 걷는 모습이니 걸음 보"
+  },
+  {
+    "id": 382,
+    "kanji": "掛",
+    "meaning_kr": "걸다/걸이",
+    "onyomi": "か",
+    "kunyomi": "かける",
+    "bim_term": {
+      "word": "歩掛",
+      "reading": "ぶがかり",
+      "meaning": "노무량 기준"
+    },
+    "onExamples": [
+      {
+        "word": "歩掛",
+        "reading": "ぶがかり",
+        "meaning": "노무량 기준"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "掛",
+        "reading": "かける",
+        "meaning": "걸다"
+      }
+    ],
+    "importance": "A",
+    "reason": "적산 문맥",
+    "memory_hint": "掛(걸 괘)는 손(扌)으로 점괘(卦)처럼 걸어 두니 걸 괘"
+  },
+  {
+    "id": 383,
+    "kanji": "労",
+    "meaning_kr": "노동",
+    "onyomi": "ろう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "労務費",
+      "reading": "ろうむひ",
+      "meaning": "노무비"
+    },
+    "onExamples": [
+      {
+        "word": "労務費",
+        "reading": "ろうむひ",
+        "meaning": "노무비"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "원가·적산 문맥",
+    "memory_hint": "労(일할 로)는 불빛 아래 힘(力) 써 수고하니 일할 로"
+  },
+  {
+    "id": 384,
+    "kanji": "務",
+    "meaning_kr": "업무/노무",
+    "onyomi": "む",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "労務単価",
+      "reading": "ろうむたんか",
+      "meaning": "노무단가"
+    },
+    "onExamples": [
+      {
+        "word": "労務単価",
+        "reading": "ろうむたんか",
+        "meaning": "노무단가"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "원가·적산 문맥",
+    "memory_hint": "務(힘쓸 무)는 힘(力)으로 해야 할 일(矛)을 맡으니 힘쓸 무"
+  },
+  {
+    "id": 385,
+    "kanji": "材",
+    "meaning_kr": "재료/자재",
+    "onyomi": "ざい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "材料表",
+      "reading": "ざいりょうひょう",
+      "meaning": "자재표"
+    },
+    "onExamples": [
+      {
+        "word": "材料表",
+        "reading": "ざいりょうひょう",
+        "meaning": "자재표"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "자재 관리 문맥",
+    "memory_hint": "材(재목 재)는 나무(木)를 치수(才)에 맞춰 써서 재료가 되니 재목 재"
+  },
+  {
+    "id": 386,
+    "kanji": "料",
+    "meaning_kr": "재료/요금",
+    "onyomi": "りょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "材料仕様",
+      "reading": "ざいりょうしよう",
+      "meaning": "재료사양"
+    },
+    "onExamples": [
+      {
+        "word": "材料仕様",
+        "reading": "ざいりょうしよう",
+        "meaning": "재료사양"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "자재 관리 문맥",
+    "memory_hint": "料(헤아릴 료/재료 료)는 쌀(米)을 말(斗)로 되어 재니 재료 료"
+  },
+  {
+    "id": 387,
+    "kanji": "久",
+    "meaning_kr": "오래다/내구",
+    "onyomi": "きゅう",
+    "kunyomi": "ひさしい",
+    "bim_term": {
+      "word": "耐久性能",
+      "reading": "たいきゅうせいのう",
+      "meaning": "내구성능"
+    },
+    "onExamples": [
+      {
+        "word": "耐久性能",
+        "reading": "たいきゅうせいのう",
+        "meaning": "내구성능"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "久",
+        "reading": "ひさしい",
+        "meaning": "오래다"
+      }
+    ],
+    "importance": "A",
+    "reason": "성능·수명 문맥",
+    "memory_hint": "久(오랠 구)는 몸을 구부려 오래 버티는 모습이니 오랠 구"
+  },
+  {
+    "id": 388,
+    "kanji": "熱",
+    "meaning_kr": "열",
+    "onyomi": "ねつ",
+    "kunyomi": "あつい",
+    "bim_term": {
+      "word": "断熱材",
+      "reading": "だんねつざい",
+      "meaning": "단열재"
+    },
+    "onExamples": [
+      {
+        "word": "断熱材",
+        "reading": "だんねつざい",
+        "meaning": "단열재"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "熱",
+        "reading": "あつい",
+        "meaning": "열"
+      }
+    ],
+    "importance": "A",
+    "reason": "외피·설비 문맥",
+    "memory_hint": "熱(더울 열)은 불(灬) 기운이 집요하게(埶) 올라 뜨거우니 더울 열"
+  },
+  {
+    "id": 389,
+    "kanji": "保",
+    "meaning_kr": "지키다/보온",
+    "onyomi": "ほ",
+    "kunyomi": "たもつ",
+    "bim_term": {
+      "word": "保温材",
+      "reading": "ほおんざい",
+      "meaning": "보온재"
+    },
+    "onExamples": [
+      {
+        "word": "保温材",
+        "reading": "ほおんざい",
+        "meaning": "보온재"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "保",
+        "reading": "たもつ",
+        "meaning": "지키다"
+      }
+    ],
+    "importance": "A",
+    "reason": "배관 보온 문맥",
+    "memory_hint": "保(지킬 보)는 사람(亻)이 아이(呆)를 품에 안아 지키니 지킬 보"
+  },
+  {
+    "id": 390,
+    "kanji": "密",
+    "meaning_kr": "빽빽하다/기밀",
+    "onyomi": "みつ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "気密層",
+      "reading": "きみつそう",
+      "meaning": "기밀층"
+    },
+    "onExamples": [
+      {
+        "word": "気密層",
+        "reading": "きみつそう",
+        "meaning": "기밀층"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "외피 성능 문맥",
+    "memory_hint": "密(빽빽할 밀)은 집(宀) 안에 반드시(必) 틈없이 차니 빽빽할 밀"
+  },
+  {
+    "id": 391,
+    "kanji": "音",
+    "meaning_kr": "소리",
+    "onyomi": "おん",
+    "kunyomi": "おと",
+    "bim_term": {
+      "word": "吸音材",
+      "reading": "きゅうおんざい",
+      "meaning": "흡음재"
+    },
+    "onExamples": [
+      {
+        "word": "吸音材",
+        "reading": "きゅうおんざい",
+        "meaning": "흡음재"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "音",
+        "reading": "おと",
+        "meaning": "소리"
+      }
+    ],
+    "importance": "A",
+    "reason": "음환경 문맥",
+    "memory_hint": "音(소리 음)은 서 있는 입(曰)에서 울려 나오는 소리이니 소리 음"
+  },
+  {
+    "id": 392,
+    "kanji": "吸",
+    "meaning_kr": "빨다/흡수",
+    "onyomi": "きゅう",
+    "kunyomi": "すう",
+    "bim_term": {
+      "word": "吸音板",
+      "reading": "きゅうおんばん",
+      "meaning": "흡음판"
+    },
+    "onExamples": [
+      {
+        "word": "吸音板",
+        "reading": "きゅうおんばん",
+        "meaning": "흡음판"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "吸",
+        "reading": "すう",
+        "meaning": "빨다"
+      }
+    ],
+    "importance": "A",
+    "reason": "음환경 문맥",
+    "memory_hint": "吸(마실 흡)은 입(口)으로 숨을 들이켜 안으로 당기니 마실 흡"
+  },
+  {
+    "id": 393,
+    "kanji": "結",
+    "meaning_kr": "맺다/결로",
+    "onyomi": "けつ",
+    "kunyomi": "むすぶ",
+    "bim_term": {
+      "word": "結露対策",
+      "reading": "けつろたいさく",
+      "meaning": "결로대책"
+    },
+    "onExamples": [
+      {
+        "word": "結露対策",
+        "reading": "けつろたいさく",
+        "meaning": "결로대책"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "結",
+        "reading": "むすぶ",
+        "meaning": "맺다"
+      }
+    ],
+    "importance": "A",
+    "reason": "환경 성능 문맥",
+    "memory_hint": "結(맺을 결)은 실(糸)을 길(吉)하게 묶어 맺으니 맺을 결"
+  },
+  {
+    "id": 394,
+    "kanji": "露",
+    "meaning_kr": "이슬/노출",
+    "onyomi": "ろ",
+    "kunyomi": "つゆ",
+    "bim_term": {
+      "word": "結露計算",
+      "reading": "けつろけいさん",
+      "meaning": "결로계산"
+    },
+    "onExamples": [
+      {
+        "word": "結露計算",
+        "reading": "けつろけいさん",
+        "meaning": "결로계산"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "露",
+        "reading": "つゆ",
+        "meaning": "이슬"
+      }
+    ],
+    "importance": "A",
+    "reason": "환경 성능 문맥",
+    "memory_hint": "露(이슬 로)는 비(雨)가 길(路) 위에 맺혀 드러나니 이슬 로"
+  },
+  {
+    "id": 395,
+    "kanji": "凍",
+    "meaning_kr": "얼다",
+    "onyomi": "とう",
+    "kunyomi": "こおる",
+    "bim_term": {
+      "word": "凍結防止",
+      "reading": "とうけつぼうし",
+      "meaning": "동결방지"
+    },
+    "onExamples": [
+      {
+        "word": "凍結防止",
+        "reading": "とうけつぼうし",
+        "meaning": "동결방지"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "凍",
+        "reading": "こおる",
+        "meaning": "얼다"
+      }
+    ],
+    "importance": "A",
+    "reason": "배관·외부설비 문맥",
+    "memory_hint": "凍(얼 동)은 얼음(冫)이 동쪽(東) 찬 기운에 얼어붙으니 얼 동"
+  },
+  {
+    "id": 396,
+    "kanji": "腐",
+    "meaning_kr": "썩다",
+    "onyomi": "ふ",
+    "kunyomi": "くさる",
+    "bim_term": {
+      "word": "腐食対策",
+      "reading": "ふしょくたいさく",
+      "meaning": "부식대책"
+    },
+    "onExamples": [
+      {
+        "word": "腐食対策",
+        "reading": "ふしょくたいさく",
+        "meaning": "부식대책"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "腐",
+        "reading": "くさる",
+        "meaning": "썩다"
+      }
+    ],
+    "importance": "A",
+    "reason": "재료 내구 문맥",
+    "memory_hint": "腐(썩을 부)는 집(府) 안의 고기(月)가 문드러지니 썩을 부"
+  },
+  {
+    "id": 397,
+    "kanji": "食",
+    "meaning_kr": "먹다/식",
+    "onyomi": "しょく",
+    "kunyomi": "たべる",
+    "bim_term": {
+      "word": "腐食環境",
+      "reading": "ふしょくかんきょう",
+      "meaning": "부식환경"
+    },
+    "onExamples": [
+      {
+        "word": "腐食環境",
+        "reading": "ふしょくかんきょう",
+        "meaning": "부식환경"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "食",
+        "reading": "たべる",
+        "meaning": "먹다"
+      }
+    ],
+    "importance": "A",
+    "reason": "재료 내구 문맥",
+    "memory_hint": "食(먹을 식)은 뚜껑 아래 밥그릇 모양이니 먹을 식"
+  },
+  {
+    "id": 398,
+    "kanji": "劣",
+    "meaning_kr": "떨어지다/열화",
+    "onyomi": "れつ",
+    "kunyomi": "おとる",
+    "bim_term": {
+      "word": "劣化診断",
+      "reading": "れっかしんだん",
+      "meaning": "열화진단"
+    },
+    "onExamples": [
+      {
+        "word": "劣化診断",
+        "reading": "れっかしんだん",
+        "meaning": "열화진단"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "劣",
+        "reading": "おとる",
+        "meaning": "떨어지다"
+      }
+    ],
+    "importance": "A",
+    "reason": "유지관리 문맥",
+    "memory_hint": "劣(못할 렬)은 적은 것(少)에 힘(力)도 약하니 못할 렬"
+  },
+  {
+    "id": 399,
+    "kanji": "化",
+    "meaning_kr": "변하다/화",
+    "onyomi": "か",
+    "kunyomi": "ばける",
+    "bim_term": {
+      "word": "劣化状況",
+      "reading": "れっかじょうきょう",
+      "meaning": "열화상황"
+    },
+    "onExamples": [
+      {
+        "word": "劣化状況",
+        "reading": "れっかじょうきょう",
+        "meaning": "열화상황"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "化",
+        "reading": "ばける",
+        "meaning": "변하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "유지관리 문맥",
+    "memory_hint": "化(될 화)는 사람(亻)이 거꾸로 바뀌어 다른 모습 되니 될 화"
+  },
+  {
+    "id": 400,
+    "kanji": "亀",
+    "meaning_kr": "거북/거북등 균열",
+    "onyomi": "き",
+    "kunyomi": "かめ",
+    "bim_term": {
+      "word": "亀裂補修",
+      "reading": "きれつほしゅう",
+      "meaning": "균열보수"
+    },
+    "onExamples": [
+      {
+        "word": "亀裂補修",
+        "reading": "きれつほしゅう",
+        "meaning": "균열보수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "亀",
+        "reading": "かめ",
+        "meaning": "거북"
+      }
+    ],
+    "importance": "A",
+    "reason": "하자 보수 문맥",
+    "memory_hint": "亀(거북 귀)는 머리와 등껍질, 다리가 오므라든 모습이니 거북 귀"
+  },
+  {
+    "id": 401,
+    "kanji": "裂",
+    "meaning_kr": "찢어지다/균열",
+    "onyomi": "れつ",
+    "kunyomi": "さける",
+    "bim_term": {
+      "word": "亀裂幅",
+      "reading": "きれつはば",
+      "meaning": "균열폭"
+    },
+    "onExamples": [
+      {
+        "word": "亀裂幅",
+        "reading": "きれつはば",
+        "meaning": "균열폭"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "裂",
+        "reading": "さける",
+        "meaning": "찢어지다"
+      }
+    ],
+    "importance": "A",
+    "reason": "하자 보수 문맥",
+    "memory_hint": "裂(찢을 렬)은 옷(衣)을 칼(列)로 갈라 찢으니 찢을 렬"
+  },
+  {
+    "id": 402,
+    "kanji": "破",
+    "meaning_kr": "깨지다",
+    "onyomi": "は",
+    "kunyomi": "やぶる",
+    "bim_term": {
+      "word": "破損部",
+      "reading": "はそんぶ",
+      "meaning": "파손부"
+    },
+    "onExamples": [
+      {
+        "word": "破損部",
+        "reading": "はそんぶ",
+        "meaning": "파손부"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "破",
+        "reading": "やぶる",
+        "meaning": "깨지다"
+      }
+    ],
+    "importance": "A",
+    "reason": "하자 보수 문맥",
+    "memory_hint": "破(깨뜨릴 파)는 돌(石)을 가죽손(皮)으로 쳐 깨니 깨뜨릴 파"
+  },
+  {
+    "id": 403,
+    "kanji": "損",
+    "meaning_kr": "손상",
+    "onyomi": "そん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "破損状況",
+      "reading": "はそんじょうきょう",
+      "meaning": "파손상황"
+    },
+    "onExamples": [
+      {
+        "word": "破損状況",
+        "reading": "はそんじょうきょう",
+        "meaning": "파손상황"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "하자 보수 문맥",
+    "memory_hint": "損(덜 손)은 손(扌)으로 원(員) 모양을 해쳐 손상내니 덜 손"
+  },
+  {
+    "id": 404,
+    "kanji": "欠",
+    "meaning_kr": "이지러지다/결함",
+    "onyomi": "けつ",
+    "kunyomi": "かける",
+    "bim_term": {
+      "word": "欠陥部",
+      "reading": "けっかんぶ",
+      "meaning": "결함부"
+    },
+    "onExamples": [
+      {
+        "word": "欠陥部",
+        "reading": "けっかんぶ",
+        "meaning": "결함부"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "欠",
+        "reading": "かける",
+        "meaning": "이지러지다"
+      }
+    ],
+    "importance": "A",
+    "reason": "품질 관리 문맥",
+    "memory_hint": "欠(하품 흠/이지러질 결)은 입 벌려 모자란 모양이니 이지러질 결"
+  },
+  {
+    "id": 405,
+    "kanji": "陥",
+    "meaning_kr": "빠지다/함몰",
+    "onyomi": "かん",
+    "kunyomi": "おちいる",
+    "bim_term": {
+      "word": "欠陥是正",
+      "reading": "けっかんぜせい",
+      "meaning": "결함 시정"
+    },
+    "onExamples": [
+      {
+        "word": "欠陥是正",
+        "reading": "けっかんぜせい",
+        "meaning": "결함 시정"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "陥",
+        "reading": "おちいる",
+        "meaning": "빠지다"
+      }
+    ],
+    "importance": "A",
+    "reason": "품질 관리 문맥",
+    "memory_hint": "陥(빠질 함)은 언덕(阝)에 함정(臽)이 있어 푹 빠지니 빠질 함"
+  },
+  {
+    "id": 406,
+    "kanji": "是",
+    "meaning_kr": "옳다/시정",
+    "onyomi": "ぜ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "是正指示",
+      "reading": "ぜせいしじ",
+      "meaning": "시정지시"
+    },
+    "onExamples": [
+      {
+        "word": "是正指示",
+        "reading": "ぜせいしじ",
+        "meaning": "시정지시"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "품질 관리 문맥",
+    "memory_hint": "是(옳을 시)는 해(日) 아래 발(疋)이 바르게 향하니 옳을 시"
+  },
+  {
+    "id": 407,
+    "kanji": "正",
+    "meaning_kr": "바르다/정정",
+    "onyomi": "せい",
+    "kunyomi": "ただしい",
+    "bim_term": {
+      "word": "是正工事",
+      "reading": "ぜせいこうじ",
+      "meaning": "시정공사"
+    },
+    "onExamples": [
+      {
+        "word": "是正工事",
+        "reading": "ぜせいこうじ",
+        "meaning": "시정공사"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "正",
+        "reading": "ただしい",
+        "meaning": "바르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "품질 관리 문맥",
+    "memory_hint": "正(바를 정)은 한 획(一) 아래 발(止)이 곧게 서니 바를 정"
+  },
+  {
+    "id": 408,
+    "kanji": "善",
+    "meaning_kr": "좋다/개선",
+    "onyomi": "ぜん",
+    "kunyomi": "よい",
+    "bim_term": {
+      "word": "改善案",
+      "reading": "かいぜんあん",
+      "meaning": "개선안"
+    },
+    "onExamples": [
+      {
+        "word": "改善案",
+        "reading": "かいぜんあん",
+        "meaning": "개선안"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "善",
+        "reading": "よい",
+        "meaning": "좋다"
+      }
+    ],
+    "importance": "A",
+    "reason": "품질 개선 문맥",
+    "memory_hint": "善(좋을 선)은 양(羊) 같은 아름다운 말(言)이 입(口)에서 나오니 좋을 선"
+  },
+  {
+    "id": 409,
+    "kanji": "雨",
+    "meaning_kr": "비/우수",
+    "onyomi": "う",
+    "kunyomi": "あめ",
+    "bim_term": {
+      "word": "雨水排水",
+      "reading": "うすいはいすい",
+      "meaning": "우수배수"
+    },
+    "onExamples": [
+      {
+        "word": "雨水排水",
+        "reading": "うすいはいすい",
+        "meaning": "우수배수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "雨",
+        "reading": "あめ",
+        "meaning": "비"
+      }
+    ],
+    "importance": "A",
+    "reason": "배수 설비 문맥",
+    "memory_hint": "雨(비 우)는 하늘 덮개 아래 빗방울이 떨어지는 모양이니 비 우"
+  },
+  {
+    "id": 410,
+    "kanji": "送",
+    "meaning_kr": "보내다",
+    "onyomi": "そう",
+    "kunyomi": "おくる",
+    "bim_term": {
+      "word": "送風機",
+      "reading": "そうふうき",
+      "meaning": "송풍기"
+    },
+    "onExamples": [
+      {
+        "word": "送風機",
+        "reading": "そうふうき",
+        "meaning": "송풍기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "送",
+        "reading": "おくる",
+        "meaning": "보내다"
+      }
+    ],
+    "importance": "A",
+    "reason": "공조 설비 문맥",
+    "memory_hint": "送(보낼 송)는 길(辶)을 따라 물건(关)을 밀어 보내니 보낼 송"
+  },
+  {
+    "id": 411,
+    "kanji": "還",
+    "meaning_kr": "돌아오다/환",
+    "onyomi": "かん",
+    "kunyomi": "かえる",
+    "bim_term": {
+      "word": "還気ダクト",
+      "reading": "かんきダクト",
+      "meaning": "환기 덕트"
+    },
+    "onExamples": [
+      {
+        "word": "還気ダクト",
+        "reading": "かんきダクト",
+        "meaning": "환기 덕트"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "還",
+        "reading": "かえる",
+        "meaning": "돌아오다"
+      }
+    ],
+    "importance": "A",
+    "reason": "공조 설비 문맥",
+    "memory_hint": "還(돌아올 환)은 길(辶) 따라 눈(睘) 둘러 제자리로 돌아오니 돌아올 환"
+  },
+  {
+    "id": 412,
+    "kanji": "暖",
+    "meaning_kr": "따뜻하다/난방",
+    "onyomi": "だん",
+    "kunyomi": "あたたかい",
+    "bim_term": {
+      "word": "暖房負荷",
+      "reading": "だんぼうふか",
+      "meaning": "난방부하"
+    },
+    "onExamples": [
+      {
+        "word": "暖房負荷",
+        "reading": "だんぼうふか",
+        "meaning": "난방부하"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "暖",
+        "reading": "あたたかい",
+        "meaning": "따뜻하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "공조 설비 문맥",
+    "memory_hint": "暖(따뜻할 난)은 해(日) 기운이 손(爰)처럼 감싸 따뜻하니 따뜻할 난"
+  },
+  {
+    "id": 413,
+    "kanji": "源",
+    "meaning_kr": "근원/열원",
+    "onyomi": "げん",
+    "kunyomi": "みなもと",
+    "bim_term": {
+      "word": "熱源機",
+      "reading": "ねつげんき",
+      "meaning": "열원기기"
+    },
+    "onExamples": [
+      {
+        "word": "熱源機",
+        "reading": "ねつげんき",
+        "meaning": "열원기기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "源",
+        "reading": "みなもと",
+        "meaning": "근원"
+      }
+    ],
+    "importance": "A",
+    "reason": "기계 설비 문맥",
+    "memory_hint": "源(근원 원)은 물(氵)이 언덕(原)에서 처음 솟으니 근원 원"
+  },
+  {
+    "id": 414,
+    "kanji": "媒",
+    "meaning_kr": "중개/매체",
+    "onyomi": "ばい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "冷媒管",
+      "reading": "れいばいかん",
+      "meaning": "냉매관"
+    },
+    "onExamples": [
+      {
+        "word": "冷媒管",
+        "reading": "れいばいかん",
+        "meaning": "냉매관"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "냉동 설비 문맥",
+    "memory_hint": "媒(매개할 매)은 여자(女)가 어떤 일(某)을 이어 주니 매개할 매"
+  },
+  {
+    "id": 415,
+    "kanji": "流",
+    "meaning_kr": "흐르다/유량",
+    "onyomi": "りゅう",
+    "kunyomi": "ながれる",
+    "bim_term": {
+      "word": "流量計",
+      "reading": "りゅうりょうけい",
+      "meaning": "유량계"
+    },
+    "onExamples": [
+      {
+        "word": "流量計",
+        "reading": "りゅうりょうけい",
+        "meaning": "유량계"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "流",
+        "reading": "ながれる",
+        "meaning": "흐르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "배관 설비 문맥",
+    "memory_hint": "流(흐를 류)은 물(氵)이 거침없이 퍼져 흐르니 흐를 류"
+  },
+  {
+    "id": 416,
+    "kanji": "濃",
+    "meaning_kr": "짙다/농도",
+    "onyomi": "のう",
+    "kunyomi": "こい",
+    "bim_term": {
+      "word": "濃度管理",
+      "reading": "のうどかんり",
+      "meaning": "농도관리"
+    },
+    "onExamples": [
+      {
+        "word": "濃度管理",
+        "reading": "のうどかんり",
+        "meaning": "농도관리"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "濃",
+        "reading": "こい",
+        "meaning": "짙다"
+      }
+    ],
+    "importance": "A",
+    "reason": "수질·약품 문맥",
+    "memory_hint": "濃(짙을 농)은 물(氵)에 풍부함(農)이 더해 진해지니 짙을 농"
+  },
+  {
+    "id": 417,
+    "kanji": "径",
+    "meaning_kr": "지름",
+    "onyomi": "けい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "口径",
+      "reading": "こうけい",
+      "meaning": "구경"
+    },
+    "onExamples": [
+      {
+        "word": "口径",
+        "reading": "こうけい",
+        "meaning": "구경"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "배관 설비 문맥",
+    "memory_hint": "径(지름 경)은 발길(彳)이 곧은 길(圣)로 지나니 지름 경"
+  },
+  {
+    "id": 418,
+    "kanji": "逆",
+    "meaning_kr": "거꾸로/역",
+    "onyomi": "ぎゃく",
+    "kunyomi": "さか",
+    "bim_term": {
+      "word": "逆流防止",
+      "reading": "ぎゃくりゅうぼうし",
+      "meaning": "역류방지"
+    },
+    "onExamples": [
+      {
+        "word": "逆流防止",
+        "reading": "ぎゃくりゅうぼうし",
+        "meaning": "역류방지"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "逆",
+        "reading": "さか",
+        "meaning": "거꾸로"
+      }
+    ],
+    "importance": "A",
+    "reason": "배관 설비 문맥",
+    "memory_hint": "逆(거스를 역)은 길(辶)을 거슬러 발이 거꾸로 향하니 거스를 역"
+  },
+  {
+    "id": 419,
+    "kanji": "主",
+    "meaning_kr": "주요/주관",
+    "onyomi": "しゅ",
+    "kunyomi": "ぬし",
+    "bim_term": {
+      "word": "主配管",
+      "reading": "しゅはいかん",
+      "meaning": "주배관"
+    },
+    "onExamples": [
+      {
+        "word": "主配管",
+        "reading": "しゅはいかん",
+        "meaning": "주배관"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "主",
+        "reading": "ぬし",
+        "meaning": "주요"
+      }
+    ],
+    "importance": "A",
+    "reason": "배관 계통 문맥",
+    "memory_hint": "主(주인 주)는 등불 심지(丶)가 가운데 곧게 서 있으니 주인 주"
+  },
+  {
+    "id": 420,
+    "kanji": "引",
+    "meaning_kr": "끌다/인출",
+    "onyomi": "いん",
+    "kunyomi": "ひく",
+    "bim_term": {
+      "word": "横引管",
+      "reading": "よこびきかん",
+      "meaning": "횡인관"
+    },
+    "onExamples": [
+      {
+        "word": "横引管",
+        "reading": "よこびきかん",
+        "meaning": "횡인관"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "引",
+        "reading": "ひく",
+        "meaning": "끌다"
+      }
+    ],
+    "importance": "A",
+    "reason": "배관 배치 문맥",
+    "memory_hint": "引(끌 인)은 활(弓)에 줄(丨)을 당겨 끌어오니 끌 인"
+  },
+  {
+    "id": 421,
+    "kanji": "都",
+    "meaning_kr": "도/도시",
+    "onyomi": "と",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "都市計画",
+      "reading": "としけいかく",
+      "meaning": "도시계획"
+    },
+    "onExamples": [
+      {
+        "word": "都市計画",
+        "reading": "としけいかく",
+        "meaning": "도시계획"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도시계획 문맥",
+    "memory_hint": "都(도읍 도)는 마을(阝)에 이르는 사람들(者)이 모이니 도읍 도"
+  },
+  {
+    "id": 422,
+    "kanji": "発",
+    "meaning_kr": "일으키다/발",
+    "onyomi": "はつ",
+    "kunyomi": "たつ",
+    "bim_term": {
+      "word": "開発許可",
+      "reading": "かいはつきょか",
+      "meaning": "개발허가"
+    },
+    "onExamples": [
+      {
+        "word": "開発許可",
+        "reading": "かいはつきょか",
+        "meaning": "개발허가"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "発",
+        "reading": "たつ",
+        "meaning": "일으키다"
+      }
+    ],
+    "importance": "A",
+    "reason": "개발행위 문맥",
+    "memory_hint": "発(필 발/일어날 발)은 발돋움(癶)해 활짝 열리니 일어날 발"
+  },
+  {
+    "id": 423,
+    "kanji": "届",
+    "meaning_kr": "신고/도달",
+    "onyomi": "",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "届出書",
+      "reading": "とどけでしょ",
+      "meaning": "신고서"
+    },
+    "onExamples": [
+      {
+        "word": "届出書",
+        "reading": "とどけでしょ",
+        "meaning": "신고서"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "행정 신고 문맥",
+    "memory_hint": "届(이를 계)은 집(尸)에서 이유(由) 있는 문서를 내밀어 닿게 하니 이를 계"
+  },
+  {
+    "id": 424,
+    "kanji": "蓄",
+    "meaning_kr": "쌓다/축전",
+    "onyomi": "ちく",
+    "kunyomi": "たくわえる",
+    "bim_term": {
+      "word": "蓄電池",
+      "reading": "ちくでんち",
+      "meaning": "축전지"
+    },
+    "onExamples": [
+      {
+        "word": "蓄電池",
+        "reading": "ちくでんち",
+        "meaning": "축전지"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "蓄",
+        "reading": "たくわえる",
+        "meaning": "쌓다"
+      }
+    ],
+    "importance": "A",
+    "reason": "비상전원 문맥",
+    "memory_hint": "蓄(쌓을 축)은 풀(艹)을 밭(畜)처럼 길러 모아 두니 쌓을 축"
+  },
+  {
+    "id": 425,
+    "kanji": "池",
+    "meaning_kr": "못/전지",
+    "onyomi": "ち",
+    "kunyomi": "いけ",
+    "bim_term": {
+      "word": "蓄電池設備",
+      "reading": "ちくでんちせつび",
+      "meaning": "축전지설비"
+    },
+    "onExamples": [
+      {
+        "word": "蓄電池設備",
+        "reading": "ちくでんちせつび",
+        "meaning": "축전지설비"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "池",
+        "reading": "いけ",
+        "meaning": "못"
+      }
+    ],
+    "importance": "A",
+    "reason": "비상전원 문맥",
+    "memory_hint": "池(못 지)는 물(氵)이 땅(也) 낮은 곳에 고여 있으니 못 지"
+  },
+  {
+    "id": 426,
+    "kanji": "放",
+    "meaning_kr": "놓다/방사",
+    "onyomi": "ほう",
+    "kunyomi": "はなす",
+    "bim_term": {
+      "word": "放射空調",
+      "reading": "ほうしゃくうちょう",
+      "meaning": "복사공조"
+    },
+    "onExamples": [
+      {
+        "word": "放射空調",
+        "reading": "ほうしゃくうちょう",
+        "meaning": "복사공조"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "放",
+        "reading": "はなす",
+        "meaning": "놓다"
+      }
+    ],
+    "importance": "A",
+    "reason": "공조 방식 문맥",
+    "memory_hint": "放(놓을 방)은 깃발(方)을 손(攵)으로 풀어 놓으니 놓을 방"
+  },
+  {
+    "id": 427,
+    "kanji": "射",
+    "meaning_kr": "쏘다/방사",
+    "onyomi": "しゃ",
+    "kunyomi": "いる",
+    "bim_term": {
+      "word": "放射冷暖房",
+      "reading": "ほうしゃれいだんぼう",
+      "meaning": "복사 냉난방"
+    },
+    "onExamples": [
+      {
+        "word": "放射冷暖房",
+        "reading": "ほうしゃれいだんぼう",
+        "meaning": "복사 냉난방"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "射",
+        "reading": "いる",
+        "meaning": "쏘다"
+      }
+    ],
+    "importance": "A",
+    "reason": "공조 방식 문맥",
+    "memory_hint": "射(쏠 사)는 몸(身)에서 화살을 내보내니 쏠 사"
+  },
+  {
+    "id": 428,
+    "kanji": "戸",
+    "meaning_kr": "문짝/호",
+    "onyomi": "こ",
+    "kunyomi": "と",
+    "bim_term": {
+      "word": "戸当たり",
+      "reading": "とあたり",
+      "meaning": "문짝 맞댐"
+    },
+    "onExamples": [
+      {
+        "word": "戸当たり",
+        "reading": "とあたり",
+        "meaning": "문짝 맞댐"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "戸",
+        "reading": "と",
+        "meaning": "문짝"
+      }
+    ],
+    "importance": "A",
+    "reason": "건축 디테일 문맥",
+    "memory_hint": "戸(문 호)는 한짝 문 모양을 본떠서 문 호"
+  },
+  {
+    "id": 429,
+    "kanji": "欄",
+    "meaning_kr": "난간/란",
+    "onyomi": "らん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "手摺欄間",
+      "reading": "てすりらんま",
+      "meaning": "난간·창호란"
+    },
+    "onExamples": [
+      {
+        "word": "手摺欄間",
+        "reading": "てすりらんま",
+        "meaning": "난간·창호란"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "창호 디테일 문맥",
+    "memory_hint": "欄(난간 란)은 나무(木) 사이 문(闌)을 막아 세우니 난간 란"
+  },
+  {
+    "id": 430,
+    "kanji": "板",
+    "meaning_kr": "판/보드",
+    "onyomi": "ばん",
+    "kunyomi": "いた",
+    "bim_term": {
+      "word": "吸音板",
+      "reading": "きゅうおんばん",
+      "meaning": "흡음판"
+    },
+    "onExamples": [
+      {
+        "word": "吸音板",
+        "reading": "きゅうおんばん",
+        "meaning": "흡음판"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "板",
+        "reading": "いた",
+        "meaning": "판"
+      }
+    ],
+    "importance": "A",
+    "reason": "내장재 문맥",
+    "memory_hint": "板(널빤지 판)은 나무(木)를 쪼개(反) 만든 판이니 널빤지 판"
+  },
+  {
+    "id": 431,
+    "kanji": "軸",
+    "meaning_kr": "축",
+    "onyomi": "じく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "軸組図",
+      "reading": "じくぐみず",
+      "meaning": "축조도"
+    },
+    "onExamples": [
+      {
+        "word": "軸組図",
+        "reading": "じくぐみず",
+        "meaning": "축조도"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "구조 계획 문맥",
+    "memory_hint": "軸(굴대 축)은 수레(車) 한가운데 이유(由)처럼 꿰는 축이니 축 축"
+  },
+  {
+    "id": 432,
+    "kanji": "直",
+    "meaning_kr": "곧다/직",
+    "onyomi": "ちょく",
+    "kunyomi": "なおす",
+    "bim_term": {
+      "word": "直交方向",
+      "reading": "ちょっこうほうこう",
+      "meaning": "직교방향"
+    },
+    "onExamples": [
+      {
+        "word": "直交方向",
+        "reading": "ちょっこうほうこう",
+        "meaning": "직교방향"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "直",
+        "reading": "なおす",
+        "meaning": "곧다"
+      }
+    ],
+    "importance": "A",
+    "reason": "좌표·배치 문맥",
+    "memory_hint": "直(곧을 직)은 눈(目)으로 한 줄(丨)을 똑바로 보니 곧을 직"
+  },
+  {
+    "id": 433,
+    "kanji": "曲",
+    "meaning_kr": "굽다/곡",
+    "onyomi": "きょく",
+    "kunyomi": "まがる",
+    "bim_term": {
+      "word": "曲げ加工",
+      "reading": "まげかこう",
+      "meaning": "절곡가공"
+    },
+    "onExamples": [
+      {
+        "word": "曲げ加工",
+        "reading": "まげかこう",
+        "meaning": "절곡가공"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "曲",
+        "reading": "まがる",
+        "meaning": "굽다"
+      }
+    ],
+    "importance": "A",
+    "reason": "철물·덕트 문맥",
+    "memory_hint": "曲(굽을 곡)는 선이 곧지 않고 안으로 휘어 있으니 굽을 곡"
+  },
+  {
+    "id": 434,
+    "kanji": "再",
+    "meaning_kr": "다시/재",
+    "onyomi": "さい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "再開発",
+      "reading": "さいかいはつ",
+      "meaning": "재개발"
+    },
+    "onExamples": [
+      {
+        "word": "再開発",
+        "reading": "さいかいはつ",
+        "meaning": "재개발"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도시계획 문맥",
+    "memory_hint": "再(두 재)는 한 번 한 것 위에 또 한 층 더하니 두 재"
+  },
+  {
+    "id": 435,
+    "kanji": "観",
+    "meaning_kr": "보다/관",
+    "onyomi": "かん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "景観計画",
+      "reading": "けいかんけいかく",
+      "meaning": "경관계획"
+    },
+    "onExamples": [
+      {
+        "word": "景観計画",
+        "reading": "けいかんけいかく",
+        "meaning": "경관계획"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도시·심의 문맥",
+    "memory_hint": "観(볼 관)은 새(雚)를 눈(見)으로 살피니 볼 관"
+  },
+  {
+    "id": 436,
+    "kanji": "緑",
+    "meaning_kr": "초록/녹지",
+    "onyomi": "りょく",
+    "kunyomi": "みどり",
+    "bim_term": {
+      "word": "緑地率",
+      "reading": "りょくちりつ",
+      "meaning": "녹지율"
+    },
+    "onExamples": [
+      {
+        "word": "緑地率",
+        "reading": "りょくちりつ",
+        "meaning": "녹지율"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "緑",
+        "reading": "みどり",
+        "meaning": "초록"
+      }
+    ],
+    "importance": "A",
+    "reason": "외부 공간 문맥",
+    "memory_hint": "緑(푸를 록)은 실(糸)빛이 물(录)처럼 푸르니 푸를 록"
+  },
+  {
+    "id": 437,
+    "kanji": "自",
+    "meaning_kr": "스스로/자동",
+    "onyomi": "じ",
+    "kunyomi": "みずから",
+    "bim_term": {
+      "word": "自動火災報知設備",
+      "reading": "じどうかさいほうちせつび",
+      "meaning": "자동화재탐지설비"
+    },
+    "onExamples": [
+      {
+        "word": "自動火災報知設備",
+        "reading": "じどうかさいほうちせつび",
+        "meaning": "자동화재탐지설비"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "自",
+        "reading": "みずから",
+        "meaning": "스스로"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기·소방 문맥",
+    "memory_hint": "自(스스로 자)는 코 모양을 본떠 자신을 가리키니 스스로 자"
+  },
+  {
+    "id": 438,
+    "kanji": "燥",
+    "meaning_kr": "마르다/조",
+    "onyomi": "そう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "乾燥機",
+      "reading": "かんそうき",
+      "meaning": "건조기"
+    },
+    "onExamples": [
+      {
+        "word": "乾燥機",
+        "reading": "かんそうき",
+        "meaning": "건조기"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설비·마감 문맥",
+    "memory_hint": "燥(마를 조)는 불(火) 기운에 나무(喿)가 바짝 마르니 마를 조"
+  },
+  {
+    "id": 439,
+    "kanji": "潤",
+    "meaning_kr": "윤택/습윤",
+    "onyomi": "じゅん",
+    "kunyomi": "うるおう",
+    "bim_term": {
+      "word": "湿潤養生",
+      "reading": "しつじゅんようじょう",
+      "meaning": "습윤양생"
+    },
+    "onExamples": [
+      {
+        "word": "湿潤養生",
+        "reading": "しつじゅんようじょう",
+        "meaning": "습윤양생"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "潤",
+        "reading": "うるおう",
+        "meaning": "윤택"
+      }
+    ],
+    "importance": "A",
+    "reason": "콘크리트 문맥",
+    "memory_hint": "潤(윤택할 윤)은 물(氵)이 문(閏) 안을 촉촉하게 적시니 윤택할 윤"
+  },
+  {
+    "id": 440,
+    "kanji": "砕",
+    "meaning_kr": "부수다",
+    "onyomi": "さい",
+    "kunyomi": "くだく",
+    "bim_term": {
+      "word": "砕石地業",
+      "reading": "さいせきじぎょう",
+      "meaning": "쇄석지업"
+    },
+    "onExamples": [
+      {
+        "word": "砕石地業",
+        "reading": "さいせきじぎょう",
+        "meaning": "쇄석지업"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "砕",
+        "reading": "くだく",
+        "meaning": "부수다"
+      }
+    ],
+    "importance": "A",
+    "reason": "토목·기초 문맥",
+    "memory_hint": "砕(부술 쇄)은 돌(石)을 졸(卒)라게 잘게 부수니 부술 쇄"
+  },
+  {
+    "id": 441,
+    "kanji": "石",
+    "meaning_kr": "돌",
+    "onyomi": "せき",
+    "kunyomi": "いし",
+    "bim_term": {
+      "word": "砕石敷き",
+      "reading": "さいせきじき",
+      "meaning": "쇄석 깔기"
+    },
+    "onExamples": [
+      {
+        "word": "砕石敷き",
+        "reading": "さいせきじき",
+        "meaning": "쇄석 깔기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "石",
+        "reading": "いし",
+        "meaning": "돌"
+      }
+    ],
+    "importance": "A",
+    "reason": "토목·기초 문맥",
+    "memory_hint": "石(돌 석)은 절벽 아래 놓인 큰 돌 모양이니 돌 석"
+  },
+  {
+    "id": 442,
+    "kanji": "砂",
+    "meaning_kr": "모래",
+    "onyomi": "さ",
+    "kunyomi": "すな",
+    "bim_term": {
+      "word": "砂利層",
+      "reading": "じゃりそう",
+      "meaning": "자갈층"
+    },
+    "onExamples": [
+      {
+        "word": "砂利層",
+        "reading": "じゃりそう",
+        "meaning": "자갈층"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "砂",
+        "reading": "すな",
+        "meaning": "모래"
+      }
+    ],
+    "importance": "A",
+    "reason": "토목·기초 문맥",
+    "memory_hint": "砂(모래 사)는 돌(石)이 적게(少) 부서져 고운 모래 되니 모래 사"
+  },
+  {
+    "id": 443,
+    "kanji": "利",
+    "meaning_kr": "이로울 리/자갈",
+    "onyomi": "り",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "砂利敷き",
+      "reading": "じゃりじき",
+      "meaning": "자갈 깔기"
+    },
+    "onExamples": [
+      {
+        "word": "砂利敷き",
+        "reading": "じゃりじき",
+        "meaning": "자갈 깔기"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "토목·기초 문맥",
+    "memory_hint": "利(날카로울 리/이로울 리)는 벼(禾)를 칼(刂)로 베니 이로울 리"
+  },
+  {
+    "id": 444,
+    "kanji": "混",
+    "meaning_kr": "섞다",
+    "onyomi": "こん",
+    "kunyomi": "まじる",
+    "bim_term": {
+      "word": "混合水栓",
+      "reading": "こんごうすいせん",
+      "meaning": "혼합수전"
+    },
+    "onExamples": [
+      {
+        "word": "混合水栓",
+        "reading": "こんごうすいせん",
+        "meaning": "혼합수전"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "混",
+        "reading": "まじる",
+        "meaning": "섞다"
+      }
+    ],
+    "importance": "A",
+    "reason": "위생 설비 문맥",
+    "memory_hint": "混(섞일 혼)은 물(氵)에 해(日)와 사람(比) 기운이 뒤섞이니 섞일 혼"
+  },
+  {
+    "id": 445,
+    "kanji": "込",
+    "meaning_kr": "넣다/타설",
+    "onyomi": "",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "打込み深さ",
+      "reading": "うちこみふかさ",
+      "meaning": "정착 깊이"
+    },
+    "onExamples": [
+      {
+        "word": "打込み深さ",
+        "reading": "うちこみふかさ",
+        "meaning": "정착 깊이"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "시공 디테일 문맥",
+    "memory_hint": "込(밀어넣을 입)은 길(辶)로 따라 안으로 들여보내니 밀어넣을 입"
+  },
+  {
+    "id": 446,
+    "kanji": "均",
+    "meaning_kr": "고르다",
+    "onyomi": "きん",
+    "kunyomi": "ひとしい",
+    "bim_term": {
+      "word": "均しコンクリート",
+      "reading": "ならしコンクリート",
+      "meaning": "레벨링 콘크리트"
+    },
+    "onExamples": [
+      {
+        "word": "均しコンクリート",
+        "reading": "ならしコンクリート",
+        "meaning": "레벨링 콘크리트"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "均",
+        "reading": "ひとしい",
+        "meaning": "고르다"
+      }
+    ],
+    "importance": "A",
+    "reason": "기초 시공 문맥",
+    "memory_hint": "均(고를 균)은 흙(土)을 숟가락(勺)처럼 나눠 같게 하니 고를 균"
+  },
+  {
+    "id": 447,
+    "kanji": "脱",
+    "meaning_kr": "벗기다/탈형",
+    "onyomi": "だつ",
+    "kunyomi": "ぬぐ",
+    "bim_term": {
+      "word": "脱型時期",
+      "reading": "だっけいじき",
+      "meaning": "탈형시기"
+    },
+    "onExamples": [
+      {
+        "word": "脱型時期",
+        "reading": "だっけいじき",
+        "meaning": "탈형시기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "脱",
+        "reading": "ぬぐ",
+        "meaning": "벗기다"
+      }
+    ],
+    "importance": "A",
+    "reason": "콘크리트 문맥",
+    "memory_hint": "脱(벗을 탈)은 몸(月)에서 바꿔(兑) 떼어 내니 벗을 탈"
+  },
+  {
+    "id": 448,
+    "kanji": "却",
+    "meaning_kr": "물리치다/냉각",
+    "onyomi": "きゃく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "冷却塔",
+      "reading": "れいきゃくとう",
+      "meaning": "냉각탑"
+    },
+    "onExamples": [
+      {
+        "word": "冷却塔",
+        "reading": "れいきゃくとう",
+        "meaning": "냉각탑"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "기계 설비 문맥",
+    "memory_hint": "却(물리칠 각)은 발 물러나(卩) 거절하니 물리칠 각"
+  },
+  {
+    "id": 449,
+    "kanji": "洗",
+    "meaning_kr": "씻다",
+    "onyomi": "せん",
+    "kunyomi": "あらう",
+    "bim_term": {
+      "word": "洗面器",
+      "reading": "せんめんき",
+      "meaning": "세면기"
+    },
+    "onExamples": [
+      {
+        "word": "洗面器",
+        "reading": "せんめんき",
+        "meaning": "세면기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "洗",
+        "reading": "あらう",
+        "meaning": "씻다"
+      }
+    ],
+    "importance": "A",
+    "reason": "위생 설비 문맥",
+    "memory_hint": "洗(씻을 세)은 물(氵)로 먼저(先) 헹궈 씻으니 씻을 세"
+  },
+  {
+    "id": 450,
+    "kanji": "色",
+    "meaning_kr": "색",
+    "onyomi": "しょく",
+    "kunyomi": "いろ",
+    "bim_term": {
+      "word": "色分け凡例",
+      "reading": "いろわけはんれい",
+      "meaning": "색상 구분 범례"
+    },
+    "onExamples": [
+      {
+        "word": "色分け凡例",
+        "reading": "いろわけはんれい",
+        "meaning": "색상 구분 범례"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "色",
+        "reading": "いろ",
+        "meaning": "색"
+      }
+    ],
+    "importance": "A",
+    "reason": "도면 표시 문맥",
+    "memory_hint": "色(빛 색)은 사람의 얼굴에 드러난 빛깔이니 빛 색"
+  },
+  {
+    "id": 451,
+    "kanji": "造",
+    "meaning_kr": "만들다/구조",
+    "onyomi": "ぞう",
+    "kunyomi": "つくる",
+    "bim_term": {
+      "word": "造作家具",
+      "reading": "ぞうさくかぐ",
+      "meaning": "맞춤 제작 가구"
+    },
+    "onExamples": [
+      {
+        "word": "造作家具",
+        "reading": "ぞうさくかぐ",
+        "meaning": "맞춤 제작 가구"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "造",
+        "reading": "つくる",
+        "meaning": "만들다"
+      }
+    ],
+    "importance": "A",
+    "reason": "내장·목공 문맥",
+    "memory_hint": "造(지을 조)는 길(辶)을 따라 알리듯(告) 만들어 가니 지을 조"
+  },
+  {
+    "id": 452,
+    "kanji": "構",
+    "meaning_kr": "얽다/구성",
+    "onyomi": "こう",
+    "kunyomi": "かまえる",
+    "bim_term": {
+      "word": "構造図",
+      "reading": "こうぞうず",
+      "meaning": "구조도"
+    },
+    "onExamples": [
+      {
+        "word": "構造図",
+        "reading": "こうぞうず",
+        "meaning": "구조도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "構",
+        "reading": "かまえる",
+        "meaning": "얽다"
+      }
+    ],
+    "importance": "A",
+    "reason": "구조 설계 문맥",
+    "memory_hint": "構(얽을 구)는 나무(木)를 교차틀(冓)로 얽어 세우니 얽을 구"
+  },
+  {
+    "id": 453,
+    "kanji": "寸",
+    "meaning_kr": "치수",
+    "onyomi": "すん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "寸法線",
+      "reading": "すんぽうせん",
+      "meaning": "치수선"
+    },
+    "onExamples": [
+      {
+        "word": "寸法線",
+        "reading": "すんぽうせん",
+        "meaning": "치수선"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도면 표기 문맥",
+    "memory_hint": "寸(마디 촌)은 손목 한 마디 길이를 본떠 치수 촌"
+  },
+  {
+    "id": 454,
+    "kanji": "余",
+    "meaning_kr": "남다/여유",
+    "onyomi": "よ",
+    "kunyomi": "あまる",
+    "bim_term": {
+      "word": "余裕寸法",
+      "reading": "よゆうすんぽう",
+      "meaning": "여유치수"
+    },
+    "onExamples": [
+      {
+        "word": "余裕寸法",
+        "reading": "よゆうすんぽう",
+        "meaning": "여유치수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "余",
+        "reading": "あまる",
+        "meaning": "남다"
+      }
+    ],
+    "importance": "A",
+    "reason": "디테일 문맥",
+    "memory_hint": "余(남을 여)는 먹고도 밥(八木)이 남아 있으니 남을 여"
+  },
+  {
+    "id": 455,
+    "kanji": "裕",
+    "meaning_kr": "여유",
+    "onyomi": "ゆう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "余裕幅",
+      "reading": "よゆうはば",
+      "meaning": "여유폭"
+    },
+    "onExamples": [
+      {
+        "word": "余裕幅",
+        "reading": "よゆうはば",
+        "meaning": "여유폭"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "디테일 문맥",
+    "memory_hint": "裕(넉넉할 유)는 옷(衤) 주머니가 골짜기(谷)처럼 넉넉하니 넉넉할 유"
+  },
+  {
+    "id": 456,
+    "kanji": "限",
+    "meaning_kr": "한계/제한",
+    "onyomi": "げん",
+    "kunyomi": "かぎる",
+    "bim_term": {
+      "word": "制限高さ",
+      "reading": "せいげんたかさ",
+      "meaning": "제한높이"
+    },
+    "onExamples": [
+      {
+        "word": "制限高さ",
+        "reading": "せいげんたかさ",
+        "meaning": "제한높이"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "限",
+        "reading": "かぎる",
+        "meaning": "한계"
+      }
+    ],
+    "importance": "A",
+    "reason": "법규 문맥",
+    "memory_hint": "限(한할 한)은 언덕(阝) 앞을 눈썹(艮)처럼 막아 더 못 가게 하니 한할 한"
+  },
+  {
+    "id": 457,
+    "kanji": "最",
+    "meaning_kr": "가장",
+    "onyomi": "さい",
+    "kunyomi": "もっとも",
+    "bim_term": {
+      "word": "最低高さ",
+      "reading": "さいていたかさ",
+      "meaning": "최저높이"
+    },
+    "onExamples": [
+      {
+        "word": "最低高さ",
+        "reading": "さいていたかさ",
+        "meaning": "최저높이"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "最",
+        "reading": "もっとも",
+        "meaning": "가장"
+      }
+    ],
+    "importance": "A",
+    "reason": "기준값 문맥",
+    "memory_hint": "最(가장 최)는 해(日) 아래에서 손(取)으로 맨 윗것을 집으니 가장 최"
+  },
+  {
+    "id": 458,
+    "kanji": "近",
+    "meaning_kr": "가깝다/근린",
+    "onyomi": "きん",
+    "kunyomi": "ちかい",
+    "bim_term": {
+      "word": "近隣説明",
+      "reading": "きんりんせつめい",
+      "meaning": "근린설명"
+    },
+    "onExamples": [
+      {
+        "word": "近隣説明",
+        "reading": "きんりんせつめい",
+        "meaning": "근린설명"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "近",
+        "reading": "ちかい",
+        "meaning": "가깝다"
+      }
+    ],
+    "importance": "A",
+    "reason": "인접 민원 문맥",
+    "memory_hint": "近(가까울 근)은 도끼(斤) 든 사람이 길(辶) 가까이 오니 가까울 근"
+  },
+  {
+    "id": 459,
+    "kanji": "公",
+    "meaning_kr": "공공",
+    "onyomi": "こう",
+    "kunyomi": "おおやけ",
+    "bim_term": {
+      "word": "公園緑地",
+      "reading": "こうえんりょくち",
+      "meaning": "공원녹지"
+    },
+    "onExamples": [
+      {
+        "word": "公園緑地",
+        "reading": "こうえんりょくち",
+        "meaning": "공원녹지"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "公",
+        "reading": "おおやけ",
+        "meaning": "공공"
+      }
+    ],
+    "importance": "A",
+    "reason": "도시계획 문맥",
+    "memory_hint": "公(공변될 공)은 사사로움 없이(厶) 나누어 모두 함께하니 공변될 공"
+  },
+  {
+    "id": 460,
+    "kanji": "園",
+    "meaning_kr": "동산/공원",
+    "onyomi": "えん",
+    "kunyomi": "その",
+    "bim_term": {
+      "word": "公園計画",
+      "reading": "こうえんけいかく",
+      "meaning": "공원계획"
+    },
+    "onExamples": [
+      {
+        "word": "公園計画",
+        "reading": "こうえんけいかく",
+        "meaning": "공원계획"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "園",
+        "reading": "その",
+        "meaning": "동산"
+      }
+    ],
+    "importance": "A",
+    "reason": "외부 공간 문맥",
+    "memory_hint": "園(동산 원)은 울타리(囗) 안에 멀리 펼친(袁) 뜰이 있으니 동산 원"
+  },
+  {
+    "id": 461,
+    "kanji": "央",
+    "meaning_kr": "가운데",
+    "onyomi": "おう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "中央監視",
+      "reading": "ちゅうおうかんし",
+      "meaning": "중앙감시"
+    },
+    "onExamples": [
+      {
+        "word": "中央監視",
+        "reading": "ちゅうおうかんし",
+        "meaning": "중앙감시"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설비 통합관제 문맥",
+    "memory_hint": "央(가운데 앙)은 큰 것(大) 한복판이 눌린 모습이니 가운데 앙"
+  },
+  {
+    "id": 462,
+    "kanji": "車",
+    "meaning_kr": "수레/차량",
+    "onyomi": "しゃ",
+    "kunyomi": "くるま",
+    "bim_term": {
+      "word": "駐車場",
+      "reading": "ちゅうしゃじょう",
+      "meaning": "주차장"
+    },
+    "onExamples": [
+      {
+        "word": "駐車場",
+        "reading": "ちゅうしゃじょう",
+        "meaning": "주차장"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning": "수레"
+      }
+    ],
+    "importance": "A",
+    "reason": "주차 계획 문맥",
+    "memory_hint": "車(수레 거)는 바퀴와 축이 달린 수레 모양이니 수레 거"
+  },
+  {
+    "id": 463,
+    "kanji": "両",
+    "meaning_kr": "양쪽/양",
+    "onyomi": "りょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "車両動線",
+      "reading": "しゃりょうどうせん",
+      "meaning": "차량동선"
+    },
+    "onExamples": [
+      {
+        "word": "車両動線",
+        "reading": "しゃりょうどうせん",
+        "meaning": "차량동선"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "교통 계획 문맥",
+    "memory_hint": "両(두 량)은 수레 위아래 두 쪽이 함께 있는 모습이니 두 량"
+  },
+  {
+    "id": 464,
+    "kanji": "駐",
+    "meaning_kr": "머무르다/주차",
+    "onyomi": "ちゅう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "駐輪場",
+      "reading": "ちゅうりんじょう",
+      "meaning": "주륜장"
+    },
+    "onExamples": [
+      {
+        "word": "駐輪場",
+        "reading": "ちゅうりんじょう",
+        "meaning": "주륜장"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "교통 계획 문맥",
+    "memory_hint": "駐(머무를 주)는 말(馬)이 주인(主) 앞에 멈춰 서 있으니 머무를 주"
+  },
+  {
+    "id": 465,
+    "kanji": "輪",
+    "meaning_kr": "바퀴",
+    "onyomi": "りん",
+    "kunyomi": "わ",
+    "bim_term": {
+      "word": "駐輪場",
+      "reading": "ちゅうりんじょう",
+      "meaning": "주륜장"
+    },
+    "onExamples": [
+      {
+        "word": "駐輪場",
+        "reading": "ちゅうりんじょう",
+        "meaning": "주륜장"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "輪",
+        "reading": "わ",
+        "meaning": "바퀴"
+      }
+    ],
+    "importance": "A",
+    "reason": "교통 계획 문맥",
+    "memory_hint": "輪(바퀴 륜)은 수레(車)에 질서(侖) 있게 둘러 도니 바퀴 륜"
+  },
+  {
+    "id": 466,
+    "kanji": "門",
+    "meaning_kr": "문",
+    "onyomi": "もん",
+    "kunyomi": "かど",
+    "bim_term": {
+      "word": "門扉",
+      "reading": "もんぴ",
+      "meaning": "대문"
+    },
+    "onExamples": [
+      {
+        "word": "門扉",
+        "reading": "もんぴ",
+        "meaning": "대문"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "門",
+        "reading": "かど",
+        "meaning": "문"
+      }
+    ],
+    "importance": "A",
+    "reason": "외부 시설 문맥",
+    "memory_hint": "門(문 문)은 두짝 문이 마주 선 모양이니 문 문"
+  },
+  {
+    "id": 467,
+    "kanji": "塀",
+    "meaning_kr": "담장",
+    "onyomi": "へい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "塀高さ",
+      "reading": "へいたかさ",
+      "meaning": "담장높이"
+    },
+    "onExamples": [
+      {
+        "word": "塀高さ",
+        "reading": "へいたかさ",
+        "meaning": "담장높이"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "외부 시설 문맥",
+    "memory_hint": "塀(담장 병)은 흙(土)으로 병풍(屏)처럼 둘러 막으니 담장 병"
+  },
+  {
+    "id": 468,
+    "kanji": "柵",
+    "meaning_kr": "울타리",
+    "onyomi": "さく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "フェンス柵",
+      "reading": "フェンスさく",
+      "meaning": "펜스 울타리"
+    },
+    "onExamples": [
+      {
+        "word": "フェンス柵",
+        "reading": "フェンスさく",
+        "meaning": "펜스 울타리"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "외부 시설 문맥",
+    "memory_hint": "柵(울타리 책)은 나무(木)를 엮어 줄(冊)처럼 둘러세우니 울타리 책"
+  },
+  {
+    "id": 469,
+    "kanji": "植",
+    "meaning_kr": "심다",
+    "onyomi": "しょく",
+    "kunyomi": "うえる",
+    "bim_term": {
+      "word": "植栽計画",
+      "reading": "しょくさいけいかく",
+      "meaning": "식재계획"
+    },
+    "onExamples": [
+      {
+        "word": "植栽計画",
+        "reading": "しょくさいけいかく",
+        "meaning": "식재계획"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "植",
+        "reading": "うえる",
+        "meaning": "심다"
+      }
+    ],
+    "importance": "A",
+    "reason": "조경 문맥",
+    "memory_hint": "植(심을 식)은 나무(木)를 곧게(直) 세워 땅에 심으니 심을 식"
+  },
+  {
+    "id": 470,
+    "kanji": "栽",
+    "meaning_kr": "심다/재배",
+    "onyomi": "さい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "植栽帯",
+      "reading": "しょくさいたい",
+      "meaning": "식재대"
+    },
+    "onExamples": [
+      {
+        "word": "植栽帯",
+        "reading": "しょくさいたい",
+        "meaning": "식재대"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "조경 문맥",
+    "memory_hint": "栽(심을 재)는 나무(木)를 창(戈)으로 다듬어 심으니 심을 재"
+  },
+  {
+    "id": 471,
+    "kanji": "裏",
+    "meaning_kr": "뒤/이면",
+    "onyomi": "り",
+    "kunyomi": "うら",
+    "bim_term": {
+      "word": "裏面処理",
+      "reading": "うらめんしょり",
+      "meaning": "이면처리"
+    },
+    "onExamples": [
+      {
+        "word": "裏面処理",
+        "reading": "うらめんしょり",
+        "meaning": "이면처리"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "裏",
+        "reading": "うら",
+        "meaning": "뒤"
+      }
+    ],
+    "importance": "A",
+    "reason": "마감 디테일 문맥",
+    "memory_hint": "裏(속 리/뒤 리)는 옷(衣) 안쪽에 마을(里)처럼 감춰진 면이니 뒤 리"
+  },
+  {
+    "id": 472,
+    "kanji": "懐",
+    "meaning_kr": "품/내부공간",
+    "onyomi": "かい",
+    "kunyomi": "ふところ",
+    "bim_term": {
+      "word": "懐寸法",
+      "reading": "ふところすんぽう",
+      "meaning": "내부 여유치수"
+    },
+    "onExamples": [
+      {
+        "word": "懐寸法",
+        "reading": "ふところすんぽう",
+        "meaning": "내부 여유치수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "懐",
+        "reading": "ふところ",
+        "meaning": "품"
+      }
+    ],
+    "importance": "A",
+    "reason": "건축 디테일 문맥",
+    "memory_hint": "懐(품 회)는 마음(忄)속에 옷(衣)을 품어 안으니 품 회"
+  },
+  {
+    "id": 473,
+    "kanji": "勝",
+    "meaning_kr": "이기다/승",
+    "onyomi": "しょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "勝手口",
+      "reading": "かってぐち",
+      "meaning": "부출입구"
+    },
+    "onExamples": [
+      {
+        "word": "勝手口",
+        "reading": "かってぐち",
+        "meaning": "부출입구"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "주거 계획 문맥",
+    "memory_hint": "勝(이길 승)은 고기(月) 힘과 삿됨(朕)을 눌러 이기니 이길 승"
+  },
+  {
+    "id": 474,
+    "kanji": "廻",
+    "meaning_kr": "돌다",
+    "onyomi": "かい",
+    "kunyomi": "まわる",
+    "bim_term": {
+      "word": "廻り縁",
+      "reading": "まわりぶち",
+      "meaning": "둘레몰딩"
+    },
+    "onExamples": [
+      {
+        "word": "廻り縁",
+        "reading": "まわりぶち",
+        "meaning": "둘레몰딩"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "廻",
+        "reading": "まわる",
+        "meaning": "돌다"
+      }
+    ],
+    "importance": "A",
+    "reason": "내장 디테일 문맥",
+    "memory_hint": "廻(돌 회)는 길(廴) 따라 둘레(回)로 돌아가니 돌 회"
+  },
+  {
+    "id": 475,
+    "kanji": "巾",
+    "meaning_kr": "너비",
+    "onyomi": "きん",
+    "kunyomi": "はば",
+    "bim_term": {
+      "word": "巾木",
+      "reading": "はばき",
+      "meaning": "걸레받이"
+    },
+    "onExamples": [
+      {
+        "word": "巾木",
+        "reading": "はばき",
+        "meaning": "걸레받이"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "巾",
+        "reading": "はば",
+        "meaning": "너비"
+      }
+    ],
+    "importance": "A",
+    "reason": "내장 마감 문맥",
+    "memory_hint": "巾(수건 건)은 너비 있는 천 조각 모양이니 수건 건"
+  },
+  {
+    "id": 476,
+    "kanji": "寝",
+    "meaning_kr": "자다",
+    "onyomi": "しん",
+    "kunyomi": "ねる",
+    "bim_term": {
+      "word": "寝室",
+      "reading": "しんしつ",
+      "meaning": "침실"
+    },
+    "onExamples": [
+      {
+        "word": "寝室",
+        "reading": "しんしつ",
+        "meaning": "침실"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "寝",
+        "reading": "ねる",
+        "meaning": "자다"
+      }
+    ],
+    "importance": "A",
+    "reason": "평면 계획 문맥",
+    "memory_hint": "寝(잘 침)은 지붕(宀) 아래 몸을 펴서 누우니 잘 침"
+  },
+  {
+    "id": 477,
+    "kanji": "堂",
+    "meaning_kr": "집/홀",
+    "onyomi": "どう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "食堂",
+      "reading": "しょくどう",
+      "meaning": "식당"
+    },
+    "onExamples": [
+      {
+        "word": "食堂",
+        "reading": "しょくどう",
+        "meaning": "식당"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "실 구성 문맥",
+    "memory_hint": "堂(집 당/집 홀)는 집(尚) 아래 흙(土) 바닥 넓은 홀이니 집 당"
+  },
+  {
+    "id": 478,
+    "kanji": "和",
+    "meaning_kr": "일본식/화",
+    "onyomi": "わ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "和室",
+      "reading": "わしつ",
+      "meaning": "일본식방"
+    },
+    "onExamples": [
+      {
+        "word": "和室",
+        "reading": "わしつ",
+        "meaning": "일본식방"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "실 구성 문맥",
+    "memory_hint": "和(화할 화)는 벼(禾)와 입(口)이 어울려 부드럽게 합하니 화할 화"
+  },
+  {
+    "id": 479,
+    "kanji": "洋",
+    "meaning_kr": "서양식/양",
+    "onyomi": "よう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "洋室",
+      "reading": "ようしつ",
+      "meaning": "양실"
+    },
+    "onExamples": [
+      {
+        "word": "洋室",
+        "reading": "ようしつ",
+        "meaning": "양실"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "실 구성 문맥",
+    "memory_hint": "洋(큰 바다 양/서양 양)은 물(氵)이 양(羊)처럼 넓게 퍼지니 큰 바다 양"
+  },
+  {
+    "id": 480,
+    "kanji": "衣",
+    "meaning_kr": "옷/탈의",
+    "onyomi": "い",
+    "kunyomi": "ころも",
+    "bim_term": {
+      "word": "脱衣室",
+      "reading": "だついしつ",
+      "meaning": "탈의실"
+    },
+    "onExamples": [
+      {
+        "word": "脱衣室",
+        "reading": "だついしつ",
+        "meaning": "탈의실"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "衣",
+        "reading": "ころも",
+        "meaning": "옷"
+      }
+    ],
+    "importance": "A",
+    "reason": "위생 공간 문맥",
+    "memory_hint": "衣(옷 의)는 소매와 자락 있는 옷 모양을 본떠서 옷 의"
+  },
+  {
+    "id": 481,
+    "kanji": "物",
+    "meaning_kr": "물건",
+    "onyomi": "ぶつ",
+    "kunyomi": "もの",
+    "bim_term": {
+      "word": "物入",
+      "reading": "ものいれ",
+      "meaning": "수납장"
+    },
+    "onExamples": [
+      {
+        "word": "物入",
+        "reading": "ものいれ",
+        "meaning": "수납장"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "物",
+        "reading": "もの",
+        "meaning": "물건"
+      }
+    ],
+    "importance": "A",
+    "reason": "실 구성 문맥",
+    "memory_hint": "物(물건 물)은 소(牛) 같은 생물과 여러 조각(勿)을 통틀어 물건 물"
+  },
+  {
+    "id": 482,
+    "kanji": "収",
+    "meaning_kr": "거두다/수납",
+    "onyomi": "しゅう",
+    "kunyomi": "おさめる",
+    "bim_term": {
+      "word": "収納棚",
+      "reading": "しゅうのうだな",
+      "meaning": "수납선반"
+    },
+    "onExamples": [
+      {
+        "word": "収納棚",
+        "reading": "しゅうのうだな",
+        "meaning": "수납선반"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "収",
+        "reading": "おさめる",
+        "meaning": "거두다"
+      }
+    ],
+    "importance": "A",
+    "reason": "실 구성 문맥",
+    "memory_hint": "収(거둘 수)는 손(又)으로 안으로 들여 거두니 거둘 수"
+  },
+  {
+    "id": 483,
+    "kanji": "母",
+    "meaning_kr": "어미/모",
+    "onyomi": "ぼ",
+    "kunyomi": "はは",
+    "bim_term": {
+      "word": "母屋",
+      "reading": "もや",
+      "meaning": "모옥·주채"
+    },
+    "onExamples": [
+      {
+        "word": "母屋",
+        "reading": "もや",
+        "meaning": "모옥·주채"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "어미"
+      }
+    ],
+    "importance": "A",
+    "reason": "목구조 문맥",
+    "memory_hint": "母(어미 모)는 젖꼭지 두 점이 있는 여인 모습이니 어미 모"
+  },
+  {
+    "id": 484,
+    "kanji": "胴",
+    "meaning_kr": "몸통",
+    "onyomi": "どう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "胴縁",
+      "reading": "どうぶち",
+      "meaning": "동연"
+    },
+    "onExamples": [
+      {
+        "word": "胴縁",
+        "reading": "どうぶち",
+        "meaning": "동연"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "벽·천장 하지 문맥",
+    "memory_hint": "胴(몸통 동)은 몸(月) 한가운데 같은(同) 부분이니 몸통 동"
+  },
+  {
+    "id": 485,
+    "kanji": "版",
+    "meaning_kr": "판/슬래브 판",
+    "onyomi": "はん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "底版",
+      "reading": "ていばん",
+      "meaning": "저판"
+    },
+    "onExamples": [
+      {
+        "word": "底版",
+        "reading": "ていばん",
+        "meaning": "저판"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "기초·토목 문맥",
+    "memory_hint": "版(널판지 판)은 판(片)을 반듯하게(反) 깎아 만든 판이니 판 판"
+  },
+  {
+    "id": 486,
+    "kanji": "失",
+    "meaning_kr": "잃다/손실",
+    "onyomi": "しつ",
+    "kunyomi": "うしなう",
+    "bim_term": {
+      "word": "圧力損失",
+      "reading": "あつりょくそんしつ",
+      "meaning": "압력손실"
+    },
+    "onExamples": [
+      {
+        "word": "圧力損失",
+        "reading": "あつりょくそんしつ",
+        "meaning": "압력손실"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "失",
+        "reading": "うしなう",
+        "meaning": "잃다"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 계산 문맥",
+    "memory_hint": "失(잃을 실)은 손에서 화살(矢)을 놓쳐 잃으니 잃을 실"
+  },
+  {
+    "id": 487,
+    "kanji": "効",
+    "meaning_kr": "효율",
+    "onyomi": "こう",
+    "kunyomi": "きく",
+    "bim_term": {
+      "word": "効率計算",
+      "reading": "こうりつけいさん",
+      "meaning": "효율계산"
+    },
+    "onExamples": [
+      {
+        "word": "効率計算",
+        "reading": "こうりつけいさん",
+        "meaning": "효율계산"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "効",
+        "reading": "きく",
+        "meaning": "효율"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 성능 문맥",
+    "memory_hint": "効(본받아 힘날 효/효험 효)은 섞여(交) 힘(力)이 드러나 효험이 나니 효 효"
+  },
+  {
+    "id": 488,
+    "kanji": "末",
+    "meaning_kr": "끝단",
+    "onyomi": "まつ",
+    "kunyomi": "すえ",
+    "bim_term": {
+      "word": "末端器具",
+      "reading": "まったんきぐ",
+      "meaning": "말단기구"
+    },
+    "onExamples": [
+      {
+        "word": "末端器具",
+        "reading": "まったんきぐ",
+        "meaning": "말단기구"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "末",
+        "reading": "すえ",
+        "meaning": "끝단"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 계통 문맥",
+    "memory_hint": "末(끝 말)은 나무(木) 끝가지 위를 한 획 더해 끝을 가리키니 끝 말"
+  },
+  {
+    "id": 489,
+    "kanji": "短",
+    "meaning_kr": "짧다/단락",
+    "onyomi": "たん",
+    "kunyomi": "みじかい",
+    "bim_term": {
+      "word": "短絡電流",
+      "reading": "たんらくでんりゅう",
+      "meaning": "단락전류"
+    },
+    "onExamples": [
+      {
+        "word": "短絡電流",
+        "reading": "たんらくでんりゅう",
+        "meaning": "단락전류"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "短",
+        "reading": "みじかい",
+        "meaning": "짧다"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 설계 문맥",
+    "memory_hint": "短(짧을 단)은 화살(矢)을 콩(豆)만큼 줄여 짧으니 짧을 단"
+  },
+  {
+    "id": 490,
+    "kanji": "絡",
+    "meaning_kr": "얽히다/단락",
+    "onyomi": "らく",
+    "kunyomi": "からむ",
+    "bim_term": {
+      "word": "短絡保護",
+      "reading": "たんらくほご",
+      "meaning": "단락보호"
+    },
+    "onExamples": [
+      {
+        "word": "短絡保護",
+        "reading": "たんらくほご",
+        "meaning": "단락보호"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "絡",
+        "reading": "からむ",
+        "meaning": "얽히다"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 설계 문맥",
+    "memory_hint": "絡(얽을 락)은 실(糸)이 각(各) 갈래와 엉기니 얽을 락"
+  },
+  {
+    "id": 491,
+    "kanji": "雷",
+    "meaning_kr": "천둥/낙뢰",
+    "onyomi": "らい",
+    "kunyomi": "かみなり",
+    "bim_term": {
+      "word": "雷保護設備",
+      "reading": "らいほごせつび",
+      "meaning": "낙뢰보호설비"
+    },
+    "onExamples": [
+      {
+        "word": "雷保護設備",
+        "reading": "らいほごせつび",
+        "meaning": "낙뢰보호설비"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "雷",
+        "reading": "かみなり",
+        "meaning": "천둥"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기·방재 문맥",
+    "memory_hint": "雷(우레 뢰)는 비(雨)구름 속 밭(田)처럼 울려치는 번개이니 우레 뢰"
+  },
+  {
+    "id": 492,
+    "kanji": "護",
+    "meaning_kr": "보호",
+    "onyomi": "ご",
+    "kunyomi": "まもる",
+    "bim_term": {
+      "word": "保護装置",
+      "reading": "ほごそうち",
+      "meaning": "보호장치"
+    },
+    "onExamples": [
+      {
+        "word": "保護装置",
+        "reading": "ほごそうち",
+        "meaning": "보호장치"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "護",
+        "reading": "まもる",
+        "meaning": "보호"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 설계 문맥",
+    "memory_hint": "護(지킬 호)는 말(言)과 손(蒦)으로 감싸 지키니 지킬 호"
+  },
+  {
+    "id": 493,
+    "kanji": "抵",
+    "meaning_kr": "막다/저항",
+    "onyomi": "てい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "抵抗値",
+      "reading": "ていこうち",
+      "meaning": "저항값"
+    },
+    "onExamples": [
+      {
+        "word": "抵抗値",
+        "reading": "ていこうち",
+        "meaning": "저항값"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "전기 설계 문맥",
+    "memory_hint": "抵(막을 저)는 손(扌)으로 바닥(氐)을 짚어 맞서 막으니 막을 저"
+  },
+  {
+    "id": 494,
+    "kanji": "抗",
+    "meaning_kr": "맞서다/저항",
+    "onyomi": "こう",
+    "kunyomi": "あらがう",
+    "bim_term": {
+      "word": "接地抵抗",
+      "reading": "せっちていこう",
+      "meaning": "접지저항"
+    },
+    "onExamples": [
+      {
+        "word": "接地抵抗",
+        "reading": "せっちていこう",
+        "meaning": "접지저항"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "抗",
+        "reading": "あらがう",
+        "meaning": "맞서다"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 설계 문맥",
+    "memory_hint": "抗(겨룰 항)는 손(扌)으로 높이(亢) 치켜들며 맞서니 겨룰 항"
+  },
+  {
+    "id": 495,
+    "kanji": "郭",
+    "meaning_kr": "테두리/곽",
+    "onyomi": "かく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "図郭",
+      "reading": "ずかく",
+      "meaning": "도곽"
+    },
+    "onExamples": [
+      {
+        "word": "図郭",
+        "reading": "ずかく",
+        "meaning": "도곽"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도면 표기 문맥",
+    "memory_hint": "郭(외곽 곽)은 성(享) 바깥 언덕(阝)을 둘러 경계하니 외곽 곽"
+  },
+  {
+    "id": 496,
+    "kanji": "題",
+    "meaning_kr": "제목",
+    "onyomi": "だい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "図面題名",
+      "reading": "ずめんだいめい",
+      "meaning": "도면 제목"
+    },
+    "onExamples": [
+      {
+        "word": "図面題名",
+        "reading": "ずめんだいめい",
+        "meaning": "도면 제목"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도면 표기 문맥",
+    "memory_hint": "題(제목 제)는 바를(是) 큰 머리(頁)로 내세우니 제목 제"
+  },
+  {
+    "id": 497,
+    "kanji": "編",
+    "meaning_kr": "엮다/편집",
+    "onyomi": "へん",
+    "kunyomi": "あむ",
+    "bim_term": {
+      "word": "編集履歴",
+      "reading": "へんしゅうりれき",
+      "meaning": "편집이력"
+    },
+    "onExamples": [
+      {
+        "word": "編集履歴",
+        "reading": "へんしゅうりれき",
+        "meaning": "편집이력"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "編",
+        "reading": "あむ",
+        "meaning": "엮다"
+      }
+    ],
+    "importance": "A",
+    "reason": "BIM 데이터 문맥",
+    "memory_hint": "編(엮을 편)은 실(糸)을 납작한 조각(扁)으로 엮으니 엮을 편"
+  },
+  {
+    "id": 498,
+    "kanji": "印",
+    "meaning_kr": "표시/인쇄",
+    "onyomi": "いん",
+    "kunyomi": "しるし",
+    "bim_term": {
+      "word": "印刷設定",
+      "reading": "いんさつせってい",
+      "meaning": "인쇄설정"
+    },
+    "onExamples": [
+      {
+        "word": "印刷設定",
+        "reading": "いんさつせってい",
+        "meaning": "인쇄설정"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "印",
+        "reading": "しるし",
+        "meaning": "표시"
+      }
+    ],
+    "importance": "A",
+    "reason": "도면 출력 문맥",
+    "memory_hint": "印(도장 인)은 손이 꺾여(卩) 표식을 찍으니 도장 인"
+  },
+  {
+    "id": 499,
+    "kanji": "刷",
+    "meaning_kr": "인쇄",
+    "onyomi": "さつ",
+    "kunyomi": "する",
+    "bim_term": {
+      "word": "印刷範囲",
+      "reading": "いんさつはんい",
+      "meaning": "인쇄범위"
+    },
+    "onExamples": [
+      {
+        "word": "印刷範囲",
+        "reading": "いんさつはんい",
+        "meaning": "인쇄범위"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "刷",
+        "reading": "する",
+        "meaning": "인쇄"
+      }
+    ],
+    "importance": "A",
+    "reason": "도면 출력 문맥",
+    "memory_hint": "刷(인쇄할 쇄)은 칼(刂)로 판을 밀어 글을 찍으니 인쇄할 쇄"
+  },
+  {
+    "id": 500,
+    "kanji": "樋",
+    "meaning_kr": "홈통",
+    "onyomi": "とう",
+    "kunyomi": "とい",
+    "bim_term": {
+      "word": "竪樋",
+      "reading": "たてどい",
+      "meaning": "세로 홈통"
+    },
+    "onExamples": [
+      {
+        "word": "竪樋",
+        "reading": "たてどい",
+        "meaning": "세로 홈통"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "樋",
+        "reading": "とい",
+        "meaning": "홈통"
+      }
+    ],
+    "importance": "A",
+    "reason": "우수배수 문맥",
+    "memory_hint": "樋(홈통 통)은 나무(木)에 통함(通) 같은 길을 파 물길 내니 홈통 통"
+  },
+  {
+    "id": 501,
+    "kanji": "庇",
+    "meaning_kr": "처마/차양",
+    "onyomi": "ひ",
+    "kunyomi": "ひさし",
+    "bim_term": {
+      "word": "庇先端",
+      "reading": "ひさしせんたん",
+      "meaning": "차양 끝단"
+    },
+    "onExamples": [
+      {
+        "word": "庇先端",
+        "reading": "ひさしせんたん",
+        "meaning": "차양 끝단"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "庇",
+        "reading": "ひさし",
+        "meaning": "처마"
+      }
+    ],
+    "importance": "A",
+    "reason": "입면 디테일 문맥",
+    "memory_hint": "庇(처마 비)는 집(广) 지붕이 사람(比) 위를 덮어 그늘지니 처마 비"
+  },
+  {
+    "id": 502,
+    "kanji": "棟",
+    "meaning_kr": "마룻대",
+    "onyomi": "とう",
+    "kunyomi": "むね",
+    "bim_term": {
+      "word": "棟換気",
+      "reading": "むねかんき",
+      "meaning": "용마루 환기"
+    },
+    "onExamples": [
+      {
+        "word": "棟換気",
+        "reading": "むねかんき",
+        "meaning": "용마루 환기"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "棟",
+        "reading": "むね",
+        "meaning": "마룻대"
+      }
+    ],
+    "importance": "A",
+    "reason": "지붕 문맥",
+    "memory_hint": "棟(마룻대 동)은 나무(木)를 동쪽(東) 능선처럼 가장 높이 얹으니 마룻대 동"
+  },
+  {
+    "id": 503,
+    "kanji": "瓦",
+    "meaning_kr": "기와",
+    "onyomi": "が",
+    "kunyomi": "かわら",
+    "bim_term": {
+      "word": "瓦葺き",
+      "reading": "かわらぶき",
+      "meaning": "기와지붕"
+    },
+    "onExamples": [
+      {
+        "word": "瓦葺き",
+        "reading": "かわらぶき",
+        "meaning": "기와지붕"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "瓦",
+        "reading": "かわら",
+        "meaning": "기와"
+      }
+    ],
+    "importance": "A",
+    "reason": "지붕 문맥",
+    "memory_hint": "瓦(기와 와)는 구운 흙조각이 물결처럼 굽은 모습이니 기와 와"
+  },
+  {
+    "id": 504,
+    "kanji": "葺",
+    "meaning_kr": "덮다/이다",
+    "onyomi": "しゅう",
+    "kunyomi": "ふく",
+    "bim_term": {
+      "word": "葺き材",
+      "reading": "ふきざい",
+      "meaning": "이지재"
+    },
+    "onExamples": [
+      {
+        "word": "葺き材",
+        "reading": "ふきざい",
+        "meaning": "이지재"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "葺",
+        "reading": "ふく",
+        "meaning": "덮다"
+      }
+    ],
+    "importance": "A",
+    "reason": "지붕 문맥",
+    "memory_hint": "葺(덮을 즙/이을 즙)은 풀(艹)과 귀(耳)처럼 겹겹이 덮어 이으니 덮을 즙"
+  },
+  {
+    "id": 505,
+    "kanji": "棚",
+    "meaning_kr": "선반",
+    "onyomi": "たな",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "配管棚",
+      "reading": "はいかんだな",
+      "meaning": "배관선반"
+    },
+    "onExamples": [
+      {
+        "word": "配管棚",
+        "reading": "はいかんだな",
+        "meaning": "배관선반"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설비 지지 문맥",
+    "memory_hint": "棚(선반 붕/붕우리 붕) 나무(木)를 벗(朋)처럼 나란히 얹어 선반 만드니 선반 붕"
+  },
+  {
+    "id": 506,
+    "kanji": "樹",
+    "meaning_kr": "나무/수목",
+    "onyomi": "じゅ",
+    "kunyomi": "き",
+    "bim_term": {
+      "word": "樹木保全",
+      "reading": "じゅもくほぜん",
+      "meaning": "수목보전"
+    },
+    "onExamples": [
+      {
+        "word": "樹木保全",
+        "reading": "じゅもくほぜん",
+        "meaning": "수목보전"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "樹",
+        "reading": "き",
+        "meaning": "나무"
+      }
+    ],
+    "importance": "A",
+    "reason": "조경 문맥",
+    "memory_hint": "樹(나무 수)는 나무(木)를 세워(尌) 크게 키우니 나무 수"
+  },
+  {
+    "id": 507,
+    "kanji": "討",
+    "meaning_kr": "논의하다/검토",
+    "onyomi": "とう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "検討事項",
+      "reading": "けんとうじこう",
+      "meaning": "검토사항"
+    },
+    "onExamples": [
+      {
+        "word": "検討事項",
+        "reading": "けんとうじこう",
+        "meaning": "검토사항"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설계 검토 문맥",
+    "memory_hint": "討(칠 토/논할 토)는 말(言)로 마디(寸)마다 따져 논하니 논할 토"
+  },
+  {
+    "id": 508,
+    "kanji": "審",
+    "meaning_kr": "살피다/심사",
+    "onyomi": "しん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "審査機関",
+      "reading": "しんさきかん",
+      "meaning": "심사기관"
+    },
+    "onExamples": [
+      {
+        "word": "審査機関",
+        "reading": "しんさきかん",
+        "meaning": "심사기관"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "인허가 문맥",
+    "memory_hint": "審(살필 심)은 지붕(宀) 아래 바늘(釆)처럼 자세히 살피니 살필 심"
+  },
+  {
+    "id": 509,
+    "kanji": "督",
+    "meaning_kr": "감독",
+    "onyomi": "とく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "工事監督",
+      "reading": "こうじかんとく",
+      "meaning": "공사감독"
+    },
+    "onExamples": [
+      {
+        "word": "工事監督",
+        "reading": "こうじかんとく",
+        "meaning": "공사감독"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "현장 관리 문맥",
+    "memory_hint": "督(감독할 독)은 눈(目)으로 숙여(叔) 지켜보니 감독할 독"
+  },
+  {
+    "id": 510,
+    "kanji": "対",
+    "meaning_kr": "대하다/대책",
+    "onyomi": "たい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "対策案",
+      "reading": "たいさくあん",
+      "meaning": "대책안"
+    },
+    "onExamples": [
+      {
+        "word": "対策案",
+        "reading": "たいさくあん",
+        "meaning": "대책안"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "문제 대응 문맥",
+    "memory_hint": "対(대할 대)는 마주 선 두 손이 촌(寸)을 맞대니 대할 대"
+  },
+  {
+    "id": 511,
+    "kanji": "象",
+    "meaning_kr": "형상/대상",
+    "onyomi": "しょう",
+    "kunyomi": "ぞう",
+    "bim_term": {
+      "word": "対象範囲",
+      "reading": "たいしょうはんい",
+      "meaning": "대상범위"
+    },
+    "onExamples": [
+      {
+        "word": "対象範囲",
+        "reading": "たいしょうはんい",
+        "meaning": "대상범위"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "象",
+        "reading": "ぞう",
+        "meaning": "형상"
+      }
+    ],
+    "importance": "A",
+    "reason": "검토 대상 문맥",
+    "memory_hint": "象(코끼리 상/형상 상)은 코끼리 모양을 본떠 형상 상"
+  },
+  {
+    "id": 512,
+    "kanji": "処",
+    "meaning_kr": "처리",
+    "onyomi": "しょ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "処理方法",
+      "reading": "しょりほうほう",
+      "meaning": "처리방법"
+    },
+    "onExamples": [
+      {
+        "word": "処理方法",
+        "reading": "しょりほうほう",
+        "meaning": "처리방법"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "시공·데이터 문맥",
+    "memory_hint": "処(곳 처/처리할 처)는 앉을 곳에서 일을 나누어 다루니 처할 처"
+  },
+  {
+    "id": 513,
+    "kanji": "答",
+    "meaning_kr": "대답/응답",
+    "onyomi": "とう",
+    "kunyomi": "こたえる",
+    "bim_term": {
+      "word": "応答値",
+      "reading": "おうとうち",
+      "meaning": "응답값"
+    },
+    "onExamples": [
+      {
+        "word": "応答値",
+        "reading": "おうとうち",
+        "meaning": "응답값"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "答",
+        "reading": "こたえる",
+        "meaning": "대답"
+      }
+    ],
+    "importance": "A",
+    "reason": "해석·설비 제어 문맥",
+    "memory_hint": "答(대답 답)은 대(竹) 아래 합(合)당한 말로 응하니 대답 답"
+  },
+  {
+    "id": 514,
+    "kanji": "吐",
+    "meaning_kr": "토하다/토출",
+    "onyomi": "と",
+    "kunyomi": "はく",
+    "bim_term": {
+      "word": "吐出圧",
+      "reading": "としゅつあつ",
+      "meaning": "토출압"
+    },
+    "onExamples": [
+      {
+        "word": "吐出圧",
+        "reading": "としゅつあつ",
+        "meaning": "토출압"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "吐",
+        "reading": "はく",
+        "meaning": "토하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "펌프·팬 문맥",
+    "memory_hint": "吐(토할 토)는 입(口)으로 흙(土)처럼 안의 것을 내뱉으니 토할 토"
+  },
+  {
+    "id": 515,
+    "kanji": "筒",
+    "meaning_kr": "통/덕트",
+    "onyomi": "とう",
+    "kunyomi": "つつ",
+    "bim_term": {
+      "word": "筒先",
+      "reading": "つつさき",
+      "meaning": "노즐 끝단"
+    },
+    "onExamples": [
+      {
+        "word": "筒先",
+        "reading": "つつさき",
+        "meaning": "노즐 끝단"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "筒",
+        "reading": "つつ",
+        "meaning": "통"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 부속 문맥",
+    "memory_hint": "筒(통 통)은 대(竹)로 만든 둥근 통(同)이니 통 통"
+  },
+  {
+    "id": 516,
+    "kanji": "筐",
+    "meaning_kr": "함체",
+    "onyomi": "きょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "制御筐体",
+      "reading": "せいぎょきょうたい",
+      "meaning": "제어 함체"
+    },
+    "onExamples": [
+      {
+        "word": "制御筐体",
+        "reading": "せいぎょきょうたい",
+        "meaning": "제어 함체"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "전기 판넬 문맥",
+    "memory_hint": "筐(상자 광)는 대(竹)로 네모난 상자(匡)를 엮으니 상자 광"
+  },
+  {
+    "id": 517,
+    "kanji": "箱",
+    "meaning_kr": "상자",
+    "onyomi": "そう",
+    "kunyomi": "はこ",
+    "bim_term": {
+      "word": "点検箱",
+      "reading": "てんけんばこ",
+      "meaning": "점검함"
+    },
+    "onExamples": [
+      {
+        "word": "点検箱",
+        "reading": "てんけんばこ",
+        "meaning": "점검함"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "箱",
+        "reading": "はこ",
+        "meaning": "상자"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 부속 문맥",
+    "memory_hint": "箱(상자 상)은 대(竹)로 서로(相) 마주 짠 상자이니 상자 상"
+  },
+  {
+    "id": 518,
+    "kanji": "膨",
+    "meaning_kr": "부풀다",
+    "onyomi": "ぼう",
+    "kunyomi": "ふくらむ",
+    "bim_term": {
+      "word": "膨張タンク",
+      "reading": "ぼうちょうタンク",
+      "meaning": "팽창탱크"
+    },
+    "onExamples": [
+      {
+        "word": "膨張タンク",
+        "reading": "ぼうちょうタンク",
+        "meaning": "팽창탱크"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "膨",
+        "reading": "ふくらむ",
+        "meaning": "부풀다"
+      }
+    ],
+    "importance": "A",
+    "reason": "기계 설비 문맥",
+    "memory_hint": "膨(부풀 팽)은 살(月)이 북(彭)처럼 빵빵해지니 부풀 팽"
+  },
+  {
+    "id": 519,
+    "kanji": "減",
+    "meaning_kr": "줄다",
+    "onyomi": "げん",
+    "kunyomi": "へる",
+    "bim_term": {
+      "word": "圧力減衰",
+      "reading": "あつりょくげんすい",
+      "meaning": "압력감쇠"
+    },
+    "onExamples": [
+      {
+        "word": "圧力減衰",
+        "reading": "あつりょくげんすい",
+        "meaning": "압력감쇠"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "減",
+        "reading": "へる",
+        "meaning": "줄다"
+      }
+    ],
+    "importance": "A",
+    "reason": "설비 해석 문맥",
+    "memory_hint": "減(덜 감)은 물(氵)이 짐승(咸) 마르듯 줄어드니 덜 감"
+  },
+  {
+    "id": 520,
+    "kanji": "透",
+    "meaning_kr": "통하다/투과",
+    "onyomi": "とう",
+    "kunyomi": "すく",
+    "bim_term": {
+      "word": "透湿防水",
+      "reading": "とうしつぼうすい",
+      "meaning": "투습방수"
+    },
+    "onExamples": [
+      {
+        "word": "透湿防水",
+        "reading": "とうしつぼうすい",
+        "meaning": "투습방수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "透",
+        "reading": "すく",
+        "meaning": "통하다"
+      }
+    ],
+    "importance": "A",
+    "reason": "외피 성능 문맥",
+    "memory_hint": "透(사무칠 투)는 길(辶)을 따라 쇼무늬처럼(秀) 비쳐 통하니 사무칠 투"
+  },
+  {
+    "id": 521,
+    "kanji": "膜",
+    "meaning_kr": "막/피막",
+    "onyomi": "まく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "防水膜",
+      "reading": "ぼうすいまく",
+      "meaning": "방수막"
+    },
+    "onExamples": [
+      {
+        "word": "防水膜",
+        "reading": "ぼうすいまく",
+        "meaning": "방수막"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "외피 성능 문맥",
+    "memory_hint": "膜(꺼풀 막)은 살(月)에 풀(莫) 같은 얇은 막이 씌워지니 막 막"
+  },
+  {
+    "id": 522,
+    "kanji": "屈",
+    "meaning_kr": "굽다/굴곡",
+    "onyomi": "くつ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "屈曲部",
+      "reading": "くっきょくぶ",
+      "meaning": "굴곡부"
+    },
+    "onExamples": [
+      {
+        "word": "屈曲部",
+        "reading": "くっきょくぶ",
+        "meaning": "굴곡부"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "배관·덕트 문맥",
+    "memory_hint": "屈(굽을 굴)은 몸(尸)을 내밀어 산(出)처럼 굽히니 굽을 굴"
+  },
+  {
+    "id": 523,
+    "kanji": "柔",
+    "meaning_kr": "부드럽다",
+    "onyomi": "じゅう",
+    "kunyomi": "やわらかい",
+    "bim_term": {
+      "word": "柔軟継手",
+      "reading": "じゅうなんつぎて",
+      "meaning": "유연이음"
+    },
+    "onExamples": [
+      {
+        "word": "柔軟継手",
+        "reading": "じゅうなんつぎて",
+        "meaning": "유연이음"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "柔",
+        "reading": "やわらかい",
+        "meaning": "부드럽다"
+      }
+    ],
+    "importance": "A",
+    "reason": "배관 설비 문맥",
+    "memory_hint": "柔(부드러울 유)는 나무(木)가 창(矛)도 휘게 할 만큼 유연하니 부드러울 유"
+  },
+  {
+    "id": 524,
+    "kanji": "剥",
+    "meaning_kr": "벗기다/박리",
+    "onyomi": "はく",
+    "kunyomi": "はがす",
+    "bim_term": {
+      "word": "剥離補修",
+      "reading": "はくりほしゅう",
+      "meaning": "박리보수"
+    },
+    "onExamples": [
+      {
+        "word": "剥離補修",
+        "reading": "はくりほしゅう",
+        "meaning": "박리보수"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "剥",
+        "reading": "はがす",
+        "meaning": "벗기다"
+      }
+    ],
+    "importance": "A",
+    "reason": "하자 보수 문맥",
+    "memory_hint": "剥(벗길 박)은 칼(刂)로 녹(彔) 껍질을 도려 벗기니 벗길 박"
+  },
+  {
+    "id": 525,
+    "kanji": "離",
+    "meaning_kr": "떼다/분리",
+    "onyomi": "り",
+    "kunyomi": "はなれる",
+    "bim_term": {
+      "word": "剥離部",
+      "reading": "はくりぶ",
+      "meaning": "박리부"
+    },
+    "onExamples": [
+      {
+        "word": "剥離部",
+        "reading": "はくりぶ",
+        "meaning": "박리부"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "離",
+        "reading": "はなれる",
+        "meaning": "떼다"
+      }
+    ],
+    "importance": "A",
+    "reason": "하자 보수 문맥",
+    "memory_hint": "離(떼어놓을 리)는 새(隹)가 그물에서 떠나 떨어지니 떨어질 리"
+  },
+  {
+    "id": 526,
+    "kanji": "融",
+    "meaning_kr": "녹다/융해",
+    "onyomi": "ゆう",
+    "kunyomi": "とける",
+    "bim_term": {
+      "word": "融雪設備",
+      "reading": "ゆうせつせつび",
+      "meaning": "융설설비"
+    },
+    "onExamples": [
+      {
+        "word": "融雪設備",
+        "reading": "ゆうせつせつび",
+        "meaning": "융설설비"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "融",
+        "reading": "とける",
+        "meaning": "녹다"
+      }
+    ],
+    "importance": "A",
+    "reason": "외부 설비 문맥",
+    "memory_hint": "融(녹을 융)은 벌레(虫) 껍질이 안에서(鬲) 녹아 섞이니 녹을 융"
+  },
+  {
+    "id": 527,
+    "kanji": "雪",
+    "meaning_kr": "눈",
+    "onyomi": "せつ",
+    "kunyomi": "ゆき",
+    "bim_term": {
+      "word": "融雪配管",
+      "reading": "ゆうせつはいかん",
+      "meaning": "융설배관"
+    },
+    "onExamples": [
+      {
+        "word": "融雪配管",
+        "reading": "ゆうせつはいかん",
+        "meaning": "융설배관"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "雪",
+        "reading": "ゆき",
+        "meaning": "눈"
+      }
+    ],
+    "importance": "A",
+    "reason": "외부 설비 문맥",
+    "memory_hint": "雪(눈 설)은 비(雨)가 빗자루(彐)처럼 쓸리며 내려 쌓이니 눈 설"
+  },
+  {
+    "id": 528,
+    "kanji": "霜",
+    "meaning_kr": "서리",
+    "onyomi": "そう",
+    "kunyomi": "しも",
+    "bim_term": {
+      "word": "霜付防止",
+      "reading": "しもつきぼうし",
+      "meaning": "서리방지"
+    },
+    "onExamples": [
+      {
+        "word": "霜付防止",
+        "reading": "しもつきぼうし",
+        "meaning": "서리방지"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "霜",
+        "reading": "しも",
+        "meaning": "서리"
+      }
+    ],
+    "importance": "A",
+    "reason": "냉동 설비 문맥",
+    "memory_hint": "霜(서리 상)은 비(雨)와 나무(木)의 상(相) 위에 하얗게 맺히니 서리 상"
+  },
+  {
+    "id": 529,
+    "kanji": "曇",
+    "meaning_kr": "흐리다",
+    "onyomi": "どん",
+    "kunyomi": "くもる",
+    "bim_term": {
+      "word": "曇り止め",
+      "reading": "くもりどめ",
+      "meaning": "김서림 방지"
+    },
+    "onExamples": [
+      {
+        "word": "曇り止め",
+        "reading": "くもりどめ",
+        "meaning": "김서림 방지"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "曇",
+        "reading": "くもる",
+        "meaning": "흐리다"
+      }
+    ],
+    "importance": "A",
+    "reason": "유리·설비 문맥",
+    "memory_hint": "曇(흐릴 담)은 해(日) 위 구름(雲)이 덮여 흐리니 흐릴 담"
+  },
+  {
+    "id": 530,
+    "kanji": "雲",
+    "meaning_kr": "구름",
+    "onyomi": "うん",
+    "kunyomi": "くも",
+    "bim_term": {
+      "word": "雲形図",
+      "reading": "くもがたず",
+      "meaning": "운형도"
+    },
+    "onExamples": [
+      {
+        "word": "雲形図",
+        "reading": "くもがたず",
+        "meaning": "운형도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "雲",
+        "reading": "くも",
+        "meaning": "구름"
+      }
+    ],
+    "importance": "A",
+    "reason": "도형·표현 문맥",
+    "memory_hint": "雲(구름 운)은 비(雨)기운이 하늘에 모여 떠 있으니 구름 운"
+  },
+  {
+    "id": 531,
+    "kanji": "比",
+    "meaning_kr": "비교",
+    "onyomi": "ひ",
+    "kunyomi": "くらべる",
+    "bim_term": {
+      "word": "比較表",
+      "reading": "ひかくひょう",
+      "meaning": "비교표"
+    },
+    "onExamples": [
+      {
+        "word": "比較表",
+        "reading": "ひかくひょう",
+        "meaning": "비교표"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "比",
+        "reading": "くらべる",
+        "meaning": "비교"
+      }
+    ],
+    "importance": "A",
+    "reason": "BIM 검토 문맥",
+    "memory_hint": "比(견줄 비)는 두 사람이 나란히 서 서로 견주니 견줄 비"
+  },
+  {
+    "id": 532,
+    "kanji": "較",
+    "meaning_kr": "견주다",
+    "onyomi": "かく",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "比較検討",
+      "reading": "ひかくけんとう",
+      "meaning": "비교검토"
+    },
+    "onExamples": [
+      {
+        "word": "比較検討",
+        "reading": "ひかくけんとう",
+        "meaning": "비교검토"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "BIM 검토 문맥",
+    "memory_hint": "較(견줄 교)는 수레(車)를 서로(交) 비교해 견주니 견줄 교"
+  },
+  {
+    "id": 533,
+    "kanji": "監",
+    "meaning_kr": "감시/관리",
+    "onyomi": "かん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "監視盤",
+      "reading": "かんしばん",
+      "meaning": "감시반"
+    },
+    "onExamples": [
+      {
+        "word": "監視盤",
+        "reading": "かんしばん",
+        "meaning": "감시반"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설비 통합관리 문맥",
+    "memory_hint": "監(볼 감/감독 감)은 그릇(皿)에 비친 모습을 굽어보니 감독할 감"
+  },
+  {
+    "id": 534,
+    "kanji": "視",
+    "meaning_kr": "보다/시각",
+    "onyomi": "し",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "可視化",
+      "reading": "かしか",
+      "meaning": "가시화"
+    },
+    "onExamples": [
+      {
+        "word": "可視化",
+        "reading": "かしか",
+        "meaning": "가시화"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "BIM 시각화 문맥",
+    "memory_hint": "視(볼 시)는 보일(示) 대상을 눈(見)으로 보니 볼 시"
+  },
+  {
+    "id": 535,
+    "kanji": "操",
+    "meaning_kr": "조종/조작",
+    "onyomi": "そう",
+    "kunyomi": "あやつる",
+    "bim_term": {
+      "word": "操作盤",
+      "reading": "そうさばん",
+      "meaning": "조작반"
+    },
+    "onExamples": [
+      {
+        "word": "操作盤",
+        "reading": "そうさばん",
+        "meaning": "조작반"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "操",
+        "reading": "あやつる",
+        "meaning": "조종"
+      }
+    ],
+    "importance": "A",
+    "reason": "전기 제어 문맥",
+    "memory_hint": "操(잡을 조/조종할 조)는 손(扌)으로 나무(喿) 가지를 다루듯 조종하니 조종할 조"
+  },
+  {
+    "id": 536,
+    "kanji": "作",
+    "meaning_kr": "만들다/작업",
+    "onyomi": "さく",
+    "kunyomi": "つくる",
+    "bim_term": {
+      "word": "作業手順",
+      "reading": "さぎょうてじゅん",
+      "meaning": "작업절차"
+    },
+    "onExamples": [
+      {
+        "word": "作業手順",
+        "reading": "さぎょうてじゅん",
+        "meaning": "작업절차"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "作",
+        "reading": "つくる",
+        "meaning": "만들다"
+      }
+    ],
+    "importance": "A",
+    "reason": "시공 관리 문맥",
+    "memory_hint": "作(지을 작)은 사람(亻)이 칼자루(乍) 잡고 만들어내니 지을 작"
+  },
+  {
+    "id": 537,
+    "kanji": "系",
+    "meaning_kr": "계통",
+    "onyomi": "けい",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "系統図",
+      "reading": "けいとうず",
+      "meaning": "계통도"
+    },
+    "onExamples": [
+      {
+        "word": "系統図",
+        "reading": "けいとうず",
+        "meaning": "계통도"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설비·전기 계통 문맥",
+    "memory_hint": "系(이을 계/계통 계)는 실타래를 한 줄로 이어 놓으니 계통 계"
+  },
+  {
+    "id": 538,
+    "kanji": "番",
+    "meaning_kr": "번호/차례",
+    "onyomi": "ばん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "番号付与",
+      "reading": "ばんごうふよ",
+      "meaning": "번호 부여"
+    },
+    "onExamples": [
+      {
+        "word": "番号付与",
+        "reading": "ばんごうふよ",
+        "meaning": "번호 부여"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "객체 관리 문맥",
+    "memory_hint": "番(차례 번)은 논밭(田)을 쌀(釆)처럼 차례로 세니 차례 번"
+  },
+  {
+    "id": 539,
+    "kanji": "号",
+    "meaning_kr": "호/기호",
+    "onyomi": "ごう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "記号凡例",
+      "reading": "きごうはんれい",
+      "meaning": "기호 범례"
+    },
+    "onExamples": [
+      {
+        "word": "記号凡例",
+        "reading": "きごうはんれい",
+        "meaning": "기호 범례"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도면 표기 문맥",
+    "memory_hint": "号(부를 호/기호 호)는 입(口)으로 길게 외쳐 표시하니 부를 호"
+  },
+  {
+    "id": 540,
+    "kanji": "批",
+    "meaning_kr": "비평/비판",
+    "onyomi": "ひ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "批評コメント",
+      "reading": "ひひょうコメント",
+      "meaning": "비평 코멘트"
+    },
+    "onExamples": [
+      {
+        "word": "批評コメント",
+        "reading": "ひひょうコメント",
+        "meaning": "비평 코멘트"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "검토 기록 문맥",
+    "memory_hint": "批(비평할 비)는 손(扌)으로 서로(比) 견주어 평하니 비평할 비"
+  },
+  {
+    "id": 541,
+    "kanji": "評",
+    "meaning_kr": "평가",
+    "onyomi": "ひょう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "評価表",
+      "reading": "ひょうかひょう",
+      "meaning": "평가표"
+    },
+    "onExamples": [
+      {
+        "word": "評価表",
+        "reading": "ひょうかひょう",
+        "meaning": "평가표"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "검토·심사 문맥",
+    "memory_hint": "評(평할 평)은 말(言)로 평평함(平)을 가리듯 따지니 평할 평"
+  },
+  {
+    "id": 542,
+    "kanji": "案",
+    "meaning_kr": "안/대안",
+    "onyomi": "あん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "代替案",
+      "reading": "だいたいあん",
+      "meaning": "대안"
+    },
+    "onExamples": [
+      {
+        "word": "代替案",
+        "reading": "だいたいあん",
+        "meaning": "대안"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "설계 검토 문맥",
+    "memory_hint": "案(책상 안/안건 안)는 지붕(宀) 아래 나무(木) 책상에 안을 놓으니 안 안"
+  },
+  {
+    "id": 543,
+    "kanji": "級",
+    "meaning_kr": "등급",
+    "onyomi": "きゅう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "耐火等級",
+      "reading": "たいかとうきゅう",
+      "meaning": "내화등급"
+    },
+    "onExamples": [
+      {
+        "word": "耐火等級",
+        "reading": "たいかとうきゅう",
+        "meaning": "내화등급"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "성능 기준 문맥",
+    "memory_hint": "級(등급 급)은 실(糸) 줄을 차례(及)로 나눠 매기니 등급 급"
+  },
+  {
+    "id": 544,
+    "kanji": "値",
+    "meaning_kr": "값",
+    "onyomi": "ち",
+    "kunyomi": "あたい",
+    "bim_term": {
+      "word": "設定値",
+      "reading": "せっていち",
+      "meaning": "설정값"
+    },
+    "onExamples": [
+      {
+        "word": "設定値",
+        "reading": "せっていち",
+        "meaning": "설정값"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "値",
+        "reading": "あたい",
+        "meaning": "값"
+      }
+    ],
+    "importance": "A",
+    "reason": "제어·파라미터 문맥",
+    "memory_hint": "値(값 치)는 사람(亻)이 곧음(直)을 기준 삼아 매긴 값이니 값 치"
+  },
+  {
+    "id": 545,
+    "kanji": "項",
+    "meaning_kr": "항목",
+    "onyomi": "こう",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "入力項目",
+      "reading": "にゅうりょくこうもく",
+      "meaning": "입력항목"
+    },
+    "onExamples": [
+      {
+        "word": "入力項目",
+        "reading": "にゅうりょくこうもく",
+        "meaning": "입력항목"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "데이터 입력 문맥",
+    "memory_hint": "項(목덜미 항/항목 항)은 목(頁)처럼 앞에 세운 한 조목이니 항목 항"
+  },
+  {
+    "id": 546,
+    "kanji": "符",
+    "meaning_kr": "기호",
+    "onyomi": "ふ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "符号化",
+      "reading": "ふごうか",
+      "meaning": "부호화"
+    },
+    "onExamples": [
+      {
+        "word": "符号化",
+        "reading": "ふごうか",
+        "meaning": "부호화"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "도면·데이터 문맥",
+    "memory_hint": "符(부호 부)는 대(竹)패에 붙인 표(付)가 신표 되니 부호 부"
+  },
+  {
+    "id": 547,
+    "kanji": "節",
+    "meaning_kr": "절/조절",
+    "onyomi": "せつ",
+    "kunyomi": "ふし",
+    "bim_term": {
+      "word": "節点",
+      "reading": "せってん",
+      "meaning": "절점"
+    },
+    "onExamples": [
+      {
+        "word": "節点",
+        "reading": "せってん",
+        "meaning": "절점"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "節",
+        "reading": "ふし",
+        "meaning": "절"
+      }
+    ],
+    "importance": "A",
+    "reason": "구조·모델링 문맥",
+    "memory_hint": "節(마디 절)은 대(竹)에 마디(即)가 있어 끊어지니 마디 절"
+  },
+  {
+    "id": 548,
+    "kanji": "布",
+    "meaning_kr": "펼치다/분포",
+    "onyomi": "ふ",
+    "kunyomi": "ぬの",
+    "bim_term": {
+      "word": "分布図",
+      "reading": "ぶんぷず",
+      "meaning": "분포도"
+    },
+    "onExamples": [
+      {
+        "word": "分布図",
+        "reading": "ぶんぷず",
+        "meaning": "분포도"
+      }
+    ],
+    "kunExamples": [
+      {
+        "word": "布",
+        "reading": "ぬの",
+        "meaning": "펼치다"
+      }
+    ],
+    "importance": "A",
+    "reason": "분석 문맥",
+    "memory_hint": "布(베 포/펼 부)는 손(𠂇)으로 천(巾)을 펼쳐 놓으니 펼 부"
+  },
+  {
+    "id": 549,
+    "kanji": "列",
+    "meaning_kr": "줄/배열",
+    "onyomi": "れつ",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "配列番号",
+      "reading": "はいれつばんごう",
+      "meaning": "배열번호"
+    },
+    "onExamples": [
+      {
+        "word": "配列番号",
+        "reading": "はいれつばんごう",
+        "meaning": "배열번호"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "객체 정렬·관리 문맥",
+    "memory_hint": "列(벌일 렬)은 칼(刂)로 뼈를 갈라 줄지우니 벌일 렬"
+  },
+  {
+    "id": 550,
+    "kanji": "判",
+    "meaning_kr": "판단/판정",
+    "onyomi": "はん",
+    "kunyomi": "",
+    "bim_term": {
+      "word": "判定条件",
+      "reading": "はんていじょうけん",
+      "meaning": "판정조건"
+    },
+    "onExamples": [
+      {
+        "word": "判定条件",
+        "reading": "はんていじょうけん",
+        "meaning": "판정조건"
+      }
+    ],
+    "kunExamples": [],
+    "importance": "A",
+    "reason": "검토·자동화 문맥",
+    "memory_hint": "判(판가름할 판)은 칼(刂)로 반쪽(半) 나누어 가르니 판가름할 판"
   }
 ]

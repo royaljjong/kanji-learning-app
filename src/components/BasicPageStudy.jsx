@@ -22,7 +22,10 @@ export default function BasicPageStudySection({
 
   const volumes = Object.keys(pageMap).sort((a, b) => Number(a) - Number(b));
   if (volumes.length === 0) {
-    return <EmptyState message="페이지 데이터가 없습니다." icon={FileText} />;
+    return React.createElement(EmptyState, {
+      message: '페이지 데이터가 없습니다.',
+      icon: FileText,
+    });
   }
 
   const safeVol = pageMap[pageStudyVol] ? pageStudyVol : Number(volumes[0]);

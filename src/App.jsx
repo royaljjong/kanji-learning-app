@@ -22,18 +22,33 @@ import {
   BookText,
   Filter,
   Layers,
+  Download,
+  Upload,
 } from 'lucide-react';
-import { supabase } from './lib/supabase';
+import { onAuthStateChanged, signInWithPopup, signInWithRedirect, signOut } from 'firebase/auth';
+import { doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore';
+import {
+  auth,
+  db,
+  firebaseConfigError,
+  googleProvider,
+  isFirebaseConfigured,
+} from './lib/firebase';
+import {
+  calculateReviewSchedule,
+  getNextReviewPlan,
+  MAX_REVIEW_INTERVAL_DAYS,
+} from './lib/srs';
 import RAW_BIM_KANJI_DATA from './data/bim_kanji.json';
 import RAW_BASIC_KANJI_DATA from './data/basic_kanji.json';
 import BASIC_PAGE_META from './data/basic_page_meta.json';
+import RAW_VOCAB_DATA from './data/vocab.json';
 // ==========================================
 // 1. HELPERS & NORMALIZATION
 // ==========================================
 const DEFAULT_SESSION_CONFIG = { type: 'srs', mode: null, source: null };
 const STORAGE_VERSION = 'v18';
-const OTP_COOLDOWN_MS = 5 * 60 * 1000;
-const OTP_STORAGE_KEY = 'kanjiapp_otp_cooldown_until';
+const HISTORY_LIMIT = 1000;
 
 const cleanText = (value) => {
   if (value === null || value === undefined) return '';
@@ -184,6 +199,15 @@ const parseExampleEntry = (entry) => {
       };
     }
 
+    const parenPipe = raw.match(/^(.+?)\(([^|()]+)\|(.+)\)$/);
+    if (parenPipe) {
+      return {
+        word: parenPipe[1].trim(),
+        reading: parenPipe[2].trim(),
+        meaning: parenPipe[3].trim(),
+      };
+    }
+
     const match1 = raw.match(/^(.+?)\s*\[(.+?)\]\s*[-:：]\s*(.+)$/);
     if (match1) {
       return {
@@ -326,6 +350,14 @@ const ensureExampleFallbacks = (examples, kanji, readings, mean) => {
   ];
 };
 
+const exampleUsesKanji = (example, kanji) => {
+  const word = cleanText(example?.word);
+  return Boolean(word && kanji && word.includes(kanji));
+};
+
+const keepExamplesForKanji = (examples, kanji) =>
+  Array.isArray(examples) ? examples.filter((example) => exampleUsesKanji(example, kanji)) : [];
+
 const formatGroupLabel = (groupNum) => String(Number(groupNum) || 0).padStart(3, '0');
 
 const parseKanjiList = (value) => {
@@ -411,13 +443,6 @@ const BASIC_META_BY_KANJI_ID = (() => {
   return map;
 })();
 
-const findBasicPageMeta = (volume, page) =>
-  NORMALIZED_BASIC_PAGE_META.find(
-    (meta) =>
-      Number(meta.sourceVolume) === Number(volume) &&
-      Number(meta.sourcePage) === Number(page)
-  ) || null;
-
 const normalizeBasicItem = (item) => {
   const meta = BASIC_META_BY_KANJI_ID[String(item.id)] || null;
 
@@ -448,8 +473,7 @@ const normalizeBasicItem = (item) => {
     'desc',
   ]);
 
-  const onReadings = parseReadingToArray(
-    pickFirstValue(item, [
+  const rawOnReadingValue = pickFirstValue(item, [
       'on_readings',
       'on_reading',
       'onReading',
@@ -460,11 +484,9 @@ const normalizeBasicItem = (item) => {
       '음독',
       'reading',
       'readings_on',
-    ])
-  );
+    ]);
 
-  const kunReadings = parseReadingToArray(
-    pickFirstValue(item, [
+  const rawKunReadingValue = pickFirstValue(item, [
       'kun_readings',
       'kun_reading',
       'kunReading',
@@ -474,8 +496,7 @@ const normalizeBasicItem = (item) => {
       '訓読み',
       '훈독',
       'readings_kun',
-    ])
-  );
+    ]);
 
   const rawOnExamples = parseExamples(
     pickFirstValue(item, [
@@ -517,15 +538,20 @@ const normalizeBasicItem = (item) => {
     pickFirstValue(item, ['otherExamples', 'examples', 'example'])
   );
 
+  const onExamplesForKanji = keepExamplesForKanji(rawOnExamples, item.kanji);
+  const kunExamplesForKanji = keepExamplesForKanji(rawKunExamples, item.kanji);
+  const onReadings = onExamplesForKanji.length > 0 ? parseReadingToArray(rawOnReadingValue) : [];
+  const kunReadings = kunExamplesForKanji.length > 0 ? parseReadingToArray(rawKunReadingValue) : [];
+
   const normalizedOnReadings =
     onReadings.length > 0
       ? onReadings
-      : parseReadingToArray(rawOnExamples.map((ex) => ex?.reading).join(','));
+      : parseReadingToArray(onExamplesForKanji.map((ex) => ex?.reading).join(','));
 
   const normalizedKunReadings =
     kunReadings.length > 0
       ? kunReadings
-      : parseReadingToArray(rawKunExamples.map((ex) => ex?.reading).join(','));
+      : parseReadingToArray(kunExamplesForKanji.map((ex) => ex?.reading).join(','));
 
   return {
     ...item,
@@ -535,9 +561,9 @@ const normalizeBasicItem = (item) => {
     mean,
     on_readings: normalizedOnReadings,
     kun_readings: normalizedKunReadings,
-    onExamples: ensureExampleFallbacks(rawOnExamples, item.kanji, normalizedOnReadings, mean),
-    kunExamples: ensureExampleFallbacks(rawKunExamples, item.kanji, normalizedKunReadings, mean),
-    examples: [...rawOnExamples, ...rawKunExamples, ...extraExamples],
+    onExamples: ensureExampleFallbacks(onExamplesForKanji, item.kanji, normalizedOnReadings, mean),
+    kunExamples: ensureExampleFallbacks(kunExamplesForKanji, item.kanji, normalizedKunReadings, mean),
+    examples: [...onExamplesForKanji, ...kunExamplesForKanji, ...extraExamples],
     story,
     groupNum: Number(meta?.groupId ?? pickFirstNumber(item, ['groupNum', 'group', 'group_id', 'groupNumNormalized'], 1)),
     sourceVolume: Number(meta?.sourceVolume ?? pickFirstNumber(item, ['sourceVolume', 'volume'], 1)),
@@ -730,6 +756,20 @@ const normalizeBimItem = (item) => {
 const BIM_KANJI_DATA = RAW_BIM_KANJI_DATA.map(normalizeBimItem);
 const BASIC_KANJI_DATA = RAW_BASIC_KANJI_DATA.map(normalizeBasicItem);
 const ALL_KANJI_DATA = [...BIM_KANJI_DATA, ...BASIC_KANJI_DATA];
+const VOCAB_DATA = RAW_VOCAB_DATA.map((item) => ({
+  ...item,
+  searchText: [
+    item.word,
+    item.reading,
+    item.meaning,
+    item.category,
+    item.description,
+    ...(Array.isArray(item.tags) ? item.tags : []),
+  ]
+    .map((value) => cleanText(value).toLowerCase())
+    .join(' '),
+}));
+const VOCAB_CATEGORIES = ['all', ...Array.from(new Set(VOCAB_DATA.map((item) => item.category).filter(Boolean)))];
 
 const compareKanjiOrder = (a, b) => {
   if (a.dataset !== b.dataset) return a.dataset === 'bim' ? -1 : 1;
@@ -831,7 +871,9 @@ const sanitizeHistoryList = (history, track) => {
         timestamp: Number(entry?.timestamp || Date.now()),
       };
     })
-    .filter(Boolean);
+    .filter(Boolean)
+    .sort((a, b) => Number(a.timestamp || 0) - Number(b.timestamp || 0))
+    .slice(-HISTORY_LIMIT);
 };
 
 const getDateKeyFromTimestamp = (timestamp) => {
@@ -866,6 +908,7 @@ const createFreshCards = (track) =>
       lapseCount: 0,
       nextReviewAt: 0,
       lastReviewedAt: null,
+      starred: false,
       flashStats: {
         meaning: { c: 0, w: 0 },
         on: { c: 0, w: 0 },
@@ -878,32 +921,30 @@ const createFreshCards = (track) =>
 const migrateCardsState = (cards, track) => {
   const fresh = createFreshCards(track);
   if (!cards || typeof cards !== 'object') return fresh;
+  const maxNextReviewAt = Date.now() + MAX_REVIEW_INTERVAL_DAYS * 24 * 60 * 60 * 1000;
 
   Object.entries(cards).forEach(([rawKey, rawCard]) => {
     const normalizedId = normalizeKanjiId(rawCard?.kanjiId ?? rawKey, track);
     if (!normalizedId || !fresh[normalizedId]) return;
+    const rawInterval = Number(rawCard?.interval || 0);
+    const rawNextReviewAt = Number(rawCard?.nextReviewAt || 0);
 
     fresh[normalizedId] = {
       ...fresh[normalizedId],
       status: ['new', 'learning', 'review', 'mastered'].includes(rawCard?.status)
         ? rawCard.status
         : 'new',
-      interval: Number(rawCard?.interval || 0),
+      interval: Math.max(0, Math.min(MAX_REVIEW_INTERVAL_DAYS, rawInterval)),
       easeFactor: Number(rawCard?.easeFactor || 2.5),
       lapseCount: Number(rawCard?.lapseCount || 0),
-      nextReviewAt: Number(rawCard?.nextReviewAt || 0),
+      nextReviewAt: rawNextReviewAt > 0 ? Math.min(rawNextReviewAt, maxNextReviewAt) : 0,
       lastReviewedAt: rawCard?.lastReviewedAt ?? null,
+      starred: Boolean(rawCard?.starred),
       flashStats: mergeFlashStats(rawCard?.flashStats),
     };
   });
 
   return fresh;
-};
-
-const isValidCardsShape = (cards, track) => {
-  if (!cards || typeof cards !== 'object') return false;
-  const resolver = track === 'bim' ? BIM_ID_RESOLVER : BASIC_ID_RESOLVER;
-  return Array.from(resolver.validIds).some((id) => cards[id]);
 };
 
 const sanitizeDailyState = (daily, track, { resetTodayArrays = false } = {}) => {
@@ -1006,33 +1047,6 @@ const buildWeightedQueue = (ids, getWeight, maxLength = 20) => {
 };
 
 // ==========================================
-// 2. LOGIC: SRS (Spaced Repetition System)
-// ==========================================
-// ==========================================
-// 2. LOGIC: SRS (Spaced Repetition System)
-// ==========================================
-const calculateReviewSchedule = (card, difficulty) => {
-  let { interval, easeFactor, lapseCount, status } = card;
-  const now = Date.now();
-  let nextIntervalDays = 0;
-
-  if (status === 'new' || status === 'learning') {
-    if (difficulty === 'again') { nextIntervalDays = 0; status = 'learning'; }
-    else if (difficulty === 'hard') { nextIntervalDays = 1; status = 'review'; }
-    else if (difficulty === 'good') { nextIntervalDays = 3; status = 'review'; }
-    else if (difficulty === 'easy') { nextIntervalDays = 7; status = 'mastered'; }
-  } else {
-    if (difficulty === 'again') { nextIntervalDays = 0; lapseCount += 1; status = 'learning'; }
-    else if (difficulty === 'hard') { nextIntervalDays = Math.min(60, interval + 3); status = 'review'; }
-    else if (difficulty === 'good') { nextIntervalDays = Math.min(60, interval + 7); status = nextIntervalDays > 21 ? 'mastered' : 'review'; }
-    else if (difficulty === 'easy') { nextIntervalDays = Math.min(60, interval + 14); status = 'mastered'; }
-  }
-
-  const nextReviewAt = nextIntervalDays === 0 ? now + 10 * 60 * 1000 : now + (nextIntervalDays * 24 * 60 * 60 * 1000);
-  return { ...card, interval: nextIntervalDays, easeFactor, lapseCount, status, nextReviewAt, lastReviewedAt: now };
-};
-
-// ==========================================
 // 3. COMPONENTS
 // ==========================================
 const ProgressRing = ({ percentage, colorClass }) => {
@@ -1050,7 +1064,7 @@ const ProgressRing = ({ percentage, colorClass }) => {
 const EmptyState = ({ message, icon: Icon, children }) => (
   <div className="flex flex-col items-center justify-center py-20 animate-in fade-in duration-500">
     <div className="w-20 h-20 bg-slate-900 rounded-full flex items-center justify-center mb-6 border border-white/5 shadow-xl">
-      <Icon className="w-10 h-10 text-slate-500" />
+      {React.createElement(Icon, { className: 'w-10 h-10 text-slate-500' })}
     </div>
     <h3 className="text-xl font-bold text-white mb-2">{message}</h3>
     {children}
@@ -1085,6 +1099,33 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [libFilter, setLibFilter] = useState('all');
   const [libSort, setLibSort] = useState('default');
   const [selectedKanjiId, setSelectedKanjiId] = useState(null);
+  const [vocabSearchTerm, setVocabSearchTerm] = useState('');
+  const [vocabCategory, setVocabCategory] = useState('all');
+  const [selectedVocabId, setSelectedVocabId] = useState(null);
+  const [vocabProgress, setVocabProgress] = useState(() => {
+    try {
+      const stored = localStorage.getItem(getStorageKey('vocab', 'progress'));
+      const parsed = stored ? JSON.parse(stored) : {};
+      return VOCAB_DATA.reduce((acc, item) => {
+        const saved = parsed?.[item.id] || {};
+        acc[item.id] = {
+          vocabId: item.id,
+          correct: Number(saved.correct || 0),
+          wrong: Number(saved.wrong || 0),
+          seen: Number(saved.seen || 0),
+          starred: Boolean(saved.starred),
+          lastAnsweredAt: saved.lastAnsweredAt || null,
+        };
+        return acc;
+      }, {});
+    } catch (error) {
+      console.error('vocab progress parse failed:', error);
+      return {};
+    }
+  });
+  const [vocabStudyMode, setVocabStudyMode] = useState('meaning');
+  const [vocabStudyQueue, setVocabStudyQueue] = useState([]);
+  const [vocabQuiz, setVocabQuiz] = useState(null);
 
   const [sessionConfig, setSessionConfig] = useState(DEFAULT_SESSION_CONFIG);
   const [studyQueue, setStudyQueue] = useState([]);
@@ -1096,15 +1137,12 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [pageStudyPg, setPageStudyPg] = useState(1);
   const [studyGroupNum, setStudyGroupNum] = useState(1);
 
-  const [isSendingLogin, setIsSendingLogin] = useState(false);
-  const [loginCooldownUntil, setLoginCooldownUntil] = useState(() => {
-    const saved = localStorage.getItem(OTP_STORAGE_KEY);
-    return saved ? Number(saved) : 0;
-  });
+  const [isSigningIn, setIsSigningIn] = useState(false);
   const [session, setSession] = useState(null);
-  const [authEmail, setAuthEmail] = useState('');
   const [authMessage, setAuthMessage] = useState('');
   const [progressReady, setProgressReady] = useState(false);
+  const [cloudSaveStatus, setCloudSaveStatus] = useState('local');
+  const [lastCloudSavedAt, setLastCloudSavedAt] = useState(null);
 
   const BIM_CONFIG = {
     titleMain: 'BIM 한자관',
@@ -1133,6 +1171,44 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   };
 
   const trackConfig = activeTrack === 'bim' ? BIM_CONFIG : BASIC_CONFIG;
+  const cloudStatusView = useMemo(() => {
+    if (!session?.user?.uid) {
+      return {
+        label: '로컬 저장',
+        className: 'text-slate-400 border-white/10 bg-slate-900',
+      };
+    }
+
+    if (cloudSaveStatus === 'loading') {
+      return {
+        label: '불러오는 중',
+        className: 'text-amber-300 border-amber-400/20 bg-amber-400/10',
+      };
+    }
+
+    if (cloudSaveStatus === 'saving') {
+      return {
+        label: '클라우드 저장 중',
+        className: 'text-blue-300 border-blue-400/20 bg-blue-400/10',
+      };
+    }
+
+    if (cloudSaveStatus === 'error') {
+      return {
+        label: '저장 실패',
+        className: 'text-red-300 border-red-400/20 bg-red-400/10',
+      };
+    }
+
+    const savedTime = lastCloudSavedAt
+      ? new Date(lastCloudSavedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+      : '';
+
+    return {
+      label: savedTime ? `클라우드 저장 ${savedTime}` : '클라우드 저장됨',
+      className: 'text-emerald-300 border-emerald-400/20 bg-emerald-400/10',
+    };
+  }, [session, cloudSaveStatus, lastCloudSavedAt]);
 
   const initCards = (track) => {
     const stored = readStoredJson(getLegacyStorageKeys(track, 'cards'), null);
@@ -1226,108 +1302,116 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     });
   }, [persistLocalBackup, bimCards, basicCards, bimHistory, basicHistory, bimDaily, basicDaily]);
 
-  const applyOtpCooldown = (ms) => {
-    const until = Date.now() + ms;
-    setLoginCooldownUntil(until);
-    localStorage.setItem(OTP_STORAGE_KEY, String(until));
-  };
+  useEffect(() => {
+    localStorage.setItem(getStorageKey('vocab', 'progress'), JSON.stringify(vocabProgress));
+  }, [vocabProgress]);
 
-  const handleEmailLogin = async () => {
-    const now = Date.now();
-    const email = authEmail.trim();
-
-    if (isSendingLogin) return;
-
-    if (loginCooldownUntil > now) {
-      const remainSec = Math.ceil((loginCooldownUntil - now) / 1000);
-      setAuthMessage(`로그인 링크는 잠시 후 다시 요청할 수 있어요. ${remainSec}초 후 다시 시도해주세요.`);
+  const handleGoogleLogin = async () => {
+    if (!isFirebaseConfigured || !auth) {
+      setAuthMessage(firebaseConfigError);
       return;
     }
 
-    if (!email || !email.includes('@')) {
-      setAuthMessage('올바른 이메일 주소를 입력해주세요.');
-      return;
-    }
+    if (isSigningIn) return;
 
     try {
-      setIsSendingLogin(true);
+      setIsSigningIn(true);
       setAuthMessage('');
-
-      const { error } = await supabase.auth.signInWithOtp({
-        email,
-        options: {
-          emailRedirectTo: window.location.origin,
-        },
-      });
-
-      if (error) {
-        const lowerMsg = error.message?.toLowerCase() || '';
-        console.error('로그인 링크 전송 실패:', error.message);
-
-        if (
-          lowerMsg.includes('rate limit') ||
-          lowerMsg.includes('too many requests') ||
-          lowerMsg.includes('email rate limit exceeded')
-        ) {
-          applyOtpCooldown(10 * 60 * 1000);
-          setAuthMessage('이메일 전송 요청이 제한되었습니다. 10분 후 다시 시도해주세요.');
-          return;
-        }
-
-        setAuthMessage(`로그인에 실패했습니다: ${error.message}`);
+      await signInWithPopup(auth, googleProvider);
+    } catch (error) {
+      console.error('Google 로그인 실패:', error);
+      if (
+        error.code === 'auth/popup-blocked' ||
+        error.code === 'auth/popup-closed-by-user' ||
+        error.code === 'auth/operation-not-supported-in-this-environment'
+      ) {
+        setAuthMessage('팝업 로그인이 막혀 redirect 로그인으로 전환합니다.');
+        await signInWithRedirect(auth, googleProvider);
         return;
       }
-
-      applyOtpCooldown(OTP_COOLDOWN_MS);
-      setAuthMessage('로그인 링크를 이메일로 보냈습니다. 메일함을 확인해주세요.');
-    } catch (error) {
-      console.error('로그인 처리 중 오류:', error);
-      setAuthMessage('로그인 처리 중 오류가 발생했습니다.');
+      setAuthMessage(`Google 로그인에 실패했습니다: ${error.message}`);
     } finally {
-      setIsSendingLogin(false);
+      setIsSigningIn(false);
     }
   };
 
   const handleLogout = async () => {
-    const { error } = await supabase.auth.signOut();
-
-    if (error) {
-      console.error(error);
-      setAuthMessage('로그아웃 중 오류가 발생했습니다.');
+    if (!isFirebaseConfigured || !auth) {
+      setSession(null);
+      setAuthMessage('Google 로그인이 비활성화되어 있습니다.');
       return;
     }
 
-    setAuthEmail('');
-    setAuthMessage('로그아웃되었습니다.');
+    try {
+      await signOut(auth);
+      setAuthMessage('로그아웃했습니다.');
+    } catch (error) {
+      console.error(error);
+      setAuthMessage('로그아웃 중 오류가 발생했습니다.');
+    }
   };
 
-  useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => {
-      setSession(data.session ?? null);
-    });
+  const toggleStarred = useCallback((kanjiId) => {
+    const data = kanjiMap[kanjiId];
+    if (!data) return;
 
-    const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
-      setSession(nextSession ?? null);
-      if (!nextSession?.user?.id) setProgressReady(false);
+    const setter = data.dataset === 'bim' ? setBimCards : setBasicCards;
+    setter((prev) => {
+      const card = prev[kanjiId];
+      if (!card) return prev;
+      return {
+        ...prev,
+        [kanjiId]: {
+          ...card,
+          starred: !card.starred,
+        },
+      };
     });
+  }, [kanjiMap]);
 
-    return () => data.subscription.unsubscribe();
+  const toggleVocabStarred = useCallback((vocabId) => {
+    setVocabProgress((prev) => {
+      const current = prev[vocabId] || { vocabId, correct: 0, wrong: 0, seen: 0, starred: false, lastAnsweredAt: null };
+      return {
+        ...prev,
+        [vocabId]: {
+          ...current,
+          starred: !current.starred,
+        },
+      };
+    });
   }, []);
 
-  const createFreshProgressPayload = useCallback(
-    (userId) => {
-      return {
-        user_id: userId,
-        active_track: 'bim',
-        bim_cards: createFreshCards('bim'),
-        basic_cards: createFreshCards('basic'),
-        bim_history: [],
-        basic_history: [],
-        bim_daily: createInitialDailyState('bim'),
-        basic_daily: createInitialDailyState('basic'),
-      };
-    },
-    []
+  useEffect(() => {
+    if (!isFirebaseConfigured || !auth) {
+      setProgressReady(true);
+      setAuthMessage(firebaseConfigError);
+      return;
+    }
+
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setSession(user ? { user } : null);
+      setProgressReady(!user);
+      setCloudSaveStatus(user ? 'loading' : 'local');
+      if (!user) setLastCloudSavedAt(null);
+    });
+
+    return unsubscribe;
+  }, []);
+
+  const createCurrentProgressPayload = useCallback(
+    (userId) => ({
+      user_id: userId,
+      active_track: activeTrack,
+      bim_cards: bimCards,
+      basic_cards: basicCards,
+      bim_history: sanitizeHistoryList(bimHistory, 'bim'),
+      basic_history: sanitizeHistoryList(basicHistory, 'basic'),
+      bim_daily: bimDaily,
+      basic_daily: basicDaily,
+      vocab_progress: vocabProgress,
+    }),
+    [activeTrack, bimCards, basicCards, bimHistory, basicHistory, bimDaily, basicDaily, vocabProgress]
   );
 const rolloverDailyState = useCallback((daily, track) => {
   const today = getTodayKey();
@@ -1373,85 +1457,209 @@ const nextBasicDaily = reconcileDailyWithCards(
     setBasicHistory(sanitizeHistoryList(progress.basic_history, 'basic'));
     setBimDaily(nextBimDaily);
     setBasicDaily(nextBasicDaily);
+    if (progress.vocab_progress && typeof progress.vocab_progress === 'object') {
+      setVocabProgress((prev) => ({
+        ...prev,
+        ...Object.fromEntries(
+          Object.entries(progress.vocab_progress).map(([id, item]) => [
+            id,
+            {
+              vocabId: id,
+              correct: Number(item?.correct || 0),
+              wrong: Number(item?.wrong || 0),
+              seen: Number(item?.seen || 0),
+              starred: Boolean(item?.starred),
+              lastAnsweredAt: item?.lastAnsweredAt || null,
+            },
+          ])
+        ),
+      }));
+    }
   }, [rolloverDailyState]);
+
+  const writeProgressPayloadToCloud = useCallback(async (userId, payload) => {
+    if (!isFirebaseConfigured || !db || !userId) return;
+
+    await Promise.all([
+      setDoc(
+        doc(db, 'kanji_progress', userId, 'sections', 'meta'),
+        {
+          active_track: payload.active_track || 'bim',
+          updated_at: serverTimestamp(),
+        },
+        { merge: true }
+      ),
+      setDoc(
+        doc(db, 'kanji_progress', userId, 'sections', 'bim'),
+        {
+          cards: payload.bim_cards,
+          history: sanitizeHistoryList(payload.bim_history, 'bim'),
+          daily: payload.bim_daily,
+          updated_at: serverTimestamp(),
+        },
+        { merge: true }
+      ),
+      setDoc(
+        doc(db, 'kanji_progress', userId, 'sections', 'basic'),
+        {
+          cards: payload.basic_cards,
+          history: sanitizeHistoryList(payload.basic_history, 'basic'),
+          daily: payload.basic_daily,
+          updated_at: serverTimestamp(),
+        },
+        { merge: true }
+      ),
+      setDoc(
+        doc(db, 'kanji_progress', userId, 'sections', 'vocab'),
+        {
+          progress: payload.vocab_progress || {},
+          updated_at: serverTimestamp(),
+        },
+        { merge: true }
+      ),
+    ]);
+  }, []);
 
   const loadUserProgress = useCallback(
     async (userId) => {
+      if (!isFirebaseConfigured || !db) {
+        setProgressReady(true);
+        return;
+      }
+
       setProgressReady(false);
 
-      const { data, error } = await supabase
-        .from('user_progress')
-        .select('*')
-        .eq('user_id', userId)
-        .single();
+      try {
+        const [metaSnap, bimSnap, basicSnap, vocabSnap] = await Promise.all([
+          getDoc(doc(db, 'kanji_progress', userId, 'sections', 'meta')),
+          getDoc(doc(db, 'kanji_progress', userId, 'sections', 'bim')),
+          getDoc(doc(db, 'kanji_progress', userId, 'sections', 'basic')),
+          getDoc(doc(db, 'kanji_progress', userId, 'sections', 'vocab')),
+        ]);
 
-      if (error && error.code !== 'PGRST116') {
-        console.error('progress 불러오기 실패:', error);
-        setProgressReady(true);
-        return;
-      }
-
-      if (!data) {
-        const freshPayload = createFreshProgressPayload(userId);
-        const { error: insertError } = await supabase.from('user_progress').insert(freshPayload);
-        if (insertError) {
-          console.error('초기 progress 생성 실패:', insertError);
-        } else {
-          applyProgressToState(freshPayload);
+        if (!metaSnap.exists() && !bimSnap.exists() && !basicSnap.exists() && !vocabSnap.exists()) {
+          const localPayload = createCurrentProgressPayload(userId);
+          await writeProgressPayloadToCloud(userId, localPayload);
+          setAuthMessage('이 기기의 기존 학습 진도를 클라우드에 저장했습니다.');
+          setCloudSaveStatus('saved');
+          setLastCloudSavedAt(Date.now());
+          setProgressReady(true);
+          return;
         }
+
+        applyProgressToState({
+          user_id: userId,
+          active_track: metaSnap.data()?.active_track || 'bim',
+          bim_cards: bimSnap.data()?.cards,
+          basic_cards: basicSnap.data()?.cards,
+          bim_history: bimSnap.data()?.history,
+          basic_history: basicSnap.data()?.history,
+          bim_daily: bimSnap.data()?.daily,
+          basic_daily: basicSnap.data()?.daily,
+          vocab_progress: vocabSnap.data()?.progress,
+        });
+        setCloudSaveStatus('saved');
+        setLastCloudSavedAt(Date.now());
+      } catch (error) {
+        console.error('progress 불러오기 실패:', error);
+        setCloudSaveStatus('error');
+        setAuthMessage('클라우드 진도를 불러오지 못했습니다. 이 기기의 로컬 진도로 계속 진행합니다.');
         setProgressReady(true);
         return;
       }
 
-      applyProgressToState(data);
       setProgressReady(true);
     },
-    [applyProgressToState, createFreshProgressPayload]
+    [applyProgressToState, createCurrentProgressPayload, writeProgressPayloadToCloud]
   );
 
-  const saveProgressToSupabase = useCallback(async () => {
-    if (!session?.user?.id || !progressReady) return;
+  const saveProgressToCloud = useCallback(async () => {
+    if (!isFirebaseConfigured || !db || !session?.user?.uid || !progressReady) return;
 
-    const payload = {
-      user_id: session.user.id,
-      active_track: activeTrack,
-      bim_cards: bimCards,
-      basic_cards: basicCards,
-      bim_history: bimHistory,
-      basic_history: basicHistory,
-      bim_daily: bimDaily,
-      basic_daily: basicDaily,
-      updated_at: new Date().toISOString(),
-    };
-
-    const { error } = await supabase.from('user_progress').upsert(payload);
-    if (error) console.error('progress 저장 실패:', error);
+    try {
+      setCloudSaveStatus('saving');
+      await writeProgressPayloadToCloud(
+        session.user.uid,
+        createCurrentProgressPayload(session.user.uid)
+      );
+      setCloudSaveStatus('saved');
+      setLastCloudSavedAt(Date.now());
+    } catch (error) {
+      console.error('progress 저장 실패:', error);
+      setCloudSaveStatus('error');
+      setAuthMessage('클라우드 저장에 실패했습니다. 로컬 저장은 유지됩니다.');
+    }
   }, [
     session,
     progressReady,
-    activeTrack,
-    bimCards,
-    basicCards,
-    bimHistory,
-    basicHistory,
-    bimDaily,
-    basicDaily,
+    createCurrentProgressPayload,
+    writeProgressPayloadToCloud,
   ]);
 
   useEffect(() => {
-    if (!session?.user?.id) return;
-    loadUserProgress(session.user.id);
+    if (!session?.user?.uid) return;
+    loadUserProgress(session.user.uid);
   }, [session, loadUserProgress]);
 
   useEffect(() => {
-    if (!session?.user?.id || !progressReady) return;
+    if (!session?.user?.uid || !progressReady) return;
 
     const timer = setTimeout(() => {
-      saveProgressToSupabase();
+      saveProgressToCloud();
     }, 800);
 
     return () => clearTimeout(timer);
-  }, [session, progressReady, saveProgressToSupabase]);
+  }, [session, progressReady, saveProgressToCloud]);
+
+  const handleExportBackup = () => {
+    const payload = {
+      exported_at: new Date().toISOString(),
+      app: 'kanji-app',
+      storage_version: STORAGE_VERSION,
+      progress: createCurrentProgressPayload(session?.user?.uid || 'local'),
+    };
+
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `kanji-backup-${getTodayKey()}.json`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const handleImportBackup = () => {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = 'application/json';
+    input.onchange = () => {
+      const file = input.files?.[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const parsed = JSON.parse(String(reader.result || '{}'));
+          const progress = parsed.progress || parsed;
+          if (!progress.bim_cards || !progress.basic_cards) {
+            window.alert('백업 파일 형식이 올바르지 않습니다.');
+            return;
+          }
+
+          const ok = window.confirm('현재 학습 데이터를 백업 파일의 내용으로 바꿀까요?');
+          if (!ok) return;
+
+          applyProgressToState(progress);
+          setAuthMessage('백업 데이터를 불러왔습니다. 로컬 저장은 즉시 반영됩니다.');
+        } catch (error) {
+          console.error('백업 불러오기 실패:', error);
+          window.alert('백업 파일을 읽지 못했습니다.');
+        }
+      };
+      reader.readAsText(file);
+    };
+    input.click();
+  };
 
   const markStudiedToday = (prev) => {
     const today = getTodayKey();
@@ -1501,6 +1709,8 @@ const nextBasicDaily = reconcileDailyWithCards(
     setIsFlipped(false);
     setSearchTerm('');
     setSelectedKanjiId(null);
+    setSelectedVocabId(null);
+    setVocabQuiz(null);
     setIsBuildingSession(targetView === 'study');
     setIsMobileMenuOpen(false);
 
@@ -1776,7 +1986,7 @@ const studiedIds = unique([
       setActiveQuiz(null);
       setIsBuildingSession(false);
     }
-  }, [sessionConfig, activeCards, kanjiMap, activeTrack, activeDaily, getWeaknessScore]);
+  }, [sessionConfig, activeCards, kanjiMap, activeTrack, activeDaily, currentDatasetList, getWeaknessScore]);
 
 useEffect(() => {
   if (view !== 'study' || !isBuildingSession) return;
@@ -1864,6 +2074,84 @@ if (mode === 'meaning') {
     }
   }, [sessionConfig, studyQueue, activeQuiz, generateQuiz]);
 
+  const startVocabStudy = useCallback((mode = 'meaning', source = 'all') => {
+    let pool = [...VOCAB_DATA];
+
+    if (vocabCategory !== 'all') {
+      pool = pool.filter((item) => item.category === vocabCategory);
+    }
+
+    if (source === 'starred') {
+      pool = pool.filter((item) => vocabProgress[item.id]?.starred);
+    } else if (source === 'weak') {
+      pool = pool
+        .filter((item) => (vocabProgress[item.id]?.wrong || 0) > 0)
+        .sort((a, b) => {
+          const scoreA = (vocabProgress[a.id]?.wrong || 0) - (vocabProgress[a.id]?.correct || 0) * 0.4;
+          const scoreB = (vocabProgress[b.id]?.wrong || 0) - (vocabProgress[b.id]?.correct || 0) * 0.4;
+          return scoreB - scoreA;
+        });
+    } else {
+      pool.sort((a, b) => {
+        const progressA = vocabProgress[a.id] || {};
+        const progressB = vocabProgress[b.id] || {};
+        const scoreA = (progressA.wrong || 0) * 2 - (progressA.correct || 0) + Math.random();
+        const scoreB = (progressB.wrong || 0) * 2 - (progressB.correct || 0) + Math.random();
+        return scoreB - scoreA;
+      });
+    }
+
+    setVocabStudyMode(mode);
+    setVocabStudyQueue(pool.map((item) => item.id).slice(0, 30));
+    setVocabQuiz(null);
+    setSelectedVocabId(null);
+    setView('vocab_study');
+    setIsMobileMenuOpen(false);
+  }, [vocabCategory, vocabProgress]);
+
+  const generateVocabQuiz = useCallback((targetId, mode) => {
+    const target = VOCAB_DATA.find((item) => item.id === targetId);
+    if (!target) return null;
+
+    const getAnswer = (item) => (mode === 'reading' ? item.reading : item.meaning);
+    const correctText = getAnswer(target);
+    if (!correctText) return null;
+
+    const choices = [{ id: target.id, text: correctText }];
+    const usedTexts = new Set([correctText]);
+    const sameCategory = VOCAB_DATA.filter((item) => item.id !== target.id && item.category === target.category);
+    const otherCategory = VOCAB_DATA.filter((item) => item.id !== target.id && item.category !== target.category);
+
+    for (const item of shuffle([...sameCategory, ...otherCategory])) {
+      const text = getAnswer(item);
+      if (!text || usedTexts.has(text)) continue;
+      choices.push({ id: item.id, text });
+      usedTexts.add(text);
+      if (choices.length === 4) break;
+    }
+
+    if (choices.length < 4) return null;
+
+    const shuffledChoices = shuffle(choices);
+    return {
+      vocabId: target.id,
+      mode,
+      choices: shuffledChoices,
+      correctChoiceIndex: shuffledChoices.findIndex((choice) => choice.id === target.id),
+      selectedChoiceIndex: null,
+      isAnswered: false,
+      isCorrect: null,
+    };
+  }, []);
+
+  useEffect(() => {
+    if (view !== 'vocab_study' || vocabStudyQueue.length === 0 || vocabQuiz) return;
+
+    const quiz = generateVocabQuiz(vocabStudyQueue[0], vocabStudyMode);
+    if (!quiz) setVocabStudyQueue((prev) => prev.slice(1));
+    else setVocabQuiz(quiz);
+  }, [view, vocabStudyQueue, vocabQuiz, vocabStudyMode, generateVocabQuiz]);
+
   // --- Action Handlers ---
   const handleSrsNext = (difficulty) => {
     const currentCardId = studyQueue[0];
@@ -1914,10 +2202,12 @@ if (mode === 'meaning') {
       [currentCardId]: calculateReviewSchedule(prev[currentCardId], difficulty),
     }));
 
-    setActiveHistory((prev) => [
-      ...prev,
-      { kanjiId: currentCardId, difficulty, timestamp: Date.now(), type: 'srs' },
-    ]);
+    setActiveHistory((prev) =>
+      sanitizeHistoryList(
+        [...prev, { kanjiId: currentCardId, difficulty, timestamp: Date.now(), type: 'srs' }],
+        activeTrack
+      )
+    );
 
     setIsFlipped(false);
 
@@ -1963,20 +2253,64 @@ if (mode === 'meaning') {
       };
     });
 
-    setActiveHistory((prev) => [
-      ...prev,
-      {
-        kanjiId: targetId,
-        difficulty: isCorrect ? 'good' : 'again',
-        timestamp: Date.now(),
-        type: `flash_${modeStat}`,
-      },
-    ]);
+    setActiveHistory((prev) =>
+      sanitizeHistoryList(
+        [
+          ...prev,
+          {
+            kanjiId: targetId,
+            difficulty: isCorrect ? 'good' : 'again',
+            timestamp: Date.now(),
+            type: `flash_${modeStat}`,
+          },
+        ],
+        activeTrack
+      )
+    );
   };
 
   const handleNextQuiz = () => {
     setStudyQueue((prev) => prev.slice(1));
     setActiveQuiz(null);
+  };
+
+  const handleVocabAnswer = (choiceIndex) => {
+    if (!vocabQuiz || vocabQuiz.isAnswered) return;
+
+    const isCorrect = choiceIndex === vocabQuiz.correctChoiceIndex;
+    setVocabQuiz((prev) => ({
+      ...prev,
+      selectedChoiceIndex: choiceIndex,
+      isAnswered: true,
+      isCorrect,
+    }));
+
+    setVocabProgress((prev) => {
+      const current = prev[vocabQuiz.vocabId] || {
+        vocabId: vocabQuiz.vocabId,
+        correct: 0,
+        wrong: 0,
+        seen: 0,
+        starred: false,
+        lastAnsweredAt: null,
+      };
+
+      return {
+        ...prev,
+        [vocabQuiz.vocabId]: {
+          ...current,
+          correct: current.correct + (isCorrect ? 1 : 0),
+          wrong: current.wrong + (isCorrect ? 0 : 1),
+          seen: current.seen + 1,
+          lastAnsweredAt: Date.now(),
+        },
+      };
+    });
+  };
+
+  const handleNextVocabQuiz = () => {
+    setVocabStudyQueue((prev) => prev.slice(1));
+    setVocabQuiz(null);
   };
 
   const handleResetTodayTrackSession = () => {
@@ -2058,6 +2392,11 @@ if (mode === 'meaning') {
     setIsFlipped(false);
     setSearchTerm('');
     setSelectedKanjiId(null);
+    setSelectedVocabId(null);
+    setVocabSearchTerm('');
+    setVocabCategory('all');
+    setVocabStudyQueue([]);
+    setVocabQuiz(null);
 
     setBimCards(freshBimCards);
     setBasicCards(freshBasicCards);
@@ -2065,6 +2404,7 @@ if (mode === 'meaning') {
     setBasicHistory([]);
     setBimDaily(freshBimDaily);
     setBasicDaily(freshBasicDaily);
+    setVocabProgress({});
     setPageStudyVol(1);
     setPageStudyPg(1);
     setStudyGroupNum(1);
@@ -2075,22 +2415,27 @@ if (mode === 'meaning') {
     getLegacyStorageKeys('basic', 'history').forEach((key) => localStorage.removeItem(key));
     getLegacyStorageKeys('bim', 'daily').forEach((key) => localStorage.removeItem(key));
     getLegacyStorageKeys('basic', 'daily').forEach((key) => localStorage.removeItem(key));
+    localStorage.removeItem(getStorageKey('vocab', 'progress'));
 
-    if (session?.user?.id) {
-      const payload = {
-        user_id: session.user.id,
-        active_track: 'bim',
-        bim_cards: freshBimCards,
-        basic_cards: freshBasicCards,
-        bim_history: [],
-        basic_history: [],
-        bim_daily: freshBimDaily,
-        basic_daily: freshBasicDaily,
-        updated_at: new Date().toISOString(),
-      };
-
-      const { error } = await supabase.from('user_progress').upsert(payload);
-      if (error) console.error('progress 초기화 저장 실패:', error);
+    if (isFirebaseConfigured && db && session?.user?.uid) {
+      try {
+        await writeProgressPayloadToCloud(session.user.uid, {
+          user_id: session.user.uid,
+          active_track: 'bim',
+          bim_cards: freshBimCards,
+          basic_cards: freshBasicCards,
+          bim_history: [],
+          basic_history: [],
+          bim_daily: freshBimDaily,
+          basic_daily: freshBasicDaily,
+          vocab_progress: {},
+        });
+        setCloudSaveStatus('saved');
+        setLastCloudSavedAt(Date.now());
+      } catch (error) {
+        console.error('progress 초기화 저장 실패:', error);
+        setCloudSaveStatus('error');
+      }
     }
   };
 
@@ -2129,10 +2474,25 @@ if (mode === 'meaning') {
       kun: flashTotals.kun.c + flashTotals.kun.w > 0 ? Math.round((flashTotals.kun.c / (flashTotals.kun.c + flashTotals.kun.w)) * 100) : 0,
     };
 
-    const weakSrs = Object.values(activeCards).filter((c) => kanjiMap[c.kanjiId]?.dataset === activeTrack && c.lapseCount > 0).sort((a, b) => b.lapseCount - a.lapseCount).slice(0, 5).map((c) => ({ kanji: kanjiMap[c.kanjiId].kanji, lapses: c.lapseCount }));
-    const weakMean = Object.values(activeCards).filter((c) => kanjiMap[c.kanjiId]?.dataset === activeTrack && c.flashStats.meaning.w > 0).sort((a, b) => b.flashStats.meaning.w - a.flashStats.meaning.w).slice(0, 3).map((c) => ({ kanji: kanjiMap[c.kanjiId].kanji, lapses: c.flashStats.meaning.w }));
-    const weakOn = Object.values(activeCards).filter((c) => kanjiMap[c.kanjiId]?.dataset === activeTrack && c.flashStats.on.w > 0).sort((a, b) => b.flashStats.on.w - a.flashStats.on.w).slice(0, 3).map((c) => ({ kanji: kanjiMap[c.kanjiId].kanji, lapses: c.flashStats.on.w }));
-    const weakKun = Object.values(activeCards).filter((c) => kanjiMap[c.kanjiId]?.dataset === activeTrack && c.flashStats.kun.w > 0).sort((a, b) => b.flashStats.kun.w - a.flashStats.kun.w).slice(0, 3).map((c) => ({ kanji: kanjiMap[c.kanjiId].kanji, lapses: c.flashStats.kun.w }));
+    const getWeakTotal = (card) =>
+      (card.lapseCount || 0) * 3 +
+      (card.flashStats.meaning.w || 0) +
+      (card.flashStats.on.w || 0) +
+      (card.flashStats.kun.w || 0);
+    const weakCards = Object.values(activeCards)
+      .filter((c) => kanjiMap[c.kanjiId]?.dataset === activeTrack && getWeakTotal(c) > 0)
+      .sort((a, b) => getWeakTotal(b) - getWeakTotal(a))
+      .map((c) => ({
+        id: c.kanjiId,
+        kanji: kanjiMap[c.kanjiId].kanji,
+        mean: kanjiMap[c.kanjiId].mean,
+        score: getWeakTotal(c),
+        lapses: c.lapseCount,
+      }));
+    const weakSrs = weakCards.filter((c) => c.lapses > 0).slice(0, 5);
+    const weakMean = Object.values(activeCards).filter((c) => kanjiMap[c.kanjiId]?.dataset === activeTrack && c.flashStats.meaning.w > 0).sort((a, b) => b.flashStats.meaning.w - a.flashStats.meaning.w).slice(0, 3).map((c) => ({ id: c.kanjiId, kanji: kanjiMap[c.kanjiId].kanji, lapses: c.flashStats.meaning.w }));
+    const weakOn = Object.values(activeCards).filter((c) => kanjiMap[c.kanjiId]?.dataset === activeTrack && c.flashStats.on.w > 0).sort((a, b) => b.flashStats.on.w - a.flashStats.on.w).slice(0, 3).map((c) => ({ id: c.kanjiId, kanji: kanjiMap[c.kanjiId].kanji, lapses: c.flashStats.on.w }));
+    const weakKun = Object.values(activeCards).filter((c) => kanjiMap[c.kanjiId]?.dataset === activeTrack && c.flashStats.kun.w > 0).sort((a, b) => b.flashStats.kun.w - a.flashStats.kun.w).slice(0, 3).map((c) => ({ id: c.kanjiId, kanji: kanjiMap[c.kanjiId].kanji, lapses: c.flashStats.kun.w }));
 
     const srsDiffStats = activeHistory.reduce((acc, h) => {
       if (h.type === 'srs') acc[h.difficulty] += 1;
@@ -2174,8 +2534,18 @@ if (mode === 'meaning') {
     const studiedGroups = activeDaily.studiedGroups?.length || 0;
     const totalPages = [...new Set(currentDatasetList.map(k => `${k.sourceVolume}_${k.sourcePage}`))].length;
     const studiedPages = activeDaily.studiedPages?.length || 0;
+    const todaySeenCards = (activeDaily.todaySeenIds || [])
+      .map((id) => kanjiMap[id])
+      .filter((item) => item?.dataset === activeTrack);
+    const todayWrongCards = (activeDaily.todayWrongIds || [])
+      .map((id) => kanjiMap[id])
+      .filter((item) => item?.dataset === activeTrack);
+    const favoriteCards = Object.values(activeCards)
+      .filter((card) => card.starred && kanjiMap[card.kanjiId]?.dataset === activeTrack)
+      .map((card) => kanjiMap[card.kanjiId])
+      .filter(Boolean);
 
-    return { total, newCount, learningCount, reviewCount, masteredCount, srsAccuracy, flashAcc, progressPercent: total > 0 ? Math.round((masteredCount / total) * 100) : 0, todayDue, newAvailable, tagProgress, weakSrs, weakMean, weakOn, weakKun, srsDiffStats, totalGroups, studiedGroups, totalPages, studiedPages };
+    return { total, newCount, learningCount, reviewCount, masteredCount, srsAccuracy, flashAcc, progressPercent: total > 0 ? Math.round((masteredCount / total) * 100) : 0, todayDue, newAvailable, tagProgress, weakCards, weakSrs, weakMean, weakOn, weakKun, srsDiffStats, totalGroups, studiedGroups, totalPages, studiedPages, todaySeenCards, todayWrongCards, favoriteCards };
   }, [activeCards, activeHistory, activeDaily, kanjiMap, activeTrack, currentDatasetList]);
 
   const libraryList = useMemo(() => {
@@ -2227,6 +2597,14 @@ if (mode === 'meaning') {
         if (statusA !== 'mastered' && statusB === 'mastered') return 1;
         return compareKanjiOrder(a, b);
       });
+    } else if (libSort === 'favorite') {
+      baseList = [...baseList].sort((a, b) => {
+        const starredA = Boolean(getCardForItem(a)?.starred);
+        const starredB = Boolean(getCardForItem(b)?.starred);
+        if (starredA && !starredB) return -1;
+        if (!starredA && starredB) return 1;
+        return compareKanjiOrder(a, b);
+      });
     } else if (libSort === 'weak') {
       baseList = [...baseList].sort((a, b) => {
         const cardA = getCardForItem(a);
@@ -2239,6 +2617,34 @@ if (mode === 'meaning') {
 
     return baseList;
   }, [searchTerm, libFilter, libSort, bimCards, basicCards]);
+
+  const vocabList = useMemo(() => {
+    const lower = vocabSearchTerm.trim().toLowerCase();
+
+    return VOCAB_DATA.filter((item) => {
+      if (vocabCategory !== 'all' && item.category !== vocabCategory) return false;
+      if (!lower) return true;
+      return item.searchText.includes(lower);
+    });
+  }, [vocabSearchTerm, vocabCategory]);
+
+  const vocabStats = useMemo(() => {
+    const entries = Object.values(vocabProgress || {});
+    const studied = entries.filter((item) => item.seen > 0).length;
+    const correct = entries.reduce((sum, item) => sum + Number(item.correct || 0), 0);
+    const wrong = entries.reduce((sum, item) => sum + Number(item.wrong || 0), 0);
+    const weak = entries.filter((item) => Number(item.wrong || 0) > 0).length;
+    const starred = entries.filter((item) => item.starred).length;
+
+    return {
+      studied,
+      correct,
+      wrong,
+      weak,
+      starred,
+      accuracy: correct + wrong > 0 ? Math.round((correct / (correct + wrong)) * 100) : 0,
+    };
+  }, [vocabProgress]);
 
   // ==========================================
   // VIEW RENDERS (MODALS & CARDS)
@@ -2256,6 +2662,8 @@ if (mode === 'meaning') {
     const accentText = isBimMode ? 'text-violet-400' : 'text-emerald-400';
     const accentBgLight = isBimMode ? 'bg-violet-500/5' : 'bg-emerald-500/5';
     const accentBorder = isBimMode ? 'border-violet-500/20' : 'border-emerald-500/20';
+    const cardState = data.dataset === 'bim' ? bimCards[data.id] : basicCards[data.id];
+    const hasTrustedReading = data.dataset === 'bim' || data.onExamples?.length > 0 || data.kunExamples?.length > 0;
 
     return (
       <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-in fade-in duration-200">
@@ -2265,6 +2673,17 @@ if (mode === 'meaning') {
             className="absolute top-6 right-6 p-2 bg-white/5 hover:bg-white/10 rounded-full text-slate-400 hover:text-white transition-colors"
           >
             <X className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => toggleStarred(data.id)}
+            className={`absolute top-6 right-16 p-2 rounded-full transition-colors ${
+              cardState?.starred
+                ? 'bg-amber-400/20 text-amber-300 hover:bg-amber-400/30'
+                : 'bg-white/5 text-slate-500 hover:bg-white/10 hover:text-amber-300'
+            }`}
+            title={cardState?.starred ? '즐겨찾기 해제' : '즐겨찾기'}
+          >
+            <Star className="w-5 h-5" />
           </button>
 
           {data.dataset === 'basic' && (
@@ -2282,6 +2701,11 @@ if (mode === 'meaning') {
               <div className="flex gap-4 text-sm font-bold flex-wrap">
 <span className={accentText}>음: {getReadingDisplay(data, 'on')}</span>
 <span className="text-indigo-400">훈: {getReadingDisplay(data, 'kun')}</span>
+{!hasTrustedReading && (
+  <span className="text-amber-300 bg-amber-400/10 border border-amber-400/20 px-2 py-0.5 rounded-full text-[10px]">
+    읽기 데이터 확인 필요
+  </span>
+)}
               </div>
             </div>
           </div>
@@ -2360,6 +2784,107 @@ if (mode === 'meaning') {
     );
   };
 
+  const renderVocabDetailModal = () => {
+    if (!selectedVocabId) return null;
+
+    const data = VOCAB_DATA.find((item) => item.id === selectedVocabId);
+    if (!data) return null;
+
+    const progress = vocabProgress[data.id] || {};
+    const relatedKanji = Array.from(new Set(data.word.match(/[\u4E00-\u9FFF]/g) || []))
+      .map((char) => ALL_KANJI_DATA.find((item) => item.kanji === char))
+      .filter(Boolean);
+
+    return (
+      <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-in fade-in duration-200">
+        <div className="bg-slate-900 border border-white/10 w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-[2rem] p-8 shadow-2xl relative custom-scrollbar">
+          <button
+            onClick={() => setSelectedVocabId(null)}
+            className="absolute top-6 right-6 p-2 bg-white/5 hover:bg-white/10 rounded-full text-slate-400 hover:text-white transition-colors"
+            aria-label="단어 상세 닫기"
+          >
+            <X className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => toggleVocabStarred(data.id)}
+            className={`absolute top-6 right-16 p-2 rounded-full transition-colors ${
+              progress.starred
+                ? 'bg-amber-400/20 text-amber-300 hover:bg-amber-400/30'
+                : 'bg-white/5 text-slate-500 hover:bg-white/10 hover:text-amber-300'
+            }`}
+            aria-label="단어 즐겨찾기"
+          >
+            <Star className="w-5 h-5" />
+          </button>
+
+          <div className="mb-8 pr-10">
+            <span className={`inline-flex px-3 py-1 rounded-full ${trackConfig.bgLight} border ${trackConfig.borderLight} ${trackConfig.textColor} text-xs font-bold`}>
+              {data.category}
+            </span>
+            <h2 className="text-5xl font-black text-white mt-5 mb-3">{data.word}</h2>
+            <div className="flex flex-wrap gap-3 text-sm">
+              <span className="text-slate-400 font-bold">{data.reading}</span>
+              <span className={`${trackConfig.textColor} font-black`}>{data.meaning}</span>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="bg-slate-950/40 border border-white/5 rounded-2xl p-6">
+              <h4 className="text-[10px] text-slate-500 font-black uppercase tracking-widest mb-3">업무 설명</h4>
+              <p className="text-slate-200 leading-relaxed break-keep">{data.description}</p>
+            </div>
+
+            {data.tags?.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {data.tags.map((tag) => (
+                  <span key={tag} className="px-3 py-1 rounded-full bg-slate-950 border border-white/10 text-xs font-bold text-slate-400">
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+            )}
+
+            <div className="grid grid-cols-3 gap-3">
+              <div className="bg-slate-950/30 border border-white/5 rounded-2xl p-4">
+                <p className="text-[10px] text-slate-500 font-black uppercase">본 횟수</p>
+                <p className="text-xl font-black text-white mt-1">{progress.seen || 0}</p>
+              </div>
+              <div className="bg-slate-950/30 border border-white/5 rounded-2xl p-4">
+                <p className="text-[10px] text-slate-500 font-black uppercase">맞음</p>
+                <p className="text-xl font-black text-emerald-400 mt-1">{progress.correct || 0}</p>
+              </div>
+              <div className="bg-slate-950/30 border border-white/5 rounded-2xl p-4">
+                <p className="text-[10px] text-slate-500 font-black uppercase">틀림</p>
+                <p className="text-xl font-black text-red-400 mt-1">{progress.wrong || 0}</p>
+              </div>
+            </div>
+
+            {relatedKanji.length > 0 && (
+              <div className="bg-slate-950/30 border border-white/5 rounded-2xl p-6">
+                <h4 className="text-[10px] text-slate-500 font-black uppercase tracking-widest mb-4">관련 한자</h4>
+                <div className="flex flex-wrap gap-2">
+                  {relatedKanji.map((kanji) => (
+                    <button
+                      key={`${kanji.dataset}-${kanji.id}`}
+                      onClick={() => {
+                        setSelectedVocabId(null);
+                        setSelectedKanjiId(kanji.id);
+                      }}
+                      className="px-4 py-3 bg-slate-900 hover:bg-slate-800 border border-white/10 rounded-2xl transition-all flex items-center gap-3"
+                    >
+                      <span className="text-2xl font-black text-white">{kanji.kanji}</span>
+                      <span className="text-xs text-slate-400 font-bold">{kanji.mean}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   // ==========================================
   // VIEW RENDERS (MAIN)
   // ==========================================
@@ -2392,31 +2917,40 @@ if (mode === 'meaning') {
                 </div>
               ) : (
                 <div className="flex flex-col md:flex-row gap-3 md:items-center">
-                  <input
-                    id="login-email"
-                    name="email"
-                    type="email"
-                    value={authEmail}
-                    onChange={(e) => setAuthEmail(e.target.value)}
-                    placeholder="이메일 입력"
-                    autoComplete="email"
-                    className="flex-1 bg-slate-950 border border-white/10 rounded-xl px-4 py-3 text-white outline-none"
-                  />
                   <button
-                    onClick={handleEmailLogin}
-                    disabled={isSendingLogin || loginCooldownUntil > Date.now()}
+                    onClick={handleGoogleLogin}
+                    disabled={isSigningIn}
                     className={`px-4 py-2 rounded-xl font-bold transition-all ${
-                      isSendingLogin || loginCooldownUntil > Date.now()
+                      isSigningIn
                         ? 'bg-slate-700 text-slate-400 cursor-not-allowed'
                         : 'bg-emerald-500 text-slate-950 hover:bg-emerald-400'
                     }`}
                   >
-                    {isSendingLogin ? '전송 중...' : '로그인 링크 보내기'}
+                    {isSigningIn ? '로그인 중...' : 'Google로 로그인'}
                   </button>
+                  <p className="text-xs text-slate-500">
+                    로그인하면 학습 진도가 Firebase에 저장됩니다.
+                  </p>
                 </div>
               )}
 
               {authMessage && <p className="mt-3 text-sm text-slate-400">{authMessage}</p>}
+              <div className="mt-4 flex flex-wrap gap-2">
+                <button
+                  onClick={handleExportBackup}
+                  className="px-3 py-2 rounded-xl bg-slate-950 border border-white/10 text-slate-300 text-xs font-bold hover:text-white transition"
+                >
+                  <Download className="inline-block w-3 h-3 mr-1" />
+                  백업
+                </button>
+                <button
+                  onClick={handleImportBackup}
+                  className="px-3 py-2 rounded-xl bg-slate-950 border border-white/10 text-slate-300 text-xs font-bold hover:text-white transition"
+                >
+                  <Upload className="inline-block w-3 h-3 mr-1" />
+                  복원
+                </button>
+              </div>
             </div>
 
             <h2 className="text-5xl font-extrabold leading-tight text-white">
@@ -2494,6 +3028,23 @@ if (mode === 'meaning') {
                 className="px-8 py-4 bg-slate-900 border border-white/10 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all"
               >
                 사전 보기
+              </button>
+              <button
+                onClick={() => goTo(activeTrack, 'vocab')}
+                className="px-8 py-4 bg-slate-900 border border-white/10 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all flex items-center gap-2"
+              >
+                실무 단어장 <BookText className="w-5 h-5" />
+              </button>
+              <button
+                onClick={() => { setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'flash_review', mode: 'meaning', source: 'weak' }); goTo(activeTrack, 'study'); }}
+                disabled={stats.weakCards.length === 0}
+                className={`px-8 py-4 rounded-2xl font-bold flex items-center gap-2 transition-all active:scale-95 ${
+                  stats.weakCards.length === 0
+                    ? 'bg-slate-900/40 border border-white/5 text-slate-600 cursor-not-allowed'
+                    : 'bg-orange-500/15 border border-orange-500/20 text-orange-200 hover:bg-orange-500/20'
+                }`}
+              >
+                약점 노트 <AlertTriangle className="w-5 h-5" />
               </button>
 
               <button
@@ -2789,17 +3340,6 @@ const renderBasicPageStudy = () => {
     const chunkGroupNums = [...new Set(chunk.map((item) => item.groupNum))];
     const isGroupStudied = chunkGroupNums.every((num) => activeDaily.studiedGroups?.includes(num));
 
-    const handleMarkGroupStudied = () => {
-      setBasicDaily((prev) => {
-        const nextState = markStudiedToday(prev);
-        const existing = new Set(nextState.studiedGroups || []);
-        chunkGroupNums.forEach((num) => existing.add(num));
-        return {
-          ...nextState,
-          studiedGroups: [...existing].sort((a, b) => a - b),
-        };
-      });
-    };
 const handleToggleGroupStudied = () => {
   setBasicDaily((prev) => {
     const nextState = markStudiedToday(prev);
@@ -2880,7 +3420,7 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
   };
 
   const renderPostSessionMenu = () => (
-    <div className="flex flex-col items-center justify-center py-10 max-w-2xl mx-auto animate-in zoom-in-95 duration-500">
+    <div className="flex flex-col items-center justify-center py-10 max-w-3xl mx-auto animate-in zoom-in-95 duration-500">
       <div className={`w-24 h-24 ${trackConfig.bgGlow} rounded-full flex items-center justify-center mb-8 border ${trackConfig.borderLight} shadow-xl`}>
         <CheckCircle2 className={`w-12 h-12 ${trackConfig.textColor}`} />
       </div>
@@ -2888,6 +3428,36 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
       <p className="text-slate-400 mb-10 text-center">
         현재 트랙에 할당된 장기 기억(SRS) 복습을 모두 마쳤습니다.<br />단기 기억 강화를 위해 추가 퀴즈 드릴을 진행할 수 있습니다.
       </p>
+
+      <div className="w-full grid md:grid-cols-3 gap-4 mb-6">
+        <div className="bg-slate-900 border border-white/10 rounded-2xl p-5">
+          <p className="text-[10px] text-slate-500 font-black uppercase tracking-widest">오늘 본 한자</p>
+          <p className="text-3xl font-black text-white mt-2">{stats.todaySeenCards.length}</p>
+          <div className="mt-3 flex flex-wrap gap-1">
+            {stats.todaySeenCards.slice(0, 8).map((item) => (
+              <button key={item.id} onClick={() => setSelectedKanjiId(item.id)} className="px-2 py-1 rounded-lg bg-slate-950 text-slate-200 text-sm font-bold">
+                {item.kanji}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className="bg-slate-900 border border-white/10 rounded-2xl p-5">
+          <p className="text-[10px] text-slate-500 font-black uppercase tracking-widest">오늘 틀린 한자</p>
+          <p className="text-3xl font-black text-red-300 mt-2">{stats.todayWrongCards.length}</p>
+          <div className="mt-3 flex flex-wrap gap-1">
+            {stats.todayWrongCards.slice(0, 8).map((item) => (
+              <button key={item.id} onClick={() => setSelectedKanjiId(item.id)} className="px-2 py-1 rounded-lg bg-red-500/10 text-red-200 text-sm font-bold">
+                {item.kanji}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className="bg-slate-900 border border-white/10 rounded-2xl p-5">
+          <p className="text-[10px] text-slate-500 font-black uppercase tracking-widest">약점 노트</p>
+          <p className="text-3xl font-black text-orange-300 mt-2">{stats.weakCards.length}</p>
+          <p className="text-xs text-slate-500 mt-3">오답과 Again 기록을 기준으로 자동 정리됩니다.</p>
+        </div>
+      </div>
 
       <div className="w-full space-y-4">
         {activeDaily.todaySeenIds.length > 0 && (
@@ -2978,16 +3548,9 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
     const cardState = activeCards[currentKanjiId];
 
     const getIntervalLabel = (cState, diff) => {
-      if (cState.status === 'new' || cState.status === 'learning') {
-        if (diff === 'again') return '이번 세션';
-        if (diff === 'hard') return '1d';
-        if (diff === 'good') return '3d';
-        return '7d';
-      }
-      if (diff === 'again') return '이번 세션';
-      let nextDays = diff === 'hard' ? cState.interval + 3 : diff === 'good' ? cState.interval + 7 : cState.interval + 14;
-      nextDays = Math.min(60, nextDays);
-      return nextDays < 30 ? `${Math.floor(nextDays)}d` : `${Math.floor(nextDays / 30)}mo`;
+      const plan = getNextReviewPlan(cState, diff);
+      if (plan.interval === 0) return '15분';
+      return `${plan.interval}일`;
     };
 
     const front = (
@@ -3111,16 +3674,16 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
                 <RotateCw className="w-5 h-5 text-slate-400" /><span className="text-[10px] text-slate-400 font-bold mt-1">앞면</span>
               </button>
               <button onClick={() => handleSrsNext('again')} className="col-span-1 h-full flex flex-col items-center justify-center bg-red-500/10 border border-red-500/20 rounded-2xl hover:bg-red-500/20 transition-all active:scale-95">
-                <span className="text-xs font-black uppercase text-red-500 tracking-tighter mb-1">Again</span><span className="text-[10px] text-red-400/70 font-bold">{getIntervalLabel(cardState, 'again')}</span>
+                <span className="text-xs font-black text-red-500 mb-1">다시</span><span className="text-[10px] text-red-400/70 font-bold">{getIntervalLabel(cardState, 'again')}</span>
               </button>
               <button onClick={() => handleSrsNext('hard')} className="col-span-1 h-full flex flex-col items-center justify-center bg-orange-500/10 border border-orange-500/20 rounded-2xl hover:bg-orange-500/20 transition-all active:scale-95">
-                <span className="text-xs font-black uppercase text-orange-500 tracking-tighter mb-1">Hard</span><span className="text-[10px] text-orange-400/70 font-bold">{getIntervalLabel(cardState, 'hard')}</span>
+                <span className="text-xs font-black text-orange-500 mb-1">어려움</span><span className="text-[10px] text-orange-400/70 font-bold">{getIntervalLabel(cardState, 'hard')}</span>
               </button>
               <button onClick={() => handleSrsNext('good')} className="col-span-1 h-full flex flex-col items-center justify-center bg-emerald-500/10 border border-emerald-500/20 rounded-2xl hover:bg-emerald-500/20 transition-all active:scale-95">
-                <span className="text-xs font-black uppercase text-emerald-500 tracking-tighter mb-1">Good</span><span className="text-[10px] text-emerald-400/70 font-bold">{getIntervalLabel(cardState, 'good')}</span>
+                <span className="text-xs font-black text-emerald-500 mb-1">보통</span><span className="text-[10px] text-emerald-400/70 font-bold">{getIntervalLabel(cardState, 'good')}</span>
               </button>
               <button onClick={() => handleSrsNext('easy')} className="col-span-1 h-full flex flex-col items-center justify-center bg-blue-500/10 border border-blue-500/20 rounded-2xl hover:bg-blue-500/20 transition-all active:scale-95">
-                <span className="text-xs font-black uppercase text-blue-500 tracking-tighter mb-1">Easy</span><span className="text-[10px] text-blue-400/70 font-bold">{getIntervalLabel(cardState, 'easy')}</span>
+                <span className="text-xs font-black text-blue-500 mb-1">쉬움</span><span className="text-[10px] text-blue-400/70 font-bold">{getIntervalLabel(cardState, 'easy')}</span>
               </button>
             </div>
           )}
@@ -3266,6 +3829,7 @@ const modeQuestion =
             <div className="flex bg-slate-900 rounded-xl p-1 border border-white/10 shrink-0">
               <select value={libSort} onChange={(e) => setLibSort(e.target.value)} className="bg-transparent text-slate-300 text-xs font-bold px-3 py-1.5 outline-none cursor-pointer">
                 <option value="default">기본 정렬</option>
+                <option value="favorite">즐겨찾기 우선</option>
                 <option value="mastered">마스터 우선</option>
                 <option value="weak">취약점 우선</option>
               </select>
@@ -3286,6 +3850,7 @@ const modeQuestion =
               const cardState = cTrack === 'bim' ? bimCards[item.id] : basicCards[item.id];
               const hoverBorder = cTrack === 'bim' ? 'hover:border-violet-500/30' : 'hover:border-emerald-500/30';
               const badgeBg = cTrack === 'bim' ? 'bg-violet-500/20 text-violet-400' : 'bg-emerald-500/20 text-emerald-400';
+              const hasTrustedReading = item.dataset === 'bim' || item.onExamples?.length > 0 || item.kunExamples?.length > 0;
               
               return (
                 <div key={item.id} className={`p-6 bg-slate-900/40 border border-white/5 rounded-3xl transition-all group cursor-pointer text-center relative overflow-hidden ${hoverBorder}`} onClick={() => setSelectedKanjiId(item.id)}>
@@ -3298,12 +3863,14 @@ const modeQuestion =
                   </div>
 
                   <div className="absolute top-3 right-3 opacity-50">
+                    {cardState?.starred && <Star className="w-4 h-4 text-amber-300 fill-amber-300" />}
                     {cardState?.status === 'mastered' && <CheckCircle2 className="w-4 h-4 text-emerald-400" />}
                     {cardState?.status === 'learning' && <Clock className="w-4 h-4 text-orange-400" />}
                   </div>
 
                   <span className="text-4xl font-bold text-white group-hover:scale-110 block transition-transform mt-4">{item.kanji}</span>
                   <p className="text-sm font-bold mt-3 truncate text-slate-300">{item.mean}</p>
+                  {!hasTrustedReading && <p className="text-[10px] text-amber-300 mt-1">읽기 확인 필요</p>}
                   {cTrack === 'bim' && item.bimTerm && <p className="text-[10px] text-slate-500 mt-1 truncate">{item.bimTerm.word}</p>}
                 </div>
               );
@@ -3314,9 +3881,217 @@ const modeQuestion =
     );
   };
 
+  const renderVocabLibrary = () => {
+    return (
+      <div className="space-y-8 animate-in fade-in duration-500 pb-20">
+        <div className="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
+          <div>
+            <h2 className="text-3xl font-black text-white">실무 단어장</h2>
+            <p className="text-slate-500">建具, BIM, 도면 자동화 용어 검색 ({vocabList.length} / {VOCAB_DATA.length})</p>
+          </div>
+
+          <div className="flex items-center gap-3 w-full md:w-auto flex-wrap">
+            <button
+              onClick={() => startVocabStudy('meaning', 'all')}
+              className="px-4 py-2.5 bg-white text-slate-950 rounded-xl font-black text-sm hover:bg-slate-200 transition-all"
+            >
+              뜻 퀴즈
+            </button>
+            <button
+              onClick={() => startVocabStudy('reading', 'all')}
+              className="px-4 py-2.5 bg-slate-900 border border-white/10 text-white rounded-xl font-black text-sm hover:bg-slate-800 transition-all"
+            >
+              읽기 퀴즈
+            </button>
+            <button
+              onClick={() => startVocabStudy('meaning', 'weak')}
+              disabled={vocabStats.weak === 0}
+              className={`px-4 py-2.5 rounded-xl font-black text-sm transition-all ${
+                vocabStats.weak === 0
+                  ? 'bg-slate-900/40 border border-white/5 text-slate-600 cursor-not-allowed'
+                  : 'bg-orange-500/15 border border-orange-500/20 text-orange-200 hover:bg-orange-500/20'
+              }`}
+            >
+              약한 단어
+            </button>
+            <div className="flex bg-slate-900 rounded-xl p-1 border border-white/10 shrink-0">
+              <select
+                value={vocabCategory}
+                onChange={(e) => setVocabCategory(e.target.value)}
+                className="bg-transparent text-slate-300 text-xs font-bold px-3 py-1.5 outline-none cursor-pointer max-w-[220px]"
+              >
+                {VOCAB_CATEGORIES.map((category) => (
+                  <option key={category} value={category}>
+                    {category === 'all' ? '전체 분류' : category}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="relative w-full md:w-80">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 w-4 h-4" />
+              <input
+                type="text"
+                placeholder="예: 建具, 스틸도어, 納まり, Revit"
+                className="w-full bg-slate-900/50 border border-white/10 rounded-xl py-2.5 pl-10 pr-4 text-sm text-white focus:outline-none focus:border-white/30 transition-all"
+                value={vocabSearchTerm}
+                onChange={(e) => setVocabSearchTerm(e.target.value)}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {[
+            { label: '학습한 단어', value: vocabStats.studied },
+            { label: '정답률', value: `${vocabStats.accuracy}%` },
+            { label: '약한 단어', value: vocabStats.weak },
+            { label: '즐겨찾기', value: vocabStats.starred },
+          ].map((item) => (
+            <div key={item.label} className="p-5 bg-slate-900/40 border border-white/5 rounded-2xl">
+              <p className="text-xs text-slate-500 font-bold">{item.label}</p>
+              <p className="text-2xl font-black text-white mt-1">{item.value}</p>
+            </div>
+          ))}
+        </div>
+
+        {vocabList.length === 0 ? (
+          <EmptyState message="검색 조건에 맞는 단어가 없습니다." icon={Search} />
+        ) : (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {vocabList.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => setSelectedVocabId(item.id)}
+                className="text-left p-5 bg-slate-900/40 border border-white/5 rounded-3xl hover:border-white/20 hover:bg-slate-900/70 transition-all group min-h-[205px] flex flex-col relative"
+              >
+                {vocabProgress[item.id]?.starred && <Star className="absolute top-4 right-4 w-4 h-4 text-amber-300 fill-amber-300" />}
+                <div className="flex items-start justify-between gap-3 mb-4">
+                  <span className={`text-[10px] font-black px-2 py-1 rounded ${trackConfig.bgLight} ${trackConfig.textColor}`}>
+                    {item.category}
+                  </span>
+                  <BookText className="w-4 h-4 text-slate-600 group-hover:text-slate-300 shrink-0" />
+                </div>
+                <h3 className="text-2xl font-black text-white mb-1">{item.word}</h3>
+                <p className="text-sm text-slate-500 font-bold mb-2">{item.reading}</p>
+                <p className={`${trackConfig.textColor} text-sm font-black mb-3`}>{item.meaning}</p>
+                <p className="text-xs text-slate-400 leading-relaxed line-clamp-3 break-keep mt-auto">{item.description}</p>
+                {(vocabProgress[item.id]?.seen || 0) > 0 && (
+                  <div className="flex gap-2 mt-4 text-[10px] font-bold">
+                    <span className="text-emerald-300 bg-emerald-400/10 px-2 py-1 rounded">O {vocabProgress[item.id]?.correct || 0}</span>
+                    <span className="text-red-300 bg-red-400/10 px-2 py-1 rounded">X {vocabProgress[item.id]?.wrong || 0}</span>
+                  </div>
+                )}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  const renderVocabStudy = () => {
+    if (vocabStudyQueue.length === 0 && !vocabQuiz) {
+      return (
+        <EmptyState message="단어 퀴즈가 끝났습니다." icon={Target}>
+          <button
+            onClick={() => goTo(activeTrack, 'vocab')}
+            className="mt-4 px-5 py-3 bg-white text-slate-950 rounded-xl font-black hover:bg-slate-200 transition-all"
+          >
+            단어장으로 돌아가기
+          </button>
+        </EmptyState>
+      );
+    }
+
+    if (!vocabQuiz) {
+      return (
+        <div className="w-full py-20 flex flex-col items-center justify-center text-slate-500 animate-pulse">
+          <div className="w-10 h-10 border-4 border-slate-700 border-t-slate-300 rounded-full animate-spin mb-4" />
+          <p className="font-bold tracking-widest uppercase text-xs">단어 문제 구성 중...</p>
+        </div>
+      );
+    }
+
+    const current = VOCAB_DATA.find((item) => item.id === vocabQuiz.vocabId);
+    if (!current) return null;
+
+    const { choices, isAnswered, isCorrect, selectedChoiceIndex, mode } = vocabQuiz;
+    const modeLabel = mode === 'reading' ? '읽기 퀴즈' : '뜻 퀴즈';
+    const questionText = mode === 'reading' ? '이 단어의 읽는 법은?' : '이 단어의 뜻은?';
+
+    return (
+      <div className="max-w-3xl mx-auto animate-in fade-in duration-300 pb-20">
+        <div className="flex items-center justify-between mb-6">
+          <button
+            onClick={() => goTo(activeTrack, 'vocab')}
+            className="text-sm font-bold text-slate-500 hover:text-white transition-colors"
+          >
+            단어장으로 돌아가기
+          </button>
+          <span className="px-3 py-1 bg-slate-900 border border-white/10 rounded-full text-xs font-bold text-slate-400">
+            {modeLabel} · {vocabStudyQueue.length}문제 남음
+          </span>
+        </div>
+
+        <div className="bg-slate-900 border border-white/10 rounded-[2rem] p-8 md:p-12 text-center shadow-lg mb-6">
+          <p className="text-slate-400 text-lg font-bold mb-4">{questionText}</p>
+          <h2 className="text-5xl md:text-7xl font-black text-white leading-tight">{current.word}</h2>
+          <div className="flex items-center justify-center gap-3 mt-5 flex-wrap">
+            <span className={`px-3 py-1 rounded-full ${trackConfig.bgLight} ${trackConfig.textColor} text-xs font-black`}>
+              {current.category}
+            </span>
+            {mode === 'reading' && <span className="text-slate-400 text-sm font-bold">{current.meaning}</span>}
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {choices.map((choice, index) => {
+            let btnClass = 'bg-slate-900 border-white/10 hover:bg-slate-800 text-white';
+            if (isAnswered) {
+              if (index === vocabQuiz.correctChoiceIndex) btnClass = 'bg-emerald-500/20 border-emerald-500/50 text-emerald-300';
+              else if (index === selectedChoiceIndex && !isCorrect) btnClass = 'bg-red-500/20 border-red-500/50 text-red-300';
+              else btnClass = 'bg-slate-900/50 border-white/5 text-slate-600 opacity-50';
+            }
+
+            return (
+              <button
+                key={`${choice.id}-${choice.text}`}
+                onClick={() => handleVocabAnswer(index)}
+                disabled={isAnswered}
+                className={`min-h-24 p-6 rounded-2xl border-2 transition-all text-center ${!isAnswered && 'active:scale-95'} ${btnClass}`}
+              >
+                <span className="text-xl font-black">{choice.text}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {isAnswered && (
+          <div className={`mt-6 p-6 rounded-2xl border flex flex-col md:flex-row items-start md:items-center justify-between gap-5 ${isCorrect ? 'bg-emerald-500/10 border-emerald-500/20' : 'bg-red-500/10 border-red-500/20'}`}>
+            <div>
+              <h3 className="text-xl font-black text-white flex items-center gap-2">
+                {isCorrect ? <CheckCircle2 className="w-6 h-6 text-emerald-400" /> : <XCircle className="w-6 h-6 text-red-400" />}
+                {current.word} · {current.reading}
+              </h3>
+              <p className="text-sm text-slate-300 mt-2">{current.meaning}</p>
+              <p className="text-xs text-slate-500 mt-2 leading-relaxed break-keep">{current.description}</p>
+            </div>
+            <button
+              onClick={handleNextVocabQuiz}
+              className="w-full md:w-auto px-8 py-4 bg-white text-slate-950 font-black rounded-xl hover:bg-slate-200 transition-all active:scale-95"
+            >
+              다음 문제 <ArrowRight className="inline-block w-5 h-5 ml-2" />
+            </button>
+          </div>
+        )}
+      </div>
+    );
+  };
+
   const renderStats = () => (
     <div className="max-w-5xl mx-auto space-y-10 animate-in slide-in-from-right-4 duration-700 pb-20">
       <h2 className="text-3xl font-black text-white">SRS Insights ({trackConfig.titleMain})</h2>
+      <p className="text-sm text-slate-500">복습 간격은 최대 {MAX_REVIEW_INTERVAL_DAYS}일까지 제한됩니다. Again은 15분 후 다시 나옵니다.</p>
 
       <div className="grid md:grid-cols-3 gap-8">
         <div className="col-span-1 p-8 rounded-[2.5rem] bg-slate-900 border border-white/10 flex flex-col items-center justify-center text-center">
@@ -3398,6 +4173,39 @@ const modeQuestion =
             ))}
           </div>
         </div>
+      </div>
+
+      <div className="p-8 rounded-[2.5rem] bg-slate-900 border border-white/10">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+          <h3 className="text-xl font-bold text-white flex items-center gap-2">
+            <AlertTriangle className="text-orange-400 w-5 h-5" />
+            약점 노트
+          </h3>
+          <button
+            onClick={() => { setSessionConfig({ ...DEFAULT_SESSION_CONFIG, type: 'flash_review', mode: 'meaning', source: 'weak' }); goTo(activeTrack, 'study'); }}
+            disabled={stats.weakCards.length === 0}
+            className="px-4 py-2 rounded-xl bg-orange-500/15 border border-orange-500/20 text-orange-200 text-sm font-bold disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            약점 퀴즈 시작
+          </button>
+        </div>
+        {stats.weakCards.length === 0 ? (
+          <p className="text-slate-500 text-sm">아직 누적된 약점 카드가 없습니다.</p>
+        ) : (
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
+            {stats.weakCards.slice(0, 12).map((item) => (
+              <button
+                key={item.id}
+                onClick={() => setSelectedKanjiId(item.id)}
+                className="p-4 bg-slate-950/50 border border-white/5 rounded-2xl text-left hover:border-orange-400/30 transition"
+              >
+                <span className="text-2xl font-black text-white">{item.kanji}</span>
+                <span className="ml-3 text-sm text-slate-400">{item.mean}</span>
+                <p className="text-[10px] text-orange-300 mt-2">약점 점수 {item.score}</p>
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       <h2 className="text-3xl font-black text-white pt-8 border-t border-white/10">Flash Drill Insights (플래시 퀴즈)</h2>
@@ -3484,6 +4292,9 @@ const modeQuestion =
           <button onClick={() => goTo('bim', 'library')} className={`w-14 h-14 flex flex-col items-center justify-center rounded-2xl transition-all ${view === 'library' && activeTrack === 'bim' ? 'bg-violet-500/20 text-violet-400' : 'text-slate-500 hover:text-slate-300 hover:bg-white/5'}`}>
             <Search className="w-5 h-5 mb-1" /><span className="text-[9px] font-bold">사전</span>
           </button>
+          <button onClick={() => goTo('bim', 'vocab')} className={`w-14 h-14 flex flex-col items-center justify-center rounded-2xl transition-all ${['vocab', 'vocab_study'].includes(view) && activeTrack === 'bim' ? 'bg-violet-500/20 text-violet-400' : 'text-slate-500 hover:text-slate-300 hover:bg-white/5'}`}>
+            <BookText className="w-5 h-5 mb-1" /><span className="text-[9px] font-bold">단어</span>
+          </button>
           <button onClick={() => goTo('bim', 'stats')} className={`w-14 h-14 flex flex-col items-center justify-center rounded-2xl transition-all ${view === 'stats' && activeTrack === 'bim' ? 'bg-violet-500/20 text-violet-400' : 'text-slate-500 hover:text-slate-300 hover:bg-white/5'}`}>
             <BarChart3 className="w-5 h-5 mb-1" /><span className="text-[9px] font-bold">통계</span>
           </button>
@@ -3507,6 +4318,9 @@ const modeQuestion =
           </button>
           <button onClick={() => goTo('basic', 'library')} className={`w-14 h-14 flex flex-col items-center justify-center rounded-2xl transition-all ${view === 'library' && activeTrack === 'basic' ? 'bg-emerald-500/20 text-emerald-400' : 'text-slate-500 hover:text-slate-300 hover:bg-white/5'}`}>
             <Search className="w-5 h-5 mb-1" /><span className="text-[9px] font-bold">사전</span>
+          </button>
+          <button onClick={() => goTo('basic', 'vocab')} className={`w-14 h-14 flex flex-col items-center justify-center rounded-2xl transition-all ${['vocab', 'vocab_study'].includes(view) && activeTrack === 'basic' ? 'bg-emerald-500/20 text-emerald-400' : 'text-slate-500 hover:text-slate-300 hover:bg-white/5'}`}>
+            <BookText className="w-5 h-5 mb-1" /><span className="text-[9px] font-bold">단어</span>
           </button>
           <button onClick={() => goTo('basic', 'stats')} className={`w-14 h-14 flex flex-col items-center justify-center rounded-2xl transition-all ${view === 'stats' && activeTrack === 'basic' ? 'bg-emerald-500/20 text-emerald-400' : 'text-slate-500 hover:text-slate-300 hover:bg-white/5'}`}>
             <BarChart3 className="w-5 h-5 mb-1" /><span className="text-[9px] font-bold">통계</span>
@@ -3535,6 +4349,9 @@ const modeQuestion =
     </div>
   </div>
           <div className="flex items-center gap-4">
+            <div className={`flex items-center gap-2 px-2 sm:px-3 py-1 rounded-full border text-[9px] sm:text-[10px] font-bold max-w-[120px] sm:max-w-none truncate ${cloudStatusView.className}`}>
+              {cloudStatusView.label}
+            </div>
             {activeTrack === 'basic' && (
                <div className="flex items-center gap-2 px-3 py-1 bg-slate-900 border border-white/10 rounded-full text-slate-400 text-[10px] font-bold">
                  <FileText className="w-3 h-3 text-emerald-400" />
@@ -3557,12 +4374,15 @@ const modeQuestion =
           {view === 'group_study' && renderBasicGroupStudy()}
           {view === 'study' && renderStudySession()}
           {view === 'library' && renderLibrary()}
+          {view === 'vocab' && renderVocabLibrary()}
+          {view === 'vocab_study' && renderVocabStudy()}
           {view === 'stats' && renderStats()}
         </div>
       </main>
 
       {/* Render Modal Safety */}
       {renderKanjiDetailModal()}
+      {renderVocabDetailModal()}
 
       <style dangerouslySetInnerHTML={{ __html: `.backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; } .custom-scrollbar::-webkit-scrollbar { width: 6px; } .custom-scrollbar::-webkit-scrollbar-track { background: transparent; } .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }`}} />
     </div>

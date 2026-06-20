@@ -24,6 +24,7 @@ import {
   Layers,
   Download,
   Upload,
+  Menu,
 } from 'lucide-react';
 import { onAuthStateChanged, signInWithPopup, signInWithRedirect, signOut } from 'firebase/auth';
 import { doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore';
@@ -1146,8 +1147,8 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const BIM_CONFIG = {
     titleMain: 'BIM 한자관',
-    titleSub: '실무/도면 마스터',
-    desc: '일본 제네콘/BIM 회사 취업을 위한 실무 어휘 특화 트랙입니다.',
+    titleSub: '실무 도면 마스터',
+    desc: '일본 건설/BIM 실무와 建具 도면 업무에 바로 연결되는 한자와 단어를 학습합니다.',
     bgGlow: 'bg-violet-500/20',
     bgLight: 'bg-violet-500/5',
     bgSolid: 'bg-violet-500',
@@ -1160,7 +1161,7 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const BASIC_CONFIG = {
     titleMain: '일상 한자관',
     titleSub: 'JLPT & 독해 체력',
-    desc: '일상 한자를 기반으로 일본어 회화 실력을 늘려봅시다.',
+    desc: '일상 한자를 기반으로 일본어 독해와 어휘력을 함께 쌓습니다.',
     bgGlow: 'bg-emerald-500/20',
     bgLight: 'bg-emerald-500/5',
     bgSolid: 'bg-emerald-500',
@@ -1329,7 +1330,7 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
         await signInWithRedirect(auth, googleProvider);
         return;
       }
-      setAuthMessage(`Google 로그인에 실패했습니다: ${error.message}`);
+      setAuthMessage(`Google 로그인에 실패했습니다: ${error.message || error.code || '알 수 없는 오류'}`);
     } finally {
       setIsSigningIn(false);
     }
@@ -1618,7 +1619,6 @@ const nextBasicDaily = reconcileDailyWithCards(
       storage_version: STORAGE_VERSION,
       progress: createCurrentProgressPayload(session?.user?.uid || 'local'),
     };
-
     const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
@@ -2897,7 +2897,7 @@ if (mode === 'meaning') {
         <div className="relative z-10 grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-6">
             <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full ${trackConfig.bgLight} border ${trackConfig.borderLight} ${trackConfig.textColor} text-xs font-bold tracking-wider`}>
-              <Star className="w-3 h-3" /> WELCOME BACK, CHIEF
+              <Star className="w-3 h-3" /> 오늘의 학습
             </div>
 
             <div className="p-4 rounded-2xl bg-slate-900 border border-white/10 max-w-xl">
@@ -3063,7 +3063,7 @@ if (mode === 'meaning') {
                 <ProgressRing percentage={stats.progressPercent} colorClass={trackConfig.textColor} />
                 <div className="text-center mt-2">
                   <p className="text-3xl font-black text-white">{stats.progressPercent}%</p>
-                  <p className="text-slate-500 text-sm">Overall Progress</p>
+                  <p className="text-slate-500 text-sm">전체 진행률</p>
                 </div>
               </div>
             </div>
@@ -3086,7 +3086,7 @@ if (mode === 'meaning') {
         </div>
         <div className="p-8 rounded-3xl bg-slate-900/40 border border-white/5">
           <CheckCircle2 className="w-8 h-8 text-emerald-400 mb-6" />
-          <h3 className="text-slate-500 text-sm font-bold uppercase tracking-widest">정확도 (Ease)</h3>
+          <h3 className="text-slate-500 text-sm font-bold uppercase tracking-widest">정확도</h3>
           <p className="text-4xl font-black text-white mt-2 mb-1">{stats.srsAccuracy}%</p>
           <p className="text-slate-500 text-xs">정규 학습 기준</p>
         </div>
@@ -3455,7 +3455,7 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
         <div className="bg-slate-900 border border-white/10 rounded-2xl p-5">
           <p className="text-[10px] text-slate-500 font-black uppercase tracking-widest">약점 노트</p>
           <p className="text-3xl font-black text-orange-300 mt-2">{stats.weakCards.length}</p>
-          <p className="text-xs text-slate-500 mt-3">오답과 Again 기록을 기준으로 자동 정리됩니다.</p>
+          <p className="text-xs text-slate-500 mt-3">오답과 다시 선택 기록을 기준으로 자동 정리됩니다.</p>
         </div>
       </div>
 
@@ -3654,12 +3654,12 @@ const prevGroupNum = studyGroupNum > 1 ? studyGroupNum - 1 : null;
     return (
       <>
         <div className="w-full flex justify-between items-center text-sm mb-6">
-          <span className="text-slate-500 font-bold uppercase tracking-widest">SRS Session • Queue: {studyQueue.length}</span>
+          <span className="text-slate-500 font-bold uppercase tracking-widest">SRS 복습 • {studyQueue.length}장 남음</span>
           <div className="flex gap-2">
-            {cardState.status === 'new' && <span className="px-2 py-1 bg-blue-500/20 text-blue-400 rounded text-[10px] font-bold">NEW</span>}
-            {cardState.status === 'learning' && <span className="px-2 py-1 bg-orange-500/20 text-orange-400 rounded text-[10px] font-bold">LEARNING</span>}
-            {cardState.status === 'review' && <span className="px-2 py-1 bg-violet-500/20 text-violet-400 rounded text-[10px] font-bold">REVIEW</span>}
-            {cardState.status === 'mastered' && <span className="px-2 py-1 bg-emerald-500/20 text-emerald-400 rounded text-[10px] font-bold">MASTERED</span>}
+            {cardState.status === 'new' && <span className="px-2 py-1 bg-blue-500/20 text-blue-400 rounded text-[10px] font-bold">신규</span>}
+            {cardState.status === 'learning' && <span className="px-2 py-1 bg-orange-500/20 text-orange-400 rounded text-[10px] font-bold">학습중</span>}
+            {cardState.status === 'review' && <span className="px-2 py-1 bg-violet-500/20 text-violet-400 rounded text-[10px] font-bold">복습</span>}
+            {cardState.status === 'mastered' && <span className="px-2 py-1 bg-emerald-500/20 text-emerald-400 rounded text-[10px] font-bold">마스터</span>}
           </div>
         </div>
 
@@ -3724,7 +3724,7 @@ const modeQuestion =
     return (
       <div className="w-full flex flex-col animate-in fade-in duration-300">
         <div className="w-full flex justify-between items-center text-sm mb-8">
-          <span className="text-slate-500 font-bold uppercase tracking-widest">Flash Quiz ({modeLabel})</span>
+          <span className="text-slate-500 font-bold uppercase tracking-widest">빠른 퀴즈 ({modeLabel})</span>
           <span className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-bold">{studyQueue.length} 남음</span>
         </div>
 
@@ -3814,7 +3814,7 @@ const modeQuestion =
       <div className="space-y-8 animate-in fade-in duration-500 pb-20">
         <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
           <div>
-            <h2 className="text-3xl font-black text-white">사전 (Library)</h2>
+            <h2 className="text-3xl font-black text-white">한자 사전</h2>
             <p className="text-slate-500">모든 한자 데이터 검색 및 탐색 ({libraryList.length}자)</p>
           </div>
 
@@ -4090,23 +4090,23 @@ const modeQuestion =
 
   const renderStats = () => (
     <div className="max-w-5xl mx-auto space-y-10 animate-in slide-in-from-right-4 duration-700 pb-20">
-      <h2 className="text-3xl font-black text-white">SRS Insights ({trackConfig.titleMain})</h2>
-      <p className="text-sm text-slate-500">복습 간격은 최대 {MAX_REVIEW_INTERVAL_DAYS}일까지 제한됩니다. Again은 15분 후 다시 나옵니다.</p>
+      <h2 className="text-3xl font-black text-white">복습 통계 ({trackConfig.titleMain})</h2>
+      <p className="text-sm text-slate-500">복습 간격은 최대 {MAX_REVIEW_INTERVAL_DAYS}일까지 제한됩니다. 다시 선택한 카드는 15분 후 다시 나옵니다.</p>
 
       <div className="grid md:grid-cols-3 gap-8">
         <div className="col-span-1 p-8 rounded-[2.5rem] bg-slate-900 border border-white/10 flex flex-col items-center justify-center text-center">
           <ProgressRing percentage={stats.progressPercent} colorClass={trackConfig.textColor} />
-          <h3 className="text-2xl font-bold text-white mt-6">Mastery Level</h3>
+          <h3 className="text-2xl font-bold text-white mt-6">마스터 현황</h3>
           <p className="text-slate-500 mt-2">전체 {stats.total}자 중 {stats.masteredCount}자</p>
         </div>
 
         <div className="col-span-1 p-8 rounded-[2.5rem] bg-slate-900 border border-white/10 flex flex-col justify-center">
-          <h3 className="text-sm font-black text-slate-500 uppercase tracking-widest mb-6">Status Breakdown</h3>
+          <h3 className="text-sm font-black text-slate-500 uppercase tracking-widest mb-6">학습 상태</h3>
           <div className="space-y-6">
             {[
-              { label: 'New Cards', val: stats.newCount, color: 'bg-slate-500' },
-              { label: 'Learning / Review', val: stats.learningCount + stats.reviewCount, color: 'bg-blue-500' },
-              { label: 'Mastered', val: stats.masteredCount, color: 'bg-emerald-500' },
+              { label: '신규 카드', val: stats.newCount, color: 'bg-slate-500' },
+              { label: '학습중 / 복습', val: stats.learningCount + stats.reviewCount, color: 'bg-blue-500' },
+              { label: '마스터', val: stats.masteredCount, color: 'bg-emerald-500' },
             ].map((bar, i) => (
               <div key={i}>
                 <div className="flex justify-between text-sm mb-2">
@@ -4122,13 +4122,13 @@ const modeQuestion =
         </div>
 
         <div className="col-span-1 p-8 rounded-[2.5rem] bg-slate-900 border border-white/10 flex flex-col justify-center">
-          <h3 className="text-sm font-black text-slate-500 uppercase tracking-widest mb-6">Difficulty Distribution</h3>
+          <h3 className="text-sm font-black text-slate-500 uppercase tracking-widest mb-6">난이도 선택 분포</h3>
           <div className="space-y-4">
             {[
-              { label: 'Again', val: stats.srsDiffStats.again, color: 'text-red-500', bg: 'bg-red-500' },
-              { label: 'Hard', val: stats.srsDiffStats.hard, color: 'text-orange-500', bg: 'bg-orange-500' },
-              { label: 'Good', val: stats.srsDiffStats.good, color: 'text-emerald-500', bg: 'bg-emerald-500' },
-              { label: 'Easy', val: stats.srsDiffStats.easy, color: 'text-blue-500', bg: 'bg-blue-500' },
+              { label: '다시', val: stats.srsDiffStats.again, color: 'text-red-500', bg: 'bg-red-500' },
+              { label: '어려움', val: stats.srsDiffStats.hard, color: 'text-orange-500', bg: 'bg-orange-500' },
+              { label: '보통', val: stats.srsDiffStats.good, color: 'text-emerald-500', bg: 'bg-emerald-500' },
+              { label: '쉬움', val: stats.srsDiffStats.easy, color: 'text-blue-500', bg: 'bg-blue-500' },
             ].map((stat, i) => {
               const totalDiffs = stats.srsDiffStats.again + stats.srsDiffStats.hard + stats.srsDiffStats.good + stats.srsDiffStats.easy || 1;
               return (
@@ -4208,16 +4208,16 @@ const modeQuestion =
         )}
       </div>
 
-      <h2 className="text-3xl font-black text-white pt-8 border-t border-white/10">Flash Drill Insights (플래시 퀴즈)</h2>
+      <h2 className="text-3xl font-black text-white pt-8 border-t border-white/10">플래시 퀴즈 통계</h2>
 
       <div className="grid md:grid-cols-4 gap-8">
         <div className="col-span-1 p-8 rounded-[2.5rem] bg-slate-900 border border-white/10 flex flex-col justify-center">
-          <h3 className="text-sm font-black text-slate-500 uppercase tracking-widest mb-6">Accuracy by Mode</h3>
+          <h3 className="text-sm font-black text-slate-500 uppercase tracking-widest mb-6">유형별 정답률</h3>
           <div className="space-y-6">
             {[
-              { label: '뜻 편 (Meaning)', val: stats.flashAcc.meaning, color: 'bg-blue-500' },
-              { label: '음독 편 (Onyomi)', val: stats.flashAcc.on, color: 'bg-violet-500' },
-              { label: '훈독 편 (Kunyomi)', val: stats.flashAcc.kun, color: 'bg-emerald-500' },
+              { label: '뜻', val: stats.flashAcc.meaning, color: 'bg-blue-500' },
+              { label: '음독', val: stats.flashAcc.on, color: 'bg-violet-500' },
+              { label: '훈독', val: stats.flashAcc.kun, color: 'bg-emerald-500' },
             ].map((bar, i) => (
               <div key={i}>
                 <div className="flex justify-between text-sm mb-2"><span className="text-slate-400 font-bold">{bar.label}</span><span className="text-white font-black">{bar.val}%</span></div>
@@ -4228,7 +4228,7 @@ const modeQuestion =
         </div>
 
         <div className="col-span-1 p-8 rounded-[2.5rem] bg-slate-900 border border-white/10">
-          <h3 className="text-sm font-black text-white mb-6 flex items-center gap-2"><Target className="text-blue-500 w-5 h-5" /> Weak in Meaning</h3>
+          <h3 className="text-sm font-black text-white mb-6 flex items-center gap-2"><Target className="text-blue-500 w-5 h-5" /> 뜻 약점</h3>
           {stats.weakMean.length === 0 ? <p className="text-slate-500 text-xs">오답 없음</p> : (
             <div className="space-y-3">
               {stats.weakMean.map((c, i) => (
@@ -4239,7 +4239,7 @@ const modeQuestion =
         </div>
 
         <div className="col-span-1 p-8 rounded-[2.5rem] bg-slate-900 border border-white/10">
-          <h3 className="text-sm font-black text-white mb-6 flex items-center gap-2"><Target className="text-violet-500 w-5 h-5" /> Weak in Onyomi</h3>
+          <h3 className="text-sm font-black text-white mb-6 flex items-center gap-2"><Target className="text-violet-500 w-5 h-5" /> 음독 약점</h3>
           {stats.weakOn.length === 0 ? <p className="text-slate-500 text-xs">오답 없음</p> : (
             <div className="space-y-3">
               {stats.weakOn.map((c, i) => (
@@ -4250,7 +4250,7 @@ const modeQuestion =
         </div>
 
         <div className="col-span-1 p-8 rounded-[2.5rem] bg-slate-900 border border-white/10">
-          <h3 className="text-sm font-black text-white mb-6 flex items-center gap-2"><Target className="text-emerald-500 w-5 h-5" /> Weak in Kunyomi</h3>
+          <h3 className="text-sm font-black text-white mb-6 flex items-center gap-2"><Target className="text-emerald-500 w-5 h-5" /> 훈독 약점</h3>
           {stats.weakKun.length === 0 ? <p className="text-slate-500 text-xs">오답 없음</p> : (
             <div className="space-y-3">
               {stats.weakKun.map((c, i) => (
@@ -4340,11 +4340,11 @@ const modeQuestion =
   className="md:hidden p-2 rounded-xl bg-slate-900 border border-white/10 text-slate-300"
   aria-label={isMobileMenuOpen ? '메뉴 닫기' : '메뉴 열기'}
 >
-  {isMobileMenuOpen ? <X className="w-5 h-5" /> : '☰'}
+  {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
 </button>
     <div>
       <h1 className="text-lg font-bold text-white tracking-tight">
-        Kanji Mastery <span className={`text-[10px] uppercase ml-2 px-2 py-0.5 rounded-full bg-slate-800 ${trackConfig.textColor}`}>{activeTrack} mode</span>
+        Kanji Mastery <span className={`text-[10px] uppercase ml-2 px-2 py-0.5 rounded-full bg-slate-800 ${trackConfig.textColor}`}>{activeTrack === 'bim' ? 'BIM 실무' : '일상 PDF'}</span>
       </h1>
     </div>
   </div>
@@ -4363,7 +4363,7 @@ const modeQuestion =
             )}
             <div className="flex items-center gap-2 px-4 py-1.5 bg-slate-900 border border-white/10 rounded-full text-slate-300">
               <Flame className={`w-3 h-3 ${trackConfig.textColor}`} />
-              <span className="text-[10px] font-bold tracking-wider">DAY {activeDaily.streak}</span>
+              <span className="text-[10px] font-bold tracking-wider">{activeDaily.streak}일 연속</span>
             </div>
           </div>
         </header>

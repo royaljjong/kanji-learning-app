@@ -124,12 +124,12 @@ const AppShell = ({
               </h1>
             </div>
           </div>
-          <div className="flex items-center gap-4">
-            <div className={`flex items-center gap-2 px-2 sm:px-3 py-1 rounded-full border text-[9px] sm:text-[10px] font-bold max-w-[120px] sm:max-w-none truncate ${cloudStatusView.className}`}>
+          <div className="flex items-center gap-2 sm:gap-4 min-w-0">
+            <div className={`flex items-center gap-2 px-2 sm:px-3 py-1 rounded-full border text-[9px] sm:text-[10px] font-bold max-w-[96px] sm:max-w-none truncate ${cloudStatusView.className}`}>
               {cloudStatusView.label}
             </div>
             {activeTrack === 'basic' && (
-              <div className="flex items-center gap-2 px-3 py-1 bg-slate-900 border border-white/10 rounded-full text-slate-400 text-[10px] font-bold">
+              <div className="hidden lg:flex items-center gap-2 px-3 py-1 bg-slate-900 border border-white/10 rounded-full text-slate-400 text-[10px] font-bold">
                 <FileText className="w-3 h-3 text-emerald-400" />
                 읽은 페이지 {stats.studiedPages} / {stats.totalPages}
                 <span className="mx-1 opacity-20">|</span>
@@ -137,9 +137,10 @@ const AppShell = ({
                 암기 그룹 {stats.studiedGroups} / {stats.totalGroups}
               </div>
             )}
-            <div className="flex items-center gap-2 px-4 py-1.5 bg-slate-900 border border-white/10 rounded-full text-slate-300">
+            <div className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-1.5 bg-slate-900 border border-white/10 rounded-full text-slate-300 shrink-0">
               <Flame className={`w-3 h-3 ${trackConfig.textColor}`} />
-              <span className="text-[10px] font-bold tracking-wider">{activeDaily.streak}일 연속</span>
+              <span className="text-[10px] font-bold tracking-wider">{activeDaily.streak}일</span>
+              <span className="hidden sm:inline text-[10px] font-bold tracking-wider">연속</span>
             </div>
           </div>
         </header>

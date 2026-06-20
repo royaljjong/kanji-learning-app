@@ -1677,6 +1677,7 @@ const nextBasicDaily = reconcileDailyWithCards(
     link.download = `kanji-backup-${getTodayKey()}.json`;
     link.click();
     URL.revokeObjectURL(url);
+    setAuthMessage('백업 파일을 저장했습니다. 데이터 초기화나 복원 전에는 이 파일을 보관하세요.');
   };
 
   const handleImportBackup = () => {
@@ -1697,11 +1698,17 @@ const nextBasicDaily = reconcileDailyWithCards(
             return;
           }
 
-          const ok = window.confirm('현재 학습 데이터를 백업 파일의 내용으로 바꿀까요?');
+          const ok = window.confirm(
+            '현재 학습 데이터를 백업 파일의 내용으로 바꿀까요?\n\n복원 전 현재 데이터가 필요하면 먼저 백업을 저장하세요.'
+          );
           if (!ok) return;
 
           applyProgressToState(progress);
-          setAuthMessage('백업 데이터를 불러왔습니다. 로컬 저장은 즉시 반영됩니다.');
+          setAuthMessage(
+            session?.user?.uid
+              ? '백업 데이터를 불러왔습니다. 잠시 후 클라우드 저장에도 반영됩니다.'
+              : '백업 데이터를 불러왔습니다. 로컬 저장에 즉시 반영됩니다.'
+          );
         } catch (error) {
           console.error('백업 불러오기 실패:', error);
           window.alert('백업 파일을 읽지 못했습니다.');
@@ -2427,8 +2434,19 @@ if (mode === 'meaning') {
   };
 
   const handleClearData = async () => {
-    const ok = window.confirm('모든 학습 데이터를 초기화할까요? 이 작업은 되돌릴 수 없습니다.');
-    if (!ok) return;
+    const hasBackup = window.confirm(
+      '전체 초기화는 로컬과 클라우드 학습 데이터를 모두 비웁니다.\n\n먼저 백업 파일을 저장했나요?'
+    );
+    if (!hasBackup) {
+      setAuthMessage('초기화를 취소했습니다. 먼저 백업을 저장한 뒤 다시 시도하세요.');
+      return;
+    }
+
+    const typed = window.prompt('정말 초기화하려면 "초기화"를 입력하세요.');
+    if (typed !== '초기화') {
+      setAuthMessage('초기화를 취소했습니다.');
+      return;
+    }
 
     const freshBimCards = createFreshCards('bim');
     const freshBasicCards = createFreshCards('basic');
@@ -4200,13 +4218,13 @@ const modeQuestion =
 
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div className="p-8 rounded-[2.5rem] bg-slate-900 border border-white/10">
-          <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2"><AlertTriangle className="text-orange-500 w-5 h-5" /> Weak SRS Cards</h3>
+          <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2"><AlertTriangle className="text-orange-500 w-5 h-5" /> SRS 약점 카드</h3>
           {stats.weakSrs.length === 0 ? <p className="text-slate-500 text-sm">아직 취약한 카드가 없습니다.</p> : (
             <div className="space-y-3">
               {stats.weakSrs.map((c, i) => (
                 <div key={i} className="flex justify-between items-center p-3 bg-slate-950/50 rounded-xl border border-white/5">
                   <span className="text-2xl font-bold text-white">{c.kanji}</span>
-                  <span className="text-xs font-bold text-orange-400 bg-orange-400/10 px-2 py-1 rounded">Lapses: {c.lapses}</span>
+                  <span className="text-xs font-bold text-orange-400 bg-orange-400/10 px-2 py-1 rounded">실수 {c.lapses}회</span>
                 </div>
               ))}
             </div>
@@ -4214,7 +4232,7 @@ const modeQuestion =
         </div>
 
         <div className="p-8 rounded-[2.5rem] bg-slate-900 border border-white/10">
-          <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2"><Filter className={`${trackConfig.textColor} w-5 h-5`} /> Tag Progress</h3>
+          <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2"><Filter className={`${trackConfig.textColor} w-5 h-5`} /> 태그별 진행률</h3>
           <div className="space-y-4 max-h-64 overflow-y-auto custom-scrollbar pr-2">
             {Object.entries(stats.tagProgress).sort((a, b) => b[1].total - a[1].total).map(([tag, data], i) => (
               <div key={i}>

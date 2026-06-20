@@ -40,10 +40,6 @@ import {
   getNextReviewPlan,
   MAX_REVIEW_INTERVAL_DAYS,
 } from './lib/srs';
-import RAW_BIM_KANJI_DATA from './data/bim_kanji.json';
-import RAW_BASIC_KANJI_DATA from './data/basic_kanji.json';
-import BASIC_PAGE_META from './data/basic_page_meta.json';
-import RAW_VOCAB_DATA from './data/vocab.json';
 // ==========================================
 // 1. HELPERS & NORMALIZATION
 // ==========================================
@@ -419,20 +415,24 @@ const normalizeBasicMetaEntry = (meta, index) => {
   };
 };
 
-const NORMALIZED_BASIC_PAGE_META = (Array.isArray(BASIC_PAGE_META) ? BASIC_PAGE_META : [])
-  .map(normalizeBasicMetaEntry)
-  .sort((a, b) => {
-    return (
-      (Number(a.sourceVolume) || 0) - (Number(b.sourceVolume) || 0) ||
-      (Number(a.sourcePage) || 0) - (Number(b.sourcePage) || 0) ||
-      (Number(a.groupId) || 0) - (Number(b.groupId) || 0)
-    );
-  });
+let NORMALIZED_BASIC_PAGE_META = [];
+let BASIC_META_BY_KANJI_ID = {};
 
-const BASIC_META_BY_KANJI_ID = (() => {
+const buildBasicMetaByKanjiId = (rawMeta) => {
+  const normalizedMeta = (Array.isArray(rawMeta) ? rawMeta : [])
+    .map(normalizeBasicMetaEntry)
+    .sort((a, b) => {
+      return (
+        (Number(a.sourceVolume) || 0) - (Number(b.sourceVolume) || 0) ||
+        (Number(a.sourcePage) || 0) - (Number(b.sourcePage) || 0) ||
+        (Number(a.groupId) || 0) - (Number(b.groupId) || 0)
+      );
+    });
   const map = {};
 
-  NORMALIZED_BASIC_PAGE_META.forEach((meta) => {
+  NORMALIZED_BASIC_PAGE_META = normalizedMeta;
+
+  normalizedMeta.forEach((meta) => {
     meta.kanjiIds.forEach((kanjiId, index) => {
       map[String(kanjiId)] = {
         ...meta,
@@ -442,7 +442,7 @@ const BASIC_META_BY_KANJI_ID = (() => {
   });
 
   return map;
-})();
+};
 
 const normalizeBasicItem = (item) => {
   const meta = BASIC_META_BY_KANJI_ID[String(item.id)] || null;
@@ -754,23 +754,11 @@ const normalizeBimItem = (item) => {
     ),
   };
 };
-const BIM_KANJI_DATA = RAW_BIM_KANJI_DATA.map(normalizeBimItem);
-const BASIC_KANJI_DATA = RAW_BASIC_KANJI_DATA.map(normalizeBasicItem);
-const ALL_KANJI_DATA = [...BIM_KANJI_DATA, ...BASIC_KANJI_DATA];
-const VOCAB_DATA = RAW_VOCAB_DATA.map((item) => ({
-  ...item,
-  searchText: [
-    item.word,
-    item.reading,
-    item.meaning,
-    item.category,
-    item.description,
-    ...(Array.isArray(item.tags) ? item.tags : []),
-  ]
-    .map((value) => cleanText(value).toLowerCase())
-    .join(' '),
-}));
-const VOCAB_CATEGORIES = ['all', ...Array.from(new Set(VOCAB_DATA.map((item) => item.category).filter(Boolean)))];
+let BIM_KANJI_DATA = [];
+let BASIC_KANJI_DATA = [];
+let ALL_KANJI_DATA = [];
+let VOCAB_DATA = [];
+let VOCAB_CATEGORIES = ['all'];
 
 const compareKanjiOrder = (a, b) => {
   if (a.dataset !== b.dataset) return a.dataset === 'bim' ? -1 : 1;
@@ -813,8 +801,34 @@ const buildIdResolver = (list) => {
   return { validIds, byLegacyId };
 };
 
-const BIM_ID_RESOLVER = buildIdResolver(BIM_KANJI_DATA);
-const BASIC_ID_RESOLVER = buildIdResolver(BASIC_KANJI_DATA);
+let BIM_ID_RESOLVER = buildIdResolver(BIM_KANJI_DATA);
+let BASIC_ID_RESOLVER = buildIdResolver(BASIC_KANJI_DATA);
+
+const normalizeVocabData = (rawVocab) =>
+  (Array.isArray(rawVocab) ? rawVocab : []).map((item) => ({
+    ...item,
+    searchText: [
+      item.word,
+      item.reading,
+      item.meaning,
+      item.category,
+      item.description,
+      ...(Array.isArray(item.tags) ? item.tags : []),
+    ]
+      .map((value) => cleanText(value).toLowerCase())
+      .join(' '),
+  }));
+
+const initializeStudyData = ({ bimKanji, basicKanji, basicPageMeta, vocab }) => {
+  BASIC_META_BY_KANJI_ID = buildBasicMetaByKanjiId(basicPageMeta);
+  BIM_KANJI_DATA = (Array.isArray(bimKanji) ? bimKanji : []).map(normalizeBimItem);
+  BASIC_KANJI_DATA = (Array.isArray(basicKanji) ? basicKanji : []).map(normalizeBasicItem);
+  ALL_KANJI_DATA = [...BIM_KANJI_DATA, ...BASIC_KANJI_DATA];
+  VOCAB_DATA = normalizeVocabData(vocab);
+  VOCAB_CATEGORIES = ['all', ...Array.from(new Set(VOCAB_DATA.map((item) => item.category).filter(Boolean)))];
+  BIM_ID_RESOLVER = buildIdResolver(BIM_KANJI_DATA);
+  BASIC_ID_RESOLVER = buildIdResolver(BASIC_KANJI_DATA);
+};
 
 const normalizeKanjiId = (rawId, track) => {
   if (rawId === null || rawId === undefined) return null;
@@ -1021,6 +1035,28 @@ const readStoredJson = (keys, fallback) => {
   return fallback;
 };
 
+const createInitialVocabProgress = () => {
+  try {
+    const stored = localStorage.getItem(getStorageKey('vocab', 'progress'));
+    const parsed = stored ? JSON.parse(stored) : {};
+    return VOCAB_DATA.reduce((acc, item) => {
+      const saved = parsed?.[item.id] || {};
+      acc[item.id] = {
+        vocabId: item.id,
+        correct: Number(saved.correct || 0),
+        wrong: Number(saved.wrong || 0),
+        seen: Number(saved.seen || 0),
+        starred: Boolean(saved.starred),
+        lastAnsweredAt: saved.lastAnsweredAt || null,
+      };
+      return acc;
+    }, {});
+  } catch (error) {
+    console.error('vocab progress parse failed:', error);
+    return {};
+  }
+};
+
 const unique = (list) => Array.from(new Set(list));
 
 const shuffle = (list) => {
@@ -1087,13 +1123,62 @@ const FlipCard = ({ isFlipped, front, back }) => {
 // 4. APP SHELL
 // ==========================================
 const App = () => {
-  const kanjiMap = useMemo(() => getKanjiMap(), []);
+  const [dataStatus, setDataStatus] = useState('loading');
+  const [dataError, setDataError] = useState('');
+  const [dataVersion, setDataVersion] = useState(0);
+  const [hasHydratedData, setHasHydratedData] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadStudyData = async () => {
+      try {
+        const [bimKanji, basicKanji, basicPageMeta, vocab] = await Promise.all([
+          import('./data/bim_kanji.json'),
+          import('./data/basic_kanji.json'),
+          import('./data/basic_page_meta.json'),
+          import('./data/vocab.json'),
+        ]);
+
+        if (cancelled) return;
+
+        initializeStudyData({
+          bimKanji: bimKanji.default,
+          basicKanji: basicKanji.default,
+          basicPageMeta: basicPageMeta.default,
+          vocab: vocab.default,
+        });
+        setDataVersion((prev) => prev + 1);
+        setDataStatus('ready');
+      } catch (error) {
+        console.error('study data load failed:', error);
+        if (!cancelled) {
+          setDataError(error.message || '학습 데이터를 불러오지 못했습니다.');
+          setDataStatus('error');
+        }
+      }
+    };
+
+    loadStudyData();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const kanjiMap = useMemo(() => {
+    void dataVersion;
+    return getKanjiMap();
+  }, [dataVersion]);
 
   const [activeTrack, setActiveTrack] = useState('bim');
   const [view, setView] = useState('home');
   const currentDatasetList = useMemo(
-    () => sortKanjiList(ALL_KANJI_DATA.filter((item) => item.dataset === activeTrack)),
-    [activeTrack]
+    () => {
+      void dataVersion;
+      return sortKanjiList(ALL_KANJI_DATA.filter((item) => item.dataset === activeTrack));
+    },
+    [activeTrack, dataVersion]
   );
 const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -1103,27 +1188,7 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [vocabSearchTerm, setVocabSearchTerm] = useState('');
   const [vocabCategory, setVocabCategory] = useState('all');
   const [selectedVocabId, setSelectedVocabId] = useState(null);
-  const [vocabProgress, setVocabProgress] = useState(() => {
-    try {
-      const stored = localStorage.getItem(getStorageKey('vocab', 'progress'));
-      const parsed = stored ? JSON.parse(stored) : {};
-      return VOCAB_DATA.reduce((acc, item) => {
-        const saved = parsed?.[item.id] || {};
-        acc[item.id] = {
-          vocabId: item.id,
-          correct: Number(saved.correct || 0),
-          wrong: Number(saved.wrong || 0),
-          seen: Number(saved.seen || 0),
-          starred: Boolean(saved.starred),
-          lastAnsweredAt: saved.lastAnsweredAt || null,
-        };
-        return acc;
-      }, {});
-    } catch (error) {
-      console.error('vocab progress parse failed:', error);
-      return {};
-    }
-  });
+  const [vocabProgress, setVocabProgress] = useState({});
   const [vocabStudyMode, setVocabStudyMode] = useState('meaning');
   const [vocabStudyQueue, setVocabStudyQueue] = useState([]);
   const [vocabQuiz, setVocabQuiz] = useState(null);
@@ -1256,6 +1321,22 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [bimDaily, setBimDaily] = useState(() => reconcileDailyWithCards(initDaily('bim'), initCards('bim')));
   const [basicDaily, setBasicDaily] = useState(() => reconcileDailyWithCards(initDaily('basic'), initCards('basic')));
 
+  useEffect(() => {
+    if (dataStatus !== 'ready') return;
+
+    const nextBimCards = initCards('bim');
+    const nextBasicCards = initCards('basic');
+
+    setBimCards(nextBimCards);
+    setBasicCards(nextBasicCards);
+    setBimHistory(initHistory('bim'));
+    setBasicHistory(initHistory('basic'));
+    setBimDaily(reconcileDailyWithCards(initDaily('bim'), nextBimCards));
+    setBasicDaily(reconcileDailyWithCards(initDaily('basic'), nextBasicCards));
+    setVocabProgress(createInitialVocabProgress());
+    setHasHydratedData(true);
+  }, [dataStatus, dataVersion]);
+
   const activeCards = activeTrack === 'bim' ? bimCards : basicCards;
   const setActiveCards = activeTrack === 'bim' ? setBimCards : setBasicCards;
   const activeHistory = activeTrack === 'bim' ? bimHistory : basicHistory;
@@ -1293,6 +1374,8 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   }, []);
 
   useEffect(() => {
+    if (dataStatus !== 'ready' || !hasHydratedData) return;
+
     persistLocalBackup({
       bimCards,
       basicCards,
@@ -1301,11 +1384,13 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
       bimDaily,
       basicDaily,
     });
-  }, [persistLocalBackup, bimCards, basicCards, bimHistory, basicHistory, bimDaily, basicDaily]);
+  }, [dataStatus, hasHydratedData, persistLocalBackup, bimCards, basicCards, bimHistory, basicHistory, bimDaily, basicDaily]);
 
   useEffect(() => {
+    if (dataStatus !== 'ready' || !hasHydratedData) return;
+
     localStorage.setItem(getStorageKey('vocab', 'progress'), JSON.stringify(vocabProgress));
-  }, [vocabProgress]);
+  }, [dataStatus, hasHydratedData, vocabProgress]);
 
   const handleGoogleLogin = async () => {
     if (!isFirebaseConfigured || !auth) {
@@ -1598,19 +1683,19 @@ const nextBasicDaily = reconcileDailyWithCards(
   ]);
 
   useEffect(() => {
-    if (!session?.user?.uid) return;
+    if (!session?.user?.uid || dataStatus !== 'ready' || !hasHydratedData) return;
     loadUserProgress(session.user.uid);
-  }, [session, loadUserProgress]);
+  }, [session, dataStatus, hasHydratedData, loadUserProgress]);
 
   useEffect(() => {
-    if (!session?.user?.uid || !progressReady) return;
+    if (!session?.user?.uid || !progressReady || dataStatus !== 'ready' || !hasHydratedData) return;
 
     const timer = setTimeout(() => {
       saveProgressToCloud();
     }, 800);
 
     return () => clearTimeout(timer);
-  }, [session, progressReady, saveProgressToCloud]);
+  }, [session, progressReady, dataStatus, hasHydratedData, saveProgressToCloud]);
 
   const handleExportBackup = () => {
     const payload = {
@@ -3186,7 +3271,7 @@ const renderBasicPageStudy = () => {
     .filter((k) => k.dataset === 'basic' && k.sourceVolume === safeVol && k.sourcePage === safePg)
     .sort((a, b) => a.pageOrder - b.pageOrder);
 
-  const pageMeta = BASIC_PAGE_META.find(
+  const pageMeta = NORMALIZED_BASIC_PAGE_META.find(
     (m) => Number(m.sourceVolume) === Number(safeVol) && Number(m.sourcePage) === Number(safePg)
   );
 
@@ -4262,6 +4347,39 @@ const modeQuestion =
       </div>
     </div>
   );
+
+  if (dataStatus === 'loading') {
+    return (
+      <div className="min-h-screen bg-slate-950 text-slate-200 font-sans flex items-center justify-center px-6">
+        <div className="max-w-sm w-full rounded-3xl bg-slate-900 border border-white/10 p-8 text-center shadow-2xl">
+          <div className="w-12 h-12 border-4 border-slate-700 border-t-emerald-400 rounded-full animate-spin mx-auto mb-6" />
+          <h1 className="text-xl font-black text-white">학습 데이터 불러오는 중</h1>
+          <p className="text-sm text-slate-500 mt-3 leading-relaxed">
+            한자, 단어장, 페이지 묶음을 별도 청크로 불러오고 있습니다.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  if (dataStatus === 'error') {
+    return (
+      <div className="min-h-screen bg-slate-950 text-slate-200 font-sans flex items-center justify-center px-6">
+        <div className="max-w-md w-full rounded-3xl bg-slate-900 border border-red-500/20 p-8 text-center shadow-2xl">
+          <XCircle className="w-12 h-12 text-red-400 mx-auto mb-6" />
+          <h1 className="text-xl font-black text-white">학습 데이터를 불러오지 못했습니다</h1>
+          <p className="text-sm text-slate-500 mt-3 leading-relaxed">{dataError}</p>
+          <button
+            type="button"
+            onClick={() => window.location.reload()}
+            className="mt-6 px-5 py-3 rounded-xl bg-white text-slate-950 font-black hover:bg-slate-200 transition"
+          >
+            다시 시도
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-slate-500/30 overflow-x-hidden flex">
